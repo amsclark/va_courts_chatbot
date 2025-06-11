@@ -1,0 +1,38 @@
+{
+  "id": "c6d0b3e7-1f4a-2c6d-6d0b-3e7f4a2c6d0b",
+  "name": "FilingFeesAndWaivers - no",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FilingFeesAndWaivers-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem! If you have any other questions about legal matters, feel free to ask."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

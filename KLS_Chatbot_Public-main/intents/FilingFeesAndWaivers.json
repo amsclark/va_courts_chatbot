@@ -1,0 +1,39 @@
+{
+  "id": "f1a5e8b2-6c9d-7f3a-1a5e-8b2c9d3f7a5e",
+  "name": "FilingFeesAndWaivers",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "FilingFeesAndWaivers-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

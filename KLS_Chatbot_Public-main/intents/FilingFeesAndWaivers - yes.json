@@ -1,0 +1,48 @@
+{
+  "id": "c0d4b7e1-5f8a-6c0d-0d4b-7e1f8a6c0d4b",
+  "name": "FilingFeesAndWaivers - yes",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FilingFeesAndWaivers-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! I'll direct you to the Virginia court's filing fees and waivers page where you can find detailed information about court fees and how to request a fee waiver if you qualify."
+          ]
+        },
+        {
+          "type": 4,
+          "title": "",
+          "payload": {
+            "web_url": "https://selfhelp.vacourts.gov/node/14/filing-fees-waivers.html"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

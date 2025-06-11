@@ -1,0 +1,38 @@
+{
+  "id": "c2d6f9e3-7a0b-8c2d-2d6f-9e3a0b8c2d6f",
+  "name": "FilingFeesAndWaivers - fallback",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FilingFeesAndWaivers-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I'm not sure I understand. Would you like me to provide information about filing fees and fee waivers in Virginia courts, or do you have other questions I can help with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "id": "a2b6f9c3-7d0e-8a2b-2b6f-9c3d0e8a2b6f",
+    "data": [
+      {
+        "text": "filing fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "b3c7a0d4-8e1f-9b3c-3c7a-0d4e1f9b3c7a",
+    "data": [
+      {
+        "text": "court filing fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "c4d8b1e5-9f2a-0c4d-4d8b-1e5f2a0c4d8b",
+    "data": [
+      {
+        "text": "fee waiver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "d5e9c2f6-0a3b-1d5e-5e9c-2f6a3b1d5e9c",
+    "data": [
+      {
+        "text": "filing fees and waivers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "e6f0d3a7-1b4c-2e6f-6f0d-3a7b4c2e6f0d",
+    "data": [
+      {
+        "text": "can't afford court fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "f7a1e4b8-2c5d-3f7a-7a1e-4b8c5d3f7a1e",
+    "data": [
+      {
+        "text": "how much does it cost to file",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "a8b2f5c9-3d6e-4a8b-8b2f-5c9d6e4a8b2f",
+    "data": [
+      {
+        "text": "waive filing fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  },
+  {
+    "id": "b9c3a6d0-4e7f-5b9c-9c3a-6d0e7f5b9c3a",
+    "data": [
+      {
+        "text": "low income fee waiver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 1718172000
+  }
+]
