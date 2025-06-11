@@ -1,10 +1,10 @@
 {
-  "description": "",
+  "description": "Chatbot for Virginia Courts Self-Help Center providing legal information and resource guidance for Virginia residents",
   "language": "en",
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
-  "displayName": "Sunflower_Replication",
+  "displayName": "Virginia_Courts_Self_Help_Chatbot",
   "disableInteractionLogs": false,
   "disableStackdriverLogs": true,
   "googleAssistant": {
