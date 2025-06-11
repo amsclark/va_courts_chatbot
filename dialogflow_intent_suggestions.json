@@ -1,0 +1,1155 @@
+[
+  {
+    "page_title": "Local index - HTTrack Website Copier",
+    "intent_suggestion": {
+      "intent_name": "HTTrackMirroredSiteInfo",
+      "trigger_phrases": [
+        "Info about HTTrack mirrored Virginia Judicial System Court Self-Help site",
+        "What is the HTTrack mirror of the Virginia Judicial System Court Self-Help site?",
+        "Who created the HTTrack mirror of the Virginia Judicial System Court Self-Help site?",
+        "When was the HTTrack mirror of the Virginia Judicial System Court Self-Help site created?",
+        "I need details about the design of the HTTrack mirrored Virginia Judicial System Court Self-Help site"
+      ]
+    }
+  },
+  {
+    "page_title": "News | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": null
+  },
+  {
+    "page_title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpResourceInquiry",
+      "trigger_phrases": [
+        "Where can I find help for an eviction case in Virginia court?",
+        "I need resources for representing myself in an eviction case in Virginia.",
+        "What are the self-help resources for eviction cases in Virginia?",
+        "Need assistance with eviction proceedings in Virginia courts.",
+        "Looking for guidance on eviction cases in Virginia."
+      ]
+    }
+  },
+  {
+    "page_title": "Topics | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpInfo",
+      "trigger_phrases": [
+        "I need help with eviction in Virginia",
+        "How can I handle an eviction case in Virginia courts?",
+        "What resources are available for self-represented litigants on eviction issues in Virginia?",
+        "Where can I find information about eviction processes in the Virginia Judicial System?",
+        "I'm facing an eviction and don't know where to turn, can you help?"
+      ]
+    }
+  },
+  {
+    "page_title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaSelfHelpResources",
+      "trigger_phrases": [
+        "Where can I find help for a court case in Virginia?",
+        "What are the self-help resources available for litigants in Virginia?",
+        "I need information on filing procedures, forms and legal research tools for my case in Virginia",
+        "Can you provide details about the self-help resources for self-represented litigants in Virginia?",
+        "What resources does the Virginia Judicial System offer to help me navigate a court case?"
+      ]
+    }
+  },
+  {
+    "page_title": "Home | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaLegalAssistanceInformation",
+      "trigger_phrases": [
+        "Need help with legal issues in Virginia and can't afford a lawyer?",
+        "Free legal answers for Virginia residents",
+        "Where can I get free legal advice in Virginia?",
+        "What is Virginia Free Legal Answers?",
+        "Looking for legal resources in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpInfo",
+      "trigger_phrases": [
+        "Where can I find help for evictions in Virginia?",
+        "Need assistance with an eviction case in Virginia",
+        "Help me understand the eviction process in Virginia courts",
+        "What are the resources for self-represented litigants dealing with evictions in Virginia?",
+        "I need information on eviction laws in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "News | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "CourthouseDevicePolicy",
+      "trigger_phrases": [
+        "What is the policy for using phones in Virginia courthouses?",
+        "Can I bring my phone to a Virginia court?",
+        "Are electronic devices allowed in Virginia courts during COVID-19?",
+        "Is it safe to use my cell phone in a Virginia court?",
+        "What are the rules for using electronic devices in Virginia courts?"
+      ]
+    }
+  },
+  {
+    "page_title": "News | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Eviction Defense and Resources",
+      "trigger_phrases": [
+        "Where can I find help for eviction in Virginia?",
+        "I'm facing eviction, what should I do?",
+        "Need resources for fighting an eviction in Virginia",
+        "Help with avoiding eviction in Virginia",
+        "Assistance for renters at risk of losing their homes in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "legal aid | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Find Landlord-Tenant Assistance",
+      "trigger_phrases": [
+        "Help with landlord tenant issues in Virginia",
+        "Where can I find resources for landlord tenant problems in VA?",
+        "I need guidance on my landlord tenant dispute in Virginia",
+        "What are the self-help resources for landlord tenant disputes in Virginia courts?",
+        "Looking for assistance with a landlord tenant issue in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Domestic Violence | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpInfoVirginiaJudicialSystem",
+      "trigger_phrases": [
+        "I need help with an eviction in Virginia",
+        "How can I handle an eviction case myself in Virginia?",
+        "What resources does Virginia Judicial System offer for self-represented litigants regarding evictions?",
+        "Where can I find information on eviction cases in Virginia Juvenile and Domestic Relations Court?",
+        "Can you provide me with info on the Virginia Judicial System for eviction help?"
+      ]
+    }
+  },
+  {
+    "page_title": "lawyer | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaSelfHelpResources",
+      "trigger_phrases": [
+        "I need help with eviction in Virginia",
+        "Where can I find self-help resources for landlord-tenant issues in Virginia?",
+        "Looking for information on filing a tenant dispute case in Virginia",
+        "Virginia court resources for self-represented litigants regarding landlord-tenant matters",
+        "I need guidance on landlord-tenant problems in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "DV | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaProtectiveOrdersHelp",
+      "trigger_phrases": [
+        "I need help with Protective Orders in Virginia",
+        "How do I get a Family Abuse Protective Order in Virginia?",
+        "What is the process for obtaining a Protective Order in Virginia?",
+        "Virginia Protective Orders for domestic violence",
+        "Where can I find help for a Protective Order in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "mediator | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "FindVirginiaJudicialSelfHelpResources",
+      "trigger_phrases": [
+        "Where can I find self-help resources for legal topics in Virginia?",
+        "What are the guides on various legal issues like custody, divorce, and landlord-tenant problems in Virginia?",
+        "I need help with my court case in Virginia. Are there any self-help resources available?",
+        "Can you guide me to resources for filling a case or finding a form for my court case in Virginia?",
+        "Is there any information about small claims, traffic cases, or probate in the Virginia Judicial System self-help resources?"
+      ]
+    }
+  },
+  {
+    "page_title": "Compose tips | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "ComposeTextFormattingTips",
+      "trigger_phrases": [
+        "How to format text in the system?",
+        "Need help with formatting my text",
+        "Best practices for text formatting",
+        "Can you explain text formatting here?",
+        "How can I add line breaks and paragraphs in text?"
+      ]
+    }
+  },
+  {
+    "page_title": "Common Legal Topics | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaLegalAssistanceInfo",
+      "trigger_phrases": [
+        "Where can I find updated legal information resources in Virginia?",
+        "What's new with legal assistance in Virginia?",
+        "I need help with legal issues in Virginia, where do I look?",
+        "Are there any recent updates on legal resources in Virginia?",
+        "Supreme Court of Virginia's Access to Justice Commission listening tour"
+      ]
+    }
+  },
+  {
+    "page_title": "New platform - new look | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "MobileEnhancementInfo",
+      "trigger_phrases": [
+        "What's new with the mobile website?",
+        "I noticed changes on the mobile site.",
+        "Why is the mobile site different now?",
+        "Tell me about the Quick Exit feature on the mobile site.",
+        "Why can I hover over words with a dashed underline on the mobile site?"
+      ]
+    }
+  },
+  {
+    "page_title": "New Online Resources for Guardians and Conservators | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "GuardianshipAndConservatorshipInfo",
+      "trigger_phrases": [
+        "I need help with guardianship and conservatorship for an incapacitated adult in Virginia",
+        "What are the duties of a guardian or conservator for an incapacitated adult?",
+        "FAQs on guardianship and conservatorship for incapacitated adults in Virginia",
+        "Where can I find information about appointing guardians for incapacitated adults?",
+        "Can you explain the responsibilities of a guardian or conservator for an incapacitated adult in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Glossaries | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "CourtGlossaryInfo",
+      "trigger_phrases": [
+        "Where is the glossary in General District Court manual?",
+        "I need the Juvenile and Domestic Relations District Court glossary location",
+        "What page has the court manuals' glossaries?",
+        "Help me find court manual glossaries",
+        "I can't find the glossary in my court document, can you assist?"
+      ]
+    }
+  },
+  {
+    "page_title": "Page has moved",
+    "intent_suggestion": {
+      "intent_name": "MeditationBenefitsForMentalHealth",
+      "trigger_phrases": [
+        "benefits of meditation for mental health",
+        "how does meditation help stress levels",
+        "improve focus with meditation",
+        "self-awareness through meditation",
+        "emotional wellbeing and meditation",
+        "alleviate anxiety symptoms with meditation",
+        "depression symptoms and meditation",
+        "tips for starting meditation practice",
+        "quiet space for meditation",
+        "right time of day for meditation",
+        "commit to a consistent meditation practice"
+      ]
+    }
+  },
+  {
+    "page_title": "Custody, Visitation & Support | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "ChildCustodyHelp",
+      "trigger_phrases": [
+        "I need help with child custody in Virginia",
+        "How can I change my child's custody arrangement?",
+        "What factors does the court consider when deciding on a child's visitation schedule?",
+        "Where can I find resources for developing a child custody and visitation plan?",
+        "I need information about establishing paternity in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Page has moved",
+    "intent_suggestion": {
+      "intent_name": "StressManagementTips",
+      "trigger_phrases": [
+        "I need help managing stress",
+        "How can I reduce my stress levels?",
+        "What are some effective strategies for dealing with stress?",
+        "Need advice on stress relief techniques",
+        "Looking for ways to cope with stress"
+      ]
+    }
+  },
+  {
+    "page_title": "Divorce | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "DivorceAndCustodyHelp",
+      "trigger_phrases": [
+        "I need help with divorce in Virginia",
+        "How to file for divorce in Virginia",
+        "What is the process for uncontested divorce in Virginia",
+        "Where can I find resources for custody issues after divorce",
+        "Guidance for contested divorce in Virginia",
+        "Child support information after separation or divorce"
+      ]
+    }
+  },
+  {
+    "page_title": "Page has moved",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpLinkClick",
+      "trigger_phrases": [
+        "Click for eviction help information",
+        "Where can I find eviction assistance?",
+        "I need help with eviction, what's the link?",
+        "Is there an article on eviction matters?",
+        "Show me resources for eviction problems"
+      ]
+    }
+  },
+  {
+    "page_title": "Find Your Court | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "CourtLocationSelection",
+      "trigger_phrases": [
+        "Find Virginia court location for my case",
+        "Which court should I approach in Virginia for my issue?",
+        "Where do I file my case in Virginia?",
+        "Virginia court jurisdiction based on location",
+        "Help me find the right Virginia court based on my case type"
+      ]
+    }
+  },
+  {
+    "page_title": "Landlord - Tenant | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpExpungement",
+      "trigger_phrases": [
+        "How to expunge an eviction case in Virginia?",
+        "Process for removing an eviction record from my file in VA",
+        "What should I do if I want to clear an eviction case?",
+        "Can I get my dismissed eviction case removed from my record?",
+        "How long do I have to wait before I can expunge a voluntarily nonsuited eviction case in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "District Court Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionFormHelp",
+      "trigger_phrases": [
+        "How do I find the Eviction forms on Virginia Judicial System website?",
+        "Where can I get the form for Motion to Set Aside Default Judgment in Virginia?",
+        "Can you help me find the Summons to Answer Interrogatories form?",
+        "I need to find Bill of Particulars form on Virginia Judicial System website.",
+        "Help me locate the Affidavit for Service of Process on the Secretary of the Commonwealth form."
+      ]
+    }
+  },
+  {
+    "page_title": "\"What to Do When You Can't Afford an Attorney\" | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpWebinarInfo",
+      "trigger_phrases": [
+        "Where can I find information about eviction help?",
+        "What is the recording of the 'What to Do When You Can't Afford an Attorney' webinar?",
+        "Is there a free public webinar on legal assistance options for evictions?",
+        "I need help with my eviction case. Is there a webinar I can watch?",
+        "Can you provide me with details about the 'What to Do When You Can't Afford an Attorney' webinar?"
+      ]
+    }
+  },
+  {
+    "page_title": "Circuit Court - Forms for Civil Actions | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaLegalFormsHelp",
+      "trigger_phrases": [
+        "where can I find Virginia's court-approved forms?",
+        "what are the forms for mechanics liens in Virginia?",
+        "need help finding Virginia Judicial System forms",
+        "I want to access civil action forms in Virginia",
+        "looking for legal forms related to mechanics' liens in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Statewide Senior Legal Helpline | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpSeniorLegalAssistance",
+      "trigger_phrases": [
+        "Who can I talk to for senior legal help in Virginia?",
+        "I need legal advice as a senior in Virginia.",
+        "Can you connect me with someone for senior legal issues in VA?",
+        "Free legal help for seniors in Virginia regarding eviction or similar issues?",
+        "What is the Senior Legal Helpline number in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Probate in Virginia | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaProbateHelp",
+      "trigger_phrases": [
+        "How can I handle probate in Virginia?",
+        "Where do I find resources for Virginia probate?",
+        "What are the steps for probate in Virginia courts?",
+        "I need help with Virginia probate process.",
+        "Where can I get Virginia probate forms?"
+      ]
+    }
+  },
+  {
+    "page_title": "Cell Phone & Electronic Device Policy | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaLegalResourcesInquiry",
+      "trigger_phrases": [
+        "Where can I find updated legal information resources in Virginia?",
+        "I need help with legal resources in Virginia",
+        "What are the current legal resources available in Virginia?",
+        "Access to Justice Commission listening tour in Greater Richmond",
+        "Improving access to justice for all residents in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "A Guide to Self-Representation in the Court of Appeals of Virginia | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionAppealHelpInfo",
+      "trigger_phrases": [
+        "Where can I find help for an appeal in Virginia eviction case?",
+        "I need guidance on appealing an eviction decision in Virginia",
+        "What is the self-represented litigant guide for Virginia Court of Appeals appeals?",
+        "How do I use the self-represented litigant guide for an eviction appeal in Virginia?",
+        "Where can I find the link to the self-represented litigant guide for Virginia Court of Appeals?"
+      ]
+    }
+  },
+  {
+    "page_title": "Find a Form | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "FindEvictionForms",
+      "trigger_phrases": [
+        "Where can I find eviction forms in Virginia?",
+        "What are the court-approved eviction forms in Virginia?",
+        "I need to get eviction forms for a landlord-tenant dispute in Virginia",
+        "Can you help me find the right eviction form in Virginia?",
+        "I'm looking for the correct eviction form for Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Types of Protective Orders | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "ProtectiveOrderInfo",
+      "trigger_phrases": [
+        "I need help with Family Abuse Protective Order",
+        "What is a Family Abuse Protective Order?",
+        "Can you explain Non-Family Abuse Protective Order?",
+        "Help for dating violence Protective Order",
+        "I'm not sure if I qualify for a Protective Order"
+      ]
+    }
+  },
+  {
+    "page_title": "General Information for Individuals with Disabilities | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpADAInfoVirginia",
+      "trigger_phrases": [
+        "How can I get accommodation for my disability in Virginia courts?",
+        "What are the ADA rights for disabled individuals in Virginia's judicial system?",
+        "Where can I find information on disability accommodations in Virginia courts?",
+        "I need help understanding the ADA policy for court proceedings in Virginia.",
+        "Disability accommodations for court cases in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Page has moved",
+    "intent_suggestion": {
+      "intent_name": "AI_LatestTrends",
+      "trigger_phrases": [
+        "What are the latest trends in AI technologies?",
+        "Tell me about advancements in artificial intelligence.",
+        "Can you provide info on AI developments?",
+        "I'd like to know more about machine learning, deep learning, and robotics.",
+        "Give me updates on AI applications in healthcare, finance, and transportation."
+      ]
+    }
+  },
+  {
+    "page_title": "Find a Lawyer | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "LegalAssistanceVirginia",
+      "trigger_phrases": [
+        "Find legal assistance in Virginia",
+        "Legal aid in Virginia for low-income individuals",
+        "Where to get a lawyer referral in Virginia",
+        "Free legal help in Virginia for civil matters",
+        "Disability law assistance in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Juvenile and Domestic Relations District Court | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "JuvenileCourtInquiry",
+      "trigger_phrases": [
+        "I need help with a juvenile court case in Virginia",
+        "What is the process for a family abuse case in Juvenile and Domestic Relations District Court?",
+        "Where can I find information about child neglect cases?",
+        "What resources are available for at-risk youth in Virginia courts?",
+        "I need help with a custody dispute in my local Juvenile and Domestic Relations court"
+      ]
+    }
+  },
+  {
+    "page_title": "Family Abuse Protective Order - Information Checklist | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaProtectiveOrderInfo",
+      "trigger_phrases": [
+        "Information about protective orders in Virginia",
+        "How to get a Preliminary Protective Order in Virginia",
+        "What is an Emergency Protective Order in Virginia",
+        "Duration of a Protective Order in Virginia",
+        "Where to file for a Protective Order in Virginia",
+        "Cost of filing for a Protective Order in Virginia",
+        "What is the 'no contact' provision in Virginia Protective Orders",
+        "Is a Virginia Protective Order enforceable across states"
+      ]
+    }
+  },
+  {
+    "page_title": "Probate Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaProbateFormInquiry",
+      "trigger_phrases": [
+        "Where can I find probate forms in Virginia?",
+        "What are the court forms for estate and trust proceedings in Virginia?",
+        "I need to access probate forms in Virginia, do you have the link?",
+        "Which forms are available for minor's estate in Virginia?",
+        "Can you help me find the Inventory for Estate of Minor form in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Page has moved",
+    "intent_suggestion": {
+      "intent_name": "ClickHereEvictionHelpInfo",
+      "trigger_phrases": [
+        "I need help with eviction",
+        "Need information about eviction process",
+        "Looking for eviction resources",
+        "Help me understand the eviction procedure",
+        "Where can I find assistance for eviction issues"
+      ]
+    }
+  },
+  {
+    "page_title": "Screenshots of Court Forms Page | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaLegalHelpTour",
+      "trigger_phrases": [
+        "Virginia Legal Information Resources guide update",
+        "Access to Justice Commission in Greater Richmond",
+        "Justice Tour in Virginia",
+        "Community insights for Access to Justice",
+        "Feedback on access to justice issues in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Civil Legal Response to COVID-19 in Virginia | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "COVID19HousingAssistanceVirginia",
+      "trigger_phrases": [
+        "covid housing help Virginia",
+        "assistance for eviction during covid in Virginia",
+        "legal aid for housing issues due to covid in Virginia",
+        "public benefits related to housing during pandemic in Virginia",
+        "find legal resources for housing problems in Virginia caused by covid"
+      ]
+    }
+  },
+  {
+    "page_title": "Access to Justice Listening Tour for Greater Richmond | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "PublicHearingFeedback",
+      "trigger_phrases": [
+        "I want to share my experience with the Virginia court system",
+        "Can you tell me about the public hearing on April 10 for the Access to Justice Commission?",
+        "Where can I find legal help in Virginia?",
+        "What challenges have people faced using the Virginia courts?",
+        "How can I provide feedback on accessing legal services in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Change of Name Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "FindChangeOfNameFormsInVirginiaCourts",
+      "trigger_phrases": [
+        "Where to find change of name forms in Virginia courts?",
+        "Virginia court form for adult name change",
+        "How to get minor name change form in Virginia courts",
+        "Access circuit court change of name forms in Virginia",
+        "Looking for Virginia court change of name forms"
+      ]
+    }
+  },
+  {
+    "page_title": "Supreme Court of Virginia Declares Judicial Emergency | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "COVID19_VirginiaCourtUpdates",
+      "trigger_phrases": [
+        "What is the status of Virginia circuit and district courts due to COVID-19?",
+        "Are Virginia circuit and district courts operating normally during COVID-19 pandemic?",
+        "Latest updates on Virginia circuit and district court operations due to COVID-19",
+        "Virginia court emergency measures due to COVID-19",
+        "COVID-19 impact on Virginia circuit and district courts"
+      ]
+    }
+  },
+  {
+    "page_title": "New publication - Options in Virginia to Help Another Person Make Decisions | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Get_Guardian_Options_Information",
+      "trigger_phrases": [
+        "Where can I find information on guardian options in Virginia?",
+        "What are the choices less restrictive than guardianship and conservatorship in Virginia?",
+        "I need help finding resources for decision-making options other than guardianship or conservatorship in Virginia",
+        "Can you provide me with a guide on less restrictive alternatives to guardianship in Virginia?",
+        "I'm looking for resources related to decision-making options outside of guardianship and conservatorship in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "FAQs | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": null
+  },
+  {
+    "page_title": "Landlord - Tenant Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionFormsAssistance",
+      "trigger_phrases": [
+        "where to find eviction forms in Virginia",
+        "Virginia eviction court forms",
+        "forms for tenant dispute in Virginia",
+        "download DC-419, DC-421, DC-422, DC-423, DC-425, DC-428, DC-429, and DC-431",
+        "help with eviction forms in Virginia Courts' website"
+      ]
+    }
+  },
+  {
+    "page_title": "Guide to Virginia Legal Information Resources (2025) | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "FindLegalResourcesVirginia",
+      "trigger_phrases": [
+        "Where can I find resources for legal information in Virginia?",
+        "I need help finding legal resources in Virginia",
+        "Virginia legal resources online",
+        "Looking for legal guides in Virginia",
+        "Find information about incorporating businesses, contesting traffic tickets, researching health law, obtaining social security benefits, renting dwellings, buying houses, and writing wills in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Law Libraries | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "FindEvictionHelpInfoVirginia",
+      "trigger_phrases": [
+        "Where can I find eviction help resources in Virginia?",
+        "Legal aid for evictions in Virginia",
+        "Resources for dealing with eviction in Virginia",
+        "Looking for Virginia eviction law information",
+        "Need assistance with eviction in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Freedom of Information Act Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Eviction Court Form Inquiry",
+      "trigger_phrases": [
+        "Where can I find the District Court Petition for Injunction or Mandamus form?",
+        "I need help finding DC-495 form related to Freedom of Information Act",
+        "Can you help me locate the Virginia court form associated with both Freedom of Information Act and Affidavit for Good Cause or Protection of Social Security Numbers Act?",
+        "How do I access the form DC-495 in Virginia Judicial System website?",
+        "I'm looking for a specific court form in Virginia, is it possible to find DC-495?"
+      ]
+    }
+  },
+  {
+    "page_title": "Change of Sex Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "ChangeSexDesignationOnBirthCertificate",
+      "trigger_phrases": [
+        "How to amend a birth certificate for a change of sex in Virginia?",
+        "Where can I file an application to change the sex designation on my birth certificate in Virginia?",
+        "Virginia Department of Health's process for changing sex designation on birth certificate",
+        "I was born in Virginia, how do I update my birth certificate with a new gender designation?",
+        "New form to change the sex designation on birth certificate in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Circuit Court | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaCircuitCourtInfo",
+      "trigger_phrases": [
+        "Where can I find information about Virginia's Circuit Court?",
+        "What does the Virginia Circuit Court handle?",
+        "What are the powers of the Virginia Circuit Court?",
+        "What types of cases does the Virginia Circuit Court hear?",
+        "Can I access court records for selected Virginia Circuit Courts online?"
+      ]
+    }
+  },
+  {
+    "page_title": "Online Legal Information Resources | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "AccessLegalInformationThroughOLIR",
+      "trigger_phrases": [
+        "I need legal information from OLIR",
+        "How do I access primary legal materials on OLIR?",
+        "What is OLIR and how can I use it for legal resources?",
+        "Can you help me find court opinions through OLIR?",
+        "Where can I find session laws, statutory codes, registers, or administrative regulations from various U.S. states on OLIR?"
+      ]
+    }
+  },
+  {
+    "page_title": "Custody, Visitation & Child Support Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaCourtFormsForFamilyLaw",
+      "trigger_phrases": [
+        "Virginia court forms for child custody",
+        "Where can I find Virginia visitation forms?",
+        "What are the child support forms in Virginia?",
+        "I need Virginia's DC-618 form",
+        "Where do I find instructions for DC-630 in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Guide to Virginia Legal Information Resources (2023) | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Find Legal Information Resources in Virginia",
+      "trigger_phrases": [
+        "Where can I find legal resources for Virginia?",
+        "Resources for business incorporation in Virginia",
+        "Finding traffic ticket contestation resources in Virginia",
+        "Looking for health law research resources in Virginia",
+        "Social security procedures resources in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Guardianship & Conservatorship Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaGuardianshipConservatorshipForms",
+      "trigger_phrases": [
+        "Find Virginia guardianship forms",
+        "Where to find conservatorship forms in Virginia",
+        "What are the court-approved forms for guardianship and conservatorship in Virginia?",
+        "I need guardianship forms in Virginia District Court",
+        "Where can I find Conservatorship forms CC-1652, CC-1653, DC-503, DC-506, and their instructions?"
+      ]
+    }
+  },
+  {
+    "page_title": "Protective Orders | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaProtectiveOrderHelp",
+      "trigger_phrases": [
+        "How do I get a Protective Order in Virginia?",
+        "What are the types of Protective Orders in Virginia?",
+        "Where can I find resources for Family Abuse Protective Order in Virginia?",
+        "I need help with a Non-Family Abuse Protective Order in Virginia.",
+        "Is there a free online service to fill out court forms for Protective Orders in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "How We Can Help You | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "LegalAssistanceInfo",
+      "trigger_phrases": [
+        "Where can I find help for my court case?",
+        "What services does the court offer for litigants?",
+        "Can you tell me about lawyer referral services at the court?",
+        "I need information on court procedures, do you have that?",
+        "Do you provide court forms and instructions?"
+      ]
+    }
+  },
+  {
+    "page_title": "Filing Fees & Waivers | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "CourtFilingFeesAndFeeWaiverInfo",
+      "trigger_phrases": [
+        "What are the court filing fees in Virginia?",
+        "How much do I need to pay for a court case in Virginia?",
+        "Do court fees vary by case type and location in Virginia?",
+        "Can I get a fee waiver if I can't afford court fees in Virginia?",
+        "Where can I find the form for requesting a court fee waiver in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "How to Apply for Your Birth Certificate as an Adult in Virginia | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "ObtainVirginiaAdultBirthCertificateGuide",
+      "trigger_phrases": [
+        "Where can I find a guide to obtain my birth certificate in Virginia?",
+        "I need help with getting my birth certificate in Virginia",
+        "How to get birth certificate for adults in Virginia?",
+        "What is the process for obtaining an adult's birth certificate in Virginia?",
+        "Looking for resources for getting a Virginia birth certificate as an adult"
+      ]
+    }
+  },
+  {
+    "page_title": "Pay Your Traffic Ticket Online | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "PayTrafficTicketOnline",
+      "trigger_phrases": [
+        "How can I pay a traffic ticket online in Virginia?",
+        "Can I pay my Virginia traffic citation online?",
+        "Where do I pay a traffic ticket online in Virginia?",
+        "Is it possible to pay a Virginia traffic ticket online?",
+        "Online payment for Virginia traffic ticket"
+      ]
+    }
+  },
+  {
+    "page_title": "Living Will - Advance Directive | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Eviction Help Info - Virginia Living Will and ConnectVirginia",
+      "trigger_phrases": [
+        "I need help with my living will in Virginia",
+        "How do I create a living will in Virginia",
+        "What is an advance directive in Virginia",
+        "Where can I store my living will online in Virginia",
+        "ConnectVirginia for living will registration"
+      ]
+    }
+  },
+  {
+    "page_title": "Domestic Violence | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "DomesticViolenceHelpVirginia",
+      "trigger_phrases": [
+        "I need help with domestic violence in Virginia",
+        "What are the laws for family abuse in Virginia?",
+        "How do I get a protective order in Virginia due to domestic violence?",
+        "Where can I find resources for victims of domestic violence in Virginia?",
+        "What is the Hope Card Program in Virginia for domestic violence victims?"
+      ]
+    }
+  },
+  {
+    "page_title": "Find a Case | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaCaseInfoInquiry",
+      "trigger_phrases": [
+        "Where can I find case information for General District Court and Circuit Court in Virginia?",
+        "How do I access circuit court cases online in Virginia?",
+        "Is it possible to search for juvenile and domestic relations court cases online in Virginia?",
+        "What is the procedure to get case details from Virginia's General District Court or Circuit Court?",
+        "Where should I look for local government Clerk of Circuit Court contact information?"
+      ]
+    }
+  },
+  {
+    "page_title": "Mental Health (Adult) Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "MentalHealthCourtFormsVirginia",
+      "trigger_phrases": [
+        "Where can I find mental health court forms in Virginia?",
+        "What are the court-approved mental health forms in Virginia?",
+        "I need to fill out a District Court General Petition for Involuntary Admission for Treatment, where do I get it?",
+        "How do I access the DC-4001 form for Virginia courts?",
+        "Can you help me find the Petition for Review of Mandatory Outpatient Treatment form in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Small Claims | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "SmallClaimsCourtProcedureHelp",
+      "trigger_phrases": [
+        "How to file a small claims court case in Virginia?",
+        "What are the steps for suing someone in small claims court in Virginia?",
+        "What's involved in serving papers for a small claims court case in Virginia?",
+        "Can I represent myself in a small claims court case in Virginia?",
+        "What happens if the defendant doesn't appear in a small claims court case in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Free and Low Cost Legal Resources Pamphlet | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpInformationVirginia",
+      "trigger_phrases": [
+        "Where can I find help with evictions in Virginia?",
+        "Resources for low-income Virginians seeking legal services on evictions",
+        "Guide to Virginia Legal Information Resources for eviction help",
+        "Access to Justice Listening Tour for Greater Richmond regarding evictions",
+        "Virginia State Bar resources for eviction assistance"
+      ]
+    }
+  },
+  {
+    "page_title": "Page has moved",
+    "intent_suggestion": {
+      "intent_name": "AI_Impact_On_Society",
+      "trigger_phrases": [
+        "What is the impact of Artificial Intelligence on society?",
+        "How does AI affect modern society?",
+        "Discuss AI's role in various industries",
+        "What are the ethical considerations regarding AI?",
+        "Concerns about job displacement due to AI"
+      ]
+    }
+  },
+  {
+    "page_title": "Find a Mediator | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionMediationHelp",
+      "trigger_phrases": [
+        "I need help with mediation for an eviction case in Virginia",
+        "Looking for information on mediation process for disputes in Virginia",
+        "Is there any help available for resolving eviction issues through mediation in Virginia?",
+        "Where can I find a mediator for my eviction dispute in Virginia?",
+        "How does the mediation process work for an eviction case in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Eviction Defense Center website help | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpAtRichmondLibrary",
+      "trigger_phrases": [
+        "Need help with eviction at Richmond Public Library",
+        "Fighting eviction, assistance at Richmond Public Library",
+        "Aid for eviction defense center in Richmond",
+        "Assistance with eviction proceedings at Richmond Public Library",
+        "Eviction Defense Center service at Richmond Library"
+      ]
+    }
+  },
+  {
+    "page_title": "Traffic Cases and Driver's Licenses | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "DriversLicenseRestorationHelp",
+      "trigger_phrases": [
+        "Help me restore my driver's license in Virginia",
+        "How do I get my driving privileges back in VA?",
+        "What are the steps to reinstate my driver's license in Virginia?",
+        "Where can I find information about driver's license restoration in Virginia?",
+        "I need help with restoring my driving privileges for work purposes in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Guardianship & Conservatorship | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Guardianship_Conservatorship_Info",
+      "trigger_phrases": [
+        "I need help with guardianship in Virginia",
+        "What is conservatorship?",
+        "How do I become a guardian in Virginia?",
+        "Where can I find forms for guardianship in Virginia?",
+        "FAQ about Guardianship and Conservatorship in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Medical Emergency Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Medical Emergency Form Assistance",
+      "trigger_phrases": [
+        "Where can I find Virginia's medical emergency forms?",
+        "Help me locate DC-489a form",
+        "I need instructions for the District Court Medical Treatment and Detention Petition form",
+        "Can you guide me to Medical Emergency Temporary Detention Petition form?",
+        "I'm looking for the Medical Emergency Custody Petition form instructions"
+      ]
+    }
+  },
+  {
+    "page_title": "Juvenile Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Expungement_Forms_Help",
+      "trigger_phrases": [
+        "Where can I find Form DC-587 for expungement in Virginia?",
+        "I need help with the District Court's Motion and Order for Expungement form",
+        "How do I access DC-587 form for juvenile records expungement in Virginia?",
+        "Where is the Notice of Expungement Rights form (DC-588) in Virginia?",
+        "I'm looking for instructions on using DC-587 or DC-588 forms"
+      ]
+    }
+  },
+  {
+    "page_title": "Orden de Protecci\u00f3n de Lista de Informaci\u00f3n | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": null
+  },
+  {
+    "page_title": "Driver's License and Driving Privileges Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Driver's License and Privileges Court Form Assistance",
+      "trigger_phrases": [
+        "I need help finding Virginia court forms for driving privileges",
+        "Where can I find CC-1470 form in Virginia?",
+        "Help me locate DC-202 form in Virginia courts",
+        "What are the forms for restoring my driver's license in Virginia?",
+        "I'm looking for forms related to suspended driver's license in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Voting Rights Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpForms",
+      "trigger_phrases": [
+        "Where can I find court-approved forms for eviction in Virginia?",
+        "What are the forms for eviction in Virginia Courts?",
+        "I need to access eviction forms in Virginia, how can I do that?",
+        "Can you guide me on how to get eviction forms in Virginia Courts?",
+        "Are there any online resources for getting eviction forms in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "Hope Card Program in Virginia | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "ApplyForHopeCardProgram",
+      "trigger_phrases": [
+        "How do I apply for the Hope Card Program?",
+        "I want to obtain a Hope Card in Virginia.",
+        "Can you guide me through applying for a Hope Card?",
+        "Where can I get an application for the Hope Card Program?",
+        "I need help with the Hope Card Application process."
+      ]
+    }
+  },
+  {
+    "page_title": "Mental Health (Juvenile) Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpForms",
+      "trigger_phrases": [
+        "Virginia court forms for mandatory outpatient treatment",
+        "Find Juvenile and Domestic Relations District Court forms",
+        "How to access DC-5005, DC-5015, DC-5044, or DC-5046 forms",
+        "Where to get court-approved forms in Virginia",
+        "Search for court form numbers or keywords in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Resources for Veterans | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "FindEvictionHelpForVeterans",
+      "trigger_phrases": [
+        "Where can I find help with eviction as a veteran in Virginia?",
+        "Legal assistance for veterans facing eviction in Virginia",
+        "What resources are available for military families dealing with eviction in Virginia?",
+        "I'm a veteran facing eviction, where do I get help in Virginia?",
+        "Help with eviction for military and veterans in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Conservator of the Peace Forms | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "Find_CC_1430_Form",
+      "trigger_phrases": [
+        "Download CC-1430 form in Virginia",
+        "Where can I find the Circuit Court Application for Appointment of Special Conservator of the Peace form in Virginia?",
+        "I need to access the CC-1430 form on the Virginia Judicial System website",
+        "Help me locate the Virginia Circuit Court Application for Appointment of Special Conservator of the Peace (Form # CC-1430)",
+        "Where can I download the Virginia Circuit Court Application for Appointment of Special Conservator of the Peace form?"
+      ]
+    }
+  },
+  {
+    "page_title": "How to Change Your Address | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "UpdateAddressForCourtCasesVirginia",
+      "trigger_phrases": [
+        "How do I update my address for court cases in Virginia?",
+        "Need help updating address for Virginia court case",
+        "Where can I find the form to update my address for a Virginia court case?",
+        "Virginia court case address change procedure",
+        "What should I do if I moved and have a court case in Virginia?"
+      ]
+    }
+  },
+  {
+    "page_title": "404 Not Found",
+    "intent_suggestion": {
+      "intent_name": "FaviconError",
+      "trigger_phrases": [
+        "Why can't I see the website icon?",
+        "Favicon is not appearing.",
+        "I see a blank space where the favicon should be.",
+        "The icon for this site is missing.",
+        "There's no image in the tab next to the URL."
+      ]
+    }
+  },
+  {
+    "page_title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "VirginiaSelfHelpResources",
+      "trigger_phrases": [
+        "I need help with court procedures in Virginia",
+        "Where can I find legal forms for a case in Virginia?",
+        "Can you guide me through the self-help resources provided by the Virginia Judicial System?",
+        "What is the search function for self-help resources on the Virginia Judicial System website?",
+        "I'm looking for guidance on legal research relevant to my case in Virginia"
+      ]
+    }
+  },
+  {
+    "page_title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpInfo",
+      "trigger_phrases": [
+        "Where can I find help with eviction in Virginia?",
+        "I need information on eviction process in Virginia courts.",
+        "Help me understand the eviction procedure in Virginia.",
+        "What are the resources for handling an eviction case in Virginia?",
+        "I'm being evicted, can you guide me through Virginia court system?"
+      ]
+    }
+  },
+  {
+    "page_title": "404 Not Found",
+    "intent_suggestion": {
+      "intent_name": "BrokenLinkError",
+      "trigger_phrases": [
+        "The eviction help image is not found",
+        "Cannot access the eviction help picture",
+        "Image of eviction help is broken",
+        "I can't see the eviction help image",
+        "Eviction help URL is incorrect"
+      ]
+    }
+  },
+  {
+    "page_title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
+    "intent_suggestion": {
+      "intent_name": "EvictionHelpInformation",
+      "trigger_phrases": [
+        "I need help with an eviction in Virginia",
+        "Where can I find resources for eviction proceedings in Virginia?",
+        "How do I handle an eviction case in Virginia court?",
+        "Virginia eviction forms location",
+        "Information on Virginia eviction process"
+      ]
+    }
+  }
+]
