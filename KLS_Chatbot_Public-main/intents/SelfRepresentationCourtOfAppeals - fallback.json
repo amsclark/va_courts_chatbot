@@ -1,0 +1,38 @@
+{
+  "id": "d7e1f4a8-3b6c-4d7e-7e1f-4a8b6c4d7e1f",
+  "name": "SelfRepresentationCourtOfAppeals - fallback",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "SelfRepresentationCourtOfAppeals-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I'm not sure I understand. Would you like me to provide information about self-representation in the Virginia Court of Appeals, or do you have other questions I can help with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

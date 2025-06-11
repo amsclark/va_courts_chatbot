@@ -1,0 +1,39 @@
+{
+  "id": "a6b0c3d7-2e5f-3a6b-6b0c-3d7e5f3a6b0c",
+  "name": "SelfRepresentationCourtOfAppeals",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "SelfRepresentationCourtOfAppeals-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

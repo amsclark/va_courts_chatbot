@@ -1,0 +1,48 @@
+{
+  "id": "d5e9f2a6-1b4c-2d5e-5e9f-2a6b4c2d5e9f",
+  "name": "SelfRepresentationCourtOfAppeals - yes",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "SelfRepresentationCourtOfAppeals-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! I'll direct you to the Virginia court's guide for self-representation in the Court of Appeals, which provides detailed information about each stage of the appeals process."
+          ]
+        },
+        {
+          "type": 4,
+          "title": "",
+          "payload": {
+            "web_url": "https://selfhelp.vacourts.gov/node/76/guide-self-representation-court-appeals-virginia.html"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

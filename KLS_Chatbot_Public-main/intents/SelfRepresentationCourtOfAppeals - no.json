@@ -1,0 +1,38 @@
+{
+  "id": "d1e5f8a2-7b0c-8d1e-1e5f-8a2b0c8d1e5f",
+  "name": "SelfRepresentationCourtOfAppeals - no",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "SelfRepresentationCourtOfAppeals-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem! If you have any other questions about legal matters, feel free to ask."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
