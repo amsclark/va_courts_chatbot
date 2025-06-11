@@ -1,0 +1,82 @@
+{
+  "id": "6a7b8c9d-0e1f-2345-6789-012abcdef015",
+  "parentId": "f9g1h2i3-5678-9012-3456-7890abcdef15",
+  "rootParentId": "f9g1h2i3-5678-9012-3456-7890abcdef15",
+  "name": "ObtainVirginiaAdultBirthCertificateGuide - yes",
+  "auto": true,
+  "contexts": [
+    "ObtainVirginiaAdultBirthCertificateGuide-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ObtainVirginiaAdultBirthCertificateGuide.ObtainVirginiaAdultBirthCertificateGuide-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to some resources on our website related to Obtaining Virginia Adult Birth Certificate Guide which may be helpful. This includes information on the application process, requirements, fees, and where to apply for your birth certificate in Virginia."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "[PLACEHOLDER_URL_OBTAIN_VIRGINIA_ADULT_BIRTH_CERTIFICATE_GUIDE]",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Virginia Birth Certificate Guide"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

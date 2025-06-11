@@ -1,0 +1,39 @@
+{
+  "id": "7b8c9d0e-1f23-4567-8901-23abcdef4567",
+  "parentId": "f9g1h2i3-5678-9012-3456-7890abcdef15",
+  "rootParentId": "f9g1h2i3-5678-9012-3456-7890abcdef15",
+  "name": "ObtainVirginiaAdultBirthCertificateGuide - no",
+  "auto": true,
+  "contexts": [
+    "ObtainVirginiaAdultBirthCertificateGuide-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ObtainVirginiaAdultBirthCertificateGuide.ObtainVirginiaAdultBirthCertificateGuide-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

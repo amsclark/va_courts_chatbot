@@ -420,12 +420,6 @@
     "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/node/32/free-and-low-cost-legal-resources-pamphlet.html"
   },
   {
-    "title": "Page has moved",
-    "url": "https://selfhelp.vacourts.gov/node/7/",
-    "text": "Click here...",
-    "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/node/7/index.html"
-  },
-  {
     "title": "Find a Mediator | Virginia Judicial System Court Self-Help",
     "url": "https://selfhelp.vacourts.gov/node/7/find-mediator.html",
     "text": "Find a Mediator\nMediation\nMediation is an alternative dispute resolution (ADR) process in which a trained neutral mediator facilitates communication between the parties. Without deciding the issues or imposing a solution on the parties, a mediator enables them to understand and reach a mutually agreeable resolution to their dispute. It helps the parties understand and identify their needs, overlapping interests and any areas of agreement.\nIn Virginia using a mediation process is voluntary. The mediation process is confidential and used in many proceedings.\nCourts in Virginia offer a variety of dispute resolution services. Some of these services may be available at no cost. The Judicial Services Department of the state court administrator's office hosts a general directory of private providers. They also offer a link to Resolution Virginia. Your local court or local law library may offer more information about mediators in your area.",
@@ -509,34 +503,5 @@
     "text": "How to Change Your Address\nIf you have a court case, you must keep your address up-to-date.\nPlease use this form https://www.vacourts.gov/forms/district/dc437.pdf and file it with the court handling your case.\nNOTE: Pursuant to Virginia Code § 16.1-88.03, parties not represented by counsel, and who have made an appearance in the case, shall promptly notify in writing the clerk of court wherein the litigation is pending, and any adverse party, of any change in the party’s address necessary for accurate mailing or service of any pleadings or notices. In the absence of such notification, a mailing to or service upon a party at the most recent address contained in the court file of the case shall be deemed effective service or other notice. (Bold added)",
     "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/node/2/how-change-your-address.html"
   },
-  {
-    "title": "404 Not Found",
-    "url": "https://selfhelp.vacourts.gov/sites/vacourts.openadvocate.org/files/favicon.html",
-    "text": "The requested URL \"https://selfhelp.vacourts.gov/sites/vacourts.openadvocate.org/files/favicon.ico\" was not found on this server.",
-    "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/sites/vacourts.openadvocate.org/files/favicon.html"
-  },
-  {
-    "title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
-    "url": "https://selfhelp.vacourts.gov/themes/custom/bootstrap_ui/images/pin-violet.html",
-    "text": "Virginia Judicial System Court Self-Help\nResources for Self-Represented Litigants in Virginia\nMenu\nPlease search the website or explorer these popular pages.",
-    "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/themes/custom/bootstrap_ui/images/pin-violet.html"
-  },
-  {
-    "title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
-    "url": "https://selfhelp.vacourts.gov/themes/custom/images/required.html",
-    "text": "Virginia Judicial System Court Self-Help\nResources for Self-Represented Litigants in Virginia\nMenu\nPlease search the website or explorer these popular pages.",
-    "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/themes/custom/images/required.html"
-  },
-  {
-    "title": "404 Not Found",
-    "url": "https://selfhelp.vacourts.gov/images/help.html",
-    "text": "Not Found\nThe requested URL \"https://selfhelp.vacourts.gov/images/help.png\" was not found on this server.",
-    "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/images/help.html"
-  },
-  {
-    "title": "Sorry, we can't find the page. | Virginia Judicial System Court Self-Help",
-    "url": "https://selfhelp.vacourts.gov/images/feed.html",
-    "text": "Virginia Judicial System Court Self-Help\nResources for Self-Represented Litigants in Virginia\nMenu\nPlease search the website or explorer these popular pages.",
-    "filepath": "/home/alex/va_courts_website/selfhelp.vacourts.gov/images/feed.html"
-  }
+
 ]
