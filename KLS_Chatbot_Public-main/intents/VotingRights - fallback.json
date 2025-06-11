@@ -1,7 +1,7 @@
 {
-  "id": "0c1d2e3f-4567-8901-2345-6abcdef78901",
-  "parentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
-  "rootParentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "id": "8e1c4a7f-3b6d-4739-1c8e-4a7f3b6d1c8e",
+  "parentId": "9b6f2e5a-4d8c-4871-6f9b-2e5a4d8c6f9b",
+  "rootParentId": "9b6f2e5a-4d8c-4871-6f9b-2e5a4d8c6f9b",
   "name": "VotingRights - fallback",
   "contexts": [
     "VotingRights-followup"
