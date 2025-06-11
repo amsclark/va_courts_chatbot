@@ -1,0 +1,38 @@
+{
+  "id": "v7w1z4a8-3b6c-4v7w-7w1z-4a8b6c4v7w1z",
+  "name": "FreedomOfInformationAct - no",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FreedomOfInformationAct-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem! If you have any other questions about legal matters, feel free to ask."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "p1q5t8u2-7b0c-8p1q-1q5t-8u2b0c8p1q5t",
+  "name": "FreedomOfInformationAct - yes",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FreedomOfInformationAct-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! I'll direct you to the Virginia court's Freedom of Information Act forms page where you can find the necessary forms and information for FOIA requests."
+          ]
+        },
+        {
+          "type": 4,
+          "title": "",
+          "payload": {
+            "web_url": "https://selfhelp.vacourts.gov/node/53/freedom-information-act-forms.html"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "b3c7f0a4-9b2c-0b3c-3c7f-0a4b2c0b3c7f",
+  "name": "FreedomOfInformationAct - fallback",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FreedomOfInformationAct-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I'm not sure I understand. Would you like me to provide information about Freedom of Information Act forms in Virginia courts, or do you have other questions I can help with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
