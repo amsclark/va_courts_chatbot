@@ -11,15 +11,15 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "It\u0027s okay. No worries.",
-            "No big deal. I won\u0027t hold a grudge.",
-            "It\u0027s cool.",
-            "That\u0027s all right. I forgive you."
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
           ],
           "condition": ""
         },
@@ -29,10 +29,10 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "It\u0027s okay. No worries.",
-            "No big deal. I won\u0027t hold a grudge.",
-            "It\u0027s cool.",
-            "That\u0027s all right. I forgive you."
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
           ],
           "condition": ""
         },
@@ -42,10 +42,10 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "It\u0027s okay. No worries.",
-            "No big deal. I won\u0027t hold a grudge.",
-            "It\u0027s cool.",
-            "That\u0027s all right. I forgive you."
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
           ],
           "condition": ""
         },
@@ -55,10 +55,10 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "It\u0027s okay. No worries.",
-            "No big deal. I won\u0027t hold a grudge.",
-            "It\u0027s cool.",
-            "That\u0027s all right. I forgive you."
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
           ],
           "condition": ""
         },
@@ -68,10 +68,10 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "It\u0027s okay. No worries.",
-            "No big deal. I won\u0027t hold a grudge.",
-            "It\u0027s cool.",
-            "That\u0027s all right. I forgive you."
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
           ],
           "condition": ""
         },
@@ -81,10 +81,10 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "It\u0027s okay. No worries.",
-            "No big deal. I won\u0027t hold a grudge.",
-            "It\u0027s cool.",
-            "That\u0027s all right. I forgive you."
+            "It's okay. No worries.",
+            "No big deal. I won't hold a grudge.",
+            "It's cool.",
+            "That's all right. I forgive you."
           ],
           "condition": ""
         }

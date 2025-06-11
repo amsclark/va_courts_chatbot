@@ -5,9 +5,7 @@
   "name": "FilingFeesAndWaivers - yes",
   "auto": true,
   "contexts": [
-    {
-      "name": "FilingFeesAndWaivers-followup"
-    }
+    "FilingFeesAndWaivers-followup"
   ],
   "responses": [
     {
@@ -22,7 +20,8 @@
           "lang": "en",
           "speech": [
             "Great! I'll direct you to the Virginia court's filing fees and waivers page where you can find detailed information about court fees and how to request a fee waiver if you qualify."
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": 4,
@@ -58,7 +57,8 @@
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FilingFeesAndWaivers.yes"
     }
   ],
   "priority": 500000,

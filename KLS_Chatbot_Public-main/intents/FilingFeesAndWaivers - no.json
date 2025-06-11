@@ -5,13 +5,12 @@
   "name": "FilingFeesAndWaivers - no",
   "auto": true,
   "contexts": [
-    {
-      "name": "FilingFeesAndWaivers-followup"
-    }
+    "FilingFeesAndWaivers-followup"
   ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "FilingFeesAndWaivers.FilingFeesAndWaivers-no",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
@@ -22,7 +21,8 @@
           "lang": "en",
           "speech": [
             "No problem! If you have any other questions about legal matters, feel free to ask."
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},

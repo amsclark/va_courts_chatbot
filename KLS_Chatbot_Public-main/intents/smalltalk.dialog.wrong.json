@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
           ],
           "condition": ""
         },
@@ -29,8 +29,8 @@
           "lang": "en",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
           ],
           "condition": ""
         },
@@ -41,8 +41,8 @@
           "lang": "en-au",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
           ],
           "condition": ""
         },
@@ -53,8 +53,8 @@
           "lang": "en-in",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
           ],
           "condition": ""
         },
@@ -65,8 +65,8 @@
           "lang": "en-us",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
           ],
           "condition": ""
         },
@@ -77,8 +77,8 @@
           "lang": "en-ca",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
+            "I'm still learning. I may misinterpret things from time to time.",
+            "Sorry about that. I'm still learning."
           ],
           "condition": ""
         }

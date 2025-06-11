@@ -11,12 +11,12 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "I\u0027m sorry. A quick walk may make you feel better.",
+            "I'm sorry. A quick walk may make you feel better.",
             "Take a deep breath. "
           ],
           "condition": ""
@@ -27,7 +27,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "I\u0027m sorry. A quick walk may make you feel better.",
+            "I'm sorry. A quick walk may make you feel better.",
             "Take a deep breath. "
           ],
           "condition": ""
@@ -38,7 +38,7 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "I\u0027m sorry. A quick walk may make you feel better.",
+            "I'm sorry. A quick walk may make you feel better.",
             "Take a deep breath. "
           ],
           "condition": ""
@@ -49,7 +49,7 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "I\u0027m sorry. A quick walk may make you feel better.",
+            "I'm sorry. A quick walk may make you feel better.",
             "Take a deep breath. "
           ],
           "condition": ""
@@ -60,7 +60,7 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "I\u0027m sorry. A quick walk may make you feel better.",
+            "I'm sorry. A quick walk may make you feel better.",
             "Take a deep breath. "
           ],
           "condition": ""
@@ -71,7 +71,7 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "I\u0027m sorry. A quick walk may make you feel better.",
+            "I'm sorry. A quick walk may make you feel better.",
             "Take a deep breath. "
           ],
           "condition": ""

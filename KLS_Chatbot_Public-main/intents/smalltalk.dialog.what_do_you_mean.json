@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
+            "I'm still learning. I may misinterpret things from time to time.",
             "Maybe I misunderstood what you said.",
             "Sorry, looks like I misunderstood what you said."
           ],
@@ -30,7 +30,7 @@
           "lang": "en",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
+            "I'm still learning. I may misinterpret things from time to time.",
             "Maybe I misunderstood what you said.",
             "Sorry, looks like I misunderstood what you said."
           ],
@@ -43,7 +43,7 @@
           "lang": "en-au",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
+            "I'm still learning. I may misinterpret things from time to time.",
             "Maybe I misunderstood what you said.",
             "Sorry, looks like I misunderstood what you said."
           ],
@@ -56,7 +56,7 @@
           "lang": "en-in",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
+            "I'm still learning. I may misinterpret things from time to time.",
             "Maybe I misunderstood what you said.",
             "Sorry, looks like I misunderstood what you said."
           ],
@@ -69,7 +69,7 @@
           "lang": "en-us",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
+            "I'm still learning. I may misinterpret things from time to time.",
             "Maybe I misunderstood what you said.",
             "Sorry, looks like I misunderstood what you said."
           ],
@@ -82,7 +82,7 @@
           "lang": "en-ca",
           "speech": [
             "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
+            "I'm still learning. I may misinterpret things from time to time.",
             "Maybe I misunderstood what you said.",
             "Sorry, looks like I misunderstood what you said."
           ],

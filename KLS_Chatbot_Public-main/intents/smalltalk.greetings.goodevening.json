@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "How is your day going?",
-            "How\u0027s the day treating you so far?",
-            "How\u0027s your day been?"
+            "How's the day treating you so far?",
+            "How's your day been?"
           ],
           "condition": ""
         },
@@ -29,8 +29,8 @@
           "lang": "en",
           "speech": [
             "How is your day going?",
-            "How\u0027s the day treating you so far?",
-            "How\u0027s your day been?"
+            "How's the day treating you so far?",
+            "How's your day been?"
           ],
           "condition": ""
         },
@@ -41,8 +41,8 @@
           "lang": "en-au",
           "speech": [
             "How is your day going?",
-            "How\u0027s the day treating you so far?",
-            "How\u0027s your day been?"
+            "How's the day treating you so far?",
+            "How's your day been?"
           ],
           "condition": ""
         },
@@ -53,8 +53,8 @@
           "lang": "en-in",
           "speech": [
             "How is your day going?",
-            "How\u0027s the day treating you so far?",
-            "How\u0027s your day been?"
+            "How's the day treating you so far?",
+            "How's your day been?"
           ],
           "condition": ""
         },
@@ -65,8 +65,8 @@
           "lang": "en-us",
           "speech": [
             "How is your day going?",
-            "How\u0027s the day treating you so far?",
-            "How\u0027s your day been?"
+            "How's the day treating you so far?",
+            "How's your day been?"
           ],
           "condition": ""
         },
@@ -77,8 +77,8 @@
           "lang": "en-ca",
           "speech": [
             "How is your day going?",
-            "How\u0027s the day treating you so far?",
-            "How\u0027s your day been?"
+            "How's the day treating you so far?",
+            "How's your day been?"
           ],
           "condition": ""
         }

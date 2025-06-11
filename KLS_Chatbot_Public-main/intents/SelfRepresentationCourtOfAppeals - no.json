@@ -5,9 +5,7 @@
   "name": "SelfRepresentationCourtOfAppeals - no",
   "auto": true,
   "contexts": [
-    {
-      "name": "SelfRepresentationCourtOfAppeals-followup"
-    }
+    "SelfRepresentationCourtOfAppeals-followup"
   ],
   "responses": [
     {
@@ -22,11 +20,13 @@
           "lang": "en",
           "speech": [
             "No problem! If you have any other questions about legal matters, feel free to ask."
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "SelfRepresentationCourtOfAppeals.no"
     }
   ],
   "priority": 500000,

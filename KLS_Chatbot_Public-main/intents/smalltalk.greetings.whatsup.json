@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "Not a whole lot. What\u0027s going on with you?",
-            "Not much. What\u0027s new with you?",
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
             "Just here, waiting to help someone. What can I do for you?"
           ],
           "condition": ""
@@ -28,8 +28,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Not a whole lot. What\u0027s going on with you?",
-            "Not much. What\u0027s new with you?",
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
             "Just here, waiting to help someone. What can I do for you?"
           ],
           "condition": ""
@@ -40,8 +40,8 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "Not a whole lot. What\u0027s going on with you?",
-            "Not much. What\u0027s new with you?",
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
             "Just here, waiting to help someone. What can I do for you?"
           ],
           "condition": ""
@@ -52,8 +52,8 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "Not a whole lot. What\u0027s going on with you?",
-            "Not much. What\u0027s new with you?",
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
             "You know, just here, waiting to help someone."
           ],
           "condition": ""
@@ -64,8 +64,8 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "Not a whole lot. What\u0027s going on with you?",
-            "Not much. What\u0027s new with you?",
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
             "Just here, waiting to help someone. What can I do for you?"
           ],
           "condition": ""
@@ -76,8 +76,8 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "Not a whole lot. What\u0027s going on with you?",
-            "Not much. What\u0027s new with you?",
+            "Not a whole lot. What's going on with you?",
+            "Not much. What's new with you?",
             "Just here, waiting to help someone. What can I do for you?"
           ],
           "condition": ""

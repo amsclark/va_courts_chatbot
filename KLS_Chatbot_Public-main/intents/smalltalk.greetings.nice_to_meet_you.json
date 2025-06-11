@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Likewise. I\u0027m looking forward to helping you out.",
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
             "Nice meeting you, as well.",
             "The pleasure is mine."
           ],
@@ -29,8 +29,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Likewise. I\u0027m looking forward to helping you out.",
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
             "Nice meeting you, as well.",
             "The pleasure is mine."
           ],
@@ -42,8 +42,8 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Likewise. I\u0027m looking forward to helping you out.",
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
             "Nice meeting you, as well.",
             "The pleasure is mine."
           ],
@@ -55,8 +55,8 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Likewise. I\u0027m looking forward to helping you out.",
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
             "Nice meeting you, as well.",
             "The pleasure is mine."
           ],
@@ -68,8 +68,8 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Likewise. I\u0027m looking forward to helping you out.",
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
             "Nice meeting you, as well.",
             "The pleasure is mine."
           ],
@@ -81,8 +81,8 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Likewise. I\u0027m looking forward to helping you out.",
+            "It's nice meeting you, too.",
+            "Likewise. I'm looking forward to helping you out.",
             "Nice meeting you, as well.",
             "The pleasure is mine."
           ],

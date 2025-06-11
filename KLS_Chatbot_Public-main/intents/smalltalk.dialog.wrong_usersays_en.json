@@ -42,7 +42,7 @@
     "id": "400f7ded-69f9-4a6f-8f95-71faa2eac85e",
     "data": [
       {
-        "text": "that\u0027s wrong",
+        "text": "that's wrong",
         "userDefined": false
       }
     ],
@@ -102,7 +102,7 @@
         "userDefined": false
       },
       {
-        "text": "\u0027s wrong",
+        "text": "'s wrong",
         "userDefined": false
       }
     ],
@@ -115,7 +115,7 @@
     "id": "ffa0c14f-3530-4eac-9336-fd388c1a4610",
     "data": [
       {
-        "text": "that\u0027s not what I asked",
+        "text": "that's not what I asked",
         "userDefined": false
       }
     ],
@@ -154,7 +154,7 @@
     "id": "cedef31b-9869-453c-a129-cf5137fef874",
     "data": [
       {
-        "text": "that\u0027s not right",
+        "text": "that's not right",
         "userDefined": false
       }
     ],

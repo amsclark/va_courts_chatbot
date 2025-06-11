@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "Sure. Let\u0027s talk!",
-            "My pleasure. Let\u0027s chat."
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
           ],
           "condition": ""
         },
@@ -27,8 +27,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Sure. Let\u0027s talk!",
-            "My pleasure. Let\u0027s chat."
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
           ],
           "condition": ""
         },
@@ -38,8 +38,8 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "Sure. Let\u0027s talk!",
-            "My pleasure. Let\u0027s chat."
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
           ],
           "condition": ""
         },
@@ -49,8 +49,8 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "Sure. Let\u0027s talk!",
-            "My pleasure. Let\u0027s chat."
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
           ],
           "condition": ""
         },
@@ -60,8 +60,8 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "Sure. Let\u0027s talk!",
-            "My pleasure. Let\u0027s chat."
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
           ],
           "condition": ""
         },
@@ -71,8 +71,8 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "Sure. Let\u0027s talk!",
-            "My pleasure. Let\u0027s chat."
+            "Sure. Let's talk!",
+            "My pleasure. Let's chat."
           ],
           "condition": ""
         }

@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "I always have time to chat with you. What can I do for you?",
             "Never too busy for you. Shall we chat?",
-            "You\u0027re my priority. Do you wanna chat?",
+            "You're my priority. Do you wanna chat?",
             "I always have time to chat with you. Wanna chat?"
           ],
           "condition": ""
@@ -31,7 +31,7 @@
           "speech": [
             "I always have time to chat with you. What can I do for you?",
             "Never too busy for you. Shall we chat?",
-            "You\u0027re my priority. Do you wanna chat?",
+            "You're my priority. Do you wanna chat?",
             "I always have time to chat with you. Wanna chat?"
           ],
           "condition": ""
@@ -44,7 +44,7 @@
           "speech": [
             "I always have time to chat with you. What can I do for you?",
             "Never too busy for you. Shall we chat?",
-            "You\u0027re my priority. Do you wanna chat?",
+            "You're my priority. Do you wanna chat?",
             "I always have time to chat with you. Wanna chat?"
           ],
           "condition": ""
@@ -57,8 +57,8 @@
           "speech": [
             "I always have time to chat with you. What can I do for you?",
             "Never too busy for you. Shall we chat?",
-            "You\u0027re my priority. Let\u0027s chat.",
-            "I always have time to chat with you. That\u0027s what I\u0027m here for."
+            "You're my priority. Let's chat.",
+            "I always have time to chat with you. That's what I'm here for."
           ],
           "condition": ""
         },
@@ -70,7 +70,7 @@
           "speech": [
             "I always have time to chat with you. What can I do for you?",
             "Never too busy for you. Shall we chat?",
-            "You\u0027re my priority. Do you wanna chat?",
+            "You're my priority. Do you wanna chat?",
             "I always have time to chat with you. Wanna chat?"
           ],
           "condition": ""
@@ -83,7 +83,7 @@
           "speech": [
             "I always have time to chat with you. What can I do for you?",
             "Never too busy for you. Shall we chat?",
-            "You\u0027re my priority. Do you wanna chat?",
+            "You're my priority. Do you wanna chat?",
             "I always have time to chat with you. Wanna chat?"
           ],
           "condition": ""

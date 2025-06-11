@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "I can wait.",
-            "I\u0027ll be waiting.",
-            "Okay. I\u0027m here."
+            "I'll be waiting.",
+            "Okay. I'm here."
           ],
           "condition": ""
         },
@@ -29,8 +29,8 @@
           "lang": "en",
           "speech": [
             "I can wait.",
-            "I\u0027ll be waiting.",
-            "Okay. I\u0027m here."
+            "I'll be waiting.",
+            "Okay. I'm here."
           ],
           "condition": ""
         },
@@ -41,8 +41,8 @@
           "lang": "en-au",
           "speech": [
             "I can wait.",
-            "I\u0027ll be waiting.",
-            "Okay. I\u0027m here."
+            "I'll be waiting.",
+            "Okay. I'm here."
           ],
           "condition": ""
         },
@@ -53,8 +53,8 @@
           "lang": "en-in",
           "speech": [
             "I can wait.",
-            "I\u0027ll be waiting.",
-            "Okay. I\u0027m here."
+            "I'll be waiting.",
+            "Okay. I'm here."
           ],
           "condition": ""
         },
@@ -65,8 +65,8 @@
           "lang": "en-us",
           "speech": [
             "I can wait.",
-            "I\u0027ll be waiting.",
-            "Okay. I\u0027m here."
+            "I'll be waiting.",
+            "Okay. I'm here."
           ],
           "condition": ""
         },
@@ -77,8 +77,8 @@
           "lang": "en-ca",
           "speech": [
             "I can wait.",
-            "I\u0027ll be waiting.",
-            "Okay. I\u0027m here."
+            "I'll be waiting.",
+            "Okay. I'm here."
           ],
           "condition": ""
         }

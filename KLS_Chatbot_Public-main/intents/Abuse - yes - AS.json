@@ -15,7 +15,7 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en",
@@ -56,7 +56,7 @@
                   "type": "divider"
                 },
                 {
-                  "text": "Protection From Abuse/Stalking (PFA/PFS) - Tips \u0026 Tricks",
+                  "text": "Protection From Abuse/Stalking (PFA/PFS) - Tips & Tricks",
                   "icon": {
                     "color": "#00CC8D",
                     "type": "info"

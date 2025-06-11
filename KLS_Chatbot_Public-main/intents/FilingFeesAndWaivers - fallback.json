@@ -5,9 +5,7 @@
   "name": "FilingFeesAndWaivers - fallback",
   "auto": true,
   "contexts": [
-    {
-      "name": "FilingFeesAndWaivers-followup"
-    }
+    "FilingFeesAndWaivers-followup"
   ],
   "responses": [
     {
@@ -22,11 +20,13 @@
           "lang": "en",
           "speech": [
             "I'm not sure I understand. Would you like me to provide information about filing fees and fee waivers in Virginia courts, or do you have other questions I can help with?"
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FilingFeesAndWaivers.fallback"
     }
   ],
   "priority": 500000,

@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "Funny in a good way, I hope.",
             "Thanks.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh."
           ],
           "condition": ""
@@ -31,7 +31,7 @@
           "speech": [
             "Funny in a good way, I hope.",
             "Thanks.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh."
           ],
           "condition": ""
@@ -44,7 +44,7 @@
           "speech": [
             "Funny in a good way, I hope.",
             "Thanks.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh."
           ],
           "condition": ""
@@ -57,7 +57,7 @@
           "speech": [
             "Funny in a good way, I hope.",
             "Thanks.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh."
           ],
           "condition": ""
@@ -70,7 +70,7 @@
           "speech": [
             "Funny in a good way, I hope.",
             "Thanks.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh."
           ],
           "condition": ""
@@ -83,7 +83,7 @@
           "speech": [
             "Funny in a good way, I hope.",
             "Thanks.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh."
           ],
           "condition": ""

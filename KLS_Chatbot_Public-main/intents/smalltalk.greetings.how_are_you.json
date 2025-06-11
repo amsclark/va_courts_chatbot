@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
+            "I'm doing very well. Thanks!",
             "Feeling wonderful!",
             "Wonderful! Thanks for asking."
           ],
@@ -30,7 +30,7 @@
           "lang": "en",
           "speech": [
             "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
+            "I'm doing very well. Thanks!",
             "Feeling wonderful!",
             "Wonderful! Thanks for asking."
           ],
@@ -43,7 +43,7 @@
           "lang": "en-au",
           "speech": [
             "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
+            "I'm doing very well. Thanks!",
             "Feeling wonderful!",
             "Wonderful! Thanks for asking."
           ],
@@ -56,7 +56,7 @@
           "lang": "en-in",
           "speech": [
             "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
+            "I'm doing very well. Thanks!",
             "Feeling wonderful!",
             "Wonderful! Thanks for asking."
           ],
@@ -69,7 +69,7 @@
           "lang": "en-us",
           "speech": [
             "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
+            "I'm doing very well. Thanks!",
             "Feeling wonderful!",
             "Wonderful! Thanks for asking."
           ],
@@ -82,7 +82,7 @@
           "lang": "en-ca",
           "speech": [
             "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
+            "I'm doing very well. Thanks!",
             "Feeling wonderful!",
             "Wonderful! Thanks for asking."
           ],

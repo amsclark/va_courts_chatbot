@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "How are you this morning?",
-            "How\u0027s the morning treating you so far?",
+            "How's the morning treating you so far?",
             "Good morning! How are you today?"
           ],
           "condition": ""
@@ -29,7 +29,7 @@
           "lang": "en",
           "speech": [
             "How are you this morning?",
-            "How\u0027s the morning treating you so far?",
+            "How's the morning treating you so far?",
             "Good morning! How are you today?"
           ],
           "condition": ""
@@ -41,7 +41,7 @@
           "lang": "en-au",
           "speech": [
             "How are you this morning?",
-            "How\u0027s the morning treating you so far?",
+            "How's the morning treating you so far?",
             "Good morning! How are you today?"
           ],
           "condition": ""
@@ -53,7 +53,7 @@
           "lang": "en-in",
           "speech": [
             "How are you this morning?",
-            "How\u0027s the morning treating you so far?",
+            "How's the morning treating you so far?",
             "Good morning! How are you today?"
           ],
           "condition": ""
@@ -65,7 +65,7 @@
           "lang": "en-us",
           "speech": [
             "How are you this morning?",
-            "How\u0027s the morning treating you so far?",
+            "How's the morning treating you so far?",
             "Good morning! How are you today?"
           ],
           "condition": ""
@@ -77,7 +77,7 @@
           "lang": "en-ca",
           "speech": [
             "How are you this morning?",
-            "How\u0027s the morning treating you so far?",
+            "How's the morning treating you so far?",
             "Good morning! How are you today?"
           ],
           "condition": ""

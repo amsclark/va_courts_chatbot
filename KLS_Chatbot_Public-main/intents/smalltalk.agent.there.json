@@ -11,12 +11,12 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "Of course. I\u0027m always here.",
+            "Of course. I'm always here.",
             "Right where you left me."
           ],
           "condition": ""
@@ -27,7 +27,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Of course. I\u0027m always here.",
+            "Of course. I'm always here.",
             "Right where you left me."
           ],
           "condition": ""
@@ -38,7 +38,7 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "Of course. I\u0027m always here.",
+            "Of course. I'm always here.",
             "Right where you left me."
           ],
           "condition": ""
@@ -49,7 +49,7 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "Of course. I\u0027m always here.",
+            "Of course. I'm always here.",
             "Right where you left me."
           ],
           "condition": ""
@@ -60,7 +60,7 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "Of course. I\u0027m always here.",
+            "Of course. I'm always here.",
             "Right where you left me."
           ],
           "condition": ""
@@ -71,7 +71,7 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "Of course. I\u0027m always here.",
+            "Of course. I'm always here.",
             "Right where you left me."
           ],
           "condition": ""

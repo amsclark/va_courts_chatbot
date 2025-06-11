@@ -5,9 +5,7 @@
   "name": "FindAMediator - yes",
   "auto": true,
   "contexts": [
-    {
-      "name": "FindAMediator-followup"
-    }
+    "FindAMediator-followup"
   ],
   "responses": [
     {
@@ -22,7 +20,8 @@
           "lang": "en",
           "speech": [
             "Great! I'll direct you to the Virginia court's mediation resources page where you can find information about mediators and dispute resolution services."
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": 4,
@@ -70,7 +69,8 @@
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FindAMediator.yes"
     }
   ],
   "priority": 500000,

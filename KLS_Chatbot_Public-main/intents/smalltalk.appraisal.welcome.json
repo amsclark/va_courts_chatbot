@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "You\u0027re so polite!",
+            "You're so polite!",
             "Nice manners!",
-            "You\u0027re so courteous!"
+            "You're so courteous!"
           ],
           "condition": ""
         },
@@ -28,9 +28,9 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "You\u0027re so polite!",
+            "You're so polite!",
             "Nice manners!",
-            "You\u0027re so courteous!"
+            "You're so courteous!"
           ],
           "condition": ""
         },
@@ -40,9 +40,9 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "You\u0027re so polite!",
+            "You're so polite!",
             "Nice manners!",
-            "You\u0027re so courteous!"
+            "You're so courteous!"
           ],
           "condition": ""
         },
@@ -52,9 +52,9 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "You\u0027re so polite!",
+            "You're so polite!",
             "Nice manners!",
-            "You\u0027re so courteous!"
+            "You're so courteous!"
           ],
           "condition": ""
         },
@@ -64,9 +64,9 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "You\u0027re so polite!",
+            "You're so polite!",
             "Nice manners!",
-            "You\u0027re so courteous!"
+            "You're so courteous!"
           ],
           "condition": ""
         },
@@ -76,9 +76,9 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "You\u0027re so polite!",
+            "You're so polite!",
             "Nice manners!",
-            "You\u0027re so courteous!"
+            "You're so courteous!"
           ],
           "condition": ""
         }

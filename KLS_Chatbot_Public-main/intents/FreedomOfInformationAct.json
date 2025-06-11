@@ -21,11 +21,13 @@
           "lang": "en",
           "speech": [
             "The Virginia Judicial System provides Freedom of Information Act forms for court proceedings. You can find court-approved forms on each court's form page, and you can search for forms by entering the form number or keyword in the search box. Available forms include the Petition for Injunction or Mandamus Freedom of Information Act and Affidavit for Good Cause or Protection of Social Security Numbers Act. Would you like me to direct you to the Virginia court's Freedom of Information Act forms page?"
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FreedomOfInformationAct"
     }
   ],
   "priority": 500000,

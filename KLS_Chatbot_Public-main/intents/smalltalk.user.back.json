@@ -11,12 +11,12 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "Long time no see. What\u0027s up?",
+            "Long time no see. What's up?",
             "Just in time. How can I help?",
             "Welcome back. What can I do for you?",
             "You were missed. What can I do for you today?",
@@ -30,7 +30,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Long time no see. What\u0027s up?",
+            "Long time no see. What's up?",
             "Just in time. How can I help?",
             "Welcome back. What can I do for you?",
             "You were missed. What can I do for you today?",
@@ -44,7 +44,7 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "Long time no see. What\u0027s up?",
+            "Long time no see. What's up?",
             "Just in time. How can I help?",
             "Welcome back. What can I do for you?",
             "You were missed. What can I do for you today?",
@@ -72,7 +72,7 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "Long time no see. What\u0027s up?",
+            "Long time no see. What's up?",
             "Just in time. How can I help?",
             "Welcome back. What can I do for you?",
             "You were missed. What can I do for you today?",
@@ -86,7 +86,7 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "Long time no see. What\u0027s up?",
+            "Long time no see. What's up?",
             "Just in time. How can I help?",
             "Welcome back. What can I do for you?",
             "You were missed. What can I do for you today?",

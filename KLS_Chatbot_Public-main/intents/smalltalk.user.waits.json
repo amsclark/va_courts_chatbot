@@ -11,12 +11,12 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "I appreciate your patience. Hopefully I\u0027ll have what you need soon.",
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
             "Thanks for being so patient. Sometimes these things take a little time."
           ],
           "condition": ""
@@ -27,7 +27,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "I appreciate your patience. Hopefully I\u0027ll have what you need soon.",
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
             "Thanks for being so patient. Sometimes these things take a little time."
           ],
           "condition": ""
@@ -38,7 +38,7 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "I appreciate your patience. Hopefully I\u0027ll have what you need soon.",
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
             "Thanks for being so patient. Sometimes these things take a little time."
           ],
           "condition": ""
@@ -49,7 +49,7 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "I appreciate your patience. Hopefully I\u0027ll have what you need soon.",
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
             "Thanks for being so patient. Sometimes these things take a little time."
           ],
           "condition": ""
@@ -60,7 +60,7 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "I appreciate your patience. Hopefully I\u0027ll have what you need soon.",
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
             "Thanks for being so patient. Sometimes these things take a little time."
           ],
           "condition": ""
@@ -71,7 +71,7 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "I appreciate your patience. Hopefully I\u0027ll have what you need soon.",
+            "I appreciate your patience. Hopefully I'll have what you need soon.",
             "Thanks for being so patient. Sometimes these things take a little time."
           ],
           "condition": ""

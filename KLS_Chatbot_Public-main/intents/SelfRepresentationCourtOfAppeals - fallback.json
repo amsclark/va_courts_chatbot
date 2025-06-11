@@ -5,9 +5,7 @@
   "name": "SelfRepresentationCourtOfAppeals - fallback",
   "auto": true,
   "contexts": [
-    {
-      "name": "SelfRepresentationCourtOfAppeals-followup"
-    }
+    "SelfRepresentationCourtOfAppeals-followup"
   ],
   "responses": [
     {
@@ -22,11 +20,13 @@
           "lang": "en",
           "speech": [
             "I'm not sure I understand. Would you like me to provide information about self-representation in the Virginia Court of Appeals, or do you have other questions I can help with?"
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "SelfRepresentationCourtOfAppeals.fallback"
     }
   ],
   "priority": 500000,

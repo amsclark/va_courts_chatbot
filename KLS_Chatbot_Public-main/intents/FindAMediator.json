@@ -21,11 +21,13 @@
           "lang": "en",
           "speech": [
             "Mediation is an alternative dispute resolution process where a trained neutral mediator helps parties communicate and reach a mutually agreeable resolution. In Virginia, mediation is voluntary and confidential, and courts offer various dispute resolution services, some at no cost. The Virginia Judicial System provides a directory of private mediators and links to Resolution Virginia. Would you like me to direct you to the Virginia court's mediation resources page?"
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FindAMediator"
     }
   ],
   "priority": 500000,

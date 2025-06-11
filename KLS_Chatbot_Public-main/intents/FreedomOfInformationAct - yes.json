@@ -5,9 +5,7 @@
   "name": "FreedomOfInformationAct - yes",
   "auto": true,
   "contexts": [
-    {
-      "name": "FreedomOfInformationAct-followup"
-    }
+    "FreedomOfInformationAct-followup"
   ],
   "responses": [
     {
@@ -22,7 +20,8 @@
           "lang": "en",
           "speech": [
             "Great! I'll direct you to the Virginia court's Freedom of Information Act forms page where you can find the necessary forms and information for FOIA requests."
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": 4,
@@ -70,7 +69,8 @@
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FreedomOfInformationAct.yes"
     }
   ],
   "priority": 500000,

@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "Ok, let\u0027s not talk about it then.",
-            "Already then. Let\u0027s move on."
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
           ],
           "condition": ""
         },
@@ -27,8 +27,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Ok, let\u0027s not talk about it then.",
-            "Already then. Let\u0027s move on."
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
           ],
           "condition": ""
         },
@@ -38,8 +38,8 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "Ok, let\u0027s not talk about it then.",
-            "Already then. Let\u0027s move on."
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
           ],
           "condition": ""
         },
@@ -49,8 +49,8 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "Ok, let\u0027s not talk about it then.",
-            "Already then. Let\u0027s move on."
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
           ],
           "condition": ""
         },
@@ -60,8 +60,8 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "Ok, let\u0027s not talk about it then.",
-            "Already then. Let\u0027s move on."
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
           ],
           "condition": ""
         },
@@ -71,8 +71,8 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "Ok, let\u0027s not talk about it then.",
-            "Already then. Let\u0027s move on."
+            "Ok, let's not talk about it then.",
+            "Already then. Let's move on."
           ],
           "condition": ""
         }

@@ -5,9 +5,7 @@
   "name": "FindAMediator - fallback",
   "auto": true,
   "contexts": [
-    {
-      "name": "FindAMediator-followup"
-    }
+    "FindAMediator-followup"
   ],
   "responses": [
     {
@@ -22,11 +20,13 @@
           "lang": "en",
           "speech": [
             "I'm not sure I understand. Would you like me to provide information about finding a mediator in Virginia, or do you have other questions I can help with?"
-          ]
+          ],
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FindAMediator.fallback"
     }
   ],
   "priority": 500000,

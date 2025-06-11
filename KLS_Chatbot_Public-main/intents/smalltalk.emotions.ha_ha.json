@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "Glad I can make you laugh.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh.",
             "I wish I could laugh out loud, too."
           ],
@@ -30,7 +30,7 @@
           "lang": "en",
           "speech": [
             "Glad I can make you laugh.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh.",
             "I wish I could laugh out loud, too."
           ],
@@ -43,7 +43,7 @@
           "lang": "en-au",
           "speech": [
             "Glad I can make you laugh.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh.",
             "I wish I could laugh out loud, too."
           ],
@@ -56,7 +56,7 @@
           "lang": "en-in",
           "speech": [
             "Glad I can make you laugh.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh.",
             "I wish I could laugh out loud, too."
           ],
@@ -69,7 +69,7 @@
           "lang": "en-us",
           "speech": [
             "Glad I can make you laugh.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh.",
             "I wish I could laugh out loud, too."
           ],
@@ -82,7 +82,7 @@
           "lang": "en-ca",
           "speech": [
             "Glad I can make you laugh.",
-            "Glad you think I\u0027m funny.",
+            "Glad you think I'm funny.",
             "I like it when people laugh.",
             "I wish I could laugh out loud, too."
           ],

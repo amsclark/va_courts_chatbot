@@ -14,12 +14,12 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Sorry, I didn\u0027t understand that. Please choose either \u0027Abuse/Stalking\u0027 or \u0027Neglect.\u0027  If you\u0027re not sure, just choose the one that best describes your situation. We can still help direct you to the correct resources."
+            "Sorry, I didn't understand that. Please choose either 'Abuse/Stalking' or 'Neglect.'  If you're not sure, just choose the one that best describes your situation. We can still help direct you to the correct resources."
           ],
           "condition": ""
         },

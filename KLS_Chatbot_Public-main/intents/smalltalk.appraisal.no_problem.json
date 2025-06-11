@@ -11,7 +11,7 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
@@ -19,7 +19,7 @@
             "Whew!",
             "Alright, thanks!",
             "Glad to hear that!",
-            "I\u0027m relieved, thanks!"
+            "I'm relieved, thanks!"
           ],
           "condition": ""
         },
@@ -32,7 +32,7 @@
             "Whew!",
             "Alright, thanks!",
             "Glad to hear that!",
-            "I\u0027m relieved, thanks!"
+            "I'm relieved, thanks!"
           ],
           "condition": ""
         },
@@ -45,7 +45,7 @@
             "Whew!",
             "Alright, thanks!",
             "Glad to hear that!",
-            "I\u0027m relieved, thanks!"
+            "I'm relieved, thanks!"
           ],
           "condition": ""
         },
@@ -58,7 +58,7 @@
             "Whew!",
             "Alright, thanks!",
             "Glad to hear that!",
-            "I\u0027m relieved, thanks!"
+            "I'm relieved, thanks!"
           ],
           "condition": ""
         },
@@ -71,7 +71,7 @@
             "Whew!",
             "Alright, thanks!",
             "Glad to hear that!",
-            "I\u0027m relieved, thanks!"
+            "I'm relieved, thanks!"
           ],
           "condition": ""
         },
@@ -84,7 +84,7 @@
             "Whew!",
             "Alright, thanks!",
             "Glad to hear that!",
-            "I\u0027m relieved, thanks!"
+            "I'm relieved, thanks!"
           ],
           "condition": ""
         }

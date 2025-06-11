@@ -5,9 +5,7 @@
   "name": "SelfRepresentationCourtOfAppeals - yes",
   "auto": true,
   "contexts": [
-    {
-      "name": "SelfRepresentationCourtOfAppeals-followup"
-    }
+    "SelfRepresentationCourtOfAppeals-followup"
   ],
   "responses": [
     {
@@ -22,7 +20,8 @@
           "lang": "en",
           "speech": [
             "Great! I'll direct you to the Virginia court's guide for self-representation in the Court of Appeals, which provides detailed information about each stage of the appeals process."
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": 4,
@@ -70,7 +69,8 @@
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "SelfRepresentationCourtOfAppeals.yes"
     }
   ],
   "priority": 500000,

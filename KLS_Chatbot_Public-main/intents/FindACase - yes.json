@@ -5,9 +5,7 @@
   "name": "FindACase - yes",
   "auto": true,
   "contexts": [
-    {
-      "name": "FindACase-followup"
-    }
+    "FindACase-followup"
   ],
   "responses": [
     {
@@ -22,7 +20,8 @@
           "lang": "en",
           "speech": [
             "Great! I'll direct you to the Virginia court's case search page where you can find information about civil and criminal cases by selecting your specific court location."
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": 4,
@@ -58,7 +57,8 @@
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FindACase.yes"
     }
   ],
   "priority": 500000,

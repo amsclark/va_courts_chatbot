@@ -16,7 +16,7 @@
     "id": "85ef641e-8a32-473e-bf3d-65e2f6e38bb3",
     "data": [
       {
-        "text": "I\u0027m busy",
+        "text": "I'm busy",
         "userDefined": false
       }
     ],
@@ -29,7 +29,7 @@
     "id": "4a7cf921-5c04-46c5-b4b8-0aa403abb5fe",
     "data": [
       {
-        "text": "I\u0027m swamped",
+        "text": "I'm swamped",
         "userDefined": false
       }
     ],
@@ -42,7 +42,7 @@
     "id": "41e85ced-178a-4874-b1b4-5f031f37cb55",
     "data": [
       {
-        "text": "I\u0027m working",
+        "text": "I'm working",
         "userDefined": false
       }
     ],
@@ -94,7 +94,7 @@
     "id": "2e6617c2-fe70-4550-af19-827d6e237a10",
     "data": [
       {
-        "text": "I\u0027m overloaded",
+        "text": "I'm overloaded",
         "userDefined": false
       }
     ],
@@ -107,7 +107,7 @@
     "id": "353c877d-3435-4f45-9519-1218220f1ad6",
     "data": [
       {
-        "text": "I don\u0027t have time for this",
+        "text": "I don't have time for this",
         "userDefined": false
       }
     ],

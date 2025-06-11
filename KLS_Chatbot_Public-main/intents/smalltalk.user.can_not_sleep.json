@@ -11,13 +11,13 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
             "Maybe some music would help. Try listening to something relaxing.",
-            "Reading is a good way to unwind, just don\u0027t read something too intense!"
+            "Reading is a good way to unwind, just don't read something too intense!"
           ],
           "condition": ""
         },
@@ -28,7 +28,7 @@
           "lang": "en",
           "speech": [
             "Maybe some music would help. Try listening to something relaxing.",
-            "Reading is a good way to unwind, just don\u0027t read something too intense!"
+            "Reading is a good way to unwind, just don't read something too intense!"
           ],
           "condition": ""
         },
@@ -39,7 +39,7 @@
           "lang": "en-au",
           "speech": [
             "Maybe some music would help. Try listening to something relaxing.",
-            "Reading is a good way to unwind, just don\u0027t read something too intense!"
+            "Reading is a good way to unwind, just don't read something too intense!"
           ],
           "condition": ""
         },
@@ -50,7 +50,7 @@
           "lang": "en-in",
           "speech": [
             "Maybe some music would help. Try listening to something relaxing.",
-            "Reading is a good way to unwind, just don\u0027t read something too intense!"
+            "Reading is a good way to unwind, just don't read something too intense!"
           ],
           "condition": ""
         },
@@ -61,7 +61,7 @@
           "lang": "en-us",
           "speech": [
             "Maybe some music would help. Try listening to something relaxing.",
-            "Reading is a good way to unwind, just don\u0027t read something too intense!"
+            "Reading is a good way to unwind, just don't read something too intense!"
           ],
           "condition": ""
         },
@@ -72,7 +72,7 @@
           "lang": "en-ca",
           "speech": [
             "Maybe some music would help. Try listening to something relaxing.",
-            "Reading is a good way to unwind, just don\u0027t read something too intense!"
+            "Reading is a good way to unwind, just don't read something too intense!"
           ],
           "condition": ""
         }

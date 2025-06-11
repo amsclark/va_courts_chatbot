@@ -5,9 +5,7 @@
   "name": "FindALawyer - yes",
   "auto": true,
   "contexts": [
-    {
-      "name": "FindALawyer-followup"
-    }
+    "FindALawyer-followup"
   ],
   "responses": [
     {
@@ -22,7 +20,8 @@
           "lang": "en",
           "speech": [
             "Great! I'll direct you to the Virginia court's information page about finding a lawyer, which includes details about lawyer referral services, legal aid, and other resources."
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": 4,
@@ -82,7 +81,8 @@
         }
       ],
       "defaultResponsePlatforms": {},
-      "speech": []
+      "speech": [],
+      "action": "FindALawyer.yes"
     }
   ],
   "priority": 500000,

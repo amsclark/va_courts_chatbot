@@ -11,14 +11,14 @@
       "parameters": [],
       "messages": [
         {
-          "type": "0",
+          "type": 0,
           "title": "",
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "I\u0027ll be waiting.",
+            "I'll be waiting.",
             "Okay. You know where to find me.",
-            "All right. I\u0027ll be here."
+            "All right. I'll be here."
           ],
           "condition": ""
         },
@@ -28,9 +28,9 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "I\u0027ll be waiting.",
+            "I'll be waiting.",
             "Okay. You know where to find me.",
-            "All right. I\u0027ll be here."
+            "All right. I'll be here."
           ],
           "condition": ""
         },
@@ -40,9 +40,9 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "I\u0027ll be waiting.",
+            "I'll be waiting.",
             "Okay. You know where to find me.",
-            "All right. I\u0027ll be here."
+            "All right. I'll be here."
           ],
           "condition": ""
         },
@@ -52,9 +52,9 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "I\u0027ll be waiting.",
+            "I'll be waiting.",
             "Okay. You know where to find me.",
-            "All right. I\u0027ll be here."
+            "All right. I'll be here."
           ],
           "condition": ""
         },
@@ -64,9 +64,9 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "I\u0027ll be waiting.",
+            "I'll be waiting.",
             "Okay. You know where to find me.",
-            "All right. I\u0027ll be here."
+            "All right. I'll be here."
           ],
           "condition": ""
         },
@@ -76,9 +76,9 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "I\u0027ll be waiting.",
+            "I'll be waiting.",
             "Okay. You know where to find me.",
-            "All right. I\u0027ll be here."
+            "All right. I'll be here."
           ],
           "condition": ""
         }
