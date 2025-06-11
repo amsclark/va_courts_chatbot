@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "",
+      "action": "UpdateAddressForCourtCasesVirginia",
       "affectedContexts": [
         {
           "name": "UpdateAddressForCourtCasesVirginia-followup",
