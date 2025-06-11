@@ -1,0 +1,62 @@
+{
+  "id": "9c0d1e2f-3456-7890-1234-5abcdef67890",
+  "parentId": "g9h1i2j3-5678-9012-3456-7890abcdef16",
+  "rootParentId": "g9h1i2j3-5678-9012-3456-7890abcdef16",
+  "name": "ConservatorOfThePeace - fallback",
+  "contexts": [
+    "ConservatorOfThePeace-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ConservatorOfThePeace.ConservatorOfThePeace-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don't understand. Did I correctly identify that you are looking for information relating to Conservator of the Peace? Please click either 'yes' or 'no' below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
