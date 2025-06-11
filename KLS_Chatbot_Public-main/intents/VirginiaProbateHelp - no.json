@@ -1,0 +1,39 @@
+{
+  "id": "4b5c6d7e-8f90-1234-5678-90abcdef1234",
+  "parentId": "c9d1e2f3-5678-9012-3456-7890abcdef12",
+  "rootParentId": "c9d1e2f3-5678-9012-3456-7890abcdef12",
+  "name": "VirginiaProbateHelp - no",
+  "auto": true,
+  "contexts": [
+    "VirginiaProbateHelp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VirginiaProbateHelp.VirginiaProbateHelp-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
