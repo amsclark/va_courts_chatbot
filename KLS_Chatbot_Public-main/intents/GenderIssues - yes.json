@@ -36,29 +36,23 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Gender Issues which may be helpful. This includes resources on changing your gender marker, "
-                  ],
-                  "type": "description"
+                    "Here are helpful resources for genderissues matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/2169/gender-issues",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Gender Issues"
+                  "text": "GenderIssues Information",
+                  "link": "https://selfhelp.vacourts.gov/",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

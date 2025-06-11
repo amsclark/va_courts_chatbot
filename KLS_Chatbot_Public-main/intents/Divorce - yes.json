@@ -36,29 +36,47 @@
             "richContent": [
               [
                 {
-                  "title": "",
                   "type": "description",
+                  "title": "",
                   "text": [
-                    "Here is a link to many resources on our website which may be helpful for Divorce."
+                    "Here are resources to help you understand divorce proceedings in Virginia. These resources cover the divorce process, custody and support matters, and finding legal assistance."
                   ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
+                  "type": "button",
+                  "text": "Divorce Information",
+                  "link": "https://selfhelp.vacourts.gov/node/8/divorce.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  },
-                  "link": "https://www.kansaslegalservices.org/topics/2162/divorce",
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
                   "type": "button",
-                  "text": "Everything you need to know about Divorce in Kansas"
+                  "text": "Custody, Visitation & Support",
+                  "link": "https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

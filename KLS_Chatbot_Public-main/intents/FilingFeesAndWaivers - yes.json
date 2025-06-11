@@ -28,7 +28,29 @@
           "type": 4,
           "title": "",
           "payload": {
-            "web_url": "https://selfhelp.vacourts.gov/node/14/filing-fees-waivers.html"
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are helpful resources for filingfeesandwaivers matters in Virginia. Check the links below for more information!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "FilingFeesAndWaivers Information",
+                  "link": "https://selfhelp.vacourts.gov/",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
           },
           "textToSpeech": "",
           "lang": "en",

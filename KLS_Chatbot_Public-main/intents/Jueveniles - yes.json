@@ -36,29 +36,23 @@
             "richContent": [
               [
                 {
-                  "text": [
-                    "Here is a link to some Juvenile related resources on our website which may be helpful."
-                  ],
                   "type": "description",
-                  "title": ""
+                  "title": "",
+                  "text": [
+                    "Here are helpful resources for jueveniles matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
+                  "type": "button",
+                  "text": "Jueveniles Information",
+                  "link": "https://selfhelp.vacourts.gov/",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "link": "https://www.kansaslegalservices.org/topics/34/juveniles",
-                  "text": "Juveniles Main Page",
-                  "type": "button"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

@@ -37,28 +37,22 @@
               [
                 {
                   "type": "description",
+                  "title": "",
                   "text": [
-                    "Here is a link to some resources on our website which may be helpful regarding a Name Change."
-                  ],
-                  "title": ""
+                    "Here are helpful resources for namechange matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/2171/name-change",
-                  "text": "Name Change Main Page",
+                  "type": "button",
+                  "text": "NameChange Information",
+                  "link": "https://selfhelp.vacourts.gov/",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  },
-                  "type": "button"
+                  }
                 }
               ]
             ]

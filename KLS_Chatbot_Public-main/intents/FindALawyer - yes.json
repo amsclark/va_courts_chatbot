@@ -28,7 +28,53 @@
           "type": 4,
           "title": "",
           "payload": {
-            "web_url": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html"
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources to help you find legal assistance in Virginia, including information about free and low-cost legal services."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Legal Aid Information",
+                  "link": "https://selfhelp.vacourts.gov/taxonomy/term/11.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "What to Do When You Can't Afford an Attorney",
+                  "link": "https://selfhelp.vacourts.gov/node/31/what-do-when-you-cant-afford-attorney.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
           },
           "textToSpeech": "",
           "lang": "en",

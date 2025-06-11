@@ -36,29 +36,23 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Courthouse Device Policy which may be helpful. This includes information on cell phone and electronic device usage rules in Virginia courts."
-                  ],
-                  "type": "description"
+                    "Here are helpful resources for courthousedevicepolicy matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "[PLACEHOLDER_URL_COURTHOUSE_DEVICE_POLICY]",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Courthouse Device Policy"
+                  "text": "CourthouseDevicePolicy Information",
+                  "link": "https://selfhelp.vacourts.gov/",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

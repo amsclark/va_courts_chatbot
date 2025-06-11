@@ -36,29 +36,35 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Virginia Probate Help which may be helpful. This includes information on probate processes, estate administration, and required forms in Virginia."
-                  ],
-                  "type": "description"
+                    "Here are specific resources for probate matters in Virginia, including step-by-step information and forms."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "[PLACEHOLDER_URL_VIRGINIA_PROBATE_HELP]",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Virginia Probate Help"
+                  "text": "Probate in Virginia",
+                  "link": "https://selfhelp.vacourts.gov/node/20/probate-virginia.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Probate Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/37/probate-forms.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

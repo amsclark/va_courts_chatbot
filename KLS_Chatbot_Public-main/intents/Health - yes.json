@@ -36,49 +36,19 @@
             "richContent": [
               [
                 {
-                  "text": [
-                    "Here is a link to some Health resources on our website which may be helpful. This includes topics like medicare \u0026 medicaid, long-term care, health benefits, and more. A few more health-related resource links are listed as well!"
-                  ],
                   "type": "description",
-                  "title": ""
+                  "title": "",
+                  "text": [
+                    "Here are resources for health-related legal matters and disability accommodations in Virginia courts."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Health Main Page",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "link": "https://www.kansaslegalservices.org/topics/29/health"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/2172/mental-health",
-                  "text": "Mental Health Resources",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "type": "button"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/node/1250/all-about-services-seniors",
-                  "type": "button",
-                  "text": "Additional Medicare resources here",
+                  "text": "Information for Individuals with Disabilities",
+                  "link": "https://selfhelp.vacourts.gov/node/25/general-information-individuals-disabilities.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
@@ -88,13 +58,13 @@
                   "type": "divider"
                 },
                 {
-                  "link": "https://www.kansaslegalservices.org/topics/107/food-stamps",
                   "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "text": "Food and Nutrition Help"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

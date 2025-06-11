@@ -36,41 +36,35 @@
             "richContent": [
               [
                 {
-                  "text": [
-                    "Here are a couple links to some Child Support resources on our website which may be helpful."
-                  ],
+                  "type": "description",
                   "title": "",
-                  "type": "description"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/2170/child-support",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "text": "Child Support Main Page",
-                  "type": "button"
+                  "text": [
+                    "Here are resources for child support matters in Virginia, including information about establishing and modifying child support orders."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
+                  "text": "Custody, Visitation & Support",
+                  "link": "https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "text": "Child Custody Information",
-                  "link": "https://www.kansaslegalservices.org/topics/122/child-custody"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

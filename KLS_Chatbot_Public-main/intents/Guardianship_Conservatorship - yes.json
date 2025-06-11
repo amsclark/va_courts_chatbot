@@ -36,29 +36,47 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some Guardianship/Conservatorship resources on our website which may be helpful."
-                  ],
-                  "type": "description"
+                    "Here are resources for guardianship and conservatorship matters in Virginia, including alternatives to guardianship and conservatorship."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Guardianship \u0026 Conservatorship",
-                  "link": "https://www.kansaslegalservices.org/topics/28/guardianship-conservatorship",
+                  "type": "button",
+                  "text": "Resources for Guardians and Conservators",
+                  "link": "https://selfhelp.vacourts.gov/node/36/new-online-resources-guardians-and-conservators.html",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "type": "button"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Options to Help Another Person Make Decisions",
+                  "link": "https://selfhelp.vacourts.gov/node/60/new-publication-options-virginia-help-another-person-make-decisions.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

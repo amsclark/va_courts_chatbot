@@ -39,26 +39,32 @@
                   "type": "description",
                   "title": "",
                   "text": [
-                    "If you are in a crisis, please call 911. Here is a link to some Mental Health resources on our website which may be helpful."
+                    "Here are resources for mental health legal matters in Virginia, including forms and legal assistance."
                   ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
+                  "type": "button",
+                  "text": "Mental Health Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  },
-                  "text": "Mental Health Main Page",
-                  "link": "https://www.kansaslegalservices.org/topics/2172/mental-health"
+                  }
                 }
               ]
             ]

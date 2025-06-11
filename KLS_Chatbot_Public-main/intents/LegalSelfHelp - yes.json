@@ -39,26 +39,20 @@
                   "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to several Legal Self-Help resources on our website which may be helpful. If you want to explore further resources available on our website, just type \u0027get help\u0027."
+                    "Here are helpful resources for legalselfhelp matters in Virginia. Check the links below for more information!"
                   ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/2047/legal-self-help",
                   "type": "button",
+                  "text": "LegalSelfHelp Information",
+                  "link": "https://selfhelp.vacourts.gov/",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "text": "Legal Self Help"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

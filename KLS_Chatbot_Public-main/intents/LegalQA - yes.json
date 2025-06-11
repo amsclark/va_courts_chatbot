@@ -36,25 +36,31 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to our Legal Questions \u0026 Answers resource page which may be helpful."
-                  ],
-                  "type": "description"
+                    "Here are resources for general legal questions and information about Virginia courts and legal processes."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Legal Questions \u0026 Answers",
                   "type": "button",
-                  "link": "https://www.kansaslegalservices.org/topics/1868/legal-questions-and-answers",
+                  "text": "Frequently Asked Questions",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

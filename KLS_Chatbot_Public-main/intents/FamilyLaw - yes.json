@@ -36,121 +36,19 @@
             "richContent": [
               [
                 {
-                  "text": [
-                    "Here is a link to many helpful resources on our website which deal with Family Law. Family law generally deals with things like Adoption, Child Custody, Child Support, Divorce, Abuse and Neglect, Visitation, Spousal Support, Paternity, and other related subject matter. If you are looking for something specific, feel free to tell me the particular area you need help with. You can also check the links below!"
-                  ],
+                  "type": "description",
                   "title": "",
-                  "type": "description"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Family Law Main Page",
-                  "type": "button",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "link": "https://www.kansaslegalservices.org/topics/24/family-law"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "link": "https://www.kansaslegalservices.org/node/2483/kansas-children-and-families-mobile-crisis-helpline",
-                  "type": "button",
-                  "text": "Kansas Children and Families Mobile Crisis Helpline"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/121/adoption",
-                  "type": "button",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "text": "Adoption"
+                  "text": [
+                    "Here are helpful resources for family law matters in Virginia. Family law generally deals with things like Child Custody, Child Support, Divorce, Domestic Violence, Protective Orders, Visitation, Paternity, and other related topics. If you need help with something specific, feel free to ask for a particular area. You can also check the links below!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
-                  "link": "https://www.kansaslegalservices.org/topics/122/child-custody",
-                  "text": "Child Custody",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Child Support",
-                  "type": "button",
-                  "link": "https://www.kansaslegalservices.org/topics/2170/child-support",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  }
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "link": "https://www.kansaslegalservices.org/topics/128/visitation",
-                  "text": "Visitation",
-                  "type": "button"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "link": "https://www.kansaslegalservices.org/topics/126/paternity",
-                  "text": "Paternity"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "link": "https://www.kansaslegalservices.org/topics/127/spousal-support",
-                  "type": "button",
-                  "text": "Spousal Support"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "text": "Divorce",
-                  "link": "https://www.kansaslegalservices.org/topics/2162/divorce",
+                  "text": "Family Law - Custody, Visitation & Support",
+                  "link": "https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
@@ -161,11 +59,47 @@
                 },
                 {
                   "type": "button",
-                  "text": "Abuse and Neglect",
-                  "link": "https://www.kansaslegalservices.org/topics/145/abuse-and-neglect",
+                  "text": "Divorce Information",
+                  "link": "https://selfhelp.vacourts.gov/node/8/divorce.html",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Domestic Violence & Protective Orders",
+                  "link": "https://selfhelp.vacourts.gov/taxonomy/term/21.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Types of Protective Orders",
+                  "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
                   }
                 }
               ]

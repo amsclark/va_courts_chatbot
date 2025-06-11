@@ -36,41 +36,35 @@
             "richContent": [
               [
                 {
-                  "title": "",
                   "type": "description",
+                  "title": "",
                   "text": [
-                    "Here are a couple links to many Public Benefits resources on our website which may be helpful. The second link given will lead you to a great resource for all services related to the Department of Children and Families (DCF)."
+                    "Here are resources for public benefits and assistance programs in Virginia, including specialized helplines."
                   ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
+                  "type": "button",
+                  "text": "Statewide Senior Legal Helpline",
+                  "link": "https://selfhelp.vacourts.gov/node/33/statewide-senior-legal-helpline.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  },
-                  "text": "Public Benefits Main Page",
-                  "link": "https://www.kansaslegalservices.org/topics/104/public-benefits"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "link": "https://www.kansaslegalservices.org/node/239/access-all-dcf-services-online",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "text": "Access All DCF Services Online"
+                  }
                 }
               ]
             ]

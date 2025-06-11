@@ -36,29 +36,35 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Updating Address For Court Cases in Virginia which may be helpful. This includes information on procedures, forms, and requirements for changing your address with Virginia courts."
-                  ],
-                  "type": "description"
+                    "Here are resources for updating your address with Virginia courts and finding court contact information."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "[PLACEHOLDER_URL_UPDATE_ADDRESS_FOR_COURT_CASES_VIRGINIA]",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Update Address For Court Cases"
+                  "text": "Find Your Court",
+                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Frequently Asked Questions",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

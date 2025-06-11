@@ -36,29 +36,23 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Accessing Legal Information Through OLIR which may be helpful. This includes information on using OLIR for primary legal materials, court opinions, statutory codes, and administrative regulations."
-                  ],
-                  "type": "description"
+                    "Here are helpful resources for accesslegalinformationthrougholir matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "[PLACEHOLDER_URL_ACCESS_LEGAL_INFORMATION_THROUGH_OLIR]",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "OLIR Legal Information Resources"
+                  "text": "AccessLegalInformationThroughOLIR Information",
+                  "link": "https://selfhelp.vacourts.gov/",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

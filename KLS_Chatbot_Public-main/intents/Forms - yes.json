@@ -37,28 +37,22 @@
               [
                 {
                   "type": "description",
+                  "title": "",
                   "text": [
-                    "Here is a link to resources on our website which may be helpful with finding and/or filling out a legal form."
-                  ],
-                  "title": ""
+                    "Here are helpful resources for forms matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Free Legal Forms",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "link": "https://www.kansaslegalservices.org/node/785/free-legal-forms"
+                  "text": "Forms Information",
+                  "link": "https://selfhelp.vacourts.gov/",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

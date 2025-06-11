@@ -36,29 +36,35 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Conservator of the Peace which may be helpful. This includes forms for applying for appointment as a special conservator of the peace and other court-approved forms."
-                  ],
-                  "type": "description"
+                    "Here are resources for conservator of the peace matters, including forms and court information."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://selfhelp.vacourts.gov/node/45/conservator-peace-forms.html",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Conservator of the Peace Forms"
+                  "text": "Find a Form",
+                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find Your Court",
+                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

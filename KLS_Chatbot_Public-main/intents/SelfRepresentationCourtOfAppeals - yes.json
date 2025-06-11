@@ -28,7 +28,41 @@
           "type": 4,
           "title": "",
           "payload": {
-            "web_url": "https://selfhelp.vacourts.gov/node/76/guide-self-representation-court-appeals-virginia.html"
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources for representing yourself in the Virginia Court of Appeals, including the official self-representation guide."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Guide to Self-Representation in Court of Appeals",
+                  "link": "https://selfhelp.vacourts.gov/node/76/guide-self-representation-court-appeals-virginia.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
           },
           "textToSpeech": "",
           "lang": "en",

@@ -28,7 +28,41 @@
           "type": 4,
           "title": "",
           "payload": {
-            "web_url": "https://selfhelp.vacourts.gov/node/53/freedom-information-act-forms.html"
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources for Freedom of Information Act matters in Virginia, including forms and legal assistance."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "FOIA Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
           },
           "textToSpeech": "",
           "lang": "en",

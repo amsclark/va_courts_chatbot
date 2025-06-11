@@ -36,29 +36,35 @@
             "richContent": [
               [
                 {
-                  "text": [
-                    "Here is a link to some resources our website which may be helpful for Mediation and Mediation Services."
-                  ],
                   "type": "description",
-                  "title": ""
+                  "title": "",
+                  "text": [
+                    "Here are resources about mediation services in Virginia as an alternative way to resolve legal disputes."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Mediation Services",
                   "type": "button",
+                  "text": "Mediation Information",
+                  "link": "https://selfhelp.vacourts.gov/taxonomy/term/10.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  },
-                  "link": "https://www.kansaslegalservices.org/node/58/mediation-services"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

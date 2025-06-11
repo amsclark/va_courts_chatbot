@@ -28,7 +28,29 @@
           "type": 4,
           "title": "",
           "payload": {
-            "web_url": "https://selfhelp.vacourts.gov/node/23/find-case.html"
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are helpful resources for findacase matters in Virginia. Check the links below for more information!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "FindACase Information",
+                  "link": "https://selfhelp.vacourts.gov/",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
           },
           "textToSpeech": "",
           "lang": "en",

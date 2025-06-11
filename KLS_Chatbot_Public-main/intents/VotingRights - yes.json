@@ -36,29 +36,35 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Voting Rights which may be helpful. This includes forms for petitioning the circuit court for approval of the right to register to vote and other court-approved voting rights forms."
-                  ],
-                  "type": "description"
+                    "Here are resources for voting rights matters in Virginia, including forms and general information."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://selfhelp.vacourts.gov/node/43/voting-rights-forms.html",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Voting Rights Forms"
+                  "text": "Voting Rights Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Frequently Asked Questions",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

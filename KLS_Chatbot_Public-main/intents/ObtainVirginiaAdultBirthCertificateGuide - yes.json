@@ -36,29 +36,35 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to some resources on our website related to Obtaining Virginia Adult Birth Certificate Guide which may be helpful. This includes information on the application process, requirements, fees, and where to apply for your birth certificate in Virginia."
-                  ],
-                  "type": "description"
+                    "Here are resources with information about obtaining vital records and other legal documents in Virginia."
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "[PLACEHOLDER_URL_OBTAIN_VIRGINIA_ADULT_BIRTH_CERTIFICATE_GUIDE]",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
                   "type": "button",
-                  "text": "Virginia Birth Certificate Guide"
+                  "text": "News and Publications",
+                  "link": "https://selfhelp.vacourts.gov/news.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Frequently Asked Questions",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

@@ -39,26 +39,20 @@
                   "type": "description",
                   "title": "",
                   "text": [
-                    "Here is a link to many Housing related resources on our website which may be helpful."
+                    "Here are helpful resources for housing matters in Virginia. Check the links below for more information!"
                   ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "text": "Housing Main Page",
-                  "link": "https://www.kansaslegalservices.org/topics/30/housing",
+                  "type": "button",
+                  "text": "Housing Information",
+                  "link": "https://selfhelp.vacourts.gov/",
                   "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "type": "button"
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
               ]
             ]

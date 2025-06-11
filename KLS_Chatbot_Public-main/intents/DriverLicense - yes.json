@@ -36,29 +36,23 @@
             "richContent": [
               [
                 {
-                  "text": [
-                    "Here is a link to a few resources on our website which may be helpful for matters relating to a Driver\u0027s License."
-                  ],
+                  "type": "description",
                   "title": "",
-                  "type": "description"
+                  "text": [
+                    "Here are helpful resources for driverlicense matters in Virginia. Check the links below for more information!"
+                  ]
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "divider"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://www.kansaslegalservices.org/topics/37/drivers-license",
-                  "text": "Driver\u0027s License",
+                  "type": "button",
+                  "text": "DriverLicense Information",
+                  "link": "https://selfhelp.vacourts.gov/",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  },
-                  "type": "button"
+                  }
                 }
               ]
             ]
