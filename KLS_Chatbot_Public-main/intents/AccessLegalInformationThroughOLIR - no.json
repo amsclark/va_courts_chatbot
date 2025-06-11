@@ -1,0 +1,39 @@
+{
+  "id": "5b6c7d8e-9f01-2345-6789-01abcdef2345",
+  "parentId": "d9e1f2g3-5678-9012-3456-7890abcdef13",
+  "rootParentId": "d9e1f2g3-5678-9012-3456-7890abcdef13",
+  "name": "AccessLegalInformationThroughOLIR - no",
+  "auto": true,
+  "contexts": [
+    "AccessLegalInformationThroughOLIR-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AccessLegalInformationThroughOLIR.AccessLegalInformationThroughOLIR-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

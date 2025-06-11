@@ -1,0 +1,82 @@
+{
+  "id": "4a5b6c7d-8e9f-0123-4567-890abcdef013",
+  "parentId": "d9e1f2g3-5678-9012-3456-7890abcdef13",
+  "rootParentId": "d9e1f2g3-5678-9012-3456-7890abcdef13",
+  "name": "AccessLegalInformationThroughOLIR - yes",
+  "auto": true,
+  "contexts": [
+    "AccessLegalInformationThroughOLIR-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AccessLegalInformationThroughOLIR.AccessLegalInformationThroughOLIR-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to some resources on our website related to Accessing Legal Information Through OLIR which may be helpful. This includes information on using OLIR for primary legal materials, court opinions, statutory codes, and administrative regulations."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "[PLACEHOLDER_URL_ACCESS_LEGAL_INFORMATION_THROUGH_OLIR]",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "OLIR Legal Information Resources"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

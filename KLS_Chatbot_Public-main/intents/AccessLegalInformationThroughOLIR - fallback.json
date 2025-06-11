@@ -1,0 +1,62 @@
+{
+  "id": "6c7d8e9f-0123-4567-8901-2abcdef34567",
+  "parentId": "d9e1f2g3-5678-9012-3456-7890abcdef13",
+  "rootParentId": "d9e1f2g3-5678-9012-3456-7890abcdef13",
+  "name": "AccessLegalInformationThroughOLIR - fallback",
+  "contexts": [
+    "AccessLegalInformationThroughOLIR-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AccessLegalInformationThroughOLIR.AccessLegalInformationThroughOLIR-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don't understand. Did I correctly identify that you are looking for information relating to Access Legal Information Through OLIR? Please click either 'yes' or 'no' below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

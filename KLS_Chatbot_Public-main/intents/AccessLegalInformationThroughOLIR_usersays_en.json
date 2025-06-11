@@ -1,0 +1,236 @@
+[
+  {
+    "id": "e1f2g345-6789-0123-4567-8901bcdefabc",
+    "data": [
+      {
+        "text": "I need legal information from OLIR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f2g34567-8901-2345-6789-01bcdefabcde",
+    "data": [
+      {
+        "text": "How do I access primary legal materials on OLIR?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "g3456789-0123-4567-8901-bcdefabcdef0",
+    "data": [
+      {
+        "text": "What is OLIR and how can I use it for legal resources?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45678901-2345-6789-0123-cdefabcdef01",
+    "data": [
+      {
+        "text": "Can you help me find court opinions through OLIR?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56789012-3456-7890-1234-defabcdef012",
+    "data": [
+      {
+        "text": "Where can I find session laws, statutory codes, registers, or administrative regulations from various U.S. states on OLIR?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67890123-4567-8901-2345-efabcdef0123",
+    "data": [
+      {
+        "text": "OLIR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78901234-5678-9012-3456-fabcdef01234",
+    "data": [
+      {
+        "text": "online legal information resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89012345-6789-0123-4567-abcdef012345",
+    "data": [
+      {
+        "text": "legal database",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90123456-7890-1234-5678-bcdef0123456",
+    "data": [
+      {
+        "text": "primary legal materials",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01234567-8901-2345-6789-cdef01234567",
+    "data": [
+      {
+        "text": "court opinions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "12345678-9012-3456-7890-def012345678",
+    "data": [
+      {
+        "text": "statutory codes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23456789-0123-4567-8901-ef0123456789",
+    "data": [
+      {
+        "text": "session laws",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34567890-1234-5678-9012-f01234567890",
+    "data": [
+      {
+        "text": "administrative regulations",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45678901-2345-6789-0123-012345678901",
+    "data": [
+      {
+        "text": "legal research database",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56789012-3456-7890-1234-123456789012",
+    "data": [
+      {
+        "text": "how to use OLIR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67890123-4567-8901-2345-234567890123",
+    "data": [
+      {
+        "text": "legal information online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78901234-5678-9012-3456-345678901234",
+    "data": [
+      {
+        "text": "find legal resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89012345-6789-0123-4567-456789012345",
+    "data": [
+      {
+        "text": "access legal documents online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "a4b5c6d7-e8f9-0123-4567-89012abcdef3",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5c6d7e8-f901-2345-6789-0123bcdefab4",
+    "data": [
+      {
+        "text": "correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6d7e8f9-0123-4567-8901-23bcdefabcd5",
+    "data": [
+      {
+        "text": "that's right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7e8f901-2345-6789-0123-bcdefabcdef6",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e8f90123-4567-8901-2345-cdefabcdef07",
+    "data": [
+      {
+        "text": "that's correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]
