@@ -1,0 +1,48 @@
+{
+  "id": "d6f0a3b9-1c5e-2a7d-6f0a-3b9c5e7d1a4f",
+  "name": "FindAMediator - yes",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FindAMediator-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! I'll direct you to the Virginia court's mediation resources page where you can find information about mediators and dispute resolution services."
+          ]
+        },
+        {
+          "type": 4,
+          "title": "",
+          "payload": {
+            "web_url": "https://selfhelp.vacourts.gov/node/7/find-mediator.html"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

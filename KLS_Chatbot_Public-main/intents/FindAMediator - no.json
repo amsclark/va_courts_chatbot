@@ -1,0 +1,38 @@
+{
+  "id": "d2f6a9b5-7c1e-8f4d-2f6a-9b5c1e4d7a0f",
+  "name": "FindAMediator - no",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FindAMediator-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem! If you have any other questions about legal matters, feel free to ask."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

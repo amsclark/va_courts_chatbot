@@ -1,0 +1,38 @@
+{
+  "id": "d8f2b5c1-3e7a-4d8f-8f2b-5c1e7a4d8f2b",
+  "name": "FindAMediator - fallback",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FindAMediator-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I'm not sure I understand. Would you like me to provide information about finding a mediator in Virginia, or do you have other questions I can help with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
