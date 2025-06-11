@@ -1,0 +1,82 @@
+{
+  "id": "1a2b3c4d-5e6f-7890-1234-56789abcdef0",
+  "parentId": "a8b9c1d2-3e4f-5678-9abc-def012345678",
+  "rootParentId": "a8b9c1d2-3e4f-5678-9abc-def012345678",
+  "name": "CourthouseDevicePolicy - yes",
+  "auto": true,
+  "contexts": [
+    "CourthouseDevicePolicy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourthouseDevicePolicy.CourthouseDevicePolicy-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to some resources on our website related to Courthouse Device Policy which may be helpful. This includes information on cell phone and electronic device usage rules in Virginia courts."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "[PLACEHOLDER_URL_COURTHOUSE_DEVICE_POLICY]",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Courthouse Device Policy"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

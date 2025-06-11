@@ -1,0 +1,62 @@
+{
+  "id": "3c4d5e6f-7890-1234-5678-90abcdef1234",
+  "parentId": "a8b9c1d2-3e4f-5678-9abc-def012345678",
+  "rootParentId": "a8b9c1d2-3e4f-5678-9abc-def012345678",
+  "name": "CourthouseDevicePolicy - fallback",
+  "contexts": [
+    "CourthouseDevicePolicy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourthouseDevicePolicy.CourthouseDevicePolicy-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don't understand. Did I correctly identify that you are looking for information relating to Courthouse Device Policy? Please click either 'yes' or 'no' below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

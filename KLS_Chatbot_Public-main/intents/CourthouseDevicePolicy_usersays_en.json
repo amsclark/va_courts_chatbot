@@ -1,0 +1,236 @@
+[
+  {
+    "id": "b1c2d3e4-5f67-8901-2345-6789abcdef01",
+    "data": [
+      {
+        "text": "What is the policy for using phones in Virginia courthouses?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2d3e4f5-6789-0123-4567-89abcdef0123",
+    "data": [
+      {
+        "text": "Can I bring my phone to a Virginia court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d3e4f567-8901-2345-6789-abcdef012345",
+    "data": [
+      {
+        "text": "Are electronic devices allowed in Virginia courts during COVID-19?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e4f56789-0123-4567-8901-bcdef0123456",
+    "data": [
+      {
+        "text": "Is it safe to use my cell phone in a Virginia court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5678901-2345-6789-0123-cdef01234567",
+    "data": [
+      {
+        "text": "What are the rules for using electronic devices in Virginia courts?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56789012-3456-7890-1234-def012345678",
+    "data": [
+      {
+        "text": "cell phone policy in court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67890123-4567-8901-2345-ef0123456789",
+    "data": [
+      {
+        "text": "electronic device rules",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78901234-5678-9012-3456-f01234567890",
+    "data": [
+      {
+        "text": "courthouse device policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89012345-6789-0123-4567-012345678901",
+    "data": [
+      {
+        "text": "phone restrictions in court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90123456-7890-1234-5678-123456789012",
+    "data": [
+      {
+        "text": "can I use my phone in courthouse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01234567-8901-2345-6789-234567890123",
+    "data": [
+      {
+        "text": "security rules for electronic devices",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "12345678-9012-3456-7890-345678901234",
+    "data": [
+      {
+        "text": "What devices are prohibited in court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23456789-0123-4567-8901-456789012345",
+    "data": [
+      {
+        "text": "Do I need to turn off my phone in court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "34567890-1234-5678-9012-567890123456",
+    "data": [
+      {
+        "text": "Can I record court proceedings with my phone?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "45678901-2345-6789-0123-678901234567",
+    "data": [
+      {
+        "text": "courthouse security device policy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "56789012-3456-7890-1234-789012345678",
+    "data": [
+      {
+        "text": "laptop in courthouse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "67890123-4567-8901-2345-890123456789",
+    "data": [
+      {
+        "text": "tablet in court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78901234-5678-9012-3456-901234567890",
+    "data": [
+      {
+        "text": "smartwatch in courthouse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

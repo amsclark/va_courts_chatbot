@@ -1,0 +1,39 @@
+{
+  "id": "2b3c4d5e-6f78-9012-3456-789abcdef012",
+  "parentId": "a8b9c1d2-3e4f-5678-9abc-def012345678",
+  "rootParentId": "a8b9c1d2-3e4f-5678-9abc-def012345678",
+  "name": "CourthouseDevicePolicy - no",
+  "auto": true,
+  "contexts": [
+    "CourthouseDevicePolicy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourthouseDevicePolicy.CourthouseDevicePolicy-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
