@@ -48,7 +48,7 @@
                 {
                   "type": "button",
                   "text": "News and Publications",
-                  "link": "https://selfhelp.vacourts.gov/news.html",
+                  "link": "https://selfhelp.vacourts.gov/",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

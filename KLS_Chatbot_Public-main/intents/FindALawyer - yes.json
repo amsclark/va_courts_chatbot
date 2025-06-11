@@ -55,7 +55,7 @@
                 {
                   "type": "button",
                   "text": "Legal Aid Information",
-                  "link": "https://selfhelp.vacourts.gov/taxonomy/term/11.html",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

@@ -52,7 +52,7 @@
                     "color": "#00CC8D",
                     "type": "info"
                   },
-                  "link": "https://www.kansaslegalservices.org/node/63/get-help"
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html"
                 },
                 {
                   "type": "divider"
@@ -64,13 +64,13 @@
                     "type": "info"
                   },
                   "text": "About KLS",
-                  "link": "https://www.kansaslegalservices.org/node/2/about-us"
+                  "link": "https://selfhelp.vacourts.gov/"
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "link": "https://www.kansaslegalservices.org/node/809/online-application",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "type": "button",
                   "icon": {
                     "type": "info",
@@ -82,7 +82,7 @@
                   "type": "divider"
                 },
                 {
-                  "link": "https://www.kansaslegalservices.org/node/2080/need-help-guide-legal-resources",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
                   "text": "I\u0027m not sure where to start / I don\u0027t know what I\u0027m looking for",
                   "icon": {
                     "color": "#00CC8D",
@@ -100,7 +100,7 @@
                   },
                   "type": "button",
                   "text": "Topics that We Help With",
-                  "link": "https://www.kansaslegalservices.org/topics"
+                  "link": "https://selfhelp.vacourts.gov/"
                 },
                 {
                   "type": "divider"
@@ -108,7 +108,7 @@
                 {
                   "text": "Frequently Asked Questions \n(like, \"What if I get sued?\")",
                   "type": "button",
-                  "link": "https://www.kansaslegalservices.org/node/1680/what-do-i-do-if",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
@@ -119,7 +119,7 @@
                 },
                 {
                   "type": "button",
-                  "link": "https://www.kansaslegalservices.org/node/65/contact-us-office-locations",
+                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
                   "icon": {
                     "color": "#00CC8D",
                     "type": "info"
@@ -136,7 +136,7 @@
                   },
                   "type": "button",
                   "text": "Civil Legal Aid 101",
-                  "link": "https://www.kansaslegalservices.org/node/1963/civil-legal-aid-101-what-legal-aid-and-how-can-it-help-me"
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html"
                 },
                 {
                   "type": "divider"
