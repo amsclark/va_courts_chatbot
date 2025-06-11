@@ -1,0 +1,62 @@
+{
+  "id": "4c5d6e7f-8901-2345-6789-0abcdef12345",
+  "parentId": "b9c1d2e3-4f56-7890-1234-567890abcdef",
+  "rootParentId": "b9c1d2e3-4f56-7890-1234-567890abcdef",
+  "name": "CourtGlossaryInfo - fallback",
+  "contexts": [
+    "CourtGlossaryInfo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourtGlossaryInfo.CourtGlossaryInfo-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don't understand. Did I correctly identify that you are looking for information relating to Court Glossary Information? Please click either 'yes' or 'no' below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
