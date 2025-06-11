@@ -1,0 +1,62 @@
+{
+  "id": "7c8d9e0f-1234-5678-9012-3abcdef45678",
+  "parentId": "e9f1g2h3-5678-9012-3456-7890abcdef14",
+  "rootParentId": "e9f1g2h3-5678-9012-3456-7890abcdef14",
+  "name": "UpdateAddressForCourtCasesVirginia - fallback",
+  "contexts": [
+    "UpdateAddressForCourtCasesVirginia-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "UpdateAddressForCourtCasesVirginia.UpdateAddressForCourtCasesVirginia-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don't understand. Did I correctly identify that you are looking for information relating to Update Address For Court Cases in Virginia? Please click either 'yes' or 'no' below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

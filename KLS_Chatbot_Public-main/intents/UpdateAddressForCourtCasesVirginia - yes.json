@@ -1,0 +1,82 @@
+{
+  "id": "5a6b7c8d-9e0f-1234-5678-901abcdef014",
+  "parentId": "e9f1g2h3-5678-9012-3456-7890abcdef14",
+  "rootParentId": "e9f1g2h3-5678-9012-3456-7890abcdef14",
+  "name": "UpdateAddressForCourtCasesVirginia - yes",
+  "auto": true,
+  "contexts": [
+    "UpdateAddressForCourtCasesVirginia-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "UpdateAddressForCourtCasesVirginia.UpdateAddressForCourtCasesVirginia-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to some resources on our website related to Updating Address For Court Cases in Virginia which may be helpful. This includes information on procedures, forms, and requirements for changing your address with Virginia courts."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "[PLACEHOLDER_URL_UPDATE_ADDRESS_FOR_COURT_CASES_VIRGINIA]",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Update Address For Court Cases"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

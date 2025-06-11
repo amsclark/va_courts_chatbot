@@ -1,0 +1,39 @@
+{
+  "id": "6b7c8d9e-0f12-3456-7890-12abcdef3456",
+  "parentId": "e9f1g2h3-5678-9012-3456-7890abcdef14",
+  "rootParentId": "e9f1g2h3-5678-9012-3456-7890abcdef14",
+  "name": "UpdateAddressForCourtCasesVirginia - no",
+  "auto": true,
+  "contexts": [
+    "UpdateAddressForCourtCasesVirginia-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "UpdateAddressForCourtCasesVirginia.UpdateAddressForCourtCasesVirginia-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
