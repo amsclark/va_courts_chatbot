@@ -1,0 +1,39 @@
+{
+  "id": "940d303c-acfc-4963-98d1-4b1c66872fe3",
+  "parentId": "389af96e-7769-4749-894f-592840db21e5",
+  "rootParentId": "389af96e-7769-4749-894f-592840db21e5",
+  "name": "FamMobileCrisis - no",
+  "auto": true,
+  "contexts": [
+    "FamMobileCrisis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FamMobileCrisis.FamMobileCrisis-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

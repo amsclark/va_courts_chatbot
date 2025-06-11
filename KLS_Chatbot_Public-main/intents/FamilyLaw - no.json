@@ -1,0 +1,39 @@
+{
+  "id": "372fb37c-190f-4c5e-8ca2-e831e634ec38",
+  "parentId": "c187a0d3-1b74-46f8-85c3-5e905f2d9612",
+  "rootParentId": "c187a0d3-1b74-46f8-85c3-5e905f2d9612",
+  "name": "FamilyLaw - no",
+  "auto": true,
+  "contexts": [
+    "FamilyLaw-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FamilyLaw.FamilyLaw-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

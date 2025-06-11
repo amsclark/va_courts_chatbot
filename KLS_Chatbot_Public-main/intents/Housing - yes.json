@@ -1,0 +1,82 @@
+{
+  "id": "0c35316a-2cf9-4ebb-b509-324654b2a501",
+  "parentId": "8c7fe162-6ad3-4351-b267-be8af7bbe337",
+  "rootParentId": "8c7fe162-6ad3-4351-b267-be8af7bbe337",
+  "name": "Housing - yes",
+  "auto": true,
+  "contexts": [
+    "Housing-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Housing.Housing-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to many Housing related resources on our website which may be helpful."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Housing Main Page",
+                  "link": "https://www.kansaslegalservices.org/topics/30/housing",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

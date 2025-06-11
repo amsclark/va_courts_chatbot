@@ -1,0 +1,39 @@
+{
+  "id": "9adce8bd-6972-487a-a74d-f25f59112d62",
+  "parentId": "3597f366-bb3d-4642-a263-2c6d049ff5b5",
+  "rootParentId": "3597f366-bb3d-4642-a263-2c6d049ff5b5",
+  "name": "Bankrupt - no",
+  "auto": true,
+  "contexts": [
+    "Bankrupt-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Bankrupt.Bankrupt-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

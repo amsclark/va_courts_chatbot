@@ -1,0 +1,118 @@
+{
+  "id": "465b4e61-2ff0-44db-8271-aa2949c4806b",
+  "parentId": "54da178c-9dfb-4d4b-bbc9-03a820d6cae9",
+  "rootParentId": "54da178c-9dfb-4d4b-bbc9-03a820d6cae9",
+  "name": "Health - yes",
+  "auto": true,
+  "contexts": [
+    "Health-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Health.Health-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to some Health resources on our website which may be helpful. This includes topics like medicare \u0026 medicaid, long-term care, health benefits, and more. A few more health-related resource links are listed as well!"
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Health Main Page",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/29/health"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2172/mental-health",
+                  "text": "Mental Health Resources",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/1250/all-about-services-seniors",
+                  "type": "button",
+                  "text": "Additional Medicare resources here",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/107/food-stamps",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Food and Nutrition Help"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

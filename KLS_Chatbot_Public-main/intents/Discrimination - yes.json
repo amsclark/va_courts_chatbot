@@ -1,0 +1,82 @@
+{
+  "id": "7af8c9aa-17b2-41e1-9500-2b560621df03",
+  "parentId": "2b240ed1-e6ba-489d-888e-9d3b33cfc465",
+  "rootParentId": "2b240ed1-e6ba-489d-888e-9d3b33cfc465",
+  "name": "Discrimination - yes",
+  "auto": true,
+  "contexts": [
+    "Discrimination-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Discrimination.Discrimination-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to many resources on our website which may be helpful in dealing with Discrimination."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/140/discrimination",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Discrimination Resources"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "bf19f6c2-857d-459d-b5c9-2a959b975152",
+  "parentId": "04faa814-1363-4dd3-bd69-bb79e700602f",
+  "rootParentId": "04faa814-1363-4dd3-bd69-bb79e700602f",
+  "name": "Debt - no",
+  "auto": true,
+  "contexts": [
+    "Debt-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Debt.Debt-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

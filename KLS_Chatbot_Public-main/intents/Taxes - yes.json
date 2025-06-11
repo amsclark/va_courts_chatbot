@@ -1,0 +1,82 @@
+{
+  "id": "28711f3d-c892-4f6e-bf19-bcfc9bab68d0",
+  "parentId": "18a342f9-efbe-43c8-a300-21f77b8b9a7f",
+  "rootParentId": "18a342f9-efbe-43c8-a300-21f77b8b9a7f",
+  "name": "Taxes - yes",
+  "auto": true,
+  "contexts": [
+    "Taxes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Taxes.Taxes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Here is a link to many resources on our website which may be helpful in dealing with Tax Issues."
+                  ],
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Tax Issues Main Page",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2174/tax-issues",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

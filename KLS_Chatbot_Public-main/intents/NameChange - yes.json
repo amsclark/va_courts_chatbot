@@ -1,0 +1,82 @@
+{
+  "id": "d5c56711-e3e9-4ab0-a9bc-dbeaf37e43e1",
+  "parentId": "da6d0c1e-f3f1-4ae5-ae84-9bc6fbe75f66",
+  "rootParentId": "da6d0c1e-f3f1-4ae5-ae84-9bc6fbe75f66",
+  "name": "NameChange - yes",
+  "auto": true,
+  "contexts": [
+    "NameChange-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "NameChange.NameChange-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "text": [
+                    "Here is a link to some resources on our website which may be helpful regarding a Name Change."
+                  ],
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2171/name-change",
+                  "text": "Name Change Main Page",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "8c3fcb02-5bbd-419e-ab3e-1f64a1755c82",
+  "parentId": "46d3dd30-cb87-4aaa-ad6e-a90f7b4f20d0",
+  "rootParentId": "46d3dd30-cb87-4aaa-ad6e-a90f7b4f20d0",
+  "name": "Jueveniles - yes",
+  "auto": true,
+  "contexts": [
+    "Jueveniles-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Jueveniles.Jueveniles-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to some Juvenile related resources on our website which may be helpful."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/34/juveniles",
+                  "text": "Juveniles Main Page",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

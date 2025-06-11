@@ -1,0 +1,82 @@
+{
+  "id": "34136338-7c28-427e-85f2-084ff2a11163",
+  "parentId": "596929b9-ad42-41e1-9de4-43a8fbcc2ec4",
+  "rootParentId": "596929b9-ad42-41e1-9de4-43a8fbcc2ec4",
+  "name": "RtWFF - yes",
+  "auto": true,
+  "contexts": [
+    "RtWFF-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RtWFF.RtWFF-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to resources on our website which may be helpful for a Request to Waive Filing Fees. We offer an interactive form that may be used when a person does not have the funds to pay a fee required to file a court form. This form creates a request to waive the filing fee and can be given to the court."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Request to Waive Filing Fees",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2167/request-waive-filing-fees",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

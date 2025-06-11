@@ -1,0 +1,89 @@
+{
+  "id": "923212b2-7c5f-492b-9dd4-12fe12ae8890",
+  "parentId": "a739b51c-4485-41aa-a1c6-94b090159774",
+  "rootParentId": "a739b51c-4485-41aa-a1c6-94b090159774",
+  "name": "Abuse - yes",
+  "auto": true,
+  "contexts": [
+    "Abuse-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Abuse.Abuse-yes",
+      "affectedContexts": [
+        {
+          "name": "Abuse-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think I can help you!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Also, if you need to make a \u0027quick exit\u0027 from this site for safety reasons, there is a red button at the top right of our website at all times. It is marked \"QUICK EXIT\""
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Would you say your issues pertain more to Abuse/Stalking, or Neglect?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Abuse/Stalking"
+                    },
+                    {
+                      "text": "Neglect"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

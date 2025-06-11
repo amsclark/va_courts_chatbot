@@ -1,0 +1,118 @@
+{
+  "id": "bf904535-23e4-4c49-98fa-316b3a39428b",
+  "parentId": "5569a51c-3adf-4d27-b49a-f8456617bb8e",
+  "rootParentId": "5569a51c-3adf-4d27-b49a-f8456617bb8e",
+  "name": "Employment - yes",
+  "auto": true,
+  "contexts": [
+    "Employment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Employment.Employment-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here are a few links to helpful resources on our website which may be helpful for Employment related issues. The last link below, titled \u0027Breaking Down Barriers to Employment\u0027, links to a page that offers information covering a number of specific employment concerns and the related legal rights you have  (covered here are things such as backgound reports, credit checks, medical conditions, and more)!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Employment Main Page",
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/21/employment"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Unemployment Compensation",
+                  "link": "https://www.kansaslegalservices.org/topics/111/unemployment-compensation"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Help With Criminal Records For Employment",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/117/criminal-records"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/1922/break-down-barriers-employment-and-housing-legal-help",
+                  "text": "Breaking Down Barriers to Employment"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

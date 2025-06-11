@@ -1,0 +1,82 @@
+{
+  "id": "f56c7e9a-413c-4520-bec7-b748425b5e93",
+  "parentId": "cc2f0399-badc-42a8-bf2c-558ae9b34ab9",
+  "rootParentId": "cc2f0399-badc-42a8-bf2c-558ae9b34ab9",
+  "name": "DriverLicense - yes",
+  "auto": true,
+  "contexts": [
+    "DriverLicense-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DriverLicense.DriverLicense-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to a few resources on our website which may be helpful for matters relating to a Driver\u0027s License."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/37/drivers-license",
+                  "text": "Driver\u0027s License",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

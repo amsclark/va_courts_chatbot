@@ -1,0 +1,190 @@
+{
+  "id": "9dd8c9a8-ef55-469d-b4a8-c4800bf2e1a5",
+  "parentId": "c187a0d3-1b74-46f8-85c3-5e905f2d9612",
+  "rootParentId": "c187a0d3-1b74-46f8-85c3-5e905f2d9612",
+  "name": "FamilyLaw - yes",
+  "auto": true,
+  "contexts": [
+    "FamilyLaw-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FamilyLaw.FamilyLaw-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to many helpful resources on our website which deal with Family Law. Family law generally deals with things like Adoption, Child Custody, Child Support, Divorce, Abuse and Neglect, Visitation, Spousal Support, Paternity, and other related subject matter. If you are looking for something specific, feel free to tell me the particular area you need help with. You can also check the links below!"
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Family Law Main Page",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/24/family-law"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/2483/kansas-children-and-families-mobile-crisis-helpline",
+                  "type": "button",
+                  "text": "Kansas Children and Families Mobile Crisis Helpline"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/121/adoption",
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Adoption"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/122/child-custody",
+                  "text": "Child Custody",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Child Support",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2170/child-support",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/128/visitation",
+                  "text": "Visitation",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/126/paternity",
+                  "text": "Paternity"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/127/spousal-support",
+                  "type": "button",
+                  "text": "Spousal Support"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Divorce",
+                  "link": "https://www.kansaslegalservices.org/topics/2162/divorce",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Abuse and Neglect",
+                  "link": "https://www.kansaslegalservices.org/topics/145/abuse-and-neglect",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "79e7af03-5222-4b3d-abeb-9b8f5d6c9c5c",
+  "parentId": "8a154464-ab32-47bd-b045-bdf29c3e113b",
+  "rootParentId": "8a154464-ab32-47bd-b045-bdf29c3e113b",
+  "name": "IDTheft_Fraud - no",
+  "auto": true,
+  "contexts": [
+    "IDTheft_Fraud-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDTheft_Fraud.IDTheft_Fraud-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

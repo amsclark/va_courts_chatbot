@@ -1,0 +1,94 @@
+{
+  "id": "80531f37-56db-44a8-8ed1-48c7099e1d05",
+  "parentId": "92aa5957-80a3-4fce-8a37-f91d21c5203f",
+  "rootParentId": "92aa5957-80a3-4fce-8a37-f91d21c5203f",
+  "name": "POA - yes",
+  "auto": true,
+  "contexts": [
+    "POA-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "POA.POA-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to resources on our website which may be helpful for Power of Attorney related subject matter. These topics cover living wills, do-not-resuscitate orders (DNR), and powers of attorney.\n\nIf you are looking for information about other general Services for Seniors, or can\u0027t find what you are looking for on the Power of Attorney pages, there is an additional link provided."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2166/power-attorney-advance-directives-health-care-power-attorney",
+                  "text": "Power of Attorney Main Page",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/1864/services-seniors",
+                  "text": "Additional Resources for Senior Services",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

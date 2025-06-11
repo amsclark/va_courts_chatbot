@@ -1,0 +1,82 @@
+{
+  "id": "e47511db-ff18-4f1c-ab8b-dbcb2b30685d",
+  "parentId": "ea1cf3ee-eb9f-49f8-b0ba-5cefe75d5c03",
+  "rootParentId": "ea1cf3ee-eb9f-49f8-b0ba-5cefe75d5c03",
+  "name": "Expungement - yes",
+  "auto": true,
+  "contexts": [
+    "Expungement-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Expungement.Expungement-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to resources on our website which may be helpful in dealing with Expungement. You can find imformation on clearing you record, dealing with an arrest, juvenile record expungement and more."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2088/expungement",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Expungement Main Page"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

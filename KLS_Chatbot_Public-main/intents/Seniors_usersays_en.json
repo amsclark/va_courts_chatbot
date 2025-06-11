@@ -1,0 +1,499 @@
+[
+  {
+    "id": "d14027ea-c961-4f78-9201-3827ddc489ec",
+    "data": [
+      {
+        "text": "letter of administration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af0bf12c-ceb7-4708-8053-0c203b101c9b",
+    "data": [
+      {
+        "text": "I want to name an heir",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fb0ea650-fe69-4436-99fe-7f3c63cc56ae",
+    "data": [
+      {
+        "text": "how do I name my heirs?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99c7f9a6-58b2-435d-9d23-a05f7b11b98b",
+    "data": [
+      {
+        "text": "beneficiary deed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "983bdc7f-ee29-4ccd-abed-f373a1d0cc6a",
+    "data": [
+      {
+        "text": "todd",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55314f9c-729e-49ec-83b1-61f823fed2f3",
+    "data": [
+      {
+        "text": "TOD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fdba23f-e006-40a7-80cc-7f63e9d5bd19",
+    "data": [
+      {
+        "text": "transfer on death deed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6758b3d-bf89-4537-9a36-f0dfe1712634",
+    "data": [
+      {
+        "text": "how do I change my beneficiary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3be09068-e648-4584-b930-27a187f4eea9",
+    "data": [
+      {
+        "text": "how do I set up a trust?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "aaa388aa-14b5-42ba-83ef-2d43494bb5c9",
+    "data": [
+      {
+        "text": "selecting a beneficiary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e0fc6ff-cc0c-428f-a068-faeb3273762c",
+    "data": [
+      {
+        "text": "how to choose a beneficiary",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13bd71ae-7610-444f-b06c-aacde3c013e8",
+    "data": [
+      {
+        "text": "distribution of assets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5ae6693-63f4-4146-ba93-95d0b76bd0ba",
+    "data": [
+      {
+        "text": "Show me resources for seniors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "434881dc-fae3-4382-a3e9-ae7b91706088",
+    "data": [
+      {
+        "text": "senior services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8c0ca86-bd3a-444b-bf58-da384408a84e",
+    "data": [
+      {
+        "text": "SCLP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b9b487f5-344c-441e-b269-11758cbce849",
+    "data": [
+      {
+        "text": "Senior Citizen Law Project",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f2866e09-3c69-4122-a659-1006db76aefd",
+    "data": [
+      {
+        "text": "Elder Law Hotline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6548b1c-fe3c-473e-a610-69a36c13ae85",
+    "data": [
+      {
+        "text": "What types of services are available for seniors?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5c623b3-7d03-46f9-93e4-58a9050fc4a6",
+    "data": [
+      {
+        "text": "I need help finding care for a senior",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9448220c-720d-4f7f-ba8b-ebaf82c36989",
+    "data": [
+      {
+        "text": "How can I find senior housing options",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5cf6ca6b-ab5f-41c4-9fb5-b97e2604063e",
+    "data": [
+      {
+        "text": "What is probate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4eb9ca87-b47a-49b9-a928-54d425e16d8b",
+    "data": [
+      {
+        "text": "probate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ffd5d28b-1e9d-44b4-8f74-29f60e3ec1d1",
+    "data": [
+      {
+        "text": "what is the limit for inheritance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e67057c-2e4f-449e-9540-0296febb7a1c",
+    "data": [
+      {
+        "text": "inheritance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "92cafcfe-573f-426f-aea6-27dfa566f315",
+    "data": [
+      {
+        "text": "financial abuse of the elderly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00773e0e-bc2b-442a-bf19-ca73abf4b7e1",
+    "data": [
+      {
+        "text": "Do you offer legal advice to seniors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e46fff9c-e7c0-4307-bc83-cefc3811907f",
+    "data": [
+      {
+        "text": "Kansas",
+        "userDefined": false
+      },
+      {
+        "text": " Elder Hotline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c6b49d67-a4e6-4f02-a1ca-ac95daaa785c",
+    "data": [
+      {
+        "text": "What services do you offer for seniors?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c316088d-7e4a-4305-b729-66ee3e547cba",
+    "data": [
+      {
+        "text": "I need help as a senior citizen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6f1c5b5d-4edf-44f5-8ef1-51a1ff06fcc0",
+    "data": [
+      {
+        "text": "do I need a will",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a9e23fa1-7925-4e34-8a20-dced8563aa9b",
+    "data": [
+      {
+        "text": "do i need a will?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97d56660-97fb-4ff3-a03e-1fe38f247d92",
+    "data": [
+      {
+        "text": "help with a will",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad412506-7c4d-4587-bb06-09d61f0d213a",
+    "data": [
+      {
+        "text": "help for elders",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9b0313b0-290f-4e78-876d-4bfcfb5922e0",
+    "data": [
+      {
+        "text": "aging assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "77b24e28-58c8-4714-b8e8-956c73d0deaa",
+    "data": [
+      {
+        "text": "seniors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9efe3b08-a041-44e4-8371-b22cb7f7451e",
+    "data": [
+      {
+        "text": "elderly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a238452-a13a-4b73-93b7-5f3a59edb99f",
+    "data": [
+      {
+        "text": "services for seniors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "executor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,0 +1,94 @@
+{
+  "id": "1c55158a-dfab-4b5a-889e-40edc7ef5371",
+  "parentId": "9cfad444-71a7-48eb-87f8-38c3d87f887b",
+  "rootParentId": "9cfad444-71a7-48eb-87f8-38c3d87f887b",
+  "name": "PublicBenefits - yes",
+  "auto": true,
+  "contexts": [
+    "PublicBenefits-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PublicBenefits.PublicBenefits-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here are a couple links to many Public Benefits resources on our website which may be helpful. The second link given will lead you to a great resource for all services related to the Department of Children and Families (DCF)."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Public Benefits Main Page",
+                  "link": "https://www.kansaslegalservices.org/topics/104/public-benefits"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/239/access-all-dcf-services-online",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Access All DCF Services Online"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

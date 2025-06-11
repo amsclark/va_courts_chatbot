@@ -1,0 +1,106 @@
+{
+  "id": "962f1fa2-b127-4a23-84ab-3030d47c1078",
+  "parentId": "8a154464-ab32-47bd-b045-bdf29c3e113b",
+  "rootParentId": "8a154464-ab32-47bd-b045-bdf29c3e113b",
+  "name": "IDTheft_Fraud - yes",
+  "auto": true,
+  "contexts": [
+    "IDTheft_Fraud-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "IDTheft_Fraud.IDTheft_Fraud-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are a few links to resources on our website which may be helpful in dealing with Identity Theft and Fraud."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "ID Theft Main Page (Scam \u0026 Fraud links from here too)",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/1869/identity-theft"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "ID Theft Protection for Minors",
+                  "link": "https://www.kansaslegalservices.org/node/2232/protections-available-minors-under-16",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Consumer Law - General",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/13/consumer"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

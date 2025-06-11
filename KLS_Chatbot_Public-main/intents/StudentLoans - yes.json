@@ -1,0 +1,82 @@
+{
+  "id": "9069a762-e8aa-483c-a3f6-6f84fe44d1d6",
+  "parentId": "6a79d128-b46e-42f5-a80f-83d020608ba9",
+  "rootParentId": "6a79d128-b46e-42f5-a80f-83d020608ba9",
+  "name": "StudentLoans - yes",
+  "auto": true,
+  "contexts": [
+    "StudentLoans-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "StudentLoans.StudentLoans-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to many Student Loan resources on our website which may be helpful."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Student Loans Main Page",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/95/student-loans",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

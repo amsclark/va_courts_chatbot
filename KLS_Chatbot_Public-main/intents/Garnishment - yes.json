@@ -1,0 +1,94 @@
+{
+  "id": "6efeb709-93b5-4b5b-86f6-10ca557efa70",
+  "parentId": "7a8666c3-0c80-46fa-ad54-28a871a1a0e0",
+  "rootParentId": "7a8666c3-0c80-46fa-ad54-28a871a1a0e0",
+  "name": "Garnishment - yes",
+  "auto": true,
+  "contexts": [
+    "Garnishment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Garnishment.Garnishment-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here are a couple links to resources on our website that may be helpful regarding Garnishment laws in Kansas. The links also provide information on \u0027your rights\u0027 associated with Garnishment."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Garnishment",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/2147/garnishment"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Debt and Debt Collection",
+                  "link": "https://www.kansaslegalservices.org/topics/2173/debt-and-debt-collection",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

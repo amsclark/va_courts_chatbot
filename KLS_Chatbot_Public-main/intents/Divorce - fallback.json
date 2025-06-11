@@ -1,0 +1,62 @@
+{
+  "id": "7c956ab3-66ef-43f7-b134-f8e6cd011a94",
+  "parentId": "242f8a13-9a15-4040-90f4-a639c9f3f745",
+  "rootParentId": "242f8a13-9a15-4040-90f4-a639c9f3f745",
+  "name": "Divorce - fallback",
+  "contexts": [
+    "Divorce-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Divorce.Divorce-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issues as related to Divorce? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

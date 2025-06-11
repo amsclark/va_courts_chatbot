@@ -1,0 +1,94 @@
+{
+  "id": "f9f84fe2-e3fb-45d8-82ac-052214e0b83b",
+  "parentId": "a8384a8b-7b13-4af2-91bc-ae9f56f53c03",
+  "rootParentId": "a8384a8b-7b13-4af2-91bc-ae9f56f53c03",
+  "name": "SmallClaims - yes",
+  "auto": true,
+  "contexts": [
+    "SmallClaims-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SmallClaims.SmallClaims-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are a couple links to resources on our website which may be helpful in dealing with Small Claims and Small Claims Court."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2176/small-claims-court",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Small Claims Court Main Page"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/2626/small-claims-court-basic-information",
+                  "text": "Small Claims Court Basic Information"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,118 @@
+{
+  "id": "8956b078-cae2-4ec5-8faf-79e8a15130fa",
+  "parentId": "2b9b296d-aa2e-41c3-be9b-dd3c82362b00",
+  "rootParentId": "2b9b296d-aa2e-41c3-be9b-dd3c82362b00",
+  "name": "Custody - yes",
+  "auto": true,
+  "contexts": [
+    "Custody-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Custody.Custody-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here are a few links to some resources on our website which may be helpful in regards to Custody, Visitation, and/or Paternity. There is also a link provided to our Child Support page which has lots of additional and helpful information!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/122/child-custody",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Child Custody Main Page"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Child Support Main Page",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2170/child-support"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Visitation",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/128/visitation",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Paternity",
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/126/paternity"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

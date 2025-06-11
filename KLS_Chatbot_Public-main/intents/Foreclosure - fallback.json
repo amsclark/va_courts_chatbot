@@ -1,0 +1,62 @@
+{
+  "id": "731490fb-d0f8-4f00-b27c-9bc2b6ded6db",
+  "parentId": "f32b01fa-4fd0-476c-ab51-0d53d73f8e14",
+  "rootParentId": "f32b01fa-4fd0-476c-ab51-0d53d73f8e14",
+  "name": "Foreclosure - fallback",
+  "contexts": [
+    "Foreclosure-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Foreclosure.Foreclosure-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issues as related to Foreclosure and/or Foreclosure Prevention? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

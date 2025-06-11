@@ -1,0 +1,353 @@
+[
+  {
+    "id": "6f8e4892-1acd-494b-ab86-f963692bfb72",
+    "data": [
+      {
+        "text": "How do I apply for public benefits?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7330814e-b109-47ec-a5de-3486e8921e85",
+    "data": [
+      {
+        "text": "Women, Infants, and Children program",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "29340c11-e502-41b3-8882-cd85faadaebc",
+    "data": [
+      {
+        "text": "What resources are there for food and nutrition programs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "97a1d8f6-789c-4bbc-87eb-bb52c772c0d7",
+    "data": [
+      {
+        "text": "I need help to get online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f563d6f8-5009-4744-9f8b-452abc102b34",
+    "data": [
+      {
+        "text": "affordable connectivity program",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7740897-fb4f-44a6-8b05-7e9941851c47",
+    "data": [
+      {
+        "text": "vocational rehabilitation services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70cd5cb4-5b94-437a-bea1-f2a16dcf7d2b",
+    "data": [
+      {
+        "text": "food assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55e0a2f1-dbce-42b1-a9d6-41c17deec2e0",
+    "data": [
+      {
+        "text": "cash assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "597ecdbc-e3df-4992-bafe-8c093ab9028c",
+    "data": [
+      {
+        "text": "low income energy assistance program",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a824e31e-4e22-4f6a-b36b-1c453c461af8",
+    "data": [
+      {
+        "text": "LIEAP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89470fa7-8c7e-4d8f-b245-7db411425828",
+    "data": [
+      {
+        "text": "WIC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f17c2654-6187-4e0d-ac59-c8e8364edbaf",
+    "data": [
+      {
+        "text": "income assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7b00883b-6c3f-441d-baf5-e9a415ee04a3",
+    "data": [
+      {
+        "text": "Am i eligible for financial assistance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0d6a964b-8590-49af-bb07-bd6b8c0a9fd2",
+    "data": [
+      {
+        "text": "TANF",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d938a800-d182-472e-9826-52bc3ad750d2",
+    "data": [
+      {
+        "text": "DCF services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2fd0fda0-338d-4c48-91b5-bd18a5ec04f5",
+    "data": [
+      {
+        "text": "nutrition",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "28c27ac2-a186-4016-a150-496c02052525",
+    "data": [
+      {
+        "text": "get online",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a7210b31-f3b4-4b67-af9d-72463937a024",
+    "data": [
+      {
+        "text": "EBB",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a6950c57-6555-4978-a851-26d5852bc139",
+    "data": [
+      {
+        "text": "ACP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d538857a-2640-4983-a3f2-e8cc46763109",
+    "data": [
+      {
+        "text": "public energy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91eb5aa7-8642-456b-9b7b-68f6e703a8c3",
+    "data": [
+      {
+        "text": "public resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4353bf1c-6b18-4a1c-8171-406b90b26f39",
+    "data": [
+      {
+        "text": "public utilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "af334cd9-4857-448d-a8c2-985cb3c9b31d",
+    "data": [
+      {
+        "text": "KanCare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d97543ec-658c-42de-adca-ee4b3604ba14",
+    "data": [
+      {
+        "text": "food stamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "90fdd354-5c0c-4f54-a82d-f4ddccea882f",
+    "data": [
+      {
+        "text": "foodstamps",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "00c5ea4a-0a1b-4475-8697-ccab38c64688",
+    "data": [
+      {
+        "text": "snap",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5c26660-2493-448c-951c-b23fec88c369",
+    "data": [
+      {
+        "text": "public benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

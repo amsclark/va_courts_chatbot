@@ -1,0 +1,39 @@
+{
+  "id": "cb49623a-cbd1-43a3-a244-328c168fc999",
+  "parentId": "ebd20fec-efbf-4699-ba26-64a22fd36be8",
+  "rootParentId": "ebd20fec-efbf-4699-ba26-64a22fd36be8",
+  "name": "MentalHealth - no",
+  "auto": true,
+  "contexts": [
+    "MentalHealth-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MentalHealth.MentalHealth-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

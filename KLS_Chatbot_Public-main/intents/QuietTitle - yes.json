@@ -1,0 +1,82 @@
+{
+  "id": "40c03535-7f90-4d2e-8573-fc5232ebd353",
+  "parentId": "7ece3098-6704-421b-9864-512aa0f4a546",
+  "rootParentId": "7ece3098-6704-421b-9864-512aa0f4a546",
+  "name": "QuietTitle - yes",
+  "auto": true,
+  "contexts": [
+    "QuietTitle-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "QuietTitle.QuietTitle-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to Quiet Title resources on our website which may be helpful."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/303/quiet-title-instructions-and-forms",
+                  "text": "Quiet Title",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

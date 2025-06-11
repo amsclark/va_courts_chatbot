@@ -1,0 +1,39 @@
+{
+  "id": "b2a31efc-7536-49f4-ad6b-444e6a6650b1",
+  "parentId": "2b240ed1-e6ba-489d-888e-9d3b33cfc465",
+  "rootParentId": "2b240ed1-e6ba-489d-888e-9d3b33cfc465",
+  "name": "Discrimination - no",
+  "auto": true,
+  "contexts": [
+    "Discrimination-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Discrimination.Discrimination-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

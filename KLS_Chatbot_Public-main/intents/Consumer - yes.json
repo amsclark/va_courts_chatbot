@@ -1,0 +1,106 @@
+{
+  "id": "5ec2e009-83ab-4e5c-98bb-199242136c89",
+  "parentId": "3ae1c889-bdef-4970-bec9-f640f481d389",
+  "rootParentId": "3ae1c889-bdef-4970-bec9-f640f481d389",
+  "name": "Consumer - yes",
+  "auto": true,
+  "contexts": [
+    "Consumer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Consumer.Consumer-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here are a couple links to some of the Consumer related resources on our website, which may be helpful. If you have a more specific consumer-related issue -- for example: taxes, student loans, or small claims court -- then feel free to ask."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Consumer Page",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/1188/consumer",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2173/debt-and-debt-collection",
+                  "text": "Debt, Debt Relief, and Debt Collections"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Fraud, Scams, \u0026 Identity Theft",
+                  "link": "https://www.kansaslegalservices.org/topics/1869/identity-theft",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

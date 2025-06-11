@@ -1,0 +1,106 @@
+[
+  {
+    "id": "5244d92b-e27a-4afb-aa9d-b342d8be3c76",
+    "data": [
+      {
+        "text": "What other questions can KLS help with?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4d10e440-9231-491d-9616-7098c8e60aa8",
+    "data": [
+      {
+        "text": "Are there recent posts for KLS?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc538539-4b97-4c29-b958-e82886190547",
+    "data": [
+      {
+        "text": "legal QAs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d606db21-3a03-433d-b7eb-e5c5f2b6a6c5",
+    "data": [
+      {
+        "text": "legal questions and answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "548a9baa-f918-41c9-83f3-58f9508225ef",
+    "data": [
+      {
+        "text": "misc",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a4b5da69-a29f-4576-a8ce-dd6d601a7ad3",
+    "data": [
+      {
+        "text": "posts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c1f5848-57dc-4a9e-b61a-21855c4aaf17",
+    "data": [
+      {
+        "text": "news",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3d39074c-189c-4cc3-9ffc-7636cb4d550b",
+    "data": [
+      {
+        "text": "other",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

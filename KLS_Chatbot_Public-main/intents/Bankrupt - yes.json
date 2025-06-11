@@ -1,0 +1,106 @@
+{
+  "id": "80b339f3-cad1-47cf-a2b8-b1a7b8e514a9",
+  "parentId": "3597f366-bb3d-4642-a263-2c6d049ff5b5",
+  "rootParentId": "3597f366-bb3d-4642-a263-2c6d049ff5b5",
+  "name": "Bankrupt - yes",
+  "auto": true,
+  "contexts": [
+    "Bankrupt-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Bankrupt.Bankrupt-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here are a couple links to some bankruptcy resources on our website which may be helpful. If you have more general questions about dealing with debt, an additional link is provided below."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "What You Should Know About Bankruptcy",
+                  "link": "https://www.kansaslegalservices.org/node/2540/what-you-should-know-about-bankruptcy",
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Legal Rights During \u0026 After Bankruptcy",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/78/legal-rights-during-and-after-bankruptcy",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button",
+                  "text": "Debt and Debt Collection - Main Page",
+                  "link": "https://www.kansaslegalservices.org/topics/2173/debt-and-debt-collection"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

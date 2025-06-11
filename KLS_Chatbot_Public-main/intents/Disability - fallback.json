@@ -1,0 +1,62 @@
+{
+  "id": "2bd123f3-689b-4ef4-a4da-63d863224d5e",
+  "parentId": "27ed884a-a82e-440f-8dc0-2ae600a2fd04",
+  "rootParentId": "27ed884a-a82e-440f-8dc0-2ae600a2fd04",
+  "name": "Disability - fallback",
+  "contexts": [
+    "Disability-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Disability.Disability-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issues as Disability related? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "cf3c1a23-8dbf-435f-b02f-4481e314f627",
+  "parentId": "92aa5957-80a3-4fce-8a37-f91d21c5203f",
+  "rootParentId": "92aa5957-80a3-4fce-8a37-f91d21c5203f",
+  "name": "POA - no",
+  "auto": true,
+  "contexts": [
+    "POA-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "POA.POA-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

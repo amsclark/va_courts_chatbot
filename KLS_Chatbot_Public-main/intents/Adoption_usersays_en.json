@@ -1,0 +1,486 @@
+[
+  {
+    "id": "92d57694-108d-4f9d-a102-d467e4657fbe",
+    "data": [
+      {
+        "text": "adoption rights",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8dfc8a2f-df39-418d-8b73-ba2432e5d0a8",
+    "data": [
+      {
+        "text": "adoption reunion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0c89e434-8557-4b7e-b2b4-76e3b48a1d09",
+    "data": [
+      {
+        "text": "adoptive sibling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b69cd34b-8ea1-4805-bb24-e050126da4be",
+    "data": [
+      {
+        "text": "adoptive home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d5c39fac-de03-423b-a02f-55d38556919f",
+    "data": [
+      {
+        "text": "adoption fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7aeddb5b-b01f-4710-9e9a-16ce79b67cbc",
+    "data": [
+      {
+        "text": "foster care adoption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d02893dc-0d90-439e-bc26-7f1fdc4a6f1d",
+    "data": [
+      {
+        "text": "adopted children",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "03f79d0a-67ec-490d-a1eb-371b68130f78",
+    "data": [
+      {
+        "text": "apply for adoption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c25fa94a-4ae4-46a1-9e6d-40bf11e97808",
+    "data": [
+      {
+        "text": "adopt relatives",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d582d077-c7c6-40da-b7b9-ce7548512797",
+    "data": [
+      {
+        "text": "information on adoption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "313b22ea-d37e-4774-9225-eadb18583151",
+    "data": [
+      {
+        "text": "adoption process",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d215522a-b600-41b1-b2e1-82777bf722ed",
+    "data": [
+      {
+        "text": "legal steps for adopting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8cfeab3-7a0a-4240-bf01-abb9087af8ef",
+    "data": [
+      {
+        "text": "tell me about the requirements for adopting a child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "889f5f6f-b122-491b-99aa-e83479976475",
+    "data": [
+      {
+        "text": "I want to learn about adopting a child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e3e94717-d388-4278-8b94-da575a7231c4",
+    "data": [
+      {
+        "text": "can you guide me through adopting a child?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e300fac1-7e4b-4d34-9231-3384043bb880",
+    "data": [
+      {
+        "text": "How does the adoption process work?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7e179add-c963-43af-9da3-3f6c2def57b5",
+    "data": [
+      {
+        "text": "pre adoptive parents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dc435d2b-50fa-49dd-98a2-836cf7d4a03a",
+    "data": [
+      {
+        "text": "pre adoptive parent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a3a84cf3-5f3b-4f2f-a164-d9901e3a1173",
+    "data": [
+      {
+        "text": "pre adoptive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "61d50086-e3de-4e73-98e9-9829c74f440e",
+    "data": [
+      {
+        "text": "pre-adoptive parents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dffc49ce-d7d7-4534-b627-564830019c7b",
+    "data": [
+      {
+        "text": "pre-adoptive parent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27b71416-7032-4ea4-845e-749cee62d78a",
+    "data": [
+      {
+        "text": "pre-adoptive",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "472eec52-9431-4dfc-8a2d-7a129ebcef0b",
+    "data": [
+      {
+        "text": "Guardian Ad Litem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "970e8c56-ad09-4555-8970-4a21f21c9f46",
+    "data": [
+      {
+        "text": "foster care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "854e3657-fdfd-4d21-bce8-74d2193174d6",
+    "data": [
+      {
+        "text": "fostercare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d15be9ca-63ad-4110-889c-818c3291ab5a",
+    "data": [
+      {
+        "text": "foster",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ce1b190f-b9fd-42a4-a3bb-b1ae72a06767",
+    "data": [
+      {
+        "text": "kids ",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "userDefined": false
+      },
+      {
+        "text": " Kin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16b3ff40-9e87-4475-a17c-47c85519e8c1",
+    "data": [
+      {
+        "text": "kinship family",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8246b800-f2aa-438f-b9cf-4a8073936054",
+    "data": [
+      {
+        "text": "kinship",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e0032d13-2fdd-49d7-a192-8b43577b5003",
+    "data": [
+      {
+        "text": "kids",
+        "userDefined": false
+      },
+      {
+        "text": "2",
+        "userDefined": false
+      },
+      {
+        "text": "kin",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "105365c8-d924-49e6-9a9f-2470979e2db7",
+    "data": [
+      {
+        "text": "care of grandchildren",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "40fd811a-0d85-4906-b052-e2bcb34f418e",
+    "data": [
+      {
+        "text": "Childrens Advocacy Resource Center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e1e9c47-7ff6-411b-bc09-3b7dd5649f37",
+    "data": [
+      {
+        "text": "Children\u0027s Advocacy Resource Center",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2014b3e5-48d1-4022-a45c-8a18e0c1941d",
+    "data": [
+      {
+        "text": "CARC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e25cf1c-e48c-4bec-a01a-03adf957b217",
+    "data": [
+      {
+        "text": "adopt",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fec260a4-d8ec-4f32-91e3-bf3e5357fc0a",
+    "data": [
+      {
+        "text": "Adoption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

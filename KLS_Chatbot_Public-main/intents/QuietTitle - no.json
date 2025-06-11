@@ -1,0 +1,39 @@
+{
+  "id": "bceb2c45-fccf-4e01-8f01-ebe97c6169db",
+  "parentId": "7ece3098-6704-421b-9864-512aa0f4a546",
+  "rootParentId": "7ece3098-6704-421b-9864-512aa0f4a546",
+  "name": "QuietTitle - no",
+  "auto": true,
+  "contexts": [
+    "QuietTitle-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "QuietTitle.QuietTitle-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

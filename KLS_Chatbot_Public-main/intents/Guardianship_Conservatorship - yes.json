@@ -1,0 +1,82 @@
+{
+  "id": "8e2b5e37-9d2d-4ee9-a168-5f7000025ff2",
+  "parentId": "7a93d37a-3bcf-4d6b-9431-f4d3b322f157",
+  "rootParentId": "7a93d37a-3bcf-4d6b-9431-f4d3b322f157",
+  "name": "Guardianship_Conservatorship - yes",
+  "auto": true,
+  "contexts": [
+    "Guardianship_Conservatorship-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Guardianship_Conservatorship.Guardianship_Conservatorship-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to some Guardianship/Conservatorship resources on our website which may be helpful."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Guardianship \u0026 Conservatorship",
+                  "link": "https://www.kansaslegalservices.org/topics/28/guardianship-conservatorship",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

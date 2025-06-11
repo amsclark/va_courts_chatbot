@@ -1,0 +1,39 @@
+{
+  "id": "d81abe90-0ed8-463b-b660-be9ce70e8e79",
+  "parentId": "ea1cf3ee-eb9f-49f8-b0ba-5cefe75d5c03",
+  "rootParentId": "ea1cf3ee-eb9f-49f8-b0ba-5cefe75d5c03",
+  "name": "Expungement - no",
+  "auto": true,
+  "contexts": [
+    "Expungement-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Expungement.Expungement-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

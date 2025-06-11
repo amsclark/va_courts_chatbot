@@ -1,0 +1,106 @@
+{
+  "id": "8a4e96aa-00a2-4a6e-bf01-8ca04f1792f4",
+  "parentId": "4ab1f002-1ec5-4455-9221-979128e0354b",
+  "rootParentId": "4ab1f002-1ec5-4455-9221-979128e0354b",
+  "name": "Veterans - yes",
+  "auto": true,
+  "contexts": [
+    "Veterans-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Veterans.Veterans-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here is a link to some Veterans/Military resources on our website which may be helpful.\n\nIf you are looking for more specific help regarding mental health related topics for military/veterans, there is a link provided below to resources on our site that cover Wounded Warrior Project programs which may help!\n\n(another link to additional Mental Health resources on our site is provided below as well)"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/57/veteransmilitary",
+                  "text": "Veterans \u0026 Military Main Page "
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Wounded Warriors Page",
+                  "link": "https://www.kansaslegalservices.org/node/1889/wounded-warriors-has-local-office-kansas-veterans"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2172/mental-health",
+                  "type": "button",
+                  "text": "Mental Health - Main Page",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

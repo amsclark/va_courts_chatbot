@@ -1,0 +1,39 @@
+{
+  "id": "69490a75-a162-4818-8c8b-5782f39f8e87",
+  "parentId": "d9039746-f5df-462d-95ee-da89e2ab0bef",
+  "rootParentId": "d9039746-f5df-462d-95ee-da89e2ab0bef",
+  "name": "Emeritus - no",
+  "auto": true,
+  "contexts": [
+    "Emeritus-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Emeritus.Emeritus-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

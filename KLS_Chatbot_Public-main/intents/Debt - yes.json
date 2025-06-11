@@ -1,0 +1,106 @@
+{
+  "id": "b84ed6ce-7b22-4e7d-9f5a-eeb2c78190a0",
+  "parentId": "04faa814-1363-4dd3-bd69-bb79e700602f",
+  "rootParentId": "04faa814-1363-4dd3-bd69-bb79e700602f",
+  "name": "Debt - yes",
+  "auto": true,
+  "contexts": [
+    "Debt-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Debt.Debt-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here are a few links to many resources on our website which may be helpful in dealing with Debt, Debt Collection, and Debt related issues. The link titled \u0027Debt and Debt Collection Resources\u0027 will also direct you to resources for dealing with creditors and disputing a credit report."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Debt and Debt Collection Resources",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2173/debt-and-debt-collection",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/2540/what-you-should-know-about-bankruptcy",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "What you should know about Bankruptcy",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Consumer Resources",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/1188/consumer"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

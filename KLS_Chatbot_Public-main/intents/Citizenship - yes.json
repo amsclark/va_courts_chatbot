@@ -1,0 +1,82 @@
+{
+  "id": "ced64779-5d4c-4172-b890-58a4425c92a9",
+  "parentId": "e539fb3c-ad32-4bd8-8fe3-e6dd132c8424",
+  "rootParentId": "e539fb3c-ad32-4bd8-8fe3-e6dd132c8424",
+  "name": "Citizenship - yes",
+  "auto": true,
+  "contexts": [
+    "Citizenship-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Citizenship.Citizenship-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to resources on our website which may be helpful in answering questions about Citizenship."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Can I become a U.S. Citizen?",
+                  "link": "https://www.kansaslegalservices.org/node/1937/are-you-eligible-become-us-citizen-find-out",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

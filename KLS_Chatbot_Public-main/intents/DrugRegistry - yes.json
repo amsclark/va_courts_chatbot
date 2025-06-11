@@ -1,0 +1,94 @@
+{
+  "id": "e727f64c-8b18-4685-99af-2605ab043399",
+  "parentId": "512a8dab-aa15-484a-ba2c-4a691b7a6dc4",
+  "rootParentId": "512a8dab-aa15-484a-ba2c-4a691b7a6dc4",
+  "name": "DrugRegistry - yes",
+  "auto": true,
+  "contexts": [
+    "DrugRegistry-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DrugRegistry.DrugRegistry-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to some Drug Registry resources on our website which may be helpful.  If you are looking for more general information regarding expungement, an additional link is provided."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Drug Registry Resources",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/2168/drug-registry"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2088/expungement",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Expungement - Main Page"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

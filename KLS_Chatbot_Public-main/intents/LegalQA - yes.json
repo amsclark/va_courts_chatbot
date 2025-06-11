@@ -1,0 +1,82 @@
+{
+  "id": "534680b9-1a2e-4a35-8fe0-22812e97db0a",
+  "parentId": "e897d144-2ed0-48e0-9650-eb5cbc64fed7",
+  "rootParentId": "e897d144-2ed0-48e0-9650-eb5cbc64fed7",
+  "name": "LegalQA - yes",
+  "auto": true,
+  "contexts": [
+    "LegalQA-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LegalQA.LegalQA-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to our Legal Questions \u0026 Answers resource page which may be helpful."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Legal Questions \u0026 Answers",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/1868/legal-questions-and-answers",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

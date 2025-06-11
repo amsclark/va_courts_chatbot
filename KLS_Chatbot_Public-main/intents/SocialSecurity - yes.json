@@ -1,0 +1,82 @@
+{
+  "id": "d2a411dd-24b3-4982-8349-07e2c9b109de",
+  "parentId": "3d1ca940-3de0-41c9-a224-7df71c762d08",
+  "rootParentId": "3d1ca940-3de0-41c9-a224-7df71c762d08",
+  "name": "SocialSecurity - yes",
+  "auto": true,
+  "contexts": [
+    "SocialSecurity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SocialSecurity.SocialSecurity-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to some Social Security resources on our website which may be helpful."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Social Security Main Page",
+                  "link": "https://www.kansaslegalservices.org/topics/110/social-security"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "22485eb4-6721-4b81-b3f5-9f6e9b62fa94",
+  "name": "NonKansasState",
+  "isOverridable": true,
+  "isEnum": true,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

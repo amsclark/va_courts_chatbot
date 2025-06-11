@@ -1,0 +1,62 @@
+{
+  "id": "14c46cf2-a088-4ebf-bb10-d152aeda2073",
+  "parentId": "923212b2-7c5f-492b-9dd4-12fe12ae8890",
+  "rootParentId": "a739b51c-4485-41aa-a1c6-94b090159774",
+  "name": "Abuse - yes - fallback",
+  "contexts": [
+    "Abuse-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Abuse.Abuse-yes.Abuse-yes-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I didn\u0027t understand that. Please choose either \u0027Abuse/Stalking\u0027 or \u0027Neglect.\u0027  If you\u0027re not sure, just choose the one that best describes your situation. We can still help direct you to the correct resources."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Abuse/Stalking"
+                    },
+                    {
+                      "text": "Neglect"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

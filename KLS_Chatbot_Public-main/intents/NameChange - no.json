@@ -1,0 +1,39 @@
+{
+  "id": "e34966fc-2beb-46b4-b76e-3d1f83f201b3",
+  "parentId": "da6d0c1e-f3f1-4ae5-ae84-9bc6fbe75f66",
+  "rootParentId": "da6d0c1e-f3f1-4ae5-ae84-9bc6fbe75f66",
+  "name": "NameChange - no",
+  "auto": true,
+  "contexts": [
+    "NameChange-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "NameChange.NameChange-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

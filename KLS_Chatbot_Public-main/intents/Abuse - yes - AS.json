@@ -1,0 +1,86 @@
+{
+  "id": "401b0bd3-54a2-4c84-a6b5-d363bf8b7bef",
+  "parentId": "923212b2-7c5f-492b-9dd4-12fe12ae8890",
+  "rootParentId": "a739b51c-4485-41aa-a1c6-94b090159774",
+  "name": "Abuse - yes - AS",
+  "auto": true,
+  "contexts": [
+    "Abuse-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Abuse.Abuse-yes.Abuse-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "It sounds like you may be in a dangerous situation. Call 911 if you are in immediate danger. Here are some links to resources on our website that can help."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2017/abuse-and-stalking",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Abuse and Stalking"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Protection From Abuse/Stalking (PFA/PFS) - Tips \u0026 Tricks",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/2036/pfa-tips-tricks-part-1-preparing-your-pfa-or-pfs"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

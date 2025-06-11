@@ -1,0 +1,86 @@
+{
+  "id": "559c8fc7-ab13-446c-b16f-4a15aea9e962",
+  "parentId": "923212b2-7c5f-492b-9dd4-12fe12ae8890",
+  "rootParentId": "a739b51c-4485-41aa-a1c6-94b090159774",
+  "name": "Abuse - yes - Neg",
+  "auto": true,
+  "contexts": [
+    "Abuse-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Abuse.Abuse-yes.Abuse-yes-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "It sounds like you may be in a dangerous situation. Call 911 if you are in immediate danger. Here are some links to resources on our website that can help"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Abuse/Neglect",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/145/abuse-and-neglect"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Protection From Abuse (PFA) - Tips \u0026 Tricks",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/2036/pfa-tips-tricks-part-1-preparing-your-pfa-or-pfs",
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

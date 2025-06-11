@@ -1,0 +1,82 @@
+{
+  "id": "07f4d218-b830-4088-8321-fe4910bf295d",
+  "parentId": "ebd20fec-efbf-4699-ba26-64a22fd36be8",
+  "rootParentId": "ebd20fec-efbf-4699-ba26-64a22fd36be8",
+  "name": "MentalHealth - yes",
+  "auto": true,
+  "contexts": [
+    "MentalHealth-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MentalHealth.MentalHealth-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "If you are in a crisis, please call 911. Here is a link to some Mental Health resources on our website which may be helpful."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Mental Health Main Page",
+                  "link": "https://www.kansaslegalservices.org/topics/2172/mental-health"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

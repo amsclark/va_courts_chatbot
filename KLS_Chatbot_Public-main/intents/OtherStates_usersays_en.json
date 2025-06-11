@@ -1,0 +1,120 @@
+[
+  {
+    "id": "415d2ba1-9296-44bb-97d4-a6808e09f6af",
+    "data": [
+      {
+        "text": "Is that the address I send my request for a waiver even if I filed for unemployment through ",
+        "userDefined": false
+      },
+      {
+        "text": "Wisconsin",
+        "meta": "@NonKansasState",
+        "alias": "nonkansasstate",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de2cbd17-12f5-4f54-ae7e-23b6c008f22d",
+    "data": [
+      {
+        "text": "Do you assist residents in Halifax County, ",
+        "userDefined": false
+      },
+      {
+        "text": "Virginia",
+        "meta": "@NonKansasState",
+        "alias": "nonkansasstate",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0837cd2d-3b61-4fae-b928-de455e5c459b",
+    "data": [
+      {
+        "text": "Maine",
+        "meta": "@NonKansasState",
+        "alias": "nonkansasstate",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "70eda1ca-74cf-411e-83b8-3c028c8ec9a2",
+    "data": [
+      {
+        "text": "I am in ",
+        "userDefined": false
+      },
+      {
+        "text": "North Carolina",
+        "meta": "@NonKansasState",
+        "alias": "nonkansasstate",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eceac5a3-6536-4c35-b67d-d036f756f59a",
+    "data": [
+      {
+        "text": "Do you help with issues in ",
+        "userDefined": false
+      },
+      {
+        "text": "Florida",
+        "meta": "@NonKansasState",
+        "alias": "nonkansasstate",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dabcd24a-49f3-40e1-98f7-66756a686f37",
+    "data": [
+      {
+        "text": "Can you help me with issues in ",
+        "userDefined": false
+      },
+      {
+        "text": "Alabama",
+        "meta": "@NonKansasState",
+        "alias": "nonkansasstate",
+        "userDefined": true
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

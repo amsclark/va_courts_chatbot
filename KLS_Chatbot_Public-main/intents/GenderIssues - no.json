@@ -1,0 +1,39 @@
+{
+  "id": "a5f03df5-0065-445e-830d-727942960d09",
+  "parentId": "7794cdf2-9ebb-4ae9-8778-81ec66c99d1c",
+  "rootParentId": "7794cdf2-9ebb-4ae9-8778-81ec66c99d1c",
+  "name": "GenderIssues - no",
+  "auto": true,
+  "contexts": [
+    "GenderIssues-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "GenderIssues.GenderIssues-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

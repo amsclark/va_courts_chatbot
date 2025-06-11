@@ -1,0 +1,35 @@
+{
+  "id": "9551cf04-9fcd-4d8e-8e1e-c5dd75362bd8",
+  "name": "DoIHaveToPay",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Kansas Legal Services gives free or low-cost civil legal advice and representation for persons whose incomes make them eligible. You will find out if you are eligible for legal assistance by talking with an Intake Specialist, whether you apply online or call our intake line. \n\nIndividuals seeking legal assistance must first apply.  Our field offices can\u0027t answer any questions or give legal advice until they have an application on file."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,94 @@
+{
+  "id": "ba3a76e5-6ce6-41dc-80f2-e632f8f04ce8",
+  "parentId": "88997436-573f-4c0d-8d00-4e10106dc062",
+  "rootParentId": "88997436-573f-4c0d-8d00-4e10106dc062",
+  "name": "Seniors - yes",
+  "auto": true,
+  "contexts": [
+    "Seniors-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Seniors.Seniors-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here is a link to many resources on our website which may be helpful regarding Services for Seniors.\n\nIf you would like more specific information regarding Powers of Attorney or Advance Directive questions, an additional link is provided for you below.\n\nWe also offer an Elder Law Hotline to help answer questions in civil cases for Kansans age 60 and older, free of charge - just dial 888-353-5337"
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/1864/services-seniors",
+                  "text": "Services for Seniors Main Page",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2166/power-attorney-advance-directives-health-care-power-attorney",
+                  "text": "Powers of Attorney Page",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ff9ef1ef-089a-457c-a3fc-ceaa0274d7fc",
+  "parentId": "3d1ca940-3de0-41c9-a224-7df71c762d08",
+  "rootParentId": "3d1ca940-3de0-41c9-a224-7df71c762d08",
+  "name": "SocialSecurity - no",
+  "auto": true,
+  "contexts": [
+    "SocialSecurity-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SocialSecurity.SocialSecurity-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

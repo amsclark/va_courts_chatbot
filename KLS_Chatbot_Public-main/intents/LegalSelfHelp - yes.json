@@ -1,0 +1,82 @@
+{
+  "id": "44c415a1-2331-49f6-9d3f-57511c95db55",
+  "parentId": "a6aa343f-2963-49b7-9cdc-05072c424f89",
+  "rootParentId": "a6aa343f-2963-49b7-9cdc-05072c424f89",
+  "name": "LegalSelfHelp - yes",
+  "auto": true,
+  "contexts": [
+    "LegalSelfHelp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LegalSelfHelp.LegalSelfHelp-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to several Legal Self-Help resources on our website which may be helpful. If you want to explore further resources available on our website, just type \u0027get help\u0027."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2047/legal-self-help",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Legal Self Help"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

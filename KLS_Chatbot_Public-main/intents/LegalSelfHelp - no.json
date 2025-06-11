@@ -1,0 +1,39 @@
+{
+  "id": "4b3cfbf0-f622-43ac-b05a-24c5c0c21569",
+  "parentId": "a6aa343f-2963-49b7-9cdc-05072c424f89",
+  "rootParentId": "a6aa343f-2963-49b7-9cdc-05072c424f89",
+  "name": "LegalSelfHelp - no",
+  "auto": true,
+  "contexts": [
+    "LegalSelfHelp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LegalSelfHelp.LegalSelfHelp-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "73635ad5-5bfb-4608-af38-90b28b49353c",
+  "parentId": "f9c4faca-8394-49a7-b06c-2db55d4a5ced",
+  "rootParentId": "f9c4faca-8394-49a7-b06c-2db55d4a5ced",
+  "name": "Mediation - no",
+  "auto": true,
+  "contexts": [
+    "Mediation-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Mediation.Mediation-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

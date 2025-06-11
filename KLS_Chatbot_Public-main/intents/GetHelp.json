@@ -1,0 +1,172 @@
+{
+  "id": "170d927b-25a0-40e0-9d69-1d810f219783",
+  "name": "GetHelp",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "See if this helps!",
+            "I think this may help!",
+            "Here, this should help you."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Below this are a few links related to how Kansas Legal Services can help you, and how you can qualify. Our phone number and hours are listed on the \u0027Get Help - Main Page\u0027. For specific office locations, there is a link below for that too.\n\nIf you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website.\n\nAdditionally, I will provide you a link below to a short video about how to get legal assistance from Kansas Legal Services and other available legal resources."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Get Help - Main Page",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/63/get-help"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "About KLS",
+                  "link": "https://www.kansaslegalservices.org/node/2/about-us"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/809/online-application",
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Apply Online for Legal Assistance"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/2080/need-help-guide-legal-resources",
+                  "text": "I\u0027m not sure where to start / I don\u0027t know what I\u0027m looking for",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button",
+                  "text": "Topics that We Help With",
+                  "link": "https://www.kansaslegalservices.org/topics"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Frequently Asked Questions \n(like, \"What if I get sued?\")",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/1680/what-do-i-do-if",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/65/contact-us-office-locations",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Office Locations"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button",
+                  "text": "Civil Legal Aid 101",
+                  "link": "https://www.kansaslegalservices.org/node/1963/civil-legal-aid-101-what-legal-aid-and-how-can-it-help-me"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "play_arrow",
+                    "color": "green"
+                  },
+                  "link": "https://youtu.be/sB_vK4V2_HY",
+                  "type": "button",
+                  "text": "Short Video on How to Get Help from KLS"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

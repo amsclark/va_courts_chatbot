@@ -1,0 +1,85 @@
+{
+  "id": "18613b7c-c1b4-4cf9-8f91-ca93f5c62b01",
+  "name": "AboutUs",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Kansas Legal Services, a statewide non-profit corporation, is devoted to helping low-income Kansans meet their basic needs through the provision of important legal and mediation services.\n\nKLS is legal aid in Kansas, providing equal access to justice for the most vulnerable Kansans.\n\nFeel free to ask me about a specific topic or subject if you would like help finding relevant information!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Below is a link to more information about KLS where you can even learn some of our history! An additional link to a short video about KLS is provided as well."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "play_arrow",
+                    "color": "green"
+                  },
+                  "link": "https://youtu.be/CGNCQPLmNlg",
+                  "text": "Watch a short video about Kansas Legal Services.",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "About Us - Main Page",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/node/2/about-us"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

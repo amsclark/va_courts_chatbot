@@ -1,0 +1,94 @@
+{
+  "id": "6e9b5e73-dadc-4e32-9df1-ddb9e5450c2c",
+  "parentId": "c61c0aa7-e5ae-4f0f-9126-99f526838769",
+  "rootParentId": "c61c0aa7-e5ae-4f0f-9126-99f526838769",
+  "name": "VSmallEstates - yes",
+  "auto": true,
+  "contexts": [
+    "VSmallEstates-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VSmallEstates.VSmallEstates-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here is a link to some resources on our website which may be helpful in regards to Very Small Estates in Kansas.\n\nAdditionally, if you are looking for more general information about Estate Planning, there is another link provided below to resources relating to Services for Seniors."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/1171/very-small-estates-kansas",
+                  "text": "Very Small Estates in Kansas",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/1864/services-seniors",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button",
+                  "text": "Services for Seniors - Main Page"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

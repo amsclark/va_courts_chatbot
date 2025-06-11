@@ -1,0 +1,94 @@
+{
+  "id": "5dcee897-23af-46b5-ab90-52fc138d5f4d",
+  "parentId": "d9039746-f5df-462d-95ee-da89e2ab0bef",
+  "rootParentId": "d9039746-f5df-462d-95ee-da89e2ab0bef",
+  "name": "Emeritus - yes",
+  "auto": true,
+  "contexts": [
+    "Emeritus-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Emeritus.Emeritus-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here are a couple links to some resources on our website which may be helpful."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/2565/kansas-emeritus-attorney-program",
+                  "text": "Kansas Emeritus Attorney Program",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Pro Bono Resources",
+                  "link": "https://www.kansaslegalservices.org/node/375/pro-bono-resources"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

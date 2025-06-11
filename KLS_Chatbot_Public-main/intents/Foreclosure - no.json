@@ -1,0 +1,39 @@
+{
+  "id": "089ddf00-4ef3-4e59-b715-5af5160804ef",
+  "parentId": "f32b01fa-4fd0-476c-ab51-0d53d73f8e14",
+  "rootParentId": "f32b01fa-4fd0-476c-ab51-0d53d73f8e14",
+  "name": "Foreclosure - no",
+  "auto": true,
+  "contexts": [
+    "Foreclosure-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Foreclosure.Foreclosure-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

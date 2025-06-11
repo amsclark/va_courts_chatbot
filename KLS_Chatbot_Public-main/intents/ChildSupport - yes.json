@@ -1,0 +1,94 @@
+{
+  "id": "100eed50-e996-41a3-a221-d0efb41ce8ba",
+  "parentId": "b8147d39-d036-4df6-a303-a03da53de365",
+  "rootParentId": "b8147d39-d036-4df6-a303-a03da53de365",
+  "name": "ChildSupport - yes",
+  "auto": true,
+  "contexts": [
+    "ChildSupport-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ChildSupport.ChildSupport-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here are a couple links to some Child Support resources on our website which may be helpful."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/topics/2170/child-support",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Child Support Main Page",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Child Custody Information",
+                  "link": "https://www.kansaslegalservices.org/topics/122/child-custody"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

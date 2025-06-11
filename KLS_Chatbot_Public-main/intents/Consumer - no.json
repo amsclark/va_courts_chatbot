@@ -1,0 +1,39 @@
+{
+  "id": "8bba220a-9848-4633-9cf3-05cf9270903d",
+  "parentId": "3ae1c889-bdef-4970-bec9-f640f481d389",
+  "rootParentId": "3ae1c889-bdef-4970-bec9-f640f481d389",
+  "name": "Consumer - no",
+  "auto": true,
+  "contexts": [
+    "Consumer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Consumer.Consumer-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

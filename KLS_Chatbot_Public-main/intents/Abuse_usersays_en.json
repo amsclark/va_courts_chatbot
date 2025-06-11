@@ -1,0 +1,808 @@
+[
+  {
+    "id": "4be0c413-778f-4478-a5d5-e988c57212ca",
+    "data": [
+      {
+        "text": "got abused",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2f8d1b6f-acd5-4cfe-89a8-e8ca8919b1a9",
+    "data": [
+      {
+        "text": "i got hit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "746c7adb-cb99-4811-99d1-603c985e4dd4",
+    "data": [
+      {
+        "text": "i was pushed into a wall",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69f645c3-5c62-4108-a011-78cec3e4a5e8",
+    "data": [
+      {
+        "text": "i got beat up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cf24e3ff-e32d-4224-9d2b-26ca713f7ddb",
+    "data": [
+      {
+        "text": "my spouse kicked me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ec6552ea-d472-47e7-b695-9cb7af4f9a6c",
+    "data": [
+      {
+        "text": "my husband punched me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "957db828-1b50-45e0-bb29-d8da952ef69d",
+    "data": [
+      {
+        "text": "i was hurt by a family member",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ef5a6592-a199-40f5-966c-f785b34c35ee",
+    "data": [
+      {
+        "text": "i was hit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "19d699bf-be0f-4e1c-b401-fbbffea3abe6",
+    "data": [
+      {
+        "text": "i was beat up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4981efe7-b178-411b-871e-00af8ffd7fb0",
+    "data": [
+      {
+        "text": "i need a safety plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02910b6d-b58a-47fe-a346-0127109fe8c1",
+    "data": [
+      {
+        "text": "safety plan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1d605ea6-a3c5-4e13-ad5e-3de57e81dbcc",
+    "data": [
+      {
+        "text": "safety resources",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9fa84507-9c00-496c-9ed6-cb9f6c242ed4",
+    "data": [
+      {
+        "text": "consent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "75e361ab-0961-41ed-b930-c52d6e762cee",
+    "data": [
+      {
+        "text": "victim support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f179362-5338-49b5-9ae9-bb19a4e4f74e",
+    "data": [
+      {
+        "text": "harassment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "18b0ec18-b321-4a76-83dd-5e47c6911a2c",
+    "data": [
+      {
+        "text": "sexual abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "40d90e62-9190-4fa9-b98c-d5b5e889df19",
+    "data": [
+      {
+        "text": "how do i report a case of neglect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 3,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1cc1d0c-0f5f-480f-bf59-75eca0e2562c",
+    "data": [
+      {
+        "text": "I think I\u0027m being stalked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8e95ae8b-362a-4f57-b3ce-6a95f2a3fe28",
+    "data": [
+      {
+        "text": "can i deal with a stalker legally",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c9bf98e5-30f4-4642-887b-156aa307b84c",
+    "data": [
+      {
+        "text": "victim of partner violence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "262aec92-c71a-4fe9-a426-a78a9de34787",
+    "data": [
+      {
+        "text": "partner violence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5a9e6158-4bc0-43bb-b7f7-aee94180e81b",
+    "data": [
+      {
+        "text": "crime victim compensation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ddc5dc89-8a4e-4268-8807-841026e44686",
+    "data": [
+      {
+        "text": "PFS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d82c409e-276a-48a7-a788-b0d7b229e7aa",
+    "data": [
+      {
+        "text": "PFA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b65f574f-11c3-4c7b-93e2-11f7f7f66ae7",
+    "data": [
+      {
+        "text": "protection from stalking order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62286729-0840-465a-b61e-c336a61fc3f3",
+    "data": [
+      {
+        "text": "I am being stalked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a0b5435-7d68-4cf1-a0db-1dc18a419124",
+    "data": [
+      {
+        "text": "What legal actions can I take against abuse?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "037505f6-aca4-4657-b9a9-2b3797a9476d",
+    "data": [
+      {
+        "text": "I need to file a protection order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "405a6d8d-5bd7-4a9f-955d-f4e0d2394078",
+    "data": [
+      {
+        "text": "Protection Order Portal",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23e150e4-07c7-48dc-9d9c-06bd55e36047",
+    "data": [
+      {
+        "text": "KS POP",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b70ea39-4628-4760-afaa-380d719268cc",
+    "data": [
+      {
+        "text": "PFA safety planning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ee6ad64-5965-44f5-8408-107fbbc61eb3",
+    "data": [
+      {
+        "text": "protection from abuse safety planning",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "db08dff4-8797-4a7c-9496-027f23514400",
+    "data": [
+      {
+        "text": "protection from abuse order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7601bf78-83a8-4244-b047-86c0232a1757",
+    "data": [
+      {
+        "text": "protection from abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36a4d746-27a3-4b22-8700-d51e812174e3",
+    "data": [
+      {
+        "text": "i want to learn more about restraining orders for abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b5f86b5f-7dc8-4ea6-b92c-6eec7eec2854",
+    "data": [
+      {
+        "text": "restraining order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6939ef86-392a-4799-a84e-1b40368c3ad0",
+    "data": [
+      {
+        "text": "Tell me about legal rights for abuse survivors",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c2a81430-9611-4247-b282-e0677b4419d3",
+    "data": [
+      {
+        "text": "Where can I find information on abuse prevention?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2780cb70-17b3-47c6-8e37-e4cf865cbf7a",
+    "data": [
+      {
+        "text": "abuse prevention",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f6e74184-739b-49d2-9d3c-dab747cba62f",
+    "data": [
+      {
+        "text": "information on abuse prevention",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6cfe05fe-e27e-44a2-8a31-7b0f584e68f7",
+    "data": [
+      {
+        "text": "I need support for dealing with an abusive relationship.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "257dbd2f-008e-419a-8587-99a0093e3607",
+    "data": [
+      {
+        "text": "Can you guide me to information about abuse laws",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c809bd02-a75f-4444-9660-1b58b9499e88",
+    "data": [
+      {
+        "text": "How can I get legal assistance for abuse?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89cbf1ec-98e5-47c0-89ac-d0a011169a04",
+    "data": [
+      {
+        "text": "I\u0027m a victim of abuse and need legal advice",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1aaaa18a-5d3d-4d53-8d49-13cda774b06d",
+    "data": [
+      {
+        "text": "tell me about resources for abuse victims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6cbfef5c-3d02-4200-8e4c-fd8b73cb30de",
+    "data": [
+      {
+        "text": "abuse cases",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1827ad0f-d84a-4aa3-9193-29e987f574d3",
+    "data": [
+      {
+        "text": "how can you help me deal with abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "140b34aa-1d40-456a-8c0f-0675bca33305",
+    "data": [
+      {
+        "text": "what are my options for dealing with abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fff279cc-87fb-4923-ac90-75c418b1f80b",
+    "data": [
+      {
+        "text": "i need help with an abusive situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4e174010-64b6-4d2a-a19f-bf0b55b95cde",
+    "data": [
+      {
+        "text": "I need help with abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5c12980f-bde8-4ac3-92e3-943df0de2814",
+    "data": [
+      {
+        "text": "I am in an abusive situation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "910577d6-3a30-49cf-b9a7-9e8ef9ed61c2",
+    "data": [
+      {
+        "text": "neglect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8b9bf9d-487e-4df0-bf24-83d7775d6163",
+    "data": [
+      {
+        "text": "abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7301fdd8-665c-44ba-8520-02052cfafa3c",
+    "data": [
+      {
+        "text": "domestic abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1babea04-2c51-4dff-9338-c6fc70287c6b",
+    "data": [
+      {
+        "text": "victim of violent crime",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9efba195-3c74-4552-a84e-caa2a53c18bd",
+    "data": [
+      {
+        "text": "DV",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "63331bb7-acec-4f3d-a2b1-87d120bf1737",
+    "data": [
+      {
+        "text": "DA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2a205075-8770-4a36-af33-3fce4709fdd1",
+    "data": [
+      {
+        "text": "VINE",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ed8ee43a-21cb-431b-89bc-15d9daefe957",
+    "data": [
+      {
+        "text": "victim services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "99fd49fe-b65b-457a-a50a-7d7125d19405",
+    "data": [
+      {
+        "text": "protection order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "544e56a5-7d88-4f94-8786-459ba262b0ce",
+    "data": [
+      {
+        "text": "domestic violence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "51f3b1bb-1fe7-482a-98e3-3b1aa19f7820",
+    "data": [
+      {
+        "text": "stalking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  }
+]

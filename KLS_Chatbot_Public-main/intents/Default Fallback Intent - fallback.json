@@ -1,0 +1,192 @@
+{
+  "id": "86504079-2805-4ec5-9b84-51247f296f2e",
+  "parentId": "57f4bd62-0290-40b9-a63d-74cd04508765",
+  "rootParentId": "57f4bd62-0290-40b9-a63d-74cd04508765",
+  "name": "Default Fallback Intent - fallback",
+  "contexts": [
+    "DefaultFallbackIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultFallbackIntent.DefaultFallbackIntent-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m sorry, but I still don\u0027t understand. Let\u0027s try something different. Here is a menu of all questions I know how to help answer and the topics I know how to find on the Kansas Legal Services website. Please click or tap one to continue."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "About KLS"
+                    },
+                    {
+                      "text": "Abuse"
+                    },
+                    {
+                      "text": "Adoption"
+                    },
+                    {
+                      "text": "Bankruptcy"
+                    },
+                    {
+                      "text": "Child Support"
+                    },
+                    {
+                      "text": "Citizenship"
+                    },
+                    {
+                      "text": "Consumer Law/Issues"
+                    },
+                    {
+                      "text": "Debt"
+                    },
+                    {
+                      "text": "Disability"
+                    },
+                    {
+                      "text": "Discrimination"
+                    },
+                    {
+                      "text": "Divorce"
+                    },
+                    {
+                      "text": "Do I have to Pay for KLS services?"
+                    },
+                    {
+                      "text": "Driver\u0027s License"
+                    },
+                    {
+                      "text": "Drug Registry"
+                    },
+                    {
+                      "text": "Emeritus Program / Pro Bono"
+                    },
+                    {
+                      "text": "Employment"
+                    },
+                    {
+                      "text": "Expungement (cleaning your record)"
+                    },
+                    {
+                      "text": "Family Law"
+                    },
+                    {
+                      "text": "Children and Families Mobile Crisis Helpline"
+                    },
+                    {
+                      "text": "Foreclosure"
+                    },
+                    {
+                      "text": "Free Legal Forms"
+                    },
+                    {
+                      "text": "Garnishment"
+                    },
+                    {
+                      "text": "Gender Issues"
+                    },
+                    {
+                      "text": "Getting Help from KLS"
+                    },
+                    {
+                      "text": "Guardianship/Conservatorship"
+                    },
+                    {
+                      "text": "Health"
+                    },
+                    {
+                      "text": "Housing"
+                    },
+                    {
+                      "text": "How to Apply for KLS services"
+                    },
+                    {
+                      "text": "Identity Theft and Fraud"
+                    },
+                    {
+                      "text": "Juveniles"
+                    },
+                    {
+                      "text": "Legal Self-Help (self representation)"
+                    },
+                    {
+                      "text": "Legal Questions and Answers (miscellaneous)"
+                    },
+                    {
+                      "text": "Mediation Services"
+                    },
+                    {
+                      "text": "Mental Health"
+                    },
+                    {
+                      "text": "Name Change (how to)"
+                    },
+                    {
+                      "text": "Powers of Attorney / Advance Directives"
+                    },
+                    {
+                      "text": "Public Benefits"
+                    },
+                    {
+                      "text": "Quiet Title"
+                    },
+                    {
+                      "text": "Request to Waive Filing Fee"
+                    },
+                    {
+                      "text": "Services for Seniors"
+                    },
+                    {
+                      "text": "Student Loans"
+                    },
+                    {
+                      "text": "Tax Issues"
+                    },
+                    {
+                      "text": "Very Small Estates"
+                    },
+                    {
+                      "text": "Veterans/Military"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "df1c7c33-2e6d-468a-ac66-56a8fe6f3960",
+  "parentId": "f32b01fa-4fd0-476c-ab51-0d53d73f8e14",
+  "rootParentId": "f32b01fa-4fd0-476c-ab51-0d53d73f8e14",
+  "name": "Foreclosure - yes",
+  "auto": true,
+  "contexts": [
+    "Foreclosure-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Foreclosure.Foreclosure-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here is a link to some resources on our website relating to Foreclosure and Foreslosure Prevention which may be helpful."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Foreclosure Prevention Main Page",
+                  "link": "https://www.kansaslegalservices.org/topics/2068/foreclosure-prevention",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "type": "button"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

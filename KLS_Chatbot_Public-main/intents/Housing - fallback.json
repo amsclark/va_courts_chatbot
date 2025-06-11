@@ -1,0 +1,62 @@
+{
+  "id": "735528e6-7518-404e-9df3-0333bde88879",
+  "parentId": "8c7fe162-6ad3-4351-b267-be8af7bbe337",
+  "rootParentId": "8c7fe162-6ad3-4351-b267-be8af7bbe337",
+  "name": "Housing - fallback",
+  "contexts": [
+    "Housing-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Housing.Housing-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issues as related to Housing? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "b6898330-bdf8-4c6f-8b02-88754cf6bc11",
+  "parentId": "e539fb3c-ad32-4bd8-8fe3-e6dd132c8424",
+  "rootParentId": "e539fb3c-ad32-4bd8-8fe3-e6dd132c8424",
+  "name": "Citizenship - no",
+  "auto": true,
+  "contexts": [
+    "Citizenship-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Citizenship.Citizenship-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,82 @@
+{
+  "id": "6ba7766d-a827-47d9-8e49-0d7d0ef7e39d",
+  "parentId": "389af96e-7769-4749-894f-592840db21e5",
+  "rootParentId": "389af96e-7769-4749-894f-592840db21e5",
+  "name": "FamMobileCrisis - yes",
+  "auto": true,
+  "contexts": [
+    "FamMobileCrisis-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FamMobileCrisis.FamMobileCrisis-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "If you are in immediate danger, call 911. Below is a link to information on our site that may be helpful regarding the Kansas Children and Families Mobile Crisis Helpline. Call the Mobile Crisis Helpline – 1-833-441-2240 - now for help with the mental health crisis of Kansans 20 years of age and younger. The Kansas Family Response team is here to help. A licensed clinician is available by phone 24/7 !"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/node/2483/kansas-children-and-families-mobile-crisis-helpline",
+                  "text": "Kansas Children and Families Mobile Crisis Helpline"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

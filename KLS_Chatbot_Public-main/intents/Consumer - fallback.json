@@ -1,0 +1,62 @@
+{
+  "id": "ae96798c-666f-47ea-86ee-3c1944c7025e",
+  "parentId": "3ae1c889-bdef-4970-bec9-f640f481d389",
+  "rootParentId": "3ae1c889-bdef-4970-bec9-f640f481d389",
+  "name": "Consumer - fallback",
+  "contexts": [
+    "Consumer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Consumer.Consumer-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issues as Consumer related? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

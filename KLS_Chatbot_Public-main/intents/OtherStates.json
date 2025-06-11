@@ -1,0 +1,50 @@
+{
+  "id": "5b30b3ae-6e6c-4a51-b5f4-32b218b71ab7",
+  "name": "OtherStates",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ff815a49-e58f-444e-964f-29c8e42203e5",
+          "name": "nonkansasstate",
+          "required": false,
+          "dataType": "@NonKansasState",
+          "value": "$nonkansasstate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You mentioned $nonkansasstate. Unfortunately, we can mostly only help with legal issues that are connected to Kansas in some way. To find a legal aid organization in your area, visit https://www.lsc.gov/what-legal-aid/find-legal-aid. \n\nIf your issue is based in Kansas, feel free to ask about more specific areas of concern. Remember, I do best with short phrases and key words!"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

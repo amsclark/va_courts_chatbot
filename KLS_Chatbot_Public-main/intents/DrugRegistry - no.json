@@ -1,0 +1,39 @@
+{
+  "id": "cc6291ff-4302-48eb-9844-7ea2b83f3256",
+  "parentId": "512a8dab-aa15-484a-ba2c-4a691b7a6dc4",
+  "rootParentId": "512a8dab-aa15-484a-ba2c-4a691b7a6dc4",
+  "name": "DrugRegistry - no",
+  "auto": true,
+  "contexts": [
+    "DrugRegistry-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DrugRegistry.DrugRegistry-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

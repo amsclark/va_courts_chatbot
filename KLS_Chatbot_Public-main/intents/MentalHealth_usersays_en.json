@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ff34ff1d-0fff-42dd-84cb-7e9afb68cba5",
+    "data": [
+      {
+        "text": "Can you help me get information on mental health services?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0b4d37c3-c337-46af-8088-e603553d62f5",
+    "data": [
+      {
+        "text": "mental health conditions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cd972619-2f1a-4ac4-b245-33d01a5e2907",
+    "data": [
+      {
+        "text": "United States",
+        "userDefined": false
+      },
+      {
+        "text": " Substance Abuse and Mental Health Services Administration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a94b432b-e9b6-450b-aaa6-3c4676a5afe8",
+    "data": [
+      {
+        "text": "Do you have resources for substance abuse?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "036fafec-3b69-45b0-8bc5-34270ccf3f24",
+    "data": [
+      {
+        "text": "SAMHSA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ffb4f174-f841-4ed8-b11d-e2051fd5b20d",
+    "data": [
+      {
+        "text": "major depression",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bf2abbba-008f-46dd-9e1a-570a385ebdd8",
+    "data": [
+      {
+        "text": "bipolar disorder",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c42db001-e151-4d4e-8a8b-19583b663c48",
+    "data": [
+      {
+        "text": "schizophrenia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37cf9017-fd67-4c89-bed4-99d7e8a8d380",
+    "data": [
+      {
+        "text": "What resources are available for mental health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "857564b4-7077-4954-afe9-d76f4db5705e",
+    "data": [
+      {
+        "text": "substance abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3af366fc-5878-40d8-a8af-4f353658c777",
+    "data": [
+      {
+        "text": "depression",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "33205e61-69de-4327-a235-6a7445783433",
+    "data": [
+      {
+        "text": "trauma",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "30008cd0-c99e-4f64-af15-1a2ac4235c27",
+    "data": [
+      {
+        "text": "ptsd",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ac1cec64-19f9-4fca-889d-058f13d02af6",
+    "data": [
+      {
+        "text": "mental health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

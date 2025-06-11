@@ -1,0 +1,82 @@
+{
+  "id": "f9950219-8e26-4212-b2d6-d7e37adbb648",
+  "parentId": "242f8a13-9a15-4040-90f4-a639c9f3f745",
+  "rootParentId": "242f8a13-9a15-4040-90f4-a639c9f3f745",
+  "name": "Divorce - yes",
+  "auto": true,
+  "contexts": [
+    "Divorce-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Divorce.Divorce-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "type": "description",
+                  "text": [
+                    "Here is a link to many resources on our website which may be helpful for Divorce."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/2162/divorce",
+                  "type": "button",
+                  "text": "Everything you need to know about Divorce in Kansas"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

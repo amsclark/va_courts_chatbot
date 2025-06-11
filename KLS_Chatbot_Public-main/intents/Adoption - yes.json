@@ -1,0 +1,106 @@
+{
+  "id": "bfcac10f-fae5-4d6e-956d-f2bf0637e8a8",
+  "parentId": "bb6c9c1c-f431-4a06-8d6f-4396aa86e31a",
+  "rootParentId": "bb6c9c1c-f431-4a06-8d6f-4396aa86e31a",
+  "name": "Adoption - yes",
+  "auto": true,
+  "contexts": [
+    "Adoption-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Adoption.Adoption-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "Here are a few links to some resources on our website which may be helpful for Adoption, Foster Care, and Kids2Kin (Kinship Family).\n\nThe Kids2Kin program is funded by the Kansas Department for Children and Families to legally help children at risk for foster care stay with kin.\n\nAdditionally, there is a link below to the Children\u0027s Advocacy Resource Center (CARC). CARC is a statewide program providing complete support and legal services to people serving and caring for homeless children and children involved in our state foster care system."
+                  ],
+                  "type": "description",
+                  "title": ""
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/121/adoption",
+                  "type": "button",
+                  "text": "Adoption Main Page"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://www.kansaslegalservices.org/node/842/childrens-advocacy-resource-center",
+                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Children\u0027s Advocacy Resource Center (CARC)"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Kids2Kin Main Page",
+                  "type": "button",
+                  "link": "https://www.kansaslegalservices.org/topics/2150/kids2kin",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

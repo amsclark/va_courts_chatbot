@@ -1,0 +1,158 @@
+[
+  {
+    "id": "a8ee61f6-da4d-4431-8961-8e605e66133c",
+    "data": [
+      {
+        "text": "My child needs help now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cbb7d50a-94ee-4c55-8cc0-0d6cc2dc622f",
+    "data": [
+      {
+        "text": "My daughter needs help now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e9fae56d-578c-4fe7-abaa-838146d05c2c",
+    "data": [
+      {
+        "text": "My son needs help now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6eded0ca-faae-4900-b4ff-278c620bceb1",
+    "data": [
+      {
+        "text": "I need help for my child",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0fbfbc15-c3d2-4324-880c-22aa6c4d58bd",
+    "data": [
+      {
+        "text": "I can\u0027t calm my kids down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "64cf7c1f-5980-42d6-bc32-68632611f7bf",
+    "data": [
+      {
+        "text": "My child is having a crisis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6324c063-dbe4-4be6-89dc-c6fdc1fce86e",
+    "data": [
+      {
+        "text": "Crisis response Program",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17a444a6-be94-4eba-ac8b-e246c48e5d20",
+    "data": [
+      {
+        "text": "Family Crisis Response Helpline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "185d610b-f75e-4b83-b71c-9e731b988b30",
+    "data": [
+      {
+        "text": "child\u0027s behavioral health crisis",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "11f61761-74f9-4b59-aae9-c5dfed47dcc9",
+    "data": [
+      {
+        "text": "Mobile Crisis Helpline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "22aed610-6db6-4ebd-a8e1-7b283c9c0eb0",
+    "data": [
+      {
+        "text": "Children and Families Mobile Crisis Helpline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "516af5c5-73aa-4cf7-b53b-259d6b91ba94",
+    "data": [
+      {
+        "text": "DCF Helpline",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

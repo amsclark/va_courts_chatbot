@@ -1,0 +1,82 @@
+{
+  "id": "94189b8d-5115-47a8-b7f0-52607813390c",
+  "parentId": "27ed884a-a82e-440f-8dc0-2ae600a2fd04",
+  "rootParentId": "27ed884a-a82e-440f-8dc0-2ae600a2fd04",
+  "name": "Disability - yes",
+  "auto": true,
+  "contexts": [
+    "Disability-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Disability.Disability-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to a few Disability related resources on our website which may be helpful. This includes help with special needs, independent living, disability rights, Fair Housing Assistance, jobs, and more."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://www.kansaslegalservices.org/topics/16/disability",
+                  "text": "Disability Main Page"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,39 @@
+{
+  "id": "7d6dd5a4-215c-4518-bd7f-297e37431780",
+  "parentId": "7a8666c3-0c80-46fa-ad54-28a871a1a0e0",
+  "rootParentId": "7a8666c3-0c80-46fa-ad54-28a871a1a0e0",
+  "name": "Garnishment - no",
+  "auto": true,
+  "contexts": [
+    "Garnishment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Garnishment.Garnishment-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

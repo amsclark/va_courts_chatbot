@@ -1,0 +1,288 @@
+[
+  {
+    "id": "41315740-f245-4e5e-b1fc-1441effa9c91",
+    "data": [
+      {
+        "text": "Do I qualify for the Earned Income Tax Credit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ff32af6b-1068-4c73-a056-96dd6927e9fe",
+    "data": [
+      {
+        "text": "Does KLS help with tax issues?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "25c5a6b2-af85-4312-bb3b-4ad62c1d739a",
+    "data": [
+      {
+        "text": "I need help with tax debts",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "57b2ee3e-a7f5-4fb9-8af5-cf46b082a86b",
+    "data": [
+      {
+        "text": "I owe the IRS",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d7439dd-5b6e-4786-a819-c08d427d0e8c",
+    "data": [
+      {
+        "text": "When do I get my tax refund",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "91db60a3-cb4a-42ee-8bf4-7c96527410be",
+    "data": [
+      {
+        "text": "I need tax filing assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "53389687-d012-4532-875d-a3ce3f39cedd",
+    "data": [
+      {
+        "text": "What resources are available for free tax filing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "78799c9e-1c70-4fa1-b9ac-e739e294b568",
+    "data": [
+      {
+        "text": "Do you provide resources for dealing with the IRS?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1b2080d5-5ec1-4168-9cb7-b02e7ee96fdb",
+    "data": [
+      {
+        "text": "Can you explain the earned income tax credit?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad47371b-8d29-48b3-a8c0-eb431485db5b",
+    "data": [
+      {
+        "text": "Do you offer free help with filing taxes?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "15383912-869c-4c1e-a60a-a54eafdca31f",
+    "data": [
+      {
+        "text": "I\u0027m not sure how to file my taxes correctly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d42ec64d-04ac-4bed-bc2f-df632d587a47",
+    "data": [
+      {
+        "text": "I need help filing taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eb543639-104a-45f2-9b3c-5fcf3db5c945",
+    "data": [
+      {
+        "text": "I am having issues with my taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62b46ab5-ce4a-4097-b96c-43b9756c06ec",
+    "data": [
+      {
+        "text": "low-income taxpayer clinic",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c5f536d5-c5c0-413e-8cc1-a7c94a0ab70a",
+    "data": [
+      {
+        "text": "help with taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89e78138-58dc-45ce-8565-9feef93382c5",
+    "data": [
+      {
+        "text": "tax return",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e78d6af2-c2a9-4742-ab39-e0b91bd7f1e6",
+    "data": [
+      {
+        "text": "filling taxes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f3b6fe7-548a-4b8b-bff8-5dbf3a13d312",
+    "data": [
+      {
+        "text": "low income taxpayer clinic",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "83b12f86-de01-4984-8cb1-6f435e3ee1e1",
+    "data": [
+      {
+        "text": "Earned income tax credit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "065b21de-278a-4f4f-ae3b-560a10707873",
+    "data": [
+      {
+        "text": "ETIC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1000e211-ff6f-4f09-aae1-14312bac9da8",
+    "data": [
+      {
+        "text": "EITC",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ead5c4bd-b08a-4d0c-8b78-13c5d95bca3f",
+    "data": [
+      {
+        "text": "irs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

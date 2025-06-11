@@ -1,0 +1,39 @@
+{
+  "id": "392c7d50-aa6d-48ba-b35b-742de70ee72f",
+  "parentId": "bb6c9c1c-f431-4a06-8d6f-4396aa86e31a",
+  "rootParentId": "bb6c9c1c-f431-4a06-8d6f-4396aa86e31a",
+  "name": "Adoption - no",
+  "auto": true,
+  "contexts": [
+    "Adoption-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Adoption.Adoption-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

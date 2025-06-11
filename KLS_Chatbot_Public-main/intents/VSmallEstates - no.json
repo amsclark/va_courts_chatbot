@@ -1,0 +1,39 @@
+{
+  "id": "fa695ade-d12d-4887-9e9e-c321ac39c2f8",
+  "parentId": "c61c0aa7-e5ae-4f0f-9126-99f526838769",
+  "rootParentId": "c61c0aa7-e5ae-4f0f-9126-99f526838769",
+  "name": "VSmallEstates - no",
+  "auto": true,
+  "contexts": [
+    "VSmallEstates-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VSmallEstates.VSmallEstates-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

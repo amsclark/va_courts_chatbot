@@ -1,0 +1,39 @@
+{
+  "id": "e894f59d-7350-4a41-905f-f7def319ab24",
+  "parentId": "242f8a13-9a15-4040-90f4-a639c9f3f745",
+  "rootParentId": "242f8a13-9a15-4040-90f4-a639c9f3f745",
+  "name": "Divorce - no",
+  "auto": true,
+  "contexts": [
+    "Divorce-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Divorce.Divorce-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

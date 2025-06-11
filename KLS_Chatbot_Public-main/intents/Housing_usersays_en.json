@@ -1,0 +1,470 @@
+[
+  {
+    "id": "709ff7b5-1694-4f86-b4d4-024042c415e9",
+    "data": [
+      {
+        "text": "i\u0027m having trouble finding housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "60bc2a83-0e4e-4ee3-8942-8830e8f633bd",
+    "data": [
+      {
+        "text": "landlord responsibilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5af366db-0abf-48a5-a4f4-497f3a4f9712",
+    "data": [
+      {
+        "text": "renter\u0027s rights",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f823e07c-f1e0-435f-b40a-65387d9ad6db",
+    "data": [
+      {
+        "text": "Landlord Rights and Responsibilities",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1828e15b-1836-416e-a90c-d6f84aefabb5",
+    "data": [
+      {
+        "text": "Landlord Handbook",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "514b8e36-78d5-4f10-9f35-d8b66be10b81",
+    "data": [
+      {
+        "text": "Can you help me with eviction proceedings?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "01e50027-5114-4366-baed-f37c31f2a2d9",
+    "data": [
+      {
+        "text": "My landlord is being unfair",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "477a1e98-47d5-4e0b-95c9-11af54ee0577",
+    "data": [
+      {
+        "text": "I have experienced harassment in housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e88224b3-f9d7-434e-95c1-6f030538e51f",
+    "data": [
+      {
+        "text": "I want to file an equal access rule complaint with HUD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "94bfe5e6-4db3-45e8-8aac-1a822f5f8307",
+    "data": [
+      {
+        "text": "I want to file a fair housing act complaint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9547ffc1-a366-46cd-9d31-9d2d395be2f4",
+    "data": [
+      {
+        "text": "Public Housing and Voucher Program",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d941d09d-a8e7-4aa8-a7d3-b7d914e2da80",
+    "data": [
+      {
+        "text": "Public Housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b80c4a21-9c4e-44bf-835f-545e0ca9f8d9",
+    "data": [
+      {
+        "text": "What do I do about an eviction?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f8c8d106-8551-4a3a-8472-7dc8b26ac6bb",
+    "data": [
+      {
+        "text": "rights of a renter",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c29ce9a3-193e-47ef-b22d-52535473af8d",
+    "data": [
+      {
+        "text": "Can you explain the Fair Housing Act?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "55957dfc-52f9-488e-a8af-b6aee18edefa",
+    "data": [
+      {
+        "text": "Can you help me stop an eviction?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f884420d-4d47-4b5f-9bff-6c13c5b8a59d",
+    "data": [
+      {
+        "text": "what legal rights do I have during an eviction?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0ff0dda8-2989-4ade-84c3-1e4f03ed645b",
+    "data": [
+      {
+        "text": "I am being evicted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1e2ddd7f-619a-4ba2-8789-a7307526b3c5",
+    "data": [
+      {
+        "text": "can I break my lease?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8cd618ed-8ef0-4588-be84-4dddc5424e3e",
+    "data": [
+      {
+        "text": "help with my lease",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d42e380d-e672-49c0-abf5-b561abee2d1b",
+    "data": [
+      {
+        "text": "apartment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "618c4a93-3344-4cf3-8721-66daf88e8523",
+    "data": [
+      {
+        "text": "renting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "abe533fe-924a-4f57-967a-8f221bc3a9ea",
+    "data": [
+      {
+        "text": "FHA",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f1c1442-5fb9-4af7-a133-ee7a48c7bd02",
+    "data": [
+      {
+        "text": "lead paint",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "36170d15-c120-4e6f-baba-53a8b786cdd2",
+    "data": [
+      {
+        "text": "home purchase",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "110ecba3-c25c-4e9f-afc6-ef4ed01c665d",
+    "data": [
+      {
+        "text": "home loan",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "13fe47d4-d2d1-408a-94a0-5f51cc3e6390",
+    "data": [
+      {
+        "text": "tenant\u0027s rights",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b894b305-39a1-497d-bdeb-4ff70485337f",
+    "data": [
+      {
+        "text": "home improvement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "17b2dfd5-276d-4570-96cb-71e5d72f9eaf",
+    "data": [
+      {
+        "text": "HUD",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "62ee0363-59ce-4cef-927c-f8fc7351ce4f",
+    "data": [
+      {
+        "text": "fair housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "428c3a9e-2991-4e48-a2a9-f1fed4eac4e0",
+    "data": [
+      {
+        "text": "tenant",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ead088e4-31f0-4e0f-ad4c-e102b87e4601",
+    "data": [
+      {
+        "text": "landlord",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "faf1f2e5-332c-48c0-9e9c-f8a17aaa6ec3",
+    "data": [
+      {
+        "text": "being evicted",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "37685300-067b-420a-95e4-4bc1464d8b3f",
+    "data": [
+      {
+        "text": "eviction",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1281a7ed-fbce-441f-b6d4-df0f0b712c5d",
+    "data": [
+      {
+        "text": "home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "106b4d05-b38f-4933-b300-a3ff2d68b9a9",
+    "data": [
+      {
+        "text": "housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
