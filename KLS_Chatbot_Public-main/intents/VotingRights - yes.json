@@ -1,0 +1,82 @@
+{
+  "id": "8a9b0c1d-2e3f-4567-8901-234abcdef017",
+  "parentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "rootParentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "name": "VotingRights - yes",
+  "auto": true,
+  "contexts": [
+    "VotingRights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VotingRights.VotingRights-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "title": "",
+                  "text": [
+                    "Here is a link to some resources on our website related to Voting Rights which may be helpful. This includes forms for petitioning the circuit court for approval of the right to register to vote and other court-approved voting rights forms."
+                  ],
+                  "type": "description"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://selfhelp.vacourts.gov/node/43/voting-rights-forms.html",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "type": "button",
+                  "text": "Voting Rights Forms"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

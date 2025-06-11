@@ -1,0 +1,62 @@
+{
+  "id": "0c1d2e3f-4567-8901-2345-6abcdef78901",
+  "parentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "rootParentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "name": "VotingRights - fallback",
+  "contexts": [
+    "VotingRights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VotingRights.VotingRights-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don't understand. Did I correctly identify that you are looking for information relating to Voting Rights? Please click either 'yes' or 'no' below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

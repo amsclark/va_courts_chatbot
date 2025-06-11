@@ -1,0 +1,39 @@
+{
+  "id": "9b0c1d2e-3f45-6789-0123-45abcdef6789",
+  "parentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "rootParentId": "h9i1j2k3-5678-9012-3456-7890abcdef17",
+  "name": "VotingRights - no",
+  "auto": true,
+  "contexts": [
+    "VotingRights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VotingRights.VotingRights-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
