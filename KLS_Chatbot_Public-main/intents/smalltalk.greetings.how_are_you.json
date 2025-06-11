@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.greetings.how_are_you",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

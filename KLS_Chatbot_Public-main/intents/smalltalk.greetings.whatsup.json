@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.greetings.whatsup",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

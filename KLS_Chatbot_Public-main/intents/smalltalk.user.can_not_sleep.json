@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.user.can_not_sleep",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

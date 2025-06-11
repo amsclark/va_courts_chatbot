@@ -3,7 +3,6 @@
   "parentId": "7c5a8f3e-2d6b-4951-c5a8-f3e2d6b9c5a8",
   "rootParentId": "7c5a8f3e-2d6b-4951-c5a8-f3e2d6b9c5a8",
   "name": "FindACase - fallback",
-  "auto": true,
   "contexts": [
     "FindACase-followup"
   ],

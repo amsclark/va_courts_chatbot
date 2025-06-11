@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.agent.talk_to_me",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

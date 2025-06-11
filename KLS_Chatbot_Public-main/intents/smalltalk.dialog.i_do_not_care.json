@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.dialog.i_do_not_care",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

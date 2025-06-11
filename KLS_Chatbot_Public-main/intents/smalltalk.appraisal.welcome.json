@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.appraisal.welcome",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

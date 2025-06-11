@@ -3,7 +3,6 @@
   "parentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
   "rootParentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
   "name": "FindALawyer - fallback",
-  "auto": true,
   "contexts": [
     "FindALawyer-followup"
   ],

@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.user.going_to_bed",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.dialog.hold_on",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

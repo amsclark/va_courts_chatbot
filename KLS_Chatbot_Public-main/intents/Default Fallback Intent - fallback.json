@@ -188,6 +188,5 @@
   "events": [],
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "auto": true
+  "conditionalFollowupEvents": []
 }

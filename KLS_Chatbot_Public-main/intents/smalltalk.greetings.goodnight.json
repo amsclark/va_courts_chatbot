@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.greetings.goodnight",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

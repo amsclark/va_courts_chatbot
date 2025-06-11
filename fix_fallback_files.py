@@ -30,11 +30,17 @@ def fix_fallback_files():
             
             # Add 'auto' field if missing
             if 'auto' not in data:
-                data['auto'] = True
+                print(f"Fixing {file_path.name} - adding 'auto' field")
+                # Insert 'auto' field after 'name' field
+                new_data = {}
+                for key, value in data.items():
+                    new_data[key] = value
+                    if key == 'name':
+                        new_data['auto'] = True
                 
                 # Write back to file
                 with open(file_path, 'w', encoding='utf-8') as f:
-                    json.dump(data, f, indent=2, ensure_ascii=False)
+                    json.dump(new_data, f, indent=2, ensure_ascii=False)
                 
                 print(f"✅ Fixed {file_path.name}")
                 fixed_count += 1

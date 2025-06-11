@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.dialog.sorry",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

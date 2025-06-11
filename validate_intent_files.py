@@ -29,10 +29,20 @@ def validate_intent_file(file_path):
         if isinstance(data, list):
             return []
             
-        # Check required fields
-        required_fields = ['id', 'name', 'auto', 'contexts', 'responses', 'priority', 
-                          'webhookUsed', 'webhookForSlotFilling', 'fallbackIntent', 
-                          'events', 'conditionalResponses', 'condition', 'conditionalFollowupEvents']
+        # Check required fields based on intent type
+        if 'fallback' in file_path.name:
+            # Fallback intents should NOT have 'auto' field based on examples
+            required_fields = ['id', 'name', 'contexts', 'responses', 'priority', 
+                              'webhookUsed', 'webhookForSlotFilling', 'fallbackIntent', 
+                              'events', 'conditionalResponses', 'condition', 'conditionalFollowupEvents']
+            # Check that fallback intents don't have 'auto' field
+            if 'auto' in data:
+                issues.append("Fallback intents should not have 'auto' field")
+        else:
+            # Regular intents should have 'auto' field
+            required_fields = ['id', 'name', 'auto', 'contexts', 'responses', 'priority', 
+                              'webhookUsed', 'webhookForSlotFilling', 'fallbackIntent', 
+                              'events', 'conditionalResponses', 'condition', 'conditionalFollowupEvents']
         
         for field in required_fields:
             if field not in data:

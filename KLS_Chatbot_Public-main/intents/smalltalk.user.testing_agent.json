@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.user.testing_agent",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.agent.busy",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

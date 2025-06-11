@@ -3,7 +3,6 @@
   "parentId": "4f9c6e1a-8b3d-4726-9c4f-6e1a8b3d9c4f",
   "rootParentId": "4f9c6e1a-8b3d-4726-9c4f-6e1a8b3d9c4f",
   "name": "FreedomOfInformationAct - fallback",
-  "auto": true,
   "contexts": [
     "FreedomOfInformationAct-followup"
   ],

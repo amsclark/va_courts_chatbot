@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.greetings.nice_to_meet_you",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [

@@ -27,7 +27,7 @@
       ],
       "defaultResponsePlatforms": {},
       "speech": [],
-      "action": "FindACase"
+      "action": ""
     }
   ],
   "priority": 500000,

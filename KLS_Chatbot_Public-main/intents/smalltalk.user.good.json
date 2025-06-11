@@ -6,7 +6,7 @@
   "responses": [
     {
       "resetContexts": false,
-      "action": "smalltalk.user.good",
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
