@@ -1,0 +1,48 @@
+{
+  "id": "b8c2f5d1-3e6a-4b8c-8c2f-5d1e6a4b8c2f",
+  "name": "FindACase - yes",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FindACase-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! I'll direct you to the Virginia court's case search page where you can find information about civil and criminal cases by selecting your specific court location."
+          ]
+        },
+        {
+          "type": 4,
+          "title": "",
+          "payload": {
+            "web_url": "https://selfhelp.vacourts.gov/node/23/find-case.html"
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

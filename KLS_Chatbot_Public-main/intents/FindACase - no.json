@@ -1,0 +1,38 @@
+{
+  "id": "b4c8f1d7-9e2a-0b4c-4c8f-1d7e2a0b4c8f",
+  "name": "FindACase - no",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FindACase-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem! If you have any other questions about legal matters, feel free to ask."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

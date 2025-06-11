@@ -1,0 +1,38 @@
+{
+  "id": "b0c4f7d3-5e8a-6b0c-0c4f-7d3e8a6b0c4f",
+  "name": "FindACase - fallback",
+  "auto": true,
+  "contexts": [
+    {
+      "name": "FindACase-followup"
+    }
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I'm not sure I understand. Would you like me to provide information about finding court cases in Virginia, or do you have other questions I can help with?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
