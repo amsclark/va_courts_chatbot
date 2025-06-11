@@ -84,6 +84,12 @@
     ]
   },
   {
+    "value": "Kansas",
+    "synonyms": [
+      "Kansas"
+    ]
+  },
+  {
     "value": "Idaho",
     "synonyms": [
       "Idaho"
@@ -255,12 +261,6 @@
     "value": "Vermont",
     "synonyms": [
       "Vermont"
-    ]
-  },
-  {
-    "value": "Virginia",
-    "synonyms": [
-      "Virginia"
     ]
   },
   {

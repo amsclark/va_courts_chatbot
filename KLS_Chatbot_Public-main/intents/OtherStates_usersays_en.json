@@ -8,8 +8,8 @@
       },
       {
         "text": "Wisconsin",
-        "meta": "@NonKansasState",
-        "alias": "nonkansasstate",
+        "meta": "@NonVirginiaState",
+        "alias": "nonvirginiastate",
         "userDefined": true
       },
       {
@@ -26,13 +26,13 @@
     "id": "de2cbd17-12f5-4f54-ae7e-23b6c008f22d",
     "data": [
       {
-        "text": "Do you assist residents in Halifax County, ",
+        "text": "Do you assist residents in Sedgwick County, ",
         "userDefined": false
       },
       {
-        "text": "Virginia",
-        "meta": "@NonKansasState",
-        "alias": "nonkansasstate",
+        "text": "Kansas",
+        "meta": "@NonVirginiaState",
+        "alias": "nonvirginiastate",
         "userDefined": true
       }
     ],
@@ -46,8 +46,8 @@
     "data": [
       {
         "text": "Maine",
-        "meta": "@NonKansasState",
-        "alias": "nonkansasstate",
+        "meta": "@NonVirginiaState",
+        "alias": "nonvirginiastate",
         "userDefined": true
       }
     ],
@@ -65,8 +65,8 @@
       },
       {
         "text": "North Carolina",
-        "meta": "@NonKansasState",
-        "alias": "nonkansasstate",
+        "meta": "@NonVirginiaState",
+        "alias": "nonvirginiastate",
         "userDefined": true
       }
     ],
@@ -84,8 +84,8 @@
       },
       {
         "text": "Florida",
-        "meta": "@NonKansasState",
-        "alias": "nonkansasstate",
+        "meta": "@NonVirginiaState",
+        "alias": "nonvirginiastate",
         "userDefined": true
       }
     ],
@@ -103,8 +103,8 @@
       },
       {
         "text": "Alabama",
-        "meta": "@NonKansasState",
-        "alias": "nonkansasstate",
+        "meta": "@NonVirginiaState",
+        "alias": "nonvirginiastate",
         "userDefined": true
       },
       {
