@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "CourthouseDevicePolicy Information",
-                  "link": "https://selfhelp.vacourts.gov/",
+                  "text": "Courthouse Cell Phone and Electronic Device Policy",
+                  "link": "https://selfhelp.vacourts.gov/node/30/cell-phone-electronic-device-policy",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

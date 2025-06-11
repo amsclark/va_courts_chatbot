@@ -54,7 +54,7 @@
         "userDefined": false
       },
       {
-        "text": " Support Incentive Program",
+        "text": "Support",
         "userDefined": false
       }
     ],
@@ -168,23 +168,10 @@
     "updated": 0
   },
   {
-    "id": "00b1ecfb-c0b2-463b-b499-8a76e3592ba4",
-    "data": [
-      {
-        "text": "DRA",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "0f2a6d33-30c7-40dc-9a91-37c3bd7643c7",
     "data": [
       {
-        "text": "what is a domestic Relations affidavit?",
+        "text": "domestic relations",
         "userDefined": false
       }
     ],

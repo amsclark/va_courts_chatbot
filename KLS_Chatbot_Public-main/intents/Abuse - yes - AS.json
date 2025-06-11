@@ -43,20 +43,12 @@
                 {
                   "type": "divider"
                 },
-                {
-                  "type": "button",
-                  "link": "https://selfhelp.vacourts.gov/node/63/family-abuse-protective-order-information-checklist.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "text": "Abuse and Stalking"
-                },
+                
                 {
                   "type": "divider"
                 },
                 {
-                  "text": "Protection From Abuse/Stalking (PFA/PFS) - Tips & Tricks",
+                  "text": "Protective Orders Checklist",
                   "icon": {
                     "color": "#00CC8D",
                     "type": "info"
