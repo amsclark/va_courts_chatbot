@@ -1,0 +1,39 @@
+{
+  "id": "c4d8g1h5-0a3b-1c4d-4d8g-1h5a3b1c4d8g",
+  "name": "FindALawyer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "FindALawyer-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
