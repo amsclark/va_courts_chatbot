@@ -63,8 +63,8 @@
                     "color": "#00CC8D",
                     "type": "info"
                   },
-                  "text": "About KLS",
-                  "link": "https://selfhelp.vacourts.gov/"
+                  "text": "About Virginia Courts Self-Help",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html"
                 },
                 {
                   "type": "divider"
@@ -100,7 +100,7 @@
                   },
                   "type": "button",
                   "text": "Topics that We Help With",
-                  "link": "https://selfhelp.vacourts.gov/"
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html"
                 },
                 {
                   "type": "divider"

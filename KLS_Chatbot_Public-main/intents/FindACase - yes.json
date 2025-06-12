@@ -42,7 +42,7 @@
                 {
                   "type": "button",
                   "text": "FindACase Information",
-                  "link": "https://selfhelp.vacourts.gov/",
+                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

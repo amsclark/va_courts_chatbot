@@ -41,8 +41,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "FilingFeesAndWaivers Information",
-                  "link": "https://selfhelp.vacourts.gov/",
+                  "text": "Filing Fees and Waivers Information",
+                  "link": "https://selfhelp.vacourts.gov/node/14/filing-fees-waivers",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
