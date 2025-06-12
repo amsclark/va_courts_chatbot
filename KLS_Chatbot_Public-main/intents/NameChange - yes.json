@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "NameChange Information",
-                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "text": "Name Change Information",
+                  "link": "https://selfhelp.vacourts.gov/node/42/change-name-forms.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

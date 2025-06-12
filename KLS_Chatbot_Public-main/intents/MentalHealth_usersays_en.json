@@ -173,6 +173,32 @@
     "updated": 0
   },
   {
+    "id": "f062431f-16a2-4047-a266-2d3881686a67",
+    "data": [
+      {
+        "text": "suicide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2951a09-c70c-4787-af55-c27e7aac3146",
+    "data": [
+      {
+        "text": "kill myself",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "ac1cec64-19f9-4fca-889d-058f13d02af6",
     "data": [
       {

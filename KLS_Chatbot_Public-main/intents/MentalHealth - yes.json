@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "Mental Health Forms",
-                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "text": "Mental Health (Adult) Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/40/mental-health-adult-forms",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
@@ -59,8 +59,20 @@
                 },
                 {
                   "type": "button",
-                  "text": "Find a Lawyer",
-                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "text": "Mental Health (Juvenile) Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/41/mental-health-juvenile-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "988 Suicide & Crisis Lifeline - Call, Text, or Chat Online",
+                  "link": "https://988lifeline.org/",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
