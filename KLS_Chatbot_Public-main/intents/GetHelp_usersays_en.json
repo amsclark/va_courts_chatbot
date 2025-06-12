@@ -169,62 +169,6 @@
     "updated": 0
   },
   {
-    "id": "a1ca7b20-c7c8-4f58-9500-98016384e3e1",
-    "data": [
-      {
-        "text": "I have a problem for KLS",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "94da257d-9cb3-4c5a-8815-dabf4256dfa3",
-    "data": [
-      {
-        "text": "I have a problem with KLS",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "4b8ecbe4-0b52-463c-9754-ec9b4c0a34db",
-    "data": [
-      {
-        "text": "I need to speak to ",
-        "userDefined": false
-      },
-      {
-        "text": "KLS",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "75d64248-295d-4654-a6c1-4a0eb1d6ad74",
-    "data": [
-      {
-        "text": "Can KLS help me?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "b0644f19-7f58-4ff1-a598-20613326e5ec",
     "data": [
       {
@@ -319,7 +263,7 @@
     "id": "f9f2bb56-3fc9-4aed-9cca-2169d7b4c402",
     "data": [
       {
-        "text": "what are the legal issues that KLS can help with?",
+        "text": "what are the legal issues that you can help with?",
         "userDefined": false
       }
     ],
@@ -600,19 +544,7 @@
     "count": 0,
     "lang": "en",
     "updated": 0
-  },
-  {
-    "id": "bcfd6618-35a3-4d6d-8896-0d54e7b85d0a",
-    "data": [
-      {
-        "text": "where is KLS?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
+  },: 0
   },
   {
     "id": "cb67da25-6d12-4474-a7e2-8037d6dcb82a",
@@ -719,19 +651,6 @@
     "updated": 0
   },
   {
-    "id": "1098f001-0d39-41b8-a363-1f33a2ab01e5",
-    "data": [
-      {
-        "text": "am I eligible for KLS help?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "62dbfa3b-699c-4cd5-81eb-c663438542f6",
     "data": [
       {
@@ -810,19 +729,6 @@
     "updated": 0
   },
   {
-    "id": "ae5e7b4b-630d-4bd6-8307-152ab8fc8fe5",
-    "data": [
-      {
-        "text": "is there a phone number for KLS?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "c6f976f2-edef-4407-9296-9f239c192643",
     "data": [
       {
@@ -888,62 +794,10 @@
     "updated": 0
   },
   {
-    "id": "652e7e17-5760-4c67-b3a3-5ee3a42440b0",
-    "data": [
-      {
-        "text": "what service are offered by KLS",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "408c9a5b-7655-480d-b15f-240c3c767d41",
     "data": [
       {
         "text": "what service are offered by Virginia Self-Help",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "9d249042-28ac-4bfc-9e58-497af5a38fc6",
-    "data": [
-      {
-        "text": "KLS help",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "892d56a8-4f6d-4e4f-8970-7f10e383c500",
-    "data": [
-      {
-        "text": "KLS services",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "ada35935-fe05-46e9-8de3-bb20858c0173",
-    "data": [
-      {
-        "text": "what services do KLS offer",
         "userDefined": false
       }
     ],

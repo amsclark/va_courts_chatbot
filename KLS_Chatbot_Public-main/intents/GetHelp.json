@@ -100,31 +100,10 @@
                     "color": "#00CC8D",
                     "type": "info"
                   },
-                  "text": "Office Locations"
+                  "text": "Find your Court"
                 },
                 {
                   "type": "divider"
-                },
-                {
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
-                  "type": "button",
-                  "text": "Civil Legal Aid 101",
-                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "icon": {
-                    "type": "play_arrow",
-                    "color": "green"
-                  },
-                  "link": "https://youtu.be/sB_vK4V2_HY",
-                  "type": "button",
-                  "text": "Short Video on How to Get Help from KLS"
                 }
               ]
             ]
