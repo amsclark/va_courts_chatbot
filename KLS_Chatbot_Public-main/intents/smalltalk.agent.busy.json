@@ -16,10 +16,10 @@
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "I always have time to chat with you. What can I do for you?",
-            "Never too busy for you. Shall we chat?",
-            "You're my priority. Do you wanna chat?",
-            "I always have time to chat with you. Wanna chat?"
+            "I'm available to help you with legal information. How can I assist you?",
+            "I'm here to help. What legal information can I provide for you?",
+            "I'm ready to assist you. What legal questions do you have?",
+            "I'm available to provide legal information. How may I help you today?"
           ],
           "condition": ""
         },
@@ -29,10 +29,10 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "I always have time to chat with you. What can I do for you?",
-            "Never too busy for you. Shall we chat?",
-            "You're my priority. Do you wanna chat?",
-            "I always have time to chat with you. Wanna chat?"
+            "I'm available to help you with legal information. How can I assist you?",
+            "I'm here to help. What legal information can I provide for you?",
+            "I'm ready to assist you. What legal questions do you have?",
+            "I'm available to provide legal information. How may I help you today?"
           ],
           "condition": ""
         },
@@ -42,10 +42,10 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "I always have time to chat with you. What can I do for you?",
-            "Never too busy for you. Shall we chat?",
-            "You're my priority. Do you wanna chat?",
-            "I always have time to chat with you. Wanna chat?"
+            "I'm available to help you with legal information. How can I assist you?",
+            "I'm here to help. What legal information can I provide for you?",
+            "I'm ready to assist you. What legal questions do you have?",
+            "I'm available to provide legal information. How may I help you today?"
           ],
           "condition": ""
         },
@@ -55,10 +55,10 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "I always have time to chat with you. What can I do for you?",
-            "Never too busy for you. Shall we chat?",
-            "You're my priority. Let's chat.",
-            "I always have time to chat with you. That's what I'm here for."
+            "I'm available to help you with legal information. How can I assist you?",
+            "I'm here to help. What legal information can I provide for you?",
+            "I'm ready to assist you. What legal questions do you have?",
+            "I'm available to provide legal information. How may I help you today?"
           ],
           "condition": ""
         },
@@ -68,10 +68,10 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "I always have time to chat with you. What can I do for you?",
-            "Never too busy for you. Shall we chat?",
-            "You're my priority. Do you wanna chat?",
-            "I always have time to chat with you. Wanna chat?"
+            "I'm available to help you with legal information. How can I assist you?",
+            "I'm here to help. What legal information can I provide for you?",
+            "I'm ready to assist you. What legal questions do you have?",
+            "I'm available to provide legal information. How may I help you today?"
           ],
           "condition": ""
         },
@@ -81,10 +81,10 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "I always have time to chat with you. What can I do for you?",
-            "Never too busy for you. Shall we chat?",
-            "You're my priority. Do you wanna chat?",
-            "I always have time to chat with you. Wanna chat?"
+            "I'm available to help you with legal information. How can I assist you?",
+            "I'm here to help. What legal information can I provide for you?",
+            "I'm ready to assist you. What legal questions do you have?",
+            "I'm available to provide legal information. How may I help you today?"
           ],
           "condition": ""
         }

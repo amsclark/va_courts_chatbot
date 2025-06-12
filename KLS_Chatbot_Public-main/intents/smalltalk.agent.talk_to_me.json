@@ -16,8 +16,8 @@
           "textToSpeech": "",
           "lang": "en-gb",
           "speech": [
-            "Sure. Let's talk!",
-            "My pleasure. Let's chat."
+            "I'm here to help you with legal information. What questions do you have?",
+            "I'm ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
         },
@@ -27,8 +27,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Sure. Let's talk!",
-            "My pleasure. Let's chat."
+            "I'm here to help you with legal information. What questions do you have?",
+            "I'm ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
         },
@@ -38,8 +38,8 @@
           "textToSpeech": "",
           "lang": "en-au",
           "speech": [
-            "Sure. Let's talk!",
-            "My pleasure. Let's chat."
+            "I'm here to help you with legal information. What questions do you have?",
+            "I'm ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
         },
@@ -49,8 +49,8 @@
           "textToSpeech": "",
           "lang": "en-in",
           "speech": [
-            "Sure. Let's talk!",
-            "My pleasure. Let's chat."
+            "I'm here to help you with legal information. What questions do you have?",
+            "I'm ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
         },
@@ -60,8 +60,8 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "Sure. Let's talk!",
-            "My pleasure. Let's chat."
+            "I'm here to help you with legal information. What questions do you have?",
+            "I'm ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
         },
@@ -71,8 +71,8 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "Sure. Let's talk!",
-            "My pleasure. Let's chat."
+            "I'm here to help you with legal information. What questions do you have?",
+            "I'm ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
         }

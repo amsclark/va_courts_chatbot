@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "News and Publications",
-                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "text": "How to Apply for a Virginia Adult Birth Certificate",
+                  "link": "https://selfhelp.vacourts.gov/node/65/how-apply-your-birth-certificate-adult-virginia",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
@@ -59,8 +59,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "Frequently Asked Questions",
-                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "text": "Change of Sex Forms (Apply to Amend a Birth Certificate)",
+                  "link": "https://selfhelp.vacourts.gov/node/44/change-sex-forms",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
