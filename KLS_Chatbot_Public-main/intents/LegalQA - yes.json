@@ -59,8 +59,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "Find a Lawyer",
-                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "text": "Legal Glossaries",
+                  "link": "https://selfhelp.vacourts.gov/node/17/glossaries.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

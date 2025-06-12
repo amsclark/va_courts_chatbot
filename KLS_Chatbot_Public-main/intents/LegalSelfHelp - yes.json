@@ -53,7 +53,44 @@
                     "type": "info",
                     "color": "#00CC8D"
                   }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "District Court Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/52/district-court-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Form",
+                  "link": "https://selfhelp.vacourts.gov/node/28/find-form",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Small Claims",
+                  "link": "https://selfhelp.vacourts.gov/node/11/small-claims",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
                 }
+
               ]
             ]
           },

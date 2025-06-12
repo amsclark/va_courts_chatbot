@@ -59,6 +59,42 @@
                 },
                 {
                   "type": "button",
+                  "text": "Mental Health (Adult) Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/40/mental-health-adult-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Mental Health (Juvenile) Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/41/mental-health-juvenile-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Disability Accommodations in Virginia Courts",
+                  "link": "https://selfhelp.vacourts.gov/node/26/disability-accommodations-virginia-courts.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
                   "text": "Find a Lawyer",
                   "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {

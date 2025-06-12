@@ -39,7 +39,7 @@
                   "type": "description",
                   "title": "",
                   "text": [
-                    "Here are helpful resources for jueveniles matters in Virginia. Check the links below for more information!"
+                    "Here are helpful resources for juvenile matters in Virginia. Check the links below for more information!"
                   ]
                 },
                 {
@@ -47,12 +47,39 @@
                 },
                 {
                   "type": "button",
-                  "text": "Jueveniles Information",
-                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "text": "Juvenile and Domestic Relations District Court",
+                  "link": "https://selfhelp.vacourts.gov/node/27/juvenile-and-domestic-relations-district-court",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
                   }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Juvenile Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/50/juvenile-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Juvenile Mental Health Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/41/mental-health-juvenile-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
                 }
               ]
             ]

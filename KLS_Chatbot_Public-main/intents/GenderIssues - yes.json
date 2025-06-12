@@ -47,8 +47,17 @@
                 },
                 {
                   "type": "button",
-                  "text": "GenderIssues Information",
-                  "link": "https://selfhelp.vacourts.gov/node/28/find-form.html",
+                  "text": "Change of Sex Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/44/change-sex-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "button",
+                  "text": "Change of Name Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/42/change-name-forms",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

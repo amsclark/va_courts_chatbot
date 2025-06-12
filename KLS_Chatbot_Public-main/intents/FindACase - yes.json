@@ -41,6 +41,18 @@
                 },
                 {
                   "type": "button",
+                  "text": "Find Your Traffic Case / Pay a Traffic Ticket Online",
+                  "link": "https://selfhelp.vacourts.gov/node/34/pay-your-traffic-ticket-online",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
                   "text": "FindACase Information",
                   "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
                   "icon": {

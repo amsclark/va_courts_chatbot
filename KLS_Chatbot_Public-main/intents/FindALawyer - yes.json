@@ -53,8 +53,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "Legal Aid Information",
-                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "text": "Legal Aid Information (External Link - Virginia State Bar)",
+                  "link": "https://www.vsb.org/Site/Site/legal-help/legal-help.aspx",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

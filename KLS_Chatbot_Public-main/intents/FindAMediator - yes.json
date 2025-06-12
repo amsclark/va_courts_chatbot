@@ -42,7 +42,7 @@
                 {
                   "type": "button",
                   "text": "Mediator Information",
-                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "link": "https://selfhelp.vacourts.gov/node/7/find-mediator",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

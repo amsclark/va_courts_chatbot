@@ -19,7 +19,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Great! I'll direct you to the Virginia court's Freedom of Information Act forms page where you can find the necessary forms and information for FOIA requests."
+            "Great! I'll direct you to our Freedom of Information Act forms page where you can find the necessary forms and information for FOIA requests. See the link below"
           ],
           "condition": ""
         },
@@ -29,16 +29,6 @@
           "payload": {
             "richContent": [
               [
-                {
-                  "type": "description",
-                  "title": "",
-                  "text": [
-                    "Here are resources for Freedom of Information Act matters in Virginia, including forms and legal assistance."
-                  ]
-                },
-                {
-                  "type": "divider"
-                },
                 {
                   "type": "button",
                   "text": "FOIA Forms",
