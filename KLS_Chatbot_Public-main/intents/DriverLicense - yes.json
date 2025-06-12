@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "DriverLicense Information",
-                  "link": "https://selfhelp.vacourts.gov/",
+                  "text": "Traffic Cases and Driver's License",
+                  "link": "https://selfhelp.vacourts.gov/node/9/traffic-cases-and-drivers-licenses",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
