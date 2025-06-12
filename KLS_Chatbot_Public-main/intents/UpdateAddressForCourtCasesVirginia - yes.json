@@ -47,8 +47,8 @@
                 },
                 {
                   "type": "button",
-                  "text": "Find Your Court",
-                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
+                  "text": "How to Change Your Address with the Virginia Courts If You Have a Court Case",
+                  "link": "https://selfhelp.vacourts.gov/node/2/how-change-your-address",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

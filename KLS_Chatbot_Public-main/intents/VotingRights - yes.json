@@ -56,15 +56,6 @@
                 },
                 {
                   "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "text": "Frequently Asked Questions",
-                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
                 }
               ]
             ]
