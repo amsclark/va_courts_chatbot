@@ -1,0 +1,40 @@
+{
+  "id": "4f9c6e1a-8b3d-4726-9c4f-6e1a8b3d9c4f",
+  "name": "FreedomOfInformationAct",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "FreedomOfInformationAct-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "The Virginia Judicial System provides Freedom of Information Act forms for court proceedings. Would you like me to direct you to our Freedom of Information Act forms page?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

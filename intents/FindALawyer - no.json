@@ -1,0 +1,39 @@
+{
+  "id": "9e6b2f8c-4a7d-4e91-b6f3-8c5a2d9e7b4f",
+  "parentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
+  "rootParentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
+  "name": "FindALawyer - no",
+  "auto": true,
+  "contexts": [
+    "FindALawyer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FindALawyer.no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "No problem! If you have any other questions about legal matters, feel free to ask."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,62 @@
+{
+  "id": "fedeb716-76f4-4bc4-bb2d-c7158cce46cf",
+  "parentId": "c187a0d3-1b74-46f8-85c3-5e905f2d9612",
+  "rootParentId": "c187a0d3-1b74-46f8-85c3-5e905f2d9612",
+  "name": "FamilyLaw - fallback",
+  "contexts": [
+    "FamilyLaw-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FamilyLaw.FamilyLaw-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand.  Family law generally deals with things like Adoption, Child Custody, Child Support, Divorce, Abuse and Neglect, Visitation, Spousal Support, Paternity, and other related subject matter.  Did I correctly identify your issues as related to Family Law? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

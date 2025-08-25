@@ -1,0 +1,275 @@
+[
+  {
+    "id": "ae831473-0e83-46ad-b663-53a341a620dc",
+    "data": [
+      {
+        "text": "can you give me information about a suspended license?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "141b37bd-3a64-4833-a61c-697206337543",
+    "data": [
+      {
+        "text": "I need help with my driver\u0027s license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1f56c327-25f5-49c0-8087-566b718662b7",
+    "data": [
+      {
+        "text": "my license was revoked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c00b86bf-3a49-4903-b6e7-3341fb0e04a1",
+    "data": [
+      {
+        "text": "I received a notice of license suspension",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5db1d9c7-0093-4f1b-bced-a9b80cb3ca7a",
+    "data": [
+      {
+        "text": "What are the steps to reinstate a suspended licesnse?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1077f80c-9158-403a-b279-115acea58741",
+    "data": [
+      {
+        "text": "driver\u0027s license reinstatement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16ad010a-4a14-4c72-b7c1-844e00ad0fbf",
+    "data": [
+      {
+        "text": "Driving with expired tags",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f5323cc5-c1e0-4569-afea-d7c26addfa51",
+    "data": [
+      {
+        "text": "Project Green Light",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "89069d60-b35c-46c3-8cd4-42391336df5e",
+    "data": [
+      {
+        "text": "I\u0027m worried I will lose my license because I can\u0027t afford car insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d2053834-451f-43b6-8c22-967a3de06e1c",
+    "data": [
+      {
+        "text": "What is the process to get my driver\u0027s license back?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "de281745-47d0-4815-aafe-de872a2a055c",
+    "data": [
+      {
+        "text": "I need help with a suspended license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "bc0638d6-5eaf-4c53-acbc-842c28913ae1",
+    "data": [
+      {
+        "text": "I want to be able to drive legally",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "49c60dd0-e199-4c58-b7b1-b7f662472daf",
+    "data": [
+      {
+        "text": "How can I get my license back?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "259162dd-9a24-4d40-a292-de93cb656204",
+    "data": [
+      {
+        "text": "I am having issues with my driver\u0027s license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "31057466-e515-4b52-b5c7-33486573a2b4",
+    "data": [
+      {
+        "text": "revoked license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5e219c62-d8be-41c8-9bde-ea789dfcc44b",
+    "data": [
+      {
+        "text": "reinstatement fee waiver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a1e10bf7-44c8-4358-8eb0-b33ca83971c3",
+    "data": [
+      {
+        "text": "license reinstatement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7d93005c-d079-435e-b1ae-8d805ca0e3b4",
+    "data": [
+      {
+        "text": "restricted license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4035172f-ed30-4775-92f4-e6705e96d7a2",
+    "data": [
+      {
+        "text": "suspended license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "813885fb-8db9-44aa-a77d-f1739d4e8362",
+    "data": [
+      {
+        "text": "driver\u0027s license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3b983d57-cab4-4049-b767-aa4acb5d0f9d",
+    "data": [
+      {
+        "text": "drivers license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

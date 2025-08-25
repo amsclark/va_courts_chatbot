@@ -1,0 +1,95 @@
+{
+  "id": "7c3f9e1a-5b8d-4267-9f4c-2a8e6b9d1f5c",
+  "parentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
+  "rootParentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
+  "name": "FindALawyer - yes",
+  "auto": true,
+  "contexts": [
+    "FindALawyer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FindALawyer.yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Great! I\u0027ll direct you to the Virginia court\u0027s information page about finding a lawyer, which includes details about lawyer referral services, legal aid, and other resources."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources to help you find legal assistance in Virginia, including information about free and low-cost legal services."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Legal Aid Information (External Link - Virginia State Bar)",
+                  "link": "https://www.vsb.org/Site/Site/legal-help/legal-help.aspx",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "What to Do When You Can\u0027t Afford an Attorney",
+                  "link": "https://selfhelp.vacourts.gov/node/31/what-do-when-you-cant-afford-attorney.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

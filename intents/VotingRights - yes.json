@@ -1,0 +1,79 @@
+{
+  "id": "2d7a4f8e-6c1b-4193-7a2d-4f8e6c1b7a2d",
+  "parentId": "9b6f2e5a-4d8c-4871-6f9b-2e5a4d8c6f9b",
+  "rootParentId": "9b6f2e5a-4d8c-4871-6f9b-2e5a4d8c6f9b",
+  "name": "VotingRights - yes",
+  "auto": true,
+  "contexts": [
+    "VotingRights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VotingRights.VotingRights-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources for voting rights matters in Virginia, including forms and general information."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Voting Rights Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/43/voting-rights-forms.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

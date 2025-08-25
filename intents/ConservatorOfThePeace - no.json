@@ -1,0 +1,39 @@
+{
+  "id": "5c8a2f93-7e1d-4b6a-8c57-9f2e4b7d0a83",
+  "parentId": "8f3e7b42-9ac1-4d5e-b8f2-7c9a4e6b1d3f",
+  "rootParentId": "8f3e7b42-9ac1-4d5e-b8f2-7c9a4e6b1d3f",
+  "name": "ConservatorOfThePeace - no",
+  "auto": true,
+  "contexts": [
+    "ConservatorOfThePeace-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ConservatorOfThePeace.ConservatorOfThePeace-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

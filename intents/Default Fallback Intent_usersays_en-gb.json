@@ -1,0 +1,80 @@
+[
+  {
+    "id": "9ffd8ab4-fbd6-4b66-96c6-3a5e0527a826",
+    "data": [
+      {
+        "text": "I\u0027m not going to wait for you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-gb",
+    "updated": 0
+  },
+  {
+    "id": "3cf9b4df-44fa-4833-bc66-85be045c6768",
+    "data": [
+      {
+        "text": "I don\u0027t want to talk about hobbies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-gb",
+    "updated": 0
+  },
+  {
+    "id": "826c3d88-7e92-4891-959e-bb062a58bf58",
+    "data": [
+      {
+        "text": "I love spring",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-gb",
+    "updated": 0
+  },
+  {
+    "id": "b8b77c9d-ac34-4052-a935-4341b175abcd",
+    "data": [
+      {
+        "text": "the weather if beautiful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-gb",
+    "updated": 0
+  },
+  {
+    "id": "e9481752-c955-4189-96c0-71e64ce24a54",
+    "data": [
+      {
+        "text": "I didn\u0027t say I\u0027m sad",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-gb",
+    "updated": 0
+  },
+  {
+    "id": "f8d9ec60-0299-45bb-b004-0b19c69ec81e",
+    "data": [
+      {
+        "text": "I\u0027m not interested in your age",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-gb",
+    "updated": 0
+  }
+]

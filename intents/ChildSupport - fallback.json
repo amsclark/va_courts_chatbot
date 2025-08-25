@@ -1,0 +1,62 @@
+{
+  "id": "c87eb8a8-9f09-43cf-a502-924f82cdb19b",
+  "parentId": "b8147d39-d036-4df6-a303-a03da53de365",
+  "rootParentId": "b8147d39-d036-4df6-a303-a03da53de365",
+  "name": "ChildSupport - fallback",
+  "contexts": [
+    "ChildSupport-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ChildSupport.ChildSupport-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issue as related to Child Support? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

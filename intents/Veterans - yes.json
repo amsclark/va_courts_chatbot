@@ -1,0 +1,76 @@
+{
+  "id": "8a4e96aa-00a2-4a6e-bf01-8ca04f1792f4",
+  "parentId": "4ab1f002-1ec5-4455-9221-979128e0354b",
+  "rootParentId": "4ab1f002-1ec5-4455-9221-979128e0354b",
+  "name": "Veterans - yes",
+  "auto": true,
+  "contexts": [
+    "Veterans-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Veterans.Veterans-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are helpful resources for veterans matters in Virginia. Check the links below for more information!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Veterans Information",
+                  "link": "https://selfhelp.vacourts.gov/node/35/resources-veterans",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

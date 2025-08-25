@@ -1,0 +1,88 @@
+{
+  "id": "0f9c3a6e-2d8b-4617-9c0f-3a6e2d8b9c0f",
+  "parentId": "7a4e8c2f-9b6d-4351-4e7a-8c2f9b6d4e7a",
+  "rootParentId": "7a4e8c2f-9b6d-4351-4e7a-8c2f9b6d4e7a",
+  "name": "VirginiaProbateHelp - yes",
+  "auto": true,
+  "contexts": [
+    "VirginiaProbateHelp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "VirginiaProbateHelp.VirginiaProbateHelp-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are specific resources for probate matters in Virginia, including step-by-step information and forms."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Probate in Virginia",
+                  "link": "https://selfhelp.vacourts.gov/node/20/probate-virginia.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Probate Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/37/probate-forms.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

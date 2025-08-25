@@ -1,0 +1,106 @@
+[
+  {
+    "id": "d5e9h2i6-1b4c-2d5e-5e9h-2i6b4c2d5e9h",
+    "data": [
+      {
+        "text": "find a lawyer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e6f0i3j7-2c5d-3e6f-6f0i-3j7c5d3e6f0i",
+    "data": [
+      {
+        "text": "I need a lawyer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f7a1j4k8-3d6e-4f7a-7a1j-4k8d6e4f7a1j",
+    "data": [
+      {
+        "text": "find an attorney",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a8b2k5l9-4e7f-5a8b-8b2k-5l9e7f5a8b2k",
+    "data": [
+      {
+        "text": "lawyer referral service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b9c3l6m0-5f8a-6b9c-9c3l-6m0f8a6b9c3l",
+    "data": [
+      {
+        "text": "how do I find a lawyer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c0d4m7n1-6a9b-7c0d-0d4m-7n1a9b7c0d4m",
+    "data": [
+      {
+        "text": "free lawyer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d1e5n8o2-7b0c-8d1e-1e5n-8o2b0c8d1e5n",
+    "data": [
+      {
+        "text": "legal aid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e2f6o9p3-8c1d-9e2f-2f6o-9p3c1d9e2f6o",
+    "data": [
+      {
+        "text": "public defender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

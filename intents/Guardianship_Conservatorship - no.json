@@ -1,0 +1,39 @@
+{
+  "id": "cec2347e-9b4e-4c52-a643-eb34f9fd431b",
+  "parentId": "7a93d37a-3bcf-4d6b-9431-f4d3b322f157",
+  "rootParentId": "7a93d37a-3bcf-4d6b-9431-f4d3b322f157",
+  "name": "Guardianship_Conservatorship - no",
+  "auto": true,
+  "contexts": [
+    "Guardianship_Conservatorship-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Guardianship_Conservatorship.Guardianship_Conservatorship-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

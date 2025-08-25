@@ -1,0 +1,39 @@
+{
+  "id": "9d1a6f3e-5c8b-4749-1a9d-6f3e5c8b1a9d",
+  "parentId": "3e9a5f2c-7b4d-4217-9a3e-5f2c7b4d9a3e",
+  "rootParentId": "3e9a5f2c-7b4d-4217-9a3e-5f2c7b4d9a3e",
+  "name": "CourtGlossaryInfo - no",
+  "auto": true,
+  "contexts": [
+    "CourtGlossaryInfo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourtGlossaryInfo.CourtGlossaryInfo-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

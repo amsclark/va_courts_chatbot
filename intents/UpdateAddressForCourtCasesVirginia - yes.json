@@ -1,0 +1,88 @@
+{
+  "id": "0d8f4c7a-9e2b-4921-8f0d-4c7a9e2b8f0d",
+  "parentId": "6e3a9f5c-2b7d-4863-3a6e-9f5c2b7d3a6e",
+  "rootParentId": "6e3a9f5c-2b7d-4863-3a6e-9f5c2b7d3a6e",
+  "name": "UpdateAddressForCourtCasesVirginia - yes",
+  "auto": true,
+  "contexts": [
+    "UpdateAddressForCourtCasesVirginia-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "UpdateAddressForCourtCasesVirginia.UpdateAddressForCourtCasesVirginia-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources for updating your address with Virginia courts and finding court contact information."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "How to Change Your Address with the Virginia Courts If You Have a Court Case",
+                  "link": "https://selfhelp.vacourts.gov/node/2/how-change-your-address",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Frequently Asked Questions",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

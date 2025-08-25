@@ -1,0 +1,165 @@
+{
+  "id": "86504079-2805-4ec5-9b84-51247f296f2e",
+  "parentId": "57f4bd62-0290-40b9-a63d-74cd04508765",
+  "rootParentId": "57f4bd62-0290-40b9-a63d-74cd04508765",
+  "name": "Default Fallback Intent - fallback",
+  "contexts": [
+    "DefaultFallbackIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultFallbackIntent.DefaultFallbackIntent-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m sorry, but I still don\u0027t understand. Let\u0027s try something different. Here is a menu of all questions I know how to help answer and the topics I know how to find on the Virginia Courts Self-Help website. Please click or tap one to continue."
+                  ],
+                  "title": "",
+                  "type": "description"
+                },
+                {
+                  "options": [
+                    {
+                      "text": "Abuse"
+                    },
+                    {
+                      "text": "Child Support"
+                    },
+                    {
+                      "text": "Conservator of the Peace"
+                    },
+                    {
+                      "text": "Court Glossary Information"
+                    },
+                    {
+                      "text": "Courthouse Device Policy"
+                    },
+                    {
+                      "text": "Custody"
+                    },
+                    {
+                      "text": "Divorce"
+                    },
+                    {
+                      "text": "Driver\u0027s License"
+                    },
+                    {
+                      "text": "Expungement"
+                    },
+                    {
+                      "text": "Family Law"
+                    },
+                    {
+                      "text": "Filing Fees and Waivers"
+                    },
+                    {
+                      "text": "Find a Case"
+                    },
+                    {
+                      "text": "Find a Lawyer"
+                    },
+                    {
+                      "text": "Find a Mediator"
+                    },
+                    {
+                      "text": "Forms"
+                    },
+                    {
+                      "text": "Freedom of Information Act"
+                    },
+                    {
+                      "text": "Gender Issues"
+                    },
+                    {
+                      "text": "Guardianship/Conservatorship"
+                    },
+                    {
+                      "text": "Health"
+                    },
+                    {
+                      "text": "Housing"
+                    },
+                    {
+                      "text": "Juveniles"
+                    },
+                    {
+                      "text": "Legal Self-Help (self representation)"
+                    },
+                    {
+                      "text": "Legal Questions and Answers (miscellaneous)"
+                    },
+                    {
+                      "text": "Mediation Services"
+                    },
+                    {
+                      "text": "Mental Health"
+                    },
+                    {
+                      "text": "Name Change (how to)"
+                    },
+                    {
+                      "text": "OLIR"
+                    },
+                    {
+                      "text": "Adult Birth Certificate"
+                    },
+                    {
+                      "text": "Public Benefits"
+                    },
+                    {
+                      "text": "Services for Seniors"
+                    },
+                    {
+                      "text": "Small Claims"
+                    },
+                    {
+                      "text": "Updating your Address with the Courts"
+                    },
+                    {
+                      "text": "Veterans/Military"
+                    },
+                    {
+                      "text": "Probate Help"
+                    },
+                    {
+                      "text": "Voting Rights"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

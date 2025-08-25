@@ -1,0 +1,76 @@
+{
+  "id": "ba3a76e5-6ce6-41dc-80f2-e632f8f04ce8",
+  "parentId": "88997436-573f-4c0d-8d00-4e10106dc062",
+  "rootParentId": "88997436-573f-4c0d-8d00-4e10106dc062",
+  "name": "Seniors - yes",
+  "auto": true,
+  "contexts": [
+    "Seniors-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Seniors.Seniors-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are helpful resources for seniors matters in Virginia. Check the links below for more information!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Statewide Senior Legal Helpline",
+                  "link": "https://selfhelp.vacourts.gov/node/33/statewide-senior-legal-helpline.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,124 @@
+{
+  "id": "465b4e61-2ff0-44db-8271-aa2949c4806b",
+  "parentId": "54da178c-9dfb-4d4b-bbc9-03a820d6cae9",
+  "rootParentId": "54da178c-9dfb-4d4b-bbc9-03a820d6cae9",
+  "name": "Health - yes",
+  "auto": true,
+  "contexts": [
+    "Health-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Health.Health-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources for health-related legal matters and disability accommodations in Virginia courts."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Information for Individuals with Disabilities",
+                  "link": "https://selfhelp.vacourts.gov/node/25/general-information-individuals-disabilities.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Mental Health (Adult) Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/40/mental-health-adult-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Mental Health (Juvenile) Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/41/mental-health-juvenile-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Disability Accommodations in Virginia Courts",
+                  "link": "https://selfhelp.vacourts.gov/node/26/disability-accommodations-virginia-courts.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Lawyer",
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

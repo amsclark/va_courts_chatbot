@@ -1,0 +1,103 @@
+{
+  "id": "94e9d0a4-cad1-42e7-82cd-c548ed83270c",
+  "name": "smalltalk.user.testing_agent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-gb",
+          "speech": [
+            "I\u0027m working properly and ready to help you with legal information.",
+            "I\u0027m functioning well. How can I assist you with legal questions today?",
+            "All systems are running normally. What legal information can I provide?",
+            "I\u0027m operational and ready to help. What legal questions do you have?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m working properly and ready to help you with legal information.",
+            "I\u0027m functioning well. How can I assist you with legal questions today?",
+            "All systems are running normally. What legal information can I provide?",
+            "I\u0027m operational and ready to help. What legal questions do you have?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-au",
+          "speech": [
+            "I\u0027m working properly and ready to help you with legal information.",
+            "I\u0027m functioning well. How can I assist you with legal questions today?",
+            "All systems are running normally. What legal information can I provide?",
+            "I\u0027m operational and ready to help. What legal questions do you have?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-in",
+          "speech": [
+            "I\u0027m working properly and ready to help you with legal information.",
+            "I\u0027m functioning well. How can I assist you with legal questions today?",
+            "All systems are running normally. What legal information can I provide?",
+            "I\u0027m operational and ready to help. What legal questions do you have?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "I\u0027m working properly and ready to help you with legal information.",
+            "I\u0027m functioning well. How can I assist you with legal questions today?",
+            "All systems are running normally. What legal information can I provide?",
+            "I\u0027m operational and ready to help. What legal questions do you have?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-ca",
+          "speech": [
+            "I\u0027m working properly and ready to help you with legal information.",
+            "I\u0027m functioning well. How can I assist you with legal questions today?",
+            "All systems are running normally. What legal information can I provide?",
+            "I\u0027m operational and ready to help. What legal questions do you have?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
