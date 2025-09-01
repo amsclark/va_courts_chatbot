@@ -21,9 +21,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "It sounds like a good place to begin would be Legal Questions and Answers. This is also where various news, updates, and helpful posts can be found. Does this sound helpful?",
-            "It sounds like you are looking for information relating to accessing legal information through the OLIR (Online Legal Information Resources) system. Is this correct?",
-            "Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?"
+            "It sounds like you are having issues relating to LegalQA. Is this correct?"
           ],
           "condition": ""
         },

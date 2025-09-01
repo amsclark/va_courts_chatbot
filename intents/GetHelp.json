@@ -16,9 +16,7 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too.",
-            "A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices",
-            "NOT FOUND"
+            "It sounds like you are having issues relating to GetHelp. Is this correct?"
           ],
           "condition": ""
         },
@@ -30,7 +28,7 @@
               [
                 {
                   "text": [
-                    "Below this are a few links related to how Virginia\u0027s self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the \u0027Get Help - Main Page\u0027. For specific office locations, there is a link below for that too.\n\nIf you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website.\n\nAdditionally, I will provide you a link below to a short video about how to get legal assistance from Virginia\u0027s self-help resources and other available legal resources."
+                    "Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too.\n\nIf you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website.\n\nAdditionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources."
                   ],
                   "type": "description",
                   "title": ""
@@ -63,7 +61,7 @@
                   },
                   "type": "button",
                   "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
-                  "text": "I\u0027m not sure where to start / I don\u0027t know what I\u0027m looking for (FAQ)"
+                  "text": "I'm not sure where to start / I don't know what I'm looking for (FAQ)"
                 },
                 {
                   "type": "divider"
