@@ -74,14 +74,6 @@
     "updated": 0
   },
   {
-    "id": "fifty-fifty-custody-1", 
-    "data": [ { "text": "fifty-fifty custody agreement", "userDefined": false } ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "67dbb091-348e-4bd9-8ae6-bf2bdfccb7c3",
     "data": [
       {
@@ -112,19 +104,6 @@
     "data": [
       {
         "text": "Does an absent parent need to provide money for a son or daughter?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "fa5fad2a-9da5-4016-a610-c8eca05a48c8",
-    "data": [
-      {
-        "text": "My ex and I have a fifty-fifty custody agreement. She wants to move to Nashville for a new job. If she moves, I want the kids to have more time with me and in their regular school. Can our previous agreement be changed so that I get the kids more?",
         "userDefined": false
       }
     ],

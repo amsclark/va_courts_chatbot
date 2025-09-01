@@ -12,14 +12,7 @@ Test 52: WRONG_INTENT
   Expected: It sounds like you need help with legal issues related to Child Custody, Visitation, or Paternity. Is this correct?"
   Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 138: WRONG_INTENT
+Test 138: PASS
   Prompt: How do I qualify for housing assistance?
-  Expected Intent: Housing
-  Actual Intent: GetHelp
-  Expected: It sounds like you are having issues relating to Housing. Is this correct?
-  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
-
-Test 203: PASS
-  Prompt: What happened to the GI bill?
-  Intent: Veterans
-  Response: It sounds like you are having issues relating to Veterans. Is this correct?
+  Intent: Housing
+  Response: It sounds like you are having issues relating to Housing. Is this correct?
