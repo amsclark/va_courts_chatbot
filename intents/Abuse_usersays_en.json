@@ -922,4 +922,75 @@
     "lang": "en",
     "updated": 0
   }
+  ,
+  {
+    "id": "new-abuse-1",
+    "data": [
+      { "text": "my partner is abusing me", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-2",
+    "data": [
+      { "text": "I need help for domestic violence", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-3",
+    "data": [
+      { "text": "physical abuse", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-4",
+    "data": [
+      { "text": "I am being abused", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-5",
+    "data": [
+      { "text": "sexual assault", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-6",
+    "data": [
+      { "text": "I need a protection order", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-7",
+    "data": [
+      { "text": "safety planning for abuse", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
 ]
