@@ -3,9 +3,32 @@
 
   {
     "id": "b3c7a0d4-8e1f-9b3c-3c7a-0d4e1f9b3c7a",
+    "data"  },
+  {
+    "id": "a2b6f9c3-7d0e-8a2b-2b6f-9c3d0e8a2b6f",
     "data": [
       {
-        "text": "court filing fees",
+        "text": "filing fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b9c3l6m0-5f8a-6b9c-9c3l-6m0f8a6b9c3l",
+    "data": [
+      {
+        "text": "low income fee waiver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0       "text": "court filing fees",
         "userDefined": false
       }
     ],
