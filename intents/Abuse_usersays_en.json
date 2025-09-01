@@ -1007,4 +1007,25 @@
     "lang": "en",
     "updated": 0
   }
+  ,
+  {
+    "id": "new-abuse-9",
+    "data": [
+      { "text": "My caretaker won't feed me", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-abuse-10",
+    "data": [
+      { "text": "My caretaker is not bathing me", "userDefined": false }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
 ]
