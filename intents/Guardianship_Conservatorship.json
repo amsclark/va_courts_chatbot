@@ -20,11 +20,11 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
-            "speech": [
-              "It sounds like you are having issues relating to Guardianships and/or Conservatorships. Is this correct?",
-              "Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify",
-              "If you think someone needs a guardian because of dementia or incapacity, here are steps you can take and resources to contact."
-            ],
+          "speech": [
+            "It sounds like you are having issues relating to Guardianships and/or Conservatorships. Is this correct?",
+            "Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify",
+            "If you think someone needs a guardian because of dementia or incapacity, here are steps you can take and resources to contact."
+          ],
           "condition": ""
         },
         {
@@ -34,15 +34,11 @@
             "richContent": [
               [
                 {
+                  "type": "chips",
                   "options": [
-                    {
-                      "text": "Yes"
-                    },
-                    {
-                      "text": "No"
-                    }
-                  ],
-                  "type": "chips"
+                    { "text": "Yes" },
+                    { "text": "No" }
+                  ]
                 }
               ]
             ]
