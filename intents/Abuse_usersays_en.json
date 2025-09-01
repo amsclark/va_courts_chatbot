@@ -1059,5 +1059,13 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "short-abuse-elderly-1",
+    "data": [ { "text": "elderly", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]
