@@ -185,11 +185,11 @@ async function runTests() {
     if (cols.length > Math.max(intentIndex, promptIndex, responseIndex) && cols[promptIndex] && cols[responseIndex]) {
       const index = i;
       
-      // Run all tests - don't skip any for this comprehensive run
-      // if (passedTests.passed && passedTests.passed.includes(index)) {
-      //   console.log(`Skipping test ${index} (already passed)`);
-      //   continue;
-      // }
+      // Skip tests that are already passing
+      if (passedTests.passed && passedTests.passed.includes(index)) {
+        console.log(`Skipping test ${index} (already passed)`);
+        continue;
+      }
       
       const expectedIntent = cols[intentIndex];
       const prompt = cols[promptIndex];
