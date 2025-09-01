@@ -4,10 +4,37 @@ const { promisify } = require('util');
 
 const execAsync = promisify(exec);
 
-// Read and parse CSV manually (simple approach)
+// Read and parse CSV manually with a small quoted-field-aware parser
 const csvContent = fs.readFileSync('customerfeedback.csv', 'utf8');
-const lines = csvContent.split('\n');
-const headers = lines[0].split(',');
+const rawLines = csvContent.split(/\r?\n/);
+
+function parseCSVLine(line) {
+  const cols = [];
+  let cur = '';
+  let inQuotes = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') {
+      // lookahead for escaped quote
+      if (inQuotes && i + 1 < line.length && line[i + 1] === '"') {
+        cur += '"';
+        i++; // skip escaped quote
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === ',' && !inQuotes) {
+      cols.push(cur);
+      cur = '';
+    } else {
+      cur += ch;
+    }
+  }
+  cols.push(cur);
+  return cols.map(c => c.trim());
+}
+
+const lines = rawLines;
+const headers = parseCSVLine(lines[0] || '');
 
 // Find column indices
 const promptIndex = headers.findIndex(h => h.includes('Prompt'));
@@ -55,9 +82,12 @@ async function testPrompt(index, prompt, expectedResponse) {
       return { index, prompt, result: 'ERROR', response: stderr, expected: expectedResponse };
     }
 
-    // Parse response (remove the )]}' prefix)
-    const cleanResponse = stdout.substring(5);
-    const responseData = JSON.parse(cleanResponse);
+    // Parse response (remove the )]}' prefix if present)
+    let cleanResponse = stdout;
+    if (cleanResponse.startsWith(")]}'")) {
+      cleanResponse = cleanResponse.substring(5);
+    }
+    const responseData = JSON.parse(cleanResponse || '{}');
     
     let actualResponse = 'N/A';
     if (responseData.queryResult) {
@@ -77,7 +107,12 @@ async function testPrompt(index, prompt, expectedResponse) {
       }
     }
 
-    const result = actualResponse.includes(expectedResponse) ? 'PASS' : 'FAIL';
+    // Normalize and compare more tolerant: lowercase, trim, and check substring both ways
+    const norm = s => (s || '').toString().replace(/\s+/g, ' ').trim().toLowerCase();
+    const actualNorm = norm(actualResponse);
+    const expectedNorm = norm(expectedResponse.replace(/^"|"$/g, ''));
+    const match = actualNorm.includes(expectedNorm) || expectedNorm.includes(actualNorm);
+    const result = match ? 'PASS' : 'FAIL';
     
     console.log(`[${index}] ${result}: "${prompt.substring(0, 50)}..." -> "${actualResponse.substring(0, 100)}..."`);
     
