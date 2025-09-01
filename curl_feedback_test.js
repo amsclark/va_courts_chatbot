@@ -19,6 +19,13 @@ const notesIndex = headers.findIndex(h => h.includes('notes'));
 console.log(`Found columns: Prompt=${promptIndex}, Response=${responseIndex}, IncorrectPage=${incorrectPageIndex}, IncorrectLinks=${incorrectLinksIndex}, Notes=${notesIndex}`);
 
 const results = [];
+const passedFile = 'passed_tests.json';
+let passedTests = { passed: [] };
+try {
+  passedTests = JSON.parse(fs.readFileSync(passedFile, 'utf8'));
+} catch (e) {
+  // file will be created later
+}
 
 async function testPrompt(index, prompt, expectedResponse) {
   try {
@@ -106,6 +113,12 @@ async function runTests() {
                      (notes && notes !== '');
     
     if (prompt && prompt !== '???' && response && hasIssues) {
+      // Skip tests that already passed previously
+      if (passedTests.passed.includes(i)) {
+        console.log(`Skipping test ${i}: previously passed`);
+        continue;
+      }
+
       console.log(`Queuing test ${i}: ${prompt.substring(0, 50)}... (has issues noted)`);
       testPromises.push(testPrompt(i, prompt, response));
       
@@ -138,6 +151,11 @@ async function runTests() {
   console.log(`Failed: ${failed}`);
   console.log(`Errors: ${errors}`);
   console.log(`\nResults written to curl_results.txt`);
+
+  // Update passed_tests.json with any new passes
+  const newPasses = results.filter(r => r.result === 'PASS').map(r => r.index);
+  passedTests.passed = Array.from(new Set(passedTests.passed.concat(newPasses)));
+  fs.writeFileSync(passedFile, JSON.stringify(passedTests, null, 2));
 }
 
 runTests().catch(console.error);
