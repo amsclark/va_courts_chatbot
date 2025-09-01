@@ -98,10 +98,12 @@ Test 20: PASS
   Intent: FamilyLaw
   Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 21: PASS
+Test 21: WRONG_INTENT
   Prompt: How do I get support for my children?
-  Intent: ChildSupport
-  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you need help with issues relating to Child Support. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
 Test 22: PASS
   Prompt: How do I get money from my baby daddy for his kids?
@@ -123,12 +125,10 @@ Test 25: PASS
   Intent: FamilyLaw
   Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 26: WRONG_INTENT
+Test 26: PASS
   Prompt: What is a conservator?
-  Expected Intent: Guardianship_Conservatorship
-  Actual Intent: ConservatorOfThePeace
-  Expected: It sounds like you are having issues relating to Guardianships and/or Conservatorships. Is this correct?
-  Actual: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 27: PASS
   Prompt: What is a conservator of the peace?
@@ -523,7 +523,7 @@ Test 106: NO_INTENT
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story." For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say. I will try my best to help!
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 107: PASS
   Prompt: court forms
@@ -631,13 +631,13 @@ Test 126: WRONG_INTENT
 
 Test 127: PASS
   Prompt: What does a conservator do?
-  Intent: ConservatorOfThePeace
-  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 128: PASS
   Prompt: Who needs a conservator?
-  Intent: ConservatorOfThePeace
-  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 129: PASS
   Prompt: Who needs a guardian?
@@ -669,7 +669,7 @@ Test 134: NO_INTENT
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
 
 Test 135: PASS
   Prompt: How can I get out of my lease?
@@ -681,7 +681,11 @@ Test 136: NO_INTENT
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+
+For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
+
+I will try my best to help!
 
 Test 137: NO_INTENT
   Prompt: I need a property maintenance company
@@ -689,10 +693,6 @@ Test 137: NO_INTENT
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
   Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
 
 Test 138: WRONG_INTENT
   Prompt: How do I qualify for housing assistance?
@@ -817,12 +817,10 @@ Test 160: PASS
   Intent: NameChange
   Response: It sounds like you are having issues relating to NameChange. Is this correct?
 
-Test 161: NO_INTENT
+Test 161: PASS
   Prompt: Can I legally choose any name I want?
-  Expected Intent: Unknown
-  Actual Intent: Default Fallback Intent
-  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Intent: NameChange
+  Response: It sounds like you are having issues relating to NameChange. Is this correct?
 
 Test 162: PASS
   Prompt: How much does it cost to change your name?
