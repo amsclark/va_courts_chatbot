@@ -1,5 +1,44 @@
 [
   {
+    "id": "address-fix-1",
+    "data": [
+      {
+        "text": "I moved",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "address-fix-2", 
+    "data": [
+      {
+        "text": "relocated",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "address-fix-3",
+    "data": [
+      {
+        "text": "change of address",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "50afefe1-b379-4985-989a-97c1dde14faf",
     "data": [
       {

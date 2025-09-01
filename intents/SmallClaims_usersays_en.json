@@ -1,5 +1,57 @@
 [
   {
+    "id": "smallclaims-fix-1",
+    "data": [
+      {
+        "text": "dollar limit small claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "smallclaims-fix-2",
+    "data": [
+      {
+        "text": "small claims court limit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "smallclaims-fix-3",
+    "data": [
+      {
+        "text": "contractor dispute",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "smallclaims-fix-4",
+    "data": [
+      {
+        "text": "refund money",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "c0427d16-37d9-4ddf-ba45-b2ecc7a4ea25",
     "data": [
       {

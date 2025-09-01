@@ -26,6 +26,19 @@
     "updated": 0
   },
   {
+    "id": "namechange-fix-3",
+    "data": [
+      {
+        "text": "choose any name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "0aabf975-31ad-4dac-9b4b-f1f41720deaf",
     "data": [
       {
