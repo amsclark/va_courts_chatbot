@@ -13,6 +13,71 @@
     "updated": 0
   },
   {
+    "id": "housing-fix-2",
+    "data": [
+      {
+        "text": "unlawful detainer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "housing-fix-3",
+    "data": [
+      {
+        "text": "charge for rent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "housing-fix-4",
+    "data": [
+      {
+        "text": "housing assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "housing-fix-5",
+    "data": [
+      {
+        "text": "qualify for housing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "housing-fix-6",
+    "data": [
+      {
+        "text": "property maintenance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "709ff7b5-1694-4f86-b4d4-024042c415e9",
     "data": [
       {
