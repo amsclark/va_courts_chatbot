@@ -1,5 +1,83 @@
 [
   {
+    "id": "f0143f17-79be-403e-a428-11864b3732b0",
+    "data": [
+      {
+        "text": "Who can manage the affairs of an incapacitated person?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3476ca2e-83b8-46f9-9273-b9ba8063fa3a",
+    "data": [
+      {
+        "text": "Can the court appoint someone to help manage the affairs of a mentally handicapped person?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76cd27c2-46b2-4173-9003-8ce5aa1b1b5f",
+    "data": [
+      {
+        "text": "Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "202ba1c1-3cd1-4c37-828c-569682338f69",
+    "data": [
+      {
+        "text": "What is a person called who is appointed by the court to help someone?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "6e9a9816-4716-45e8-a793-e7e3b4644dcc",
+    "data": [
+      {
+        "text": "conservator of the peace",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "647b44e3-2bb0-4aca-9706-0b267ae84cbf",
+    "data": [
+      {
+        "text": "conservator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "1bec609b-76ad-4e27-980d-3527c915a772",
     "data": [
       {
@@ -229,20 +307,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "647b44e3-2bb0-4aca-9706-0b267ae84cbf",
-    "data": [
-      {
-        "text": "conservator",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },

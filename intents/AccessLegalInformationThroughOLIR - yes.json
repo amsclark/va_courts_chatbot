@@ -36,23 +36,23 @@
             "richContent": [
               [
                 {
-                  "type": "description",
-                  "title": "",
                   "text": [
-                    "Here are helpful resources related to accessing the OLIR system Virginia. Click the link below for more information!"
-                  ]
+                    "Here are helpful resources related to accessing the Online Legal Information Resources system Virginia. Click the link below for more information!"
+                  ],
+                  "title": "",
+                  "type": "description"
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
-                  "text": "Online Legal Information Resources (OLIR)",
-                  "link": "https://selfhelp.vacourts.gov/node/67/online-legal-information-resources",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  }
+                  },
+                  "link": "https://selfhelp.vacourts.gov/node/67/online-legal-information-resources",
+                  "text": "Online Legal Information Resources"
                 }
               ]
             ]

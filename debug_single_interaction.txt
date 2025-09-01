@@ -1,0 +1,6 @@
+Test Message: My boyfriend is beating me up. What can I do?
+Message Info: {
+  "messageCount": 2,
+  "messageListHTML": "\n      <!--?lit$325356320$--> <div aria-live=\"polite\" class=\"error \">\n      <!--?lit$325356320$-->Something went wrong, please try again.\n    </div> <!--?lit$325356320$--> <div id=\"messageList\" aria-live=\"polite\" class=\"df-message-list\">\n      <!--?lit$325356320$--><!----><span class=\"animation\"> <!--?lit$325356320$--><df-card></df-card> </span><!----><!----><span class=\"animation\"> <!--?lit$325356320$--><df-message><!----><div class=\"message user-message\">\n      <span class=\"visually-hidden\"><!"
+}
+Response Text: Error: TypeError: Cannot read properties of null (reading 'innerHTML')

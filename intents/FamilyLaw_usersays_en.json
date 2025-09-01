@@ -1,5 +1,122 @@
 [
   {
+    "id": "42d6d11b-03ad-410e-92ea-1e0f46820418",
+    "data": [
+      {
+        "text": "My ex-husband smokes pot while around our teenage son. I\u0027ve asked him to not do that, but according to my son, he still smokes. What should I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "fa5fad2a-9da5-4016-a610-c8eca05a48c8",
+    "data": [
+      {
+        "text": "My ex and I have a fifty-fifty custody agreement. She wants to move to Nashville for a new job. If she moves, I want the kids to have more time with me and in their regular school. Can our previous agreement be changed so that I get the kids more?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "16d459ce-3987-4c92-9990-00935c760311",
+    "data": [
+      {
+        "text": "I\u0027m getting remarried and want my new husband to also have legal custody. What do I need to do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "5b7e322a-2f35-44a2-97f7-58bc17c9207c",
+    "data": [
+      {
+        "text": "My son-in-law is mean to his kids. Can I as a grandparent get custody?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9a5f9f07-358f-4e28-a908-e40a0312f883",
+    "data": [
+      {
+        "text": "My ex is telling lies about me to our children. What can I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7c623c8-0700-450e-8223-6cde6f51cbb5",
+    "data": [
+      {
+        "text": "How do I change my visitation days?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e5bfb441-c4b3-4756-a76f-441a82056d24",
+    "data": [
+      {
+        "text": "What if my ex moves away with my kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9fab7d2d-2a68-4f59-9ffd-dfd7cebb230a",
+    "data": [
+      {
+        "text": "visitation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "59e75291-e50d-4e08-b45d-e3b31dfb276d",
+    "data": [
+      {
+        "text": "Family Law",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "42d924a5-862d-44b2-b572-6968ae72906d",
     "data": [
       {
@@ -216,15 +333,93 @@
       }
     ],
     "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "child-support-1",
+    "data": [
+      {
+        "text": "How do I make my kids' father pay for them?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
     "count": 0,
     "lang": "en",
     "updated": 0
   },
   {
-    "id": "59e75291-e50d-4e08-b45d-e3b31dfb276d",
+    "id": "child-support-2",
     "data": [
       {
-        "text": "Family Law",
+        "text": "I want my ex to pay for his kids. What can I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "child-support-3",
+    "data": [
+      {
+        "text": "How do I get money for my kids from their mom?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "child-support-4",
+    "data": [
+      {
+        "text": "How do I get support for my kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "child-support-5",
+    "data": [
+      {
+        "text": "How do I get money from my baby daddy for his kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "child-support-6",
+    "data": [
+      {
+        "text": "Does my ex have to cover expenses for his kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "child-support-7",
+    "data": [
+      {
+        "text": "How do I get released from my parents?",
         "userDefined": false
       }
     ],

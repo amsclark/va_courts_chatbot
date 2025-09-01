@@ -1,5 +1,83 @@
 [
   {
+    "id": "feb0da9a-ab13-4360-a700-68e9ea7433bb",
+    "data": [
+      {
+        "text": "My caretaker is not feeding me. What can I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f26345a2-2e6e-4e8b-9eab-8a3b76903d8f",
+    "data": [
+      {
+        "text": "choke",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d364b38f-dae1-409c-8e68-80abb1903b68",
+    "data": [
+      {
+        "text": "My partner chokes me sometimes. How do I make him stop?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eff8bc45-978d-466a-aa9e-b2462bfabc77",
+    "data": [
+      {
+        "text": "stab",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9991cae1-c0c8-4b79-9601-fae1f25b0055",
+    "data": [
+      {
+        "text": "stabbed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "1625a464-7443-45fc-8c82-e46212f0eed0",
+    "data": [
+      {
+        "text": "My friend was stabbed by her boyfriend.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "d6b96135-8c52-4dee-98c9-cbf8bfea547a",
     "data": [
       {
@@ -34,20 +112,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "f26345a2-2e6e-4e8b-9eab-8a3b76903d8f",
-    "data": [
-      {
-        "text": "choke",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },

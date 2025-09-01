@@ -1,5 +1,57 @@
 [
   {
+    "id": "4c958482-490a-408b-ae63-ba9e548e0517",
+    "data": [
+      {
+        "text": "I\u0027m thinking about suicide. I need someone to talk to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "92eb11a7-4537-480f-8f91-88fee31440c8",
+    "data": [
+      {
+        "text": "My friend is schizo and off meds. Can he be committed?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "47eb4966-36c2-4538-9d59-12041ee712ef",
+    "data": [
+      {
+        "text": "schizo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f062431f-16a2-4047-a266-2d3881686a67",
+    "data": [
+      {
+        "text": "suicide",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "ff34ff1d-0fff-42dd-84cb-7e9afb68cba5",
     "data": [
       {
@@ -29,11 +81,7 @@
     "id": "cd972619-2f1a-4ac4-b245-33d01a5e2907",
     "data": [
       {
-        "text": "United States",
-        "userDefined": false
-      },
-      {
-        "text": " Substance Abuse and Mental Health Services Administration",
+        "text": "United States Substance Abuse and Mental Health Services Administration",
         "userDefined": false
       }
     ],
@@ -168,20 +216,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "f062431f-16a2-4047-a266-2d3881686a67",
-    "data": [
-      {
-        "text": "suicide",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },

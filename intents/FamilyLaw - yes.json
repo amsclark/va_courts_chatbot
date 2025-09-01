@@ -36,8 +36,8 @@
             "richContent": [
               [
                 {
-                  "type": "description",
                   "title": "",
+                  "type": "description",
                   "text": [
                     "Here are helpful resources for family law matters in Virginia. Family law generally deals with things like Child Custody, Child Support, Divorce, Domestic Violence, Protective Orders, Visitation, Paternity, and other related topics. If you need help with something specific, feel free to ask for a particular area. You can also check the links below!"
                   ]
@@ -46,61 +46,61 @@
                   "type": "divider"
                 },
                 {
-                  "type": "button",
                   "text": "Family Law - Custody, Visitation \u0026 Support",
-                  "link": "https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  }
+                  },
+                  "type": "button",
+                  "link": "https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html"
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "button",
-                  "text": "Divorce Information",
                   "link": "https://selfhelp.vacourts.gov/node/8/divorce.html",
+                  "text": "Divorce Information",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  }
+                  },
+                  "type": "button"
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
-                  "text": "Domestic Violence \u0026 Protective Orders",
-                  "link": "https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
-                  }
+                  },
+                  "link": "https://selfhelp.vacourts.gov/node/73/domestic-violence",
+                  "text": "Domestic Violence \u0026 Protective Orders"
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
                   "text": "Types of Protective Orders",
-                  "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                  "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html"
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
-                  "text": "Find a Lawyer",
                   "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "text": "Find a Lawyer"
                 }
               ]
             ]

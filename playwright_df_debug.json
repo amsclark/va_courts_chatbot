@@ -1,0 +1,25 @@
+{
+  "steps": [
+    "Starting shadow DOM traversal",
+    "wrapper found: true",
+    "wrapper children count: 4",
+    "wrapper child[0] tagName: DIV, has shadowRoot: false",
+    "wrapper child[1] tagName: DF-MESSENGER-CHAT, has shadowRoot: true",
+    "Found chat-wrapper at wrapper child index 1",
+    "chatWrapper children count: 3",
+    "chatWrapper child[0] tagName: DF-MESSENGER-TITLEBAR, has shadowRoot: true",
+    "chatWrapper child[1] tagName: DF-MESSAGE-LIST, has shadowRoot: true",
+    "chatWrapper child[2] tagName: DF-MESSENGER-USER-INPUT, has shadowRoot: true",
+    "Found input-container at chatWrapper index 2",
+    "inputContainer children count: 1",
+    "inputContainer child[0]: DIV",
+    "  -> has 2 children, first: INPUT"
+  ],
+  "inputFound": true,
+  "inputIndex": {
+    "wrapperIdx": 1,
+    "chatWrapperIdx": 2,
+    "inputContainerChildIdx": 0,
+    "inputIdx": 0
+  }
+}

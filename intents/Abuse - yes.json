@@ -36,16 +36,6 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Also, if you need to make a \u0027quick exit\u0027 from this site for safety reasons, there is a red button at the top right of our website at all times. It is marked \"QUICK EXIT\""
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
             "Would you say your issues pertain more to Abuse/Stalking, or Neglect?"
           ],
           "condition": ""
@@ -58,58 +48,58 @@
               [
                 {
                   "type": "description",
-                  "title": "",
                   "text": [
                     "Here are resources for domestic violence and abuse situations in Virginia, including information about protective orders and getting help."
-                  ]
+                  ],
+                  "title": ""
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "button",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html",
                   "text": "Domestic Violence Information",
-                  "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                  "type": "button"
                 },
                 {
                   "type": "divider"
                 },
                 {
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
                   "type": "button",
-                  "text": "Types of Protective Orders",
                   "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                  "text": "Types of Protective Orders"
                 },
                 {
                   "type": "divider"
                 },
                 {
+                  "link": "https://selfhelp.vacourts.gov/node/63/family-abuse-protective-order-information-checklist.html",
                   "type": "button",
                   "text": "Protective Order Information Checklist",
-                  "link": "https://selfhelp.vacourts.gov/node/63/family-abuse-protective-order-information-checklist.html",
                   "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
+                    "color": "#00CC8D",
+                    "type": "info"
                   }
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "button",
-                  "text": "Find a Lawyer",
-                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
                   "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
+                  "type": "button",
+                  "text": "Find a Lawyer"
                 }
               ]
             ]
