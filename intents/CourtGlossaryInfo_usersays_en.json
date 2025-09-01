@@ -325,6 +325,32 @@
     "updated": 0
   },
   {
+    "id": "new-glossary-jdr-1",
+    "data": [
+      {
+        "text": "What's JD&R court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-glossary-jdr-2",
+    "data": [
+      {
+        "text": "JD&R court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "85921fba-dc84-4203-b3f2-2b0dfbd0fab6",
     "data": [
       {
