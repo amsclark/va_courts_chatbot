@@ -104,6 +104,45 @@
     "updated": 0
   },
   {
+    "id": "new-qa-questions-1",
+    "data": [
+      {
+        "text": "where can I go to ask a legal question?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-qa-questions-2",
+    "data": [
+      {
+        "text": "where can I find legal answers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-qa-questions-3",
+    "data": [
+      {
+        "text": "where can I find answers to questions?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "3d39074c-189c-4cc3-9ffc-7636cb4d550b",
     "data": [
       {

@@ -91,6 +91,84 @@
     "updated": 0
   },
   {
+    "id": "new-lawyer-1",
+    "data": [
+      {
+        "text": "legal assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-lawyer-2",
+    "data": [
+      {
+        "text": "How do I know if a lawyer is good?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-lawyer-3",
+    "data": [
+      {
+        "text": "Is there a lawyer referral in Virginia?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-lawyer-4",
+    "data": [
+      {
+        "text": "Where do I find a lawyer in Virginia?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-lawyer-5",
+    "data": [
+      {
+        "text": "How can I find a pro bono attorney?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-lawyer-6",
+    "data": [
+      {
+        "text": "Legal Aid won't take my case. Are there any other places that will take my case? I want to sue the City of Richmond.",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "e2f6o9p3-8c1d-9e2f-2f6o-9p3c1d9e2f6o",
     "data": [
       {
