@@ -523,7 +523,7 @@ Test 106: NO_INTENT
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story." For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say. I will try my best to help!
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 107: PASS
   Prompt: court forms
@@ -681,11 +681,7 @@ Test 136: NO_INTENT
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 137: NO_INTENT
   Prompt: I need a property maintenance company
@@ -693,10 +689,6 @@ Test 137: NO_INTENT
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
   Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
 
 Test 138: WRONG_INTENT
   Prompt: How do I qualify for housing assistance?
@@ -936,133 +928,173 @@ Test 184: PASS
   Intent: Health
   Response: It sounds like you are having issues relating to Health. Is this correct?
 
-Test 185: PASS
+Test 185: WRONG_INTENT
   Prompt: What's the dollar limit in small claims court?
-  Intent: SmallClaims
-  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
+  Expected Intent: SmallClaims
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Small Claims Court. Is this correct?"
+  Actual: N/A
 
-Test 186: PASS
+Test 186: WRONG_INTENT
   Prompt: Which court handles small claims?
-  Intent: SmallClaims
-  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
+  Expected Intent: SmallClaims
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Small Claims Court. Is this correct?"
+  Actual: N/A
 
 Test 187: PASS
   Prompt: Can I bring an attorney with me to small claims court?
   Intent: SmallClaims
   Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
-Test 188: PASS
+Test 188: NO_INTENT
   Prompt: How do I recover $3000 someone owes me?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
 Test 189: PASS
   Prompt: Is there a form to sue my neighbor for a new fence?
   Intent: Forms
   Response: It sounds like you are having issues relating to Forms. Is this correct?
 
-Test 190: PASS
+Test 190: NO_INTENT
   Prompt: I've taken my car to a mechanic to get it fixed. He had it three times and it still isn't fixed. I've paid him over $500. What can I do?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
-Test 191: PASS
+Test 191: NO_INTENT
   Prompt: I hired a painter to re-finish my cainets. The first time, I wasn't happy with the result. He came back, and made them look worse. He won't refund my money. What do I do?
-  Intent: SmallClaims
-  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
-Test 192: PASS
+Test 192: NO_INTENT
   Prompt: How do I update my address for a court case?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 193: PASS
+Test 193: NO_INTENT
   Prompt: I moved. Do I need to update my information for my case?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 194: PASS
+Test 194: NO_INTENT
   Prompt: I have relocated. Do I need to update my information for court?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 195: PASS
+Test 195: NO_INTENT
   Prompt: change of address
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 196: PASS
+Test 196: NO_INTENT
   Prompt: relocation
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 197: PASS
+Test 197: NO_INTENT
   Prompt: moved
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 199: PASS
+Test 199: NO_INTENT
   Prompt: Can I get credit for my army service?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
-Test 200: PASS
+Test 200: WRONG_INTENT
   Prompt: I think asbestos was on my Navy ship. How do I check?
-  Intent: Abuse
-  Response: It sounds like you are having issues relating to Abuse. Is this correct?
+  Expected Intent: Abuse
+  Actual Intent: Unknown
+  Expected: It sounds like you are having legal issues regarding Abuse, Stalking, or Neglect. Is this correct?
+  Actual: N/A
 
-Test 201: PASS
+Test 201: NO_INTENT
   Prompt: Can I get a concealed carry with my Marines discharge papers?
-  Intent: Forms
-  Response: It sounds like you are having issues relating to Forms. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for help relating to Legal Forms. Is this correct?
+  Actual: N/A
 
-Test 202: PASS
+Test 202: NO_INTENT
   Prompt: Is there help for veterans in Virginia?
-  Intent: Veterans
-  Response: It sounds like you are having issues relating to Veterans. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Veterans and/or Military. Is this correct?
+  Actual: N/A
 
 Test 203: WRONG_INTENT
   Prompt: What happened to the GI bill?
   Expected Intent: AccessLegalInformationThroughOLIR
-  Actual Intent: Veterans
+  Actual Intent: Unknown
   Expected: I'm here to help you with legal information. How can I assist you today?
-  Actual: It sounds like you are having issues relating to Veterans. Is this correct?
+  Actual: N/A
 
 Test 204: WRONG_INTENT
   Prompt: What's probate?
   Expected Intent: Abuse
-  Actual Intent: VirginiaProbateHelp
+  Actual Intent: Unknown
   Expected: It sounds like you are looking for information relating to Services for Seniors (including a range of topics like long term care issues, public benefits like Medicaid and SSI, Guardianship, abuse/neglect, and more). Is this correct?
-  Actual: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Actual: N/A
 
-Test 205: PASS
+Test 205: NO_INTENT
   Prompt: How long does probate take?
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: N/A
 
-Test 206: PASS
+Test 206: NO_INTENT
   Prompt: How do I get my parent's estate out of probate?
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: N/A
 
 Test 207: WRONG_INTENT
   Prompt: My parent had a will. What happens next?
   Expected Intent: Abuse
-  Actual Intent: Seniors
+  Actual Intent: Unknown
   Expected: It sounds like you are looking for information relating to Services for Seniors (including a range of topics like long term care issues, public benefits like Medicaid and SSI, Guardianship, abuse/neglect, and more). Is this correct?
-  Actual: It sounds like you are having issues relating to Seniors. Is this correct?
+  Actual: N/A
 
-Test 208: PASS
+Test 208: NO_INTENT
   Prompt: How does probate work in Virginia?
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: N/A
 
-Test 209: PASS
+Test 209: NO_INTENT
   Prompt: Where do I register to vote
-  Intent: VotingRights
-  Response: It sounds like you are having issues relating to VotingRights. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Voting Rights. Is this correct?
+  Actual: N/A
 
-Test 210: PASS
+Test 210: NO_INTENT
   Prompt: How do I have my right to vote restored?
-  Intent: VotingRights
-  Response: It sounds like you are having issues relating to VotingRights. Is this correct?
+  Expected Intent: Unknown
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Voting Rights. Is this correct?
+  Actual: N/A
