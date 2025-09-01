@@ -404,4 +404,32 @@
     "lang": "en",
     "updated": 0
   }
+
+  ,
+  {
+    "id": "new-guard-6",
+    "data": [
+      {
+        "text": "How do I change my guardian?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-guard-7",
+    "data": [
+      {
+        "text": "Who handles the estate and financial affairs when someone is incapacitated?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
 ]
