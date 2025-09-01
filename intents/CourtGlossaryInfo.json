@@ -20,8 +20,10 @@
           "title": "",
           "textToSpeech": "",
           "lang": "en",
-          "speech": [
-            "It sounds like you are looking for information relating to Court Glossary Information. Is this correct?"
+            "speech": [
+            "It sounds like you are looking for information relating to Court Glossary Information. Is this correct?",
+            "It sounds like a good place to begin would be Legal Questions and Answers. This is also where various news, updates, and helpful posts can be found. Does this sound helpful?",
+            "You can find information about civil and criminal cases in Virginia's General District Court and Circuit Court online by selecting an individual court location. To protect confidentiality, no case information is available online for Juvenile and Domestic Relations Court cases. Note that there is no statewide search option for circuit court cases, and many circuit courts use different online systems or may not have online case information available. Would you like me to direct you to the Virginia court's case search page?"
           ],
           "condition": ""
         },
