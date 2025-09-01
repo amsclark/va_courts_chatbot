@@ -258,5 +258,31 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-probate-1",
+    "data": [
+      {
+        "text": "Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-probate-2",
+    "data": [
+      {
+        "text": "Who can manage the affairs of an incapacitated person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]

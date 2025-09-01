@@ -362,5 +362,31 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-glossary-1",
+    "data": [
+      {
+        "text": "How do I lookup words used in court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-glossary-2",
+    "data": [
+      {
+        "text": "Is there a way to search the meaning of law words",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]
