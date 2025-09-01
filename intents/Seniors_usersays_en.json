@@ -459,6 +459,45 @@
     "updated": 0
   },
   {
+    "id": "new-seniors-ss-1",
+    "data": [
+      {
+        "text": "How do I file for Social Security?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-seniors-ss-2",
+    "data": [
+      {
+        "text": "social security benefits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-seniors-ss-3",
+    "data": [
+      {
+        "text": "social security application",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "data": [
       {
         "text": "executor",
