@@ -1027,5 +1027,37 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "short-abuse-neglect-1",
+    "data": [ { "text": "neglect", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "short-abuse-neglect-2",
+    "data": [ { "text": "not feeding", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "short-abuse-neglect-3",
+    "data": [ { "text": "not bathing", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "short-abuse-neglect-4",
+    "data": [ { "text": "caretaker", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]
