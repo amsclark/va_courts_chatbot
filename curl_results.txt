@@ -681,18 +681,14 @@ Test 136: NO_INTENT
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 137: NO_INTENT
   Prompt: I need a property maintenance company
   Expected Intent: Unknown
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 138: WRONG_INTENT
   Prompt: How do I qualify for housing assistance?
@@ -932,24 +928,22 @@ Test 184: PASS
   Intent: Health
   Response: It sounds like you are having issues relating to Health. Is this correct?
 
-Test 185: WRONG_INTENT
+Test 185: PASS
   Prompt: What's the dollar limit in small claims court?
-  Expected Intent: SmallClaims
-  Actual Intent: Unknown
-  Expected: It sounds like you are looking for information relating to Small Claims Court. Is this correct?"
-  Actual: N/A
-
-Test 186: PASS
-  Prompt: Which court handles small claims?
   Intent: SmallClaims
   Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
-Test 187: WRONG_INTENT
-  Prompt: Can I bring an attorney with me to small claims court?
+Test 186: WRONG_INTENT
+  Prompt: Which court handles small claims?
   Expected Intent: SmallClaims
   Actual Intent: Unknown
   Expected: It sounds like you are looking for information relating to Small Claims Court. Is this correct?"
   Actual: N/A
+
+Test 187: PASS
+  Prompt: Can I bring an attorney with me to small claims court?
+  Intent: SmallClaims
+  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
 Test 188: NO_INTENT
   Prompt: How do I recover $3000 someone owes me?
