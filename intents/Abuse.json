@@ -21,7 +21,9 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "It sounds like you are having legal issues regarding Abuse, Stalking, or Neglect. Is this correct?"
+            "It sounds like you are having legal issues regarding Abuse, Stalking, or Neglect. Is this correct?",
+            "Below this are a few links related to safety planning, protective orders, and victim services in Virginia.",
+            "If you are in immediate danger call 911. If not, Virginia's victim services and self-help pages may be able to help."
           ],
           "condition": ""
         },

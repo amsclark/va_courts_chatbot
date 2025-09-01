@@ -924,6 +924,20 @@
   }
   ,
   {
+    "id": "new-abuse-8",
+    "data": [
+      {
+        "text": "My caretaker is not feeding me. What can I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+  ,
+  {
     "id": "new-abuse-1",
     "data": [
       { "text": "my partner is abusing me", "userDefined": false }
