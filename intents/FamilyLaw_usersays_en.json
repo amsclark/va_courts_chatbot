@@ -3,7 +3,7 @@
     "id": "42d6d11b-03ad-410e-92ea-1e0f46820418",
     "data": [
       {
-        "text": "My ex-husband smokes pot while around our teenage son. I\u0027ve asked him to not do that, but according to my son, he still smokes. What should I do?",
+        "text": "My ex-husband smok  },round our teenage son. I\u0027ve asked him to not do that, but according to my son, he still smokes. What should I do?",
         "userDefined": false
       }
     ],
@@ -44,14 +44,6 @@
   {
     "id": "lies-about-me-1", 
     "data": [ { "text": "lies about me to our children", "userDefined": false } ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "remarried-custody-1",
-    "data": [ { "text": "remarried want husband custody", "userDefined": false } ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
@@ -117,19 +109,6 @@
     "data": [
       {
         "text": "I\u0027m getting remarried and want my new husband to also have legal custody. What do I need to do?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "5b7e322a-2f35-44a2-97f7-58bc17c9207c",
-    "data": [
-      {
-        "text": "My son-in-law is mean to his kids. Can I as a grandparent get custody?",
         "userDefined": false
       }
     ],
