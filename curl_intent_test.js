@@ -168,7 +168,7 @@ async function runTests() {
   
   for (let i = 1; i < lines.length; i++) {
     const cols = parseCSVLine(lines[i]);
-    if (cols.length > Math.max(promptIndex, responseIndex) && cols[promptIndex] && cols[responseIndex]) {
+    if (cols.length > Math.max(intentIndex, promptIndex, responseIndex) && cols[promptIndex] && cols[responseIndex]) {
       const index = i;
       
       // Run all tests - don't skip any for this comprehensive run
@@ -177,10 +177,11 @@ async function runTests() {
       //   continue;
       // }
       
+      const expectedIntent = cols[intentIndex];
       const prompt = cols[promptIndex];
       const expectedResponse = cols[responseIndex];
       
-      testPromises.push(testPrompt(index, prompt, expectedResponse));
+      testPromises.push(testPrompt(index, prompt, expectedResponse, expectedIntent));
       
       // Add delay between requests to avoid rate limiting
       if (testPromises.length % 5 === 0) {
