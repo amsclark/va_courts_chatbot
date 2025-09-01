@@ -4,15 +4,3 @@ Test 51: WRONG_INTENT
   Actual Intent: FamilyLaw
   Expected: It sounds like you need help with legal issues related to Child Custody, Visitation, or Paternity. Is this correct?"
   Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
-
-Test 52: WRONG_INTENT
-  Prompt: My ex and I have a fifty-fifty custody agreement. She wants to move to Nashville for a new job. If she moves, I want the kids to have more time with me and in their regular school. Can our previous agreement be changed so that I get the kids more?
-  Expected Intent: Custody
-  Actual Intent: FamilyLaw
-  Expected: It sounds like you need help with legal issues related to Child Custody, Visitation, or Paternity. Is this correct?"
-  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
-
-Test 138: PASS
-  Prompt: How do I qualify for housing assistance?
-  Intent: Housing
-  Response: It sounds like you are having issues relating to Housing. Is this correct?
