@@ -26,6 +26,22 @@
     "updated": 0
   },
   {
+    "id": "short-qa-1",
+    "data": [ { "text": "legal questions", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "short-qa-2",
+    "data": [ { "text": "questions", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "5244d92b-e27a-4afb-aa9d-b342d8be3c76",
     "data": [
       {

@@ -27,26 +27,10 @@
   },
   {
     "id": "short-family-1",
-    "data": [ { "text": "visitation", "userDefined": false } ],
+    "data": [ { "text": "visitation days", "userDefined": false } ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "short-family-2", 
-    "data": [ { "text": "custody", "userDefined": false } ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "short-family-3",
-    "data": [ { "text": "child support", "userDefined": false } ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en", 
     "updated": 0
   },
   {

@@ -26,6 +26,22 @@
     "updated": 0
   },
   {
+    "id": "short-court-words-1",
+    "data": [ { "text": "legal words", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "short-court-words-2",
+    "data": [ { "text": "court words", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "83f3c2da-beb8-4423-9300-6ac54be06c25",
     "data": [
       {
