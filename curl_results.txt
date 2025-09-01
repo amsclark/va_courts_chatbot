@@ -8,20 +8,24 @@ Test 2: PASS
   Intent: Abuse
   Response: It sounds like you are having issues relating to Abuse. Is this correct?
 
-Test 3: PASS
+Test 3: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: My caretaker is not feeding me. What can I do?
-  Intent: Abuse
-  Response: It sounds like you are having issues relating to Abuse. Is this correct?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to Abuse. Is this correct?
 
 Test 4: PASS
   Prompt: How do I stop a stalker?
   Intent: Abuse
   Response: It sounds like you are having issues relating to Abuse. Is this correct?
 
-Test 5: PASS
+Test 5: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: My friend was stabbed by her boyfriend. What can she do?
-  Intent: Abuse
-  Response: It sounds like you are having issues relating to Abuse. Is this correct?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Expected: Anytime. That's what I'm here for.
+  Actual: It sounds like you are having issues relating to Abuse. Is this correct?
 
 Test 6: PASS
   Prompt: Where can I find information on how to stop my girlfriend from hitting me?
@@ -53,10 +57,12 @@ Test 11: PASS
   Intent: AccessLegalInformationThroughOLIR
   Response: It sounds like you are having issues relating to AccessLegalInformationThroughOLIR. Is this correct?
 
-Test 12: PASS
+Test 12: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Where can I go to research legal issues?
-  Intent: AccessLegalInformationThroughOLIR
-  Response: It sounds like you are having issues relating to AccessLegalInformationThroughOLIR. Is this correct?
+  Expected Intent: AccessLegalInformationThroughOLIR
+  Actual Intent: AccessLegalInformationThroughOLIR
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too. If you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website. Additionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources.
+  Actual: It sounds like you are having issues relating to AccessLegalInformationThroughOLIR. Is this correct?
 
 Test 13: PASS
   Prompt: Where can I go to research the law?
@@ -73,30 +79,38 @@ Test 15: PASS
   Intent: AccessLegalInformationThroughOLIR
   Response: It sounds like you are having issues relating to AccessLegalInformationThroughOLIR. Is this correct?
 
-Test 16: PASS
+Test 16: WRONG_INTENT
   Prompt: How do I make my kids' father pay for them?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
 Test 17: PASS
   Prompt: How do I make my ex-husband pay child support?
   Intent: ChildSupport
   Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 18: PASS
+Test 18: WRONG_INTENT
   Prompt: I want my ex to pay for his kids. What can I do?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 19: PASS
+Test 19: WRONG_INTENT
   Prompt: How do I get money for my kids from their mom?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 20: PASS
+Test 20: WRONG_INTENT
   Prompt: How do I get support for my kids?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
 Test 21: WRONG_INTENT
   Prompt: How do I get support for my children?
@@ -105,70 +119,92 @@ Test 21: WRONG_INTENT
   Expected: It sounds like you need help with issues relating to Child Support. Is this correct?
   Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 22: PASS
+Test 22: WRONG_INTENT
   Prompt: How do I get money from my baby daddy for his kids?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 23: PASS
+Test 23: WRONG_INTENT
   Prompt: Does my ex-wife owe money for her children?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: NOT FOUND
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 24: PASS
+Test 24: WRONG_INTENT
   Prompt: Does my ex have to cover expenses for his kids?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 25: PASS
+Test 25: WRONG_INTENT
   Prompt: Does an absent parent need to provide money for a son or daughter?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: ChildSupport
+  Actual Intent: FamilyLaw
+  Expected: NOT FOUND
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 26: PASS
+Test 26: WRONG_INTENT
   Prompt: What is a conservator?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: ConservatorOfThePeace
+  Actual Intent: Guardianship_Conservatorship
+  Expected: It sounds like you are having issues relating to Guardianships and/or Conservatorships. Is this correct?
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 27: PASS
   Prompt: What is a conservator of the peace?
   Intent: ConservatorOfThePeace
   Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
-Test 28: PASS
+Test 28: WRONG_INTENT
   Prompt: What is a person called who is appointed by the court to help someone?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: ConservatorOfThePeace
+  Actual Intent: Guardianship_Conservatorship
+  Expected: NOT FOUND
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 29: PASS
+Test 29: WRONG_INTENT
   Prompt: Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: ConservatorOfThePeace
+  Actual Intent: Guardianship_Conservatorship
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 30: PASS
+Test 30: WRONG_INTENT
   Prompt: Can the court appoint someone to help manage the affairs of a mentally handicapped person?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: ConservatorOfThePeace
+  Actual Intent: Guardianship_Conservatorship
+  Expected: NOT FOUND
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 31: PASS
+Test 31: WRONG_INTENT
   Prompt: Who can manage the affairs of an incapacitated person?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: ConservatorOfThePeace
+  Actual Intent: Guardianship_Conservatorship
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 32: PASS
   Prompt: Where can I find a glossary of words used in court?
   Intent: CourtGlossaryInfo
   Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
-Test 33: PASS
+Test 33: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I research what legal words mean?
-  Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Expected Intent: CourtGlossaryInfo
+  Actual Intent: CourtGlossaryInfo
+  Expected: Sorry if I understood you incorrectly.
+  Actual: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
-Test 34: PASS
+Test 34: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I look up what legal words mean?
-  Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Expected Intent: CourtGlossaryInfo
+  Actual Intent: CourtGlossaryInfo
+  Expected: Sorry, looks like I misunderstood what you said.
+  Actual: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
 Test 35: PASS
   Prompt: How do I search terms used in court?
@@ -180,10 +216,12 @@ Test 36: PASS
   Intent: CourtGlossaryInfo
   Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
-Test 37: PASS
+Test 37: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Is there a way to search the meaning of law words?
-  Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Expected Intent: CourtGlossaryInfo
+  Actual Intent: CourtGlossaryInfo
+  Expected: You can find information about civil and criminal cases in Virginia's General District Court and Circuit Court online by selecting an individual court location. To protect confidentiality, no case information is available online for Juvenile and Domestic Relations Court cases. Note that there is no statewide search option for circuit court cases, and many circuit courts use different online systems or may not have online case information available. Would you like me to direct you to the Virginia court's case search page?
+  Actual: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
 Test 38: PASS
   Prompt: glossary
@@ -215,37 +253,45 @@ Test 43: PASS
   Intent: CourthouseDevicePolicy
   Response: It sounds like you are having issues relating to CourthouseDevicePolicy. Is this correct?
 
-Test 44: PASS
+Test 44: WRONG_INTENT
   Prompt: Can I bring my laptop to trial?
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: CourthouseDevicePolicy
+  Actual Intent: FilingFeesAndWaivers
+  Expected: It sounds like you are looking for information relating to Courthouse Device Policy. Is this correct?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
 Test 45: PASS
   Prompt: Can I have my kindle in court?
   Intent: CourthouseDevicePolicy
   Response: It sounds like you are having issues relating to CourthouseDevicePolicy. Is this correct?
 
-Test 46: PASS
+Test 46: WRONG_INTENT
   Prompt: What if my ex moves away with my kids?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: Custody
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
 Test 47: WRONG_INTENT
   Prompt: How do I change my visitation days?
-  Expected Intent: NameChange
+  Expected Intent: Custody
   Actual Intent: FamilyLaw
   Expected: It sounds like you are looking for information relating to a Name Change. Is this correct?
   Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 48: PASS
+Test 48: WRONG_INTENT
   Prompt: My ex is telling lies about me to our children. What can I do?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: Custody
+  Actual Intent: FamilyLaw
+  Expected: Hmmm....I'm not sure I understand…
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 49: PASS
+Test 49: WRONG_INTENT
   Prompt: I lost my job. Do I have to pay child support?
-  Intent: ChildSupport
-  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
+  Expected Intent: Custody
+  Actual Intent: ChildSupport
+  Expected: It sounds like you need help with issues relating to Child Support. Is this correct?
+  Actual: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 50: WRONG_INTENT
   Prompt: My son-in-law is mean to his kids. Can I as a grandparent get custody?
@@ -268,20 +314,26 @@ Test 52: WRONG_INTENT
   Expected: It sounds like you need help with legal issues related to Child Custody, Visitation, or Paternity. Is this correct?"
   Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 53: PASS
+Test 53: WRONG_INTENT
   Prompt: My ex-husband smokes pot while around our teenage son. I've asked him to not do that, but according to my son, he still smokes. What should I do?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: Custody
+  Actual Intent: FamilyLaw
+  Expected: Sorry about that. I'm still learning.
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 56: PASS
+Test 56: WRONG_INTENT
   Prompt: how do I separate from my spouse?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: Divorce
+  Actual Intent: FamilyLaw
+  Expected: It sounds like you are having issues relating to Family Law. Is this correct?
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 57: PASS
+Test 57: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Can I just get an annulment instead of a divorce?
-  Intent: Divorce
-  Response: It sounds like you are having issues relating to Divorce. Is this correct?
+  Expected Intent: Divorce
+  Actual Intent: Divorce
+  Expected: Can I just get an annulment instead of a divorce?
+  Actual: It sounds like you are having issues relating to Divorce. Is this correct?
 
 Test 58: PASS
   Prompt: I live in Virginia but my husband is stationed in Guam. Where can I file for divorce?
@@ -308,20 +360,24 @@ Test 62: PASS
   Intent: DriverLicense
   Response: It sounds like you are having issues relating to DriverLicense. Is this correct?
 
-Test 63: PASS
+Test 63: WRONG_INTENT
   Prompt: I moved. How long do I have to update my license?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: DriverLicense
+  Actual Intent: UpdateAddressForCourtCasesVirginia
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
 
 Test 64: PASS
   Prompt: What is reckless driving?
   Intent: DriverLicense
   Response: It sounds like you are having issues relating to DriverLicense. Is this correct?
 
-Test 65: PASS
+Test 65: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I get a learner's permit?
-  Intent: DriverLicense
-  Response: It sounds like you are having issues relating to DriverLicense. Is this correct?
+  Expected Intent: DriverLicense
+  Actual Intent: DriverLicense
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to DriverLicense. Is this correct?
 
 Test 66: PASS
   Prompt: I got speeding tickets a long time ago and the cops said my license is suspended. Where can I go to pay my tickets so I can get my license back?
@@ -363,10 +419,12 @@ Test 73: PASS
   Intent: Expungement
   Response: It sounds like you are having issues relating to Expungement. Is this correct?
 
-Test 74: PASS
+Test 74: WRONG_INTENT
   Prompt: Do I need to get misdemeanors expunged to get a job?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: Expungement
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
 Test 75: PASS
   Prompt: If I get my record expunged, can I carry a gun?
@@ -378,152 +436,210 @@ Test 76: PASS
   Intent: FamilyLaw
   Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 77: PASS
+Test 77: WRONG_INTENT
   Prompt: I'm going to get a job that pays less so I don't have to pay as much support. Who do I tell I'm going to be making less for that?
-  Intent: smalltalk.greetings.how_are_you
-  Response: I'm doing very well. Thanks!
+  Expected Intent: FamilyLaw
+  Actual Intent: smalltalk.greetings.how_are_you
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: I'm doing very well. Thanks!
 
-Test 78: PASS
+Test 78: WRONG_INTENT
   Prompt: My fiance is in the military and wants to be my child's stepparent. Do we have tio file papers for an adoption by my fiance?
-  Intent: Veterans
-  Response: It sounds like you are having issues relating to Veterans. Is this correct?
+  Expected Intent: FamilyLaw
+  Actual Intent: Veterans
+  Expected: It sounds like you are looking for information relating to Veterans and/or Military. Is this correct?
+  Actual: It sounds like you are having issues relating to Veterans. Is this correct?
 
-Test 79: PASS
+Test 79: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Someone called social services on me. Now they're taking away my kids. What do I do to get them back?
-  Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Expected Intent: FamilyLaw
+  Actual Intent: FamilyLaw
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 81: PASS
+Test 81: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: filing fees
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 82: PASS
+Test 82: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: waive a filing fee
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 83: PASS
+Test 83: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: pay to file
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 84: PASS
+Test 84: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: cost to file
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 85: PASS
+Test 85: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: cost to bring a case
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 86: PASS
+Test 86: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: how much money to bring my case?
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too. If you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website. Additionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources.
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 87: PASS
+Test 87: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Are there exceptions to fees?
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 88: PASS
+Test 88: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: cost to sue
-  Intent: FilingFeesAndWaivers
-  Response: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
+  Expected Intent: FilingFeesAndWaivers
+  Actual Intent: FilingFeesAndWaivers
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to FilingFeesAndWaivers. Is this correct?
 
-Test 89: PASS
+Test 89: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: find a case
-  Intent: FindACase
-  Response: It sounds like you are having issues relating to FindACase. Is this correct?
+  Expected Intent: FindACase
+  Actual Intent: FindACase
+  Expected: You can find information about civil and criminal cases in Virginia's General District Court and Circuit Court online by selecting an individual court location. To protect confidentiality, no case information is available online for Juvenile and Domestic Relations Court cases. Note that there is no statewide search option for circuit court cases, and many circuit courts use different online systems or may not have online case information available. Would you like me to direct you to the Virginia court's case search page?
+  Actual: It sounds like you are having issues relating to FindACase. Is this correct?
 
-Test 90: PASS
+Test 90: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: how do i find my court date
-  Intent: FindACase
-  Response: It sounds like you are having issues relating to FindACase. Is this correct?
+  Expected Intent: FindACase
+  Actual Intent: FindACase
+  Expected: You can find information about civil and criminal cases in Virginia's General District Court and Circuit Court online by selecting an individual court location. To protect confidentiality, no case information is available online for Juvenile and Domestic Relations Court cases. Note that there is no statewide search option for circuit court cases, and many circuit courts use different online systems or may not have online case information available. Would you like me to direct you to the Virginia court's case search page?
+  Actual: It sounds like you are having issues relating to FindACase. Is this correct?
 
-Test 91: PASS
+Test 91: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: where can I find information about my case
-  Intent: FindACase
-  Response: It sounds like you are having issues relating to FindACase. Is this correct?
+  Expected Intent: FindACase
+  Actual Intent: FindACase
+  Expected: You can find information about civil and criminal cases in Virginia's General District Court and Circuit Court online by selecting an individual court location. To protect confidentiality, no case information is available online for Juvenile and Domestic Relations Court cases. Note that there is no statewide search option for circuit court cases, and many circuit courts use different online systems or may not have online case information available. Would you like me to direct you to the Virginia court's case search page?
+  Actual: It sounds like you are having issues relating to FindACase. Is this correct?
 
-Test 92: PASS
+Test 92: WRONG_INTENT
   Prompt: how do I check someone's criminal background
-  Intent: Expungement
-  Response: It sounds like you are having issues relating to Expungement. Is this correct?
+  Expected Intent: FindACase
+  Actual Intent: Expungement
+  Expected: It sounds like you are looking for information relating to Expungement and/or Clearing Your Record. Is this correct?
+  Actual: It sounds like you are having issues relating to Expungement. Is this correct?
 
-Test 93: PASS
+Test 93: WRONG_INTENT
   Prompt: I lost my traffic ticket. Where do I pay it off?
-  Intent: smalltalk.greetings.bye
-  Response: Goodbye.
+  Expected Intent: FindACase
+  Actual Intent: smalltalk.greetings.bye
+  Expected: bye / til next time
+  Actual: Goodbye.
 
-Test 94: PASS
+Test 94: WRONG_INTENT
   Prompt: I got a summons. Do I need a lawyer?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: FindALawyer
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 95: PASS
+Test 95: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I know if a lawyer is good?
-  Intent: FindALawyer
-  Response: It sounds like you are having issues relating to FindALawyer. Is this correct?
+  Expected Intent: FindALawyer
+  Actual Intent: FindALawyer
+  Expected: A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?
+  Actual: It sounds like you are having issues relating to FindALawyer. Is this correct?
 
-Test 96: PASS
+Test 96: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Is there a lawyer referral in Virginia?
-  Intent: FindALawyer
-  Response: It sounds like you are having issues relating to FindALawyer. Is this correct?
+  Expected Intent: FindALawyer
+  Actual Intent: FindALawyer
+  Expected: A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?
+  Actual: It sounds like you are having issues relating to FindALawyer. Is this correct?
 
-Test 97: PASS
+Test 97: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Where do I find a lawyer in Virginia?
-  Intent: FindALawyer
-  Response: It sounds like you are having issues relating to FindALawyer. Is this correct?
+  Expected Intent: FindALawyer
+  Actual Intent: FindALawyer
+  Expected: A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?
+  Actual: It sounds like you are having issues relating to FindALawyer. Is this correct?
 
-Test 98: PASS
+Test 98: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How can I find a pro bono attorney?
-  Intent: FindALawyer
-  Response: It sounds like you are having issues relating to FindALawyer. Is this correct?
+  Expected Intent: FindALawyer
+  Actual Intent: FindALawyer
+  Expected: A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?
+  Actual: It sounds like you are having issues relating to FindALawyer. Is this correct?
 
-Test 99: PASS
+Test 99: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Legal Aid won't take my case. Are there any other places that will take my case? I want to sue the City of Richmond.
-  Intent: FindALawyer
-  Response: It sounds like you are having issues relating to FindALawyer. Is this correct?
+  Expected Intent: FindALawyer
+  Actual Intent: FindALawyer
+  Expected: A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?
+  Actual: It sounds like you are having issues relating to FindALawyer. Is this correct?
 
-Test 100: PASS
+Test 100: WRONG_INTENT
   Prompt: I want to settle out of court. What do I do?
-  Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Expected Intent: FindAMediator
+  Actual Intent: CourtGlossaryInfo
+  Expected: It sounds like you are looking for information relating to Courthouse Device Policy. Is this correct?
+  Actual: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
-Test 101: PASS
+Test 101: WRONG_INTENT
   Prompt: Someone told me to try ADR instead of suing. What's that
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: FindAMediator
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 102: PASS
+Test 102: WRONG_INTENT
   Prompt: Is there a cheaper way to sue someone?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: FindAMediator
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 103: PASS
+Test 103: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How does mediation work?
-  Intent: FindAMediator
-  Response: It sounds like you are having issues relating to FindAMediator. Is this correct?
+  Expected Intent: FindAMediator
+  Actual Intent: FindAMediator
+  Expected: Mediation is an alternative dispute resolution process where a trained neutral mediator helps parties communicate and reach a mutually agreeable resolution. In Virginia, mediation is voluntary and confidential, and courts offer various dispute resolution services, some at no cost. The Virginia Judicial System provides a directory of private mediators and links to Resolution Virginia. Would you like me to direct you to the Virginia court's mediation resources page?
+  Actual: It sounds like you are having issues relating to FindAMediator. Is this correct?
 
-Test 104: PASS
+Test 104: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How does a mediator qualify?
-  Intent: FindAMediator
-  Response: It sounds like you are having issues relating to FindAMediator. Is this correct?
+  Expected Intent: FindAMediator
+  Actual Intent: FindAMediator
+  Expected: Mediation is an alternative dispute resolution process where a trained neutral mediator helps parties communicate and reach a mutually agreeable resolution. In Virginia, mediation is voluntary and confidential, and courts offer various dispute resolution services, some at no cost. The Virginia Judicial System provides a directory of private mediators and links to Resolution Virginia. Would you like me to direct you to the Virginia court's mediation resources page?
+  Actual: It sounds like you are having issues relating to FindAMediator. Is this correct?
 
 Test 105: PASS
   Prompt: form
   Intent: Forms
   Response: It sounds like you are having issues relating to Forms. Is this correct?
 
-Test 106: NO_INTENT
+Test 106: WRONG_INTENT
   Prompt: courtforms
-  Expected Intent: Unknown
+  Expected Intent: Forms
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story." For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say. I will try my best to help!
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+
+For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
+
+I will try my best to help!
 
 Test 107: PASS
   Prompt: court forms
@@ -550,84 +666,102 @@ Test 111: PASS
   Intent: Forms
   Response: It sounds like you are having issues relating to Forms. Is this correct?
 
-Test 112: PASS
+Test 112: WRONG_INTENT
   Prompt: court documents
-  Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Expected Intent: Forms
+  Actual Intent: CourtGlossaryInfo
+  Expected: It sounds like you are looking for help relating to Legal Forms. Is this correct?
+  Actual: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
 Test 113: PASS
   Prompt: documents
   Intent: Forms
   Response: It sounds like you are having issues relating to Forms. Is this correct?
 
-Test 114: PASS
+Test 114: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: What does FOIA allow?
-  Intent: FreedomOfInformationAct
-  Response: It sounds like you are having issues relating to FreedomOfInformationAct. Is this correct?
+  Expected Intent: FreedomOfInformationAct
+  Actual Intent: FreedomOfInformationAct
+  Expected: The Virginia Judicial System provides Freedom of Information Act forms for court proceedings. Would you like me to direct you to our Freedom of Information Act forms page?
+  Actual: It sounds like you are having issues relating to FreedomOfInformationAct. Is this correct?
 
-Test 115: PASS
+Test 115: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: What is FOIA?
-  Intent: FreedomOfInformationAct
-  Response: It sounds like you are having issues relating to FreedomOfInformationAct. Is this correct?
+  Expected Intent: FreedomOfInformationAct
+  Actual Intent: FreedomOfInformationAct
+  Expected: The Virginia Judicial System provides Freedom of Information Act forms for court proceedings. Would you like me to direct you to our Freedom of Information Act forms page?
+  Actual: It sounds like you are having issues relating to FreedomOfInformationAct. Is this correct?
 
-Test 116: PASS
+Test 116: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Freedom of information act
-  Intent: FreedomOfInformationAct
-  Response: It sounds like you are having issues relating to FreedomOfInformationAct. Is this correct?
+  Expected Intent: FreedomOfInformationAct
+  Actual Intent: FreedomOfInformationAct
+  Expected: The Virginia Judicial System provides Freedom of Information Act forms for court proceedings. Would you like me to direct you to our Freedom of Information Act forms page?
+  Actual: It sounds like you are having issues relating to FreedomOfInformationAct. Is this correct?
 
-Test 117: PASS
+Test 117: WRONG_INTENT
   Prompt: I'm trans. Can I change my birth certificate?
-  Intent: ObtainVirginiaAdultBirthCertificateGuide
-  Response: It sounds like you are having issues relating to ObtainVirginiaAdultBirthCertificateGuide. Is this correct?
+  Expected Intent: GenderIssues
+  Actual Intent: ObtainVirginiaAdultBirthCertificateGuide
+  Expected: It sounds like you are looking for information relating to Obtain Virginia Adult Birth Certificate Guide. Is this correct?
+  Actual: It sounds like you are having issues relating to ObtainVirginiaAdultBirthCertificateGuide. Is this correct?
 
-Test 118: PASS
+Test 118: WRONG_INTENT
   Prompt: I'm trans. Can I change my license?
-  Intent: NameChange
-  Response: It sounds like you are having issues relating to NameChange. Is this correct?
+  Expected Intent: GenderIssues
+  Actual Intent: NameChange
+  Expected: It sounds like you are looking for information relating to a Name Change. Is this correct?
+  Actual: It sounds like you are having issues relating to NameChange. Is this correct?
 
 Test 119: PASS
   Prompt: I want a sex change. Is there help for that?
   Intent: GenderIssues
   Response: It sounds like you are having issues relating to GenderIssues. Is this correct?
 
-Test 120: PASS
+Test 120: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I get legal help?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: GetHelp
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too. If you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website. Additionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources.
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 121: PASS
+Test 121: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: help
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: GetHelp
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too. If you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website. Additionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources.
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 122: PASS
+Test 122: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: legal assistance
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: GetHelp
+  Actual Intent: GetHelp
+  Expected: A lawyer is someone licensed to practice law in Virginia who can provide legal advice. The Virginia State Bar offers a Lawyer Referral Service at 1-800-552-7977. Low-income persons may qualify for free legal aid through local offices, and those charged with crimes carrying jail time may be eligible for a public defender. Remember, only a licensed Virginia lawyer can give legal advice, file documents, or represent you in court. Would you like me to direct you to the Virginia court's information page about finding a lawyer?
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 123: PASS
+Test 123: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: help
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: GetHelp
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too. If you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website. Additionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources.
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 124: PASS
+Test 124: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I get assistance?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: GetHelp
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the 'Get Help - Main Page'. For specific office locations, there is a link below for that too. If you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website. Additionally, I will provide you a link below to a short video about how to get legal assistance from Virginia's self-help resources and other available legal resources.
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 125: WRONG_INTENT
+Test 125: PASS
   Prompt: How do I change my guardian?
-  Expected Intent: NameChange
-  Actual Intent: Guardianship_Conservatorship
-  Expected: It sounds like you are looking for information relating to a Name Change. Is this correct?
-  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 126: WRONG_INTENT
+Test 126: PASS
   Prompt: I want to file a complaint against my guardian
-  Expected Intent: Housing
-  Actual Intent: Guardianship_Conservatorship
-  Expected: It sounds like you are having issues relating to Housing. Is this correct?
-  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 127: PASS
   Prompt: What does a conservator do?
@@ -639,15 +773,19 @@ Test 128: PASS
   Intent: Guardianship_Conservatorship
   Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 129: PASS
+Test 129: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Who needs a guardian?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: Guardianship_Conservatorship
+  Actual Intent: Guardianship_Conservatorship
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 130: PASS
+Test 130: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: My mom was diagnosed with dementia. I think she will need a legal guardian. Who should I call?
-  Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Expected Intent: Guardianship_Conservatorship
+  Actual Intent: Guardianship_Conservatorship
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 131: PASS
   Prompt: I need to have power of attorney over my mother's affairs. Where do I go?
@@ -664,9 +802,28 @@ Test 133: PASS
   Intent: Health
   Response: It sounds like you are having issues relating to Health. Is this correct?
 
-Test 134: NO_INTENT
+Test 134: WRONG_INTENT
   Prompt: What's unlawful detainer?
-  Expected Intent: Unknown
+  Expected Intent: Housing
+  Actual Intent: Default Fallback Intent
+  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+
+Test 135: PASS
+  Prompt: How can I get out of my lease?
+  Intent: Housing
+  Response: It sounds like you are having issues relating to Housing. Is this correct?
+
+Test 136: WRONG_INTENT
+  Prompt: How much should I charge for rent?
+  Expected Intent: Housing
+  Actual Intent: Default Fallback Intent
+  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+
+Test 137: WRONG_INTENT
+  Prompt: I need a property maintenance company
+  Expected Intent: Housing
   Actual Intent: Default Fallback Intent
   Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
   Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
@@ -674,25 +831,6 @@ Test 134: NO_INTENT
 For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
 
 I will try my best to help!
-
-Test 135: PASS
-  Prompt: How can I get out of my lease?
-  Intent: Housing
-  Response: It sounds like you are having issues relating to Housing. Is this correct?
-
-Test 136: NO_INTENT
-  Prompt: How much should I charge for rent?
-  Expected Intent: Unknown
-  Actual Intent: Default Fallback Intent
-  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-Test 137: NO_INTENT
-  Prompt: I need a property maintenance company
-  Expected Intent: Unknown
-  Actual Intent: Default Fallback Intent
-  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
-  Actual: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 138: WRONG_INTENT
   Prompt: How do I qualify for housing assistance?
@@ -716,25 +854,33 @@ Test 141: PASS
   Intent: Housing
   Response: It sounds like you are having issues relating to Housing. Is this correct?
 
-Test 142: PASS
+Test 142: WRONG_INTENT
   Prompt: What's JD&R court?
-  Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Expected Intent: Juveniles
+  Actual Intent: CourtGlossaryInfo
+  Expected: It sounds like you are looking for information relating to Court Glossary Information. Is this correct?
+  Actual: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
 
-Test 143: PASS
+Test 143: WRONG_INTENT
   Prompt: What's the age of majority in Virginia
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: Juveniles
+  Actual Intent: VirginiaProbateHelp
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
 
-Test 144: PASS
+Test 144: WRONG_INTENT
   Prompt: What does juvenile mean?
-  Intent: Jueveniles
-  Response: It sounds like you are having issues relating to Jueveniles. Is this correct?
+  Expected Intent: Juveniles
+  Actual Intent: Jueveniles
+  Expected: It sounds like you are looking for information relating to Juvenile Issues. Is this correct?"
+  Actual: It sounds like you are having issues relating to Jueveniles. Is this correct?
 
-Test 145: PASS
+Test 145: WRONG_INTENT
   Prompt: Is my juvenile record sealed?
-  Intent: Jueveniles
-  Response: It sounds like you are having issues relating to Jueveniles. Is this correct?
+  Expected Intent: Juveniles
+  Actual Intent: Jueveniles
+  Expected: It sounds like you are looking for information relating to Juvenile Issues. Is this correct?"
+  Actual: It sounds like you are having issues relating to Jueveniles. Is this correct?
 
 Test 146: PASS
   Prompt: where can I go to ask a legal question?
@@ -746,66 +892,68 @@ Test 147: PASS
   Intent: LegalQA
   Response: It sounds like you are having issues relating to LegalQA. Is this correct?
 
-Test 148: WRONG_INTENT
+Test 148: PASS
   Prompt: legal qa
-  Expected Intent: AccessLegalInformationThroughOLIR
-  Actual Intent: LegalQA
-  Expected: It sounds like you are looking for information relating to accessing legal information through the OLIR (Online Legal Information Resources) system. Is this correct?
-  Actual: It sounds like you are having issues relating to LegalQA. Is this correct?
+  Intent: LegalQA
+  Response: It sounds like you are having issues relating to LegalQA. Is this correct?
 
 Test 149: PASS
   Prompt: Q&A
   Intent: LegalQA
   Response: It sounds like you are having issues relating to LegalQA. Is this correct?
 
-Test 150: WRONG_INTENT
+Test 150: PASS
   Prompt: where can I find answers to questions?
-  Expected Intent: AccessLegalInformationThroughOLIR
-  Actual Intent: LegalQA
-  Expected: It sounds like you are looking for information relating to accessing legal information through the OLIR (Online Legal Information Resources) system. Is this correct?
-  Actual: It sounds like you are having issues relating to LegalQA. Is this correct?
+  Intent: LegalQA
+  Response: It sounds like you are having issues relating to LegalQA. Is this correct?
 
 Test 151: PASS
   Prompt: where can I find legal answers
   Intent: LegalQA
   Response: It sounds like you are having issues relating to LegalQA. Is this correct?
 
-Test 152: WRONG_INTENT
+Test 152: PASS
   Prompt: legal qa
-  Expected Intent: AccessLegalInformationThroughOLIR
-  Actual Intent: LegalQA
-  Expected: It sounds like you are looking for information relating to accessing legal information through the OLIR (Online Legal Information Resources) system. Is this correct?
-  Actual: It sounds like you are having issues relating to LegalQA. Is this correct?
-
-Test 153: PASS
-  Prompt: Q&A
   Intent: LegalQA
   Response: It sounds like you are having issues relating to LegalQA. Is this correct?
+
+Test 153: INTENT_MATCH_RESPONSE_MISMATCH
+  Prompt: Q&A
+  Expected Intent: LegalQA
+  Actual Intent: LegalQA
+  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: It sounds like you are having issues relating to LegalQA. Is this correct?
 
 Test 154: PASS
   Prompt: where can I find answers to questions?
   Intent: LegalQA
   Response: It sounds like you are having issues relating to LegalQA. Is this correct?
 
-Test 155: PASS
+Test 155: WRONG_INTENT
   Prompt: legal self help
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: LegalSelfHelp
+  Actual Intent: GetHelp
+  Expected: It sounds like you are looking for information relating to Legal Self-Help or Self-Representation. I can share some links related to legally representing yourself correctly, navigating court on your own, and guidance on filling legal documents? Does that sound like what your'e looking for?
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 156: PASS
+Test 156: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: My friend is schizo and off meds. Can he be committed?
-  Intent: MentalHealth
-  Response: It sounds like you are having issues relating to MentalHealth. Is this correct?
+  Expected Intent: MentalHealth
+  Actual Intent: MentalHealth
+  Expected: It's my pleasure to help.
+  Actual: It sounds like you are having issues relating to MentalHealth. Is this correct?
 
 Test 157: PASS
   Prompt: mental health
   Intent: MentalHealth
   Response: It sounds like you are having issues relating to MentalHealth. Is this correct?
 
-Test 158: PASS
+Test 158: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I'm thinking about suicide. I need someone to talk to
-  Intent: MentalHealth
-  Response: It sounds like you are having issues relating to MentalHealth. Is this correct?
+  Expected Intent: MentalHealth
+  Actual Intent: MentalHealth
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to MentalHealth. Is this correct?
 
 Test 159: PASS
   Prompt: Can my ex husband be ordered to receive mental health treatment?
@@ -817,10 +965,12 @@ Test 160: PASS
   Intent: NameChange
   Response: It sounds like you are having issues relating to NameChange. Is this correct?
 
-Test 161: PASS
+Test 161: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Can I legally choose any name I want?
-  Intent: NameChange
-  Response: It sounds like you are having issues relating to NameChange. Is this correct?
+  Expected Intent: NameChange
+  Actual Intent: NameChange
+  Expected: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Actual: It sounds like you are having issues relating to NameChange. Is this correct?
 
 Test 162: PASS
   Prompt: How much does it cost to change your name?
@@ -857,80 +1007,110 @@ Test 168: PASS
   Intent: ObtainVirginiaAdultBirthCertificateGuide
   Response: It sounds like you are having issues relating to ObtainVirginiaAdultBirthCertificateGuide. Is this correct?
 
-Test 170: PASS
+Test 170: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I am representing myself in the court of appeals. What do I need to know?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 171: PASS
+Test 171: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I don't have an attorney for my case in the court of appeals. What can I do?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 172: PASS
+Test 172: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I am a pro se litigant in the court of appeals.
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 173: PASS
+Test 173: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I want to act as my own lawyer in the court of appeals.
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 174: PASS
+Test 174: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Do I have to hire an attorney for the Court of Appeals?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 175: PASS
+Test 175: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: Do I have to hire a lawyer for my appeal?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 176: PASS
+Test 176: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I want to represent myself on appeal.
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 177: PASS
+Test 177: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: What resources are available to litigants representing themselves on appeal?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 178: PASS
+Test 178: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I have no lawyer for my appeal. What can I do?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 179: PASS
+Test 179: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: I am pro se on appeal. What can I do?
-  Intent: SelfRepresentationCourtOfAppeals
-  Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
+  Expected Intent: SelfRepresentationCourtOfAppeals
+  Actual Intent: SelfRepresentationCourtOfAppeals
+  Expected: The Virginia Court of Appeals has issued a Self-Represented Litigant Guide to assist people who don't have an attorney for their appeals. In most civil cases, those who cannot afford an attorney do not have a right to appointed counsel and many represent themselves. The guide includes information about each stage of an appeal and contains links to relevant rules and forms. It's available on the Court of Appeals website and in hard copies at the Clerk's Office and Virginia State Law Library. Would you like me to direct you to the guide for self-representation in the Court of Appeals?
+  Actual: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 180: PASS
+Test 180: WRONG_INTENT
   Prompt: I am an elderly person and my caretaker is not bathing me. What can I do?
-  Intent: Abuse
-  Response: It sounds like you are having issues relating to Abuse. Is this correct?
+  Expected Intent: Seniors
+  Actual Intent: Abuse
+  Expected: It sounds like you are looking for information relating to Services for Seniors (including a range of topics like long term care issues, public benefits like Medicaid and SSI, Guardianship, abuse/neglect, and more). Is this correct?
+  Actual: It sounds like you are having issues relating to Abuse. Is this correct?
 
-Test 181: PASS
+Test 181: WRONG_INTENT
   Prompt: How do I get on Medicaid?
-  Intent: Health
-  Response: It sounds like you are having issues relating to Health. Is this correct?
+  Expected Intent: Seniors
+  Actual Intent: Health
+  Expected: It sounds like you are looking for information relating to Health. Is this correct?
+  Actual: It sounds like you are having issues relating to Health. Is this correct?
 
-Test 182: PASS
+Test 182: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: My Social Security check was stolen. What do I do?
-  Intent: Seniors
-  Response: It sounds like you are having issues relating to Seniors. Is this correct?
+  Expected Intent: Seniors
+  Actual Intent: Seniors
+  Expected: I know, right?
+  Actual: It sounds like you are having issues relating to Seniors. Is this correct?
 
-Test 183: PASS
+Test 183: INTENT_MATCH_RESPONSE_MISMATCH
   Prompt: How do I file for Social Security?
-  Intent: Seniors
-  Response: It sounds like you are having issues relating to Seniors. Is this correct?
+  Expected Intent: Seniors
+  Actual Intent: Seniors
+  Expected: Filing fees in Virginia vary depending on case type and location. There is not one uniform filing fee. If you are low income, you can request a fee waiver using a specific form that must be approved by the judge. Virginia Legal Aid also provides an online self-help tool to help you create the fee waiver form. Would you like me to direct you to the Virginia court's filing fees and waivers information page?
+  Actual: It sounds like you are having issues relating to Seniors. Is this correct?
 
-Test 184: PASS
+Test 184: WRONG_INTENT
   Prompt: I've heard I need to sign up for Medicare. Where do I do that?
-  Intent: Health
-  Response: It sounds like you are having issues relating to Health. Is this correct?
+  Expected Intent: Seniors
+  Actual Intent: Health
+  Expected: It sounds like you are looking for information relating to Health. Is this correct?
+  Actual: It sounds like you are having issues relating to Health. Is this correct?
 
 Test 185: PASS
   Prompt: What's the dollar limit in small claims court?
@@ -947,118 +1127,156 @@ Test 187: PASS
   Intent: SmallClaims
   Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
-Test 188: PASS
+Test 188: WRONG_INTENT
   Prompt: How do I recover $3000 someone owes me?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: SmallClaims
+  Actual Intent: GetHelp
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 189: PASS
+Test 189: WRONG_INTENT
   Prompt: Is there a form to sue my neighbor for a new fence?
-  Intent: Forms
-  Response: It sounds like you are having issues relating to Forms. Is this correct?
+  Expected Intent: SmallClaims
+  Actual Intent: Forms
+  Expected: It sounds like you are looking for help relating to Legal Forms. Is this correct?
+  Actual: It sounds like you are having issues relating to Forms. Is this correct?
 
-Test 190: PASS
+Test 190: WRONG_INTENT
   Prompt: I've taken my car to a mechanic to get it fixed. He had it three times and it still isn't fixed. I've paid him over $500. What can I do?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: SmallClaims
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
-Test 191: PASS
+Test 191: WRONG_INTENT
   Prompt: I hired a painter to re-finish my cainets. The first time, I wasn't happy with the result. He came back, and made them look worse. He won't refund my money. What do I do?
-  Intent: SmallClaims
-  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
+  Expected Intent: SmallClaims
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
-Test 192: PASS
+Test 192: WRONG_INTENT
   Prompt: How do I update my address for a court case?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: UpdateAddressForCourtCasesVirginia
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 193: PASS
+Test 193: WRONG_INTENT
   Prompt: I moved. Do I need to update my information for my case?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: UpdateAddressForCourtCasesVirginia
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 194: PASS
+Test 194: WRONG_INTENT
   Prompt: I have relocated. Do I need to update my information for court?
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: UpdateAddressForCourtCasesVirginia
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 195: PASS
+Test 195: WRONG_INTENT
   Prompt: change of address
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: UpdateAddressForCourtCasesVirginia
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 196: PASS
+Test 196: WRONG_INTENT
   Prompt: relocation
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: UpdateAddressForCourtCasesVirginia
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 197: PASS
+Test 197: WRONG_INTENT
   Prompt: moved
-  Intent: UpdateAddressForCourtCasesVirginia
-  Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
+  Expected Intent: UpdateAddressForCourtCasesVirginia
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to updating your address for court cases in Virginia. Is this correct?
+  Actual: N/A
 
-Test 199: PASS
+Test 199: WRONG_INTENT
   Prompt: Can I get credit for my army service?
-  Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Expected Intent: Veterans
+  Actual Intent: Unknown
+  Expected: Below this are a few links related to how Virginia's self-help resources can help you, and how you can qualify…
+  Actual: N/A
 
-Test 200: PASS
+Test 200: WRONG_INTENT
   Prompt: I think asbestos was on my Navy ship. How do I check?
-  Intent: Abuse
-  Response: It sounds like you are having issues relating to Abuse. Is this correct?
+  Expected Intent: Veterans
+  Actual Intent: Unknown
+  Expected: It sounds like you are having legal issues regarding Abuse, Stalking, or Neglect. Is this correct?
+  Actual: N/A
 
-Test 201: PASS
+Test 201: WRONG_INTENT
   Prompt: Can I get a concealed carry with my Marines discharge papers?
-  Intent: Forms
-  Response: It sounds like you are having issues relating to Forms. Is this correct?
+  Expected Intent: Veterans
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for help relating to Legal Forms. Is this correct?
+  Actual: N/A
 
-Test 202: PASS
+Test 202: WRONG_INTENT
   Prompt: Is there help for veterans in Virginia?
-  Intent: Veterans
-  Response: It sounds like you are having issues relating to Veterans. Is this correct?
+  Expected Intent: Veterans
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Veterans and/or Military. Is this correct?
+  Actual: N/A
 
 Test 203: WRONG_INTENT
   Prompt: What happened to the GI bill?
-  Expected Intent: AccessLegalInformationThroughOLIR
-  Actual Intent: Veterans
+  Expected Intent: Veterans
+  Actual Intent: Unknown
   Expected: I'm here to help you with legal information. How can I assist you today?
-  Actual: It sounds like you are having issues relating to Veterans. Is this correct?
+  Actual: N/A
 
 Test 204: WRONG_INTENT
   Prompt: What's probate?
-  Expected Intent: Abuse
-  Actual Intent: VirginiaProbateHelp
+  Expected Intent: VirginiaProbateHelp
+  Actual Intent: Unknown
   Expected: It sounds like you are looking for information relating to Services for Seniors (including a range of topics like long term care issues, public benefits like Medicaid and SSI, Guardianship, abuse/neglect, and more). Is this correct?
-  Actual: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Actual: N/A
 
-Test 205: PASS
+Test 205: WRONG_INTENT
   Prompt: How long does probate take?
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: VirginiaProbateHelp
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: N/A
 
-Test 206: PASS
+Test 206: WRONG_INTENT
   Prompt: How do I get my parent's estate out of probate?
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: VirginiaProbateHelp
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: N/A
 
 Test 207: WRONG_INTENT
   Prompt: My parent had a will. What happens next?
-  Expected Intent: Abuse
-  Actual Intent: Seniors
+  Expected Intent: VirginiaProbateHelp
+  Actual Intent: Unknown
   Expected: It sounds like you are looking for information relating to Services for Seniors (including a range of topics like long term care issues, public benefits like Medicaid and SSI, Guardianship, abuse/neglect, and more). Is this correct?
-  Actual: It sounds like you are having issues relating to Seniors. Is this correct?
+  Actual: N/A
 
-Test 208: PASS
+Test 208: WRONG_INTENT
   Prompt: How does probate work in Virginia?
-  Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Expected Intent: VirginiaProbateHelp
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Virginia Probate law or proceedings. Is this correct?
+  Actual: N/A
 
-Test 209: PASS
+Test 209: WRONG_INTENT
   Prompt: Where do I register to vote
-  Intent: VotingRights
-  Response: It sounds like you are having issues relating to VotingRights. Is this correct?
+  Expected Intent: VotingRights
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Voting Rights. Is this correct?
+  Actual: N/A
 
-Test 210: PASS
+Test 210: WRONG_INTENT
   Prompt: How do I have my right to vote restored?
-  Intent: VotingRights
-  Response: It sounds like you are having issues relating to VotingRights. Is this correct?
+  Expected Intent: VotingRights
+  Actual Intent: Unknown
+  Expected: It sounds like you are looking for information relating to Voting Rights. Is this correct?
+  Actual: N/A
