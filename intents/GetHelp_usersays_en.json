@@ -1012,5 +1012,44 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-help-cost-1",
+    "data": [
+      {
+        "text": "how much money to bring my case?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-help-cost-2",
+    "data": [
+      {
+        "text": "how much does it cost to file",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-help-cost-3",
+    "data": [
+      {
+        "text": "filing fees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]

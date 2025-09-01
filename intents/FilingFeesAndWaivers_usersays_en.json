@@ -1,30 +1,6 @@
 [
-  {
-    "id": "acbb1b49-bbe2-42bf-86c1-83c83b6c5b6c",
-    "data": [
-      {
-        "text": "how much money to bring my case?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "a2b6f9c3-7d0e-8a2b-2b6f-9c3d0e8a2b6f",
-    "data": [
-      {
-        "text": "filing fees",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
+
+
   {
     "id": "b3c7a0d4-8e1f-9b3c-3c7a-0d4e1f9b3c7a",
     "data": [
@@ -77,19 +53,7 @@
     "lang": "en",
     "updated": 0
   },
-  {
-    "id": "f7a1e4b8-2c5d-3f7a-7a1e-4b8c5d3f7a1e",
-    "data": [
-      {
-        "text": "how much does it cost to file",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
+
   {
     "id": "a8b2f5c9-3d6e-4a8b-8b2f-5c9d6e4a8b2f",
     "data": [
