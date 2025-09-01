@@ -90,19 +90,7 @@
     "lang": "en",
     "updated": 0
   },
-  {
-    "id": "new-lawyer-1",
-    "data": [
-      {
-        "text": "legal assistance",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
+
   {
     "id": "new-lawyer-2",
     "data": [
