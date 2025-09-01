@@ -951,9 +951,6 @@
     "updated": 0
   },
   {
-    "id": "35a2e0d3-6b48-4c3f-8d3b-1a7f5e9c8d91",
-  ,
-  {
     "id": "new-abuse-1",
     "data": [
       { "text": "my partner is abusing me", "userDefined": false }
@@ -1076,4 +1073,5 @@
     "lang": "en",
     "updated": 0
   }
+]
 ]
