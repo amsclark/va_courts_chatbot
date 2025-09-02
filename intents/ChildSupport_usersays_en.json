@@ -13,6 +13,32 @@
     "updated": 0
   },
   {
+    "id": "lost-job-child-support-1",
+    "data": [
+      {
+        "text": "I lost my job. Do I have to pay child support?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "lost-job-child-support-2",
+    "data": [
+      {
+        "text": "lost job pay child support",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "childsupport-fix-2",
     "data": [
       {

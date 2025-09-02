@@ -13,6 +13,32 @@
     "updated": 0
   },
   {
+    "id": "got-summons-lawyer-1",
+    "data": [
+      {
+        "text": "I got a summons. Do I need a lawyer?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "got-summons-lawyer-2",
+    "data": [
+      {
+        "text": "got summons need lawyer",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "e6f0i3j7-2c5d-3e6f-6f0i-3j7c5d3e6f0i",
     "data": [
       {

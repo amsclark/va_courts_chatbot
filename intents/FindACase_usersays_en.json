@@ -13,6 +13,58 @@
     "updated": 0
   },
   {
+    "id": "criminal-background-check-1",
+    "data": [
+      {
+        "text": "how do I check someone's criminal background",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "traffic-ticket-payment-1",
+    "data": [
+      {
+        "text": "I lost my traffic ticket. Where do I pay it off?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "background-check-2",
+    "data": [
+      {
+        "text": "check criminal background",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "traffic-ticket-2",
+    "data": [
+      {
+        "text": "lost traffic ticket pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "a1b5e8c4-6d9f-7a2b-1b5e-8c4d9f2a6b0c",
     "data": [
       {
