@@ -1,22 +1,9 @@
 [
   {
-    "id": "conservator-fix-1",
-    "data": [
-      {
-        "text": "What is a conservator",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "conservator-fix-2",
     "data": [
       {
-        "text": "conservator definition",
+        "text": "financial conservator definition",
         "userDefined": false
       }
     ],
@@ -477,6 +464,45 @@
   {
     "id": "short-guard-3",
     "data": [ { "text": "POA", "userDefined": false } ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-guard-1",
+    "data": [
+      {
+        "text": "appointed by court to help someone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-guard-2",
+    "data": [
+      {
+        "text": "manage estate financial affairs",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-guard-3",
+    "data": [
+      {
+        "text": "incapacitated person conservator",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
