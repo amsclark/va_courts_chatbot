@@ -273,19 +273,6 @@
     "updated": 0
   },
   {
-    "id": "new-cop-4",
-    "data": [
-      {
-        "text": "What is a conservator",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "new-cop-6",
     "data": [
       {
@@ -303,6 +290,45 @@
     "data": [
       {
         "text": "peace officer conservator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "law-enforcement-conservator-1",
+    "data": [
+      {
+        "text": "What is a law enforcement conservator of the peace?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "law-enforcement-conservator-2",
+    "data": [
+      {
+        "text": "peace officer conservator definition",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "law-enforcement-conservator-3",
+    "data": [
+      {
+        "text": "special conservator of the peace law enforcement",
         "userDefined": false
       }
     ],

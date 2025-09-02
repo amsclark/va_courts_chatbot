@@ -1,18 +1,5 @@
 [
   {
-    "id": "42d6d11b-03ad-410e-92ea-1e0f46820418",
-    "data": [
-      {
-        "text": "My ex-husband smok  },round our teenage son. I've asked him to not do that, but according to my son, he still smokes. What should I do?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "short-family-1",
     "data": [
       {
@@ -43,19 +30,6 @@
     "data": [
       {
         "text": "lies about me to our children",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "absent-parent-support-1",
-    "data": [
-      {
-        "text": "absent parent provide money",
         "userDefined": false
       }
     ],
@@ -334,19 +308,6 @@
     ],
     "isTemplate": false,
     "count": 1,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "child-support-2",
-    "data": [
-      {
-        "text": "I want my ex to pay for his kids. What can I do?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
     "lang": "en",
     "updated": 0
   },

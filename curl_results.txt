@@ -88,11 +88,11 @@ Test 15: PASS
   Actual Intent: AccessLegalInformationThroughOLIR
   Response: It sounds like you are having issues relating to AccessLegalInformationThroughOLIR. Is this correct?
 
-Test 16: WRONG_INTENT
+Test 16: PASS
   Prompt: How do I make my kids' father pay for them?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 17: PASS
   Prompt: How do I make my ex-husband pay child support?
@@ -106,17 +106,17 @@ Test 18: WRONG_INTENT
   Actual Intent: FamilyLaw
   Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 19: WRONG_INTENT
+Test 19: PASS
   Prompt: How do I get money for my kids from their mom?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 20: WRONG_INTENT
+Test 20: PASS
   Prompt: How do I get support for my kids?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 21: PASS
   Prompt: How do I get support for my children?
@@ -124,23 +124,23 @@ Test 21: PASS
   Actual Intent: ChildSupport
   Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 22: WRONG_INTENT
+Test 22: PASS
   Prompt: How do I get money from my baby daddy for his kids?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 23: WRONG_INTENT
+Test 23: PASS
   Prompt: Does my ex-wife owe money for her children?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 24: WRONG_INTENT
+Test 24: PASS
   Prompt: Does my ex have to cover expenses for his kids?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 25: WRONG_INTENT
   Prompt: Does an absent parent need to provide money for a son or daughter?
@@ -148,11 +148,11 @@ Test 25: WRONG_INTENT
   Actual Intent: FamilyLaw
   Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
 
-Test 26: WRONG_INTENT
+Test 26: PASS
   Prompt: What is a conservator?
   Expected Intent: ConservatorOfThePeace
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
 Test 27: WRONG_INTENT
   Prompt: What is a conservator of the peace?
@@ -268,11 +268,11 @@ Test 45: PASS
   Actual Intent: CourthouseDevicePolicy
   Response: It sounds like you are having issues relating to CourthouseDevicePolicy. Is this correct?
 
-Test 46: WRONG_INTENT
+Test 46: PASS
   Prompt: What if my ex moves away with my kids?
   Expected Intent: Custody
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: Custody
+  Response: It sounds like you are having issues relating to Custody. Is this correct?
 
 Test 47: PASS
   Prompt: How do I change my visitation days?
@@ -298,11 +298,11 @@ Test 50: PASS
   Actual Intent: Custody
   Response: It sounds like you are having issues relating to Custody. Is this correct?
 
-Test 51: WRONG_INTENT
+Test 51: PASS
   Prompt: I'm getting remarried and want my new husband to also have legal custody. What do I need to do?
   Expected Intent: Custody
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: Custody
+  Response: It sounds like you are having issues relating to Custody. Is this correct?
 
 Test 52: PASS
   Prompt: My ex and I have a fifty-fifty custody agreement. She wants to move to Nashville for a new job. If she moves, I want the kids to have more time with me and in their regular school. Can our previous agreement be changed so that I get the kids more?
@@ -457,8 +457,8 @@ Test 76: PASS
 Test 77: WRONG_INTENT
   Prompt: I'm going to get a job that pays less so I don't have to pay as much support. Who do I tell I'm going to be making less for that?
   Expected Intent: FamilyLaw
-  Actual Intent: smalltalk.greetings.how_are_you
-  Response: Doing great, thanks.
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 78: WRONG_INTENT
   Prompt: My fiance is in the military and wants to be my child's stepparent. Do we have tio file papers for an adoption by my fiance?
@@ -466,17 +466,21 @@ Test 78: WRONG_INTENT
   Actual Intent: Veterans
   Response: It sounds like you are having issues relating to Veterans. Is this correct?
 
-Test 79: PASS
+Test 79: WRONG_INTENT
   Prompt: Someone called social services on me. Now they're taking away my kids. What do I do to get them back?
   Expected Intent: FamilyLaw
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: GetHelp
+  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
 
 Test 80: WRONG_INTENT
   Prompt: ???
   Expected Intent: FamMobileCrisis
   Actual Intent: Default Fallback Intent
   Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+
+For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
+
+I will try my best to help!
 
 Test 81: PASS
   Prompt: filing fees
@@ -754,17 +758,17 @@ Test 126: PASS
   Actual Intent: Guardianship_Conservatorship
   Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 127: PASS
+Test 127: WRONG_INTENT
   Prompt: What does a conservator do?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
-Test 128: PASS
+Test 128: WRONG_INTENT
   Prompt: Who needs a conservator?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
 Test 129: PASS
   Prompt: Who needs a guardian?
@@ -1072,17 +1076,17 @@ Test 179: PASS
   Actual Intent: SelfRepresentationCourtOfAppeals
   Response: It sounds like you are having issues relating to SelfRepresentationCourtOfAppeals. Is this correct?
 
-Test 180: WRONG_INTENT
+Test 180: PASS
   Prompt: I am an elderly person and my caretaker is not bathing me. What can I do?
   Expected Intent: Seniors
-  Actual Intent: Abuse
-  Response: It sounds like you are having issues relating to Abuse. Is this correct?
+  Actual Intent: Seniors
+  Response: It sounds like you are having issues relating to Seniors. Is this correct?
 
-Test 181: WRONG_INTENT
+Test 181: PASS
   Prompt: How do I get on Medicaid?
   Expected Intent: Seniors
-  Actual Intent: Health
-  Response: It sounds like you are having issues relating to Health. Is this correct?
+  Actual Intent: Seniors
+  Response: It sounds like you are having issues relating to Seniors. Is this correct?
 
 Test 182: PASS
   Prompt: My Social Security check was stolen. What do I do?
@@ -1096,11 +1100,11 @@ Test 183: PASS
   Actual Intent: Seniors
   Response: It sounds like you are having issues relating to Seniors. Is this correct?
 
-Test 184: WRONG_INTENT
+Test 184: PASS
   Prompt: I've heard I need to sign up for Medicare. Where do I do that?
   Expected Intent: Seniors
-  Actual Intent: Health
-  Response: It sounds like you are having issues relating to Health. Is this correct?
+  Actual Intent: Seniors
+  Response: It sounds like you are having issues relating to Seniors. Is this correct?
 
 Test 185: PASS
   Prompt: What's the dollar limit in small claims court?
@@ -1120,11 +1124,11 @@ Test 187: PASS
   Actual Intent: SmallClaims
   Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
-Test 188: WRONG_INTENT
+Test 188: PASS
   Prompt: How do I recover $3000 someone owes me?
   Expected Intent: SmallClaims
-  Actual Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Actual Intent: SmallClaims
+  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
 Test 189: WRONG_INTENT
   Prompt: Is there a form to sue my neighbor for a new fence?
@@ -1132,11 +1136,11 @@ Test 189: WRONG_INTENT
   Actual Intent: Forms
   Response: It sounds like you are having issues relating to Forms. Is this correct?
 
-Test 190: WRONG_INTENT
+Test 190: PASS
   Prompt: I've taken my car to a mechanic to get it fixed. He had it three times and it still isn't fixed. I've paid him over $500. What can I do?
   Expected Intent: SmallClaims
-  Actual Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Actual Intent: SmallClaims
+  Response: It sounds like you are having issues relating to SmallClaims. Is this correct?
 
 Test 191: PASS
   Prompt: I hired a painter to re-finish my cainets. The first time, I wasn't happy with the result. He came back, and made them look worse. He won't refund my money. What do I do?
@@ -1184,25 +1188,25 @@ Test 198: NO_INTENT
   Prompt: ???
   Expected Intent: Not specified
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
-Test 199: WRONG_INTENT
+Test 199: PASS
   Prompt: Can I get credit for my army service?
   Expected Intent: Veterans
-  Actual Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
+  Actual Intent: Veterans
+  Response: It sounds like you are having issues relating to Veterans. Is this correct?
 
-Test 200: WRONG_INTENT
+Test 200: PASS
   Prompt: I think asbestos was on my Navy ship. How do I check?
   Expected Intent: Veterans
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: Veterans
+  Response: It sounds like you are having issues relating to Veterans. Is this correct?
 
-Test 201: WRONG_INTENT
+Test 201: PASS
   Prompt: Can I get a concealed carry with my Marines discharge papers?
   Expected Intent: Veterans
-  Actual Intent: Forms
-  Response: It sounds like you are having issues relating to Forms. Is this correct?
+  Actual Intent: Veterans
+  Response: It sounds like you are having issues relating to Veterans. Is this correct?
 
 Test 202: PASS
   Prompt: Is there help for veterans in Virginia?
@@ -1210,11 +1214,11 @@ Test 202: PASS
   Actual Intent: Veterans
   Response: It sounds like you are having issues relating to Veterans. Is this correct?
 
-Test 203: WRONG_INTENT
+Test 203: PASS
   Prompt: What happened to the GI bill?
   Expected Intent: Veterans
-  Actual Intent: AccessLegalInformationThroughOLIR
-  Response: It sounds like you are having issues relating to AccessLegalInformationThroughOLIR. Is this correct?
+  Actual Intent: Veterans
+  Response: It sounds like you are having issues relating to Veterans. Is this correct?
 
 Test 204: PASS
   Prompt: What's probate?
