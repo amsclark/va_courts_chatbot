@@ -13,6 +13,19 @@
     "updated": 0
   },
   {
+    "id": "legal-assistance-1",
+    "data": [
+      {
+        "text": "legal assistance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "0ccb82e6-13dd-4f73-8258-d4c90091adc7",
     "data": [
       {

@@ -13,6 +13,32 @@
     "updated": 0
   },
   {
+    "id": "misdemeanor-expunge-job-1",
+    "data": [
+      {
+        "text": "Do I need to get misdemeanors expunged to get a job?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "misdemeanor-expunge-job-2",
+    "data": [
+      {
+        "text": "misdemeanor expunge job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "ac223610-dc33-4578-9da7-0897d3b1661c",
     "data": [
       {

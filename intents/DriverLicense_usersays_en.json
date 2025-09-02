@@ -12,6 +12,32 @@
     "lang": "en",
     "updated": 0
   },
+  {
+    "id": "moved-license-update-1",
+    "data": [
+      {
+        "text": "I moved. How long do I have to update my license?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "moved-license-update-2",
+    "data": [
+      {
+        "text": "moved update license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
 
   {
     "id": "ae831473-0e83-46ad-b663-53a341a620dc",

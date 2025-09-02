@@ -100,11 +100,11 @@ Test 17: PASS
   Actual Intent: ChildSupport
   Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 18: WRONG_INTENT
+Test 18: PASS
   Prompt: I want my ex to pay for his kids. What can I do?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 19: PASS
   Prompt: How do I get money for my kids from their mom?
@@ -142,17 +142,17 @@ Test 24: PASS
   Actual Intent: ChildSupport
   Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 25: WRONG_INTENT
+Test 25: PASS
   Prompt: Does an absent parent need to provide money for a son or daughter?
   Expected Intent: ChildSupport
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 26: PASS
+Test 26: WRONG_INTENT
   Prompt: What is a conservator?
   Expected Intent: ConservatorOfThePeace
-  Actual Intent: ConservatorOfThePeace
-  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Actual Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 27: WRONG_INTENT
   Prompt: What is a conservator of the peace?
@@ -310,11 +310,11 @@ Test 52: PASS
   Actual Intent: Custody
   Response: It sounds like you are having issues relating to Custody. Is this correct?
 
-Test 53: WRONG_INTENT
+Test 53: PASS
   Prompt: My ex-husband smokes pot while around our teenage son. I've asked him to not do that, but according to my son, he still smokes. What should I do?
   Expected Intent: Custody
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: Custody
+  Response: It sounds like you are having issues relating to Custody. Is this correct?
 
 Test 54: WRONG_INTENT
   Prompt: Hmmm… I'm not sure I understand. Can you say it in a different way? I understand  best when people ask me short questions or tell me one thing at a time instead of the whole story.
@@ -476,11 +476,7 @@ Test 80: WRONG_INTENT
   Prompt: ???
   Expected Intent: FamMobileCrisis
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 81: PASS
   Prompt: filing fees
@@ -557,8 +553,8 @@ Test 92: WRONG_INTENT
 Test 93: WRONG_INTENT
   Prompt: I lost my traffic ticket. Where do I pay it off?
   Expected Intent: FindACase
-  Actual Intent: smalltalk.greetings.bye
-  Response: Goodbye.
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 94: WRONG_INTENT
   Prompt: I got a summons. Do I need a lawyer?
@@ -758,17 +754,17 @@ Test 126: PASS
   Actual Intent: Guardianship_Conservatorship
   Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 127: WRONG_INTENT
+Test 127: PASS
   Prompt: What does a conservator do?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: ConservatorOfThePeace
-  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Actual Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 128: WRONG_INTENT
+Test 128: PASS
   Prompt: Who needs a conservator?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: ConservatorOfThePeace
-  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Actual Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 129: PASS
   Prompt: Who needs a guardian?
@@ -1188,7 +1184,11 @@ Test 198: NO_INTENT
   Prompt: ???
   Expected Intent: Not specified
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+
+For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
+
+I will try my best to help!
 
 Test 199: PASS
   Prompt: Can I get credit for my army service?

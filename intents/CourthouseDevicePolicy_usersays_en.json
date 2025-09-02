@@ -13,6 +13,32 @@
     "updated": 0
   },
   {
+    "id": "laptop-trial-1",
+    "data": [
+      {
+        "text": "Can I bring my laptop to trial?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "laptop-trial-2",
+    "data": [
+      {
+        "text": "bring laptop trial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "3d234ba9-4251-4ae4-9cff-be1d3a445317",
     "data": [
       {
