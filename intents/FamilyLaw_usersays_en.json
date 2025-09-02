@@ -13,6 +13,84 @@
     "updated": 0
   },
   {
+    "id": "job-pay-less-support-1",
+    "data": [
+      {
+        "text": "I'm going to get a job that pays less so I don't have to pay as much support. Who do I tell I'm going to be making less for that?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "military-stepparent-adoption-1",
+    "data": [
+      {
+        "text": "My fiance is in the military and wants to be my child's stepparent. Do we have to file papers for an adoption by my fiance?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "social-services-taking-kids-1",
+    "data": [
+      {
+        "text": "Someone called social services on me. Now they're taking away my kids. What do I do to get them back?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "pay-less-support-variations",
+    "data": [
+      {
+        "text": "pay less child support job",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "stepparent-adoption-military",
+    "data": [
+      {
+        "text": "military stepparent adoption",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "social-services-kids-back",
+    "data": [
+      {
+        "text": "social services taking kids get back",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "change-visitation-1",
     "data": [
       {

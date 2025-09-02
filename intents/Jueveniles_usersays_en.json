@@ -13,6 +13,97 @@
     "updated": 0
   },
   {
+    "id": "jdr-court-1",
+    "data": [
+      {
+        "text": "What's JD&R court?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "age-of-majority-1",
+    "data": [
+      {
+        "text": "What's the age of majority in Virginia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "juvenile-meaning-1",
+    "data": [
+      {
+        "text": "What does juvenile mean?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "juvenile-record-sealed-1",
+    "data": [
+      {
+        "text": "Is my juvenile record sealed?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "juvenile-court-variations",
+    "data": [
+      {
+        "text": "JDR court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "juvenile-terminology-1",
+    "data": [
+      {
+        "text": "juvenile and domestic relations court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "age-majority-variations",
+    "data": [
+      {
+        "text": "age of majority Virginia",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "a579b3ce-f20b-4958-87ab-9a30b54ae830",
     "data": [
       {
