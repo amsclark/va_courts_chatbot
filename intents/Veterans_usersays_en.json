@@ -366,5 +366,70 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-vet-1",
+    "data": [
+      {
+        "text": "army service",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-vet-2",
+    "data": [
+      {
+        "text": "asbestos Navy ship",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-vet-3",
+    "data": [
+      {
+        "text": "Marines discharge papers",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-vet-4",
+    "data": [
+      {
+        "text": "concealed carry veterans",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-vet-5",
+    "data": [
+      {
+        "text": "GI bill",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]

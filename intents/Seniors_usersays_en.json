@@ -508,5 +508,57 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-seniors-1",
+    "data": [
+      {
+        "text": "elderly caretaker not bathing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-seniors-2",
+    "data": [
+      {
+        "text": "get on Medicaid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-seniors-3",
+    "data": [
+      {
+        "text": "Social Security check stolen",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-seniors-4",
+    "data": [
+      {
+        "text": "sign up for Medicare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]

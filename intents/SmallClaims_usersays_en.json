@@ -297,5 +297,83 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-sc-1",
+    "data": [
+      {
+        "text": "which court handles small claims",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-sc-2",
+    "data": [
+      {
+        "text": "attorney small claims court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-sc-3",
+    "data": [
+      {
+        "text": "recover money owed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-sc-4",
+    "data": [
+      {
+        "text": "sue my neighbor",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-sc-5",
+    "data": [
+      {
+        "text": "mechanic car fixed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-sc-6",
+    "data": [
+      {
+        "text": "painter cabinets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]

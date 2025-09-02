@@ -310,5 +310,122 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "new-phrase-1",
+    "data": [
+      {
+        "text": "make father pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-2",
+    "data": [
+      {
+        "text": "make ex pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-3",
+    "data": [
+      {
+        "text": "ex-husband pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-4",
+    "data": [
+      {
+        "text": "baby daddy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-5",
+    "data": [
+      {
+        "text": "money for kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-6",
+    "data": [
+      {
+        "text": "support for kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-7",
+    "data": [
+      {
+        "text": "ex-wife owe money",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-8",
+    "data": [
+      {
+        "text": "cover expenses for kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-phrase-9",
+    "data": [
+      {
+        "text": "absent parent provide money",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]
