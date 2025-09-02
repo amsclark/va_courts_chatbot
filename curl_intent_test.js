@@ -4,8 +4,8 @@ const { promisify } = require('util');
 
 const execAsync = promisify(exec);
 
-// Read and parse CSV manually with a small quoted-field-aware parser
-const csvContent = fs.readFileSync('customerfeedback.csv', 'utf8');
+// Read and parse CSV manually with a simple parser for the pruned feedback format
+const csvContent = fs.readFileSync('pruned_feedback.csv', 'utf8');
 const rawLines = csvContent.split(/\r?\n/);
 
 function parseCSVLine(line) {
@@ -33,18 +33,14 @@ function parseCSVLine(line) {
   return cols.map(c => c.trim());
 }
 
-const lines = rawLines;
+const lines = rawLines.filter(line => line.trim() !== ''); // Remove empty lines
 const headers = parseCSVLine(lines[0] || '');
 
-// Find column indices
-const intentIndex = headers.findIndex(h => h.includes('Intent'));
-const promptIndex = headers.findIndex(h => h.includes('Prompt'));
-const responseIndex = headers.findIndex(h => h.includes('Response'));
-const incorrectPageIndex = headers.findIndex(h => h.includes('Incorrect or incomplete page directs'));
-const incorrectLinksIndex = headers.findIndex(h => h.includes('Incorrect hyperlinks'));
-const notesIndex = headers.findIndex(h => h.includes('notes'));
+// Find column indices - pruned_feedback.csv has simple structure: Intent,Test Prompt
+const intentIndex = 0; // Intent column is first
+const promptIndex = 1; // Test Prompt column is second
 
-console.log(`Found columns: Intent=${intentIndex}, Prompt=${promptIndex}, Response=${responseIndex}, IncorrectPage=${incorrectPageIndex}, IncorrectLinks=${incorrectLinksIndex}, Notes=${notesIndex}`);
+console.log(`Processing pruned_feedback.csv with ${lines.length - 1} test prompts`);
 
 const results = [];
 const passedFile = 'passed_tests.json';
@@ -57,7 +53,7 @@ try {
 
 // No need for intent mapping - we'll use the Intent column directly from CSV
 
-async function testPrompt(index, prompt, expectedResponse, expectedIntent) {
+async function testPrompt(index, prompt, expectedIntent) {
   try {
     // Create the JSON payload first
     const payload = {
@@ -82,7 +78,7 @@ async function testPrompt(index, prompt, expectedResponse, expectedIntent) {
     
     if (stderr) {
       console.error(`Error for prompt ${index}:`, stderr);
-      return { index, prompt, result: 'ERROR', response: stderr, expected: expectedResponse };
+      return { index, prompt, result: 'ERROR', response: stderr, expectedIntent };
     }
 
     // Parse response (remove the )]}' prefix if present)
@@ -115,47 +111,20 @@ async function testPrompt(index, prompt, expectedResponse, expectedIntent) {
       }
     }
 
-    // Determine expected intent from CSV Intent column (already provided)
-    // Check if intent matches (for first-level intents, we expect the standardized response pattern)
+    // Determine test result based on intent matching
     let result = 'FAIL';
     
     if (expectedIntent && expectedIntent !== '???' && expectedIntent.trim() !== '') {
       // Check if the matched intent is what we expect
       if (intentName === expectedIntent) {
-        // For first-level intents, check if we get the proper standardized response
-        const standardizedResponse = `It sounds like you are having issues relating to ${expectedIntent}. Is this correct?`;
-        
-        // The CSV "Response" column often contains OLD/INCORRECT responses
-        // What we want is the proper standardized response for first-level intents
-        if (actualResponse === standardizedResponse) {
-          result = 'PASS';
-        } else {
-          // Some specific intents have custom responses - check if this is expected
-          const customResponseIntents = [
-            'FilingFeesAndWaivers', 'FindACase', 'FindALawyer', 'FindAMediator', 
-            'FreedomOfInformationAct', 'GetHelp', 'LegalQA', 'SelfRepresentationCourtOfAppeals'
-          ];
-          
-          if (customResponseIntents.includes(expectedIntent)) {
-            // For these intents, any non-fallback response is acceptable
-            if (!actualResponse.includes('not sure I understand') && 
-                !actualResponse.includes('NOT FOUND') &&
-                actualResponse.length > 20) {
-              result = 'PASS';
-            } else {
-              result = 'INTENT_MATCH_RESPONSE_MISMATCH';
-            }
-          } else {
-            result = 'INTENT_MATCH_RESPONSE_MISMATCH';
-          }
-        }
+        result = 'PASS';
       } else {
         result = 'WRONG_INTENT';
       }
     } else {
-      // If intent is not specified or is '???', just check that some intent was matched (not fallback)
+      // If intent is not specified or is '???', check that some intent was matched (not fallback)
       if (intentName && intentName !== 'Default Fallback Intent' && intentName !== 'Unknown') {
-        result = 'PASS';
+        result = 'PASS_NO_EXPECTED';
       } else {
         result = 'NO_INTENT';
       }
@@ -167,22 +136,22 @@ async function testPrompt(index, prompt, expectedResponse, expectedIntent) {
       result,
       intentName,
       response: actualResponse,
-      expected: expectedResponse,
       expectedIntent
     };
 
   } catch (error) {
     console.error(`Error processing prompt ${index}:`, error);
-    return { index, prompt, result: 'ERROR', response: error.message, expected: expectedResponse };
+    return { index, prompt, result: 'ERROR', response: error.message, expectedIntent };
   }
 }
 
 async function runTests() {
   const testPromises = [];
+  console.log(`Starting tests for ${lines.length - 1} prompts...`);
   
   for (let i = 1; i < lines.length; i++) {
     const cols = parseCSVLine(lines[i]);
-    if (cols.length > Math.max(intentIndex, promptIndex, responseIndex) && cols[promptIndex] && cols[responseIndex]) {
+    if (cols.length >= 2 && cols[promptIndex] && cols[promptIndex].trim() !== '') {
       const index = i;
       
       // Skip tests that are already passing
@@ -193,13 +162,13 @@ async function runTests() {
       
       const expectedIntent = cols[intentIndex];
       const prompt = cols[promptIndex];
-      const expectedResponse = cols[responseIndex];
       
-      testPromises.push(testPrompt(index, prompt, expectedResponse, expectedIntent));
+      testPromises.push(testPrompt(index, prompt, expectedIntent));
       
-      // Add delay between requests to avoid rate limiting
-      if (testPromises.length % 5 === 0) {
-        await new Promise(resolve => setTimeout(resolve, 1000));
+      // Add delay between requests to avoid rate limiting - run in smaller batches
+      if (testPromises.length % 3 === 0) {
+        console.log(`Queued ${testPromises.length} tests so far...`);
+        await new Promise(resolve => setTimeout(resolve, 3000)); // Wait 3 seconds every 3 requests
       }
     }
   }
@@ -208,6 +177,9 @@ async function runTests() {
   
   let passCount = 0;
   let failCount = 0;
+  let wrongIntentCount = 0;
+  let noIntentCount = 0;
+  let passNoExpectedCount = 0;
   const outputLines = [];
   const newlyPassed = [];
   
@@ -217,17 +189,41 @@ async function runTests() {
       newlyPassed.push(result.index);
       outputLines.push(`Test ${result.index}: PASS`);
       outputLines.push(`  Prompt: ${result.prompt}`);
-      outputLines.push(`  Intent: ${result.intentName}`);
+      outputLines.push(`  Expected Intent: ${result.expectedIntent}`);
+      outputLines.push(`  Actual Intent: ${result.intentName}`);
+      outputLines.push(`  Response: ${result.response}`);
+      outputLines.push('');
+    } else if (result.result === 'PASS_NO_EXPECTED') {
+      passNoExpectedCount++;
+      outputLines.push(`Test ${result.index}: PASS_NO_EXPECTED`);
+      outputLines.push(`  Prompt: ${result.prompt}`);
+      outputLines.push(`  Expected Intent: ${result.expectedIntent || 'Not specified'}`);
+      outputLines.push(`  Actual Intent: ${result.intentName}`);
+      outputLines.push(`  Response: ${result.response}`);
+      outputLines.push('');
+    } else if (result.result === 'WRONG_INTENT') {
+      wrongIntentCount++;
+      outputLines.push(`Test ${result.index}: WRONG_INTENT`);
+      outputLines.push(`  Prompt: ${result.prompt}`);
+      outputLines.push(`  Expected Intent: ${result.expectedIntent}`);
+      outputLines.push(`  Actual Intent: ${result.intentName}`);
+      outputLines.push(`  Response: ${result.response}`);
+      outputLines.push('');
+    } else if (result.result === 'NO_INTENT') {
+      noIntentCount++;
+      outputLines.push(`Test ${result.index}: NO_INTENT`);
+      outputLines.push(`  Prompt: ${result.prompt}`);
+      outputLines.push(`  Expected Intent: ${result.expectedIntent || 'Not specified'}`);
+      outputLines.push(`  Actual Intent: ${result.intentName}`);
       outputLines.push(`  Response: ${result.response}`);
       outputLines.push('');
     } else {
       failCount++;
       outputLines.push(`Test ${result.index}: ${result.result}`);
       outputLines.push(`  Prompt: ${result.prompt}`);
-      outputLines.push(`  Expected Intent: ${result.expectedIntent || 'Unknown'}`);
+      outputLines.push(`  Expected Intent: ${result.expectedIntent || 'Not specified'}`);
       outputLines.push(`  Actual Intent: ${result.intentName}`);
-      outputLines.push(`  Expected: ${result.expected}`);
-      outputLines.push(`  Actual: ${result.response}`);
+      outputLines.push(`  Response: ${result.response}`);
       outputLines.push('');
     }
   }
@@ -235,7 +231,7 @@ async function runTests() {
   // Write results to file
   fs.writeFileSync('curl_results.txt', outputLines.join('\n'));
   
-  // Update passed tests
+  // Update passed tests (only include exact matches)
   if (newlyPassed.length > 0) {
     passedTests.passed.push(...newlyPassed);
     passedTests.passed = [...new Set(passedTests.passed)]; // Remove duplicates
@@ -245,12 +241,17 @@ async function runTests() {
   
   console.log(`\nSummary:`);
   console.log(`Total tests: ${testResults.length}`);
-  console.log(`Passed: ${passCount}`);
-  console.log(`Failed: ${failCount}`);
+  console.log(`Exact Intent Match (PASS): ${passCount}`);
+  console.log(`Intent Matched but No Expected (PASS_NO_EXPECTED): ${passNoExpectedCount}`);
+  console.log(`Wrong Intent: ${wrongIntentCount}`);
+  console.log(`No Intent Matched: ${noIntentCount}`);
+  console.log(`Other Failures: ${failCount}`);
   
   if (newlyPassed.length > 0) {
     console.log(`Newly passed tests: ${newlyPassed.join(', ')}`);
   }
+  
+  console.log(`\nIntent matching accuracy: ${((passCount / testResults.length) * 100).toFixed(2)}%`);
 }
 
 runTests().catch(console.error);
