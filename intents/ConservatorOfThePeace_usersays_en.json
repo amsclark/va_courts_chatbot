@@ -286,10 +286,23 @@
     "updated": 0
   },
   {
-    "id": "new-cop-5",
+    "id": "new-cop-6",
     "data": [
       {
-        "text": "person appointed by court to help",
+        "text": "law enforcement conservator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "new-cop-7",
+    "data": [
+      {
+        "text": "peace officer conservator",
         "userDefined": false
       }
     ],
