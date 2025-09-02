@@ -52,36 +52,10 @@
     "updated": 0
   },
   {
-    "id": "remarried-custody-1",
-    "data": [
-      {
-        "text": "remarried want husband custody",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "absent-parent-support-1",
     "data": [
       {
         "text": "absent parent provide money",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "16d459ce-3987-4c92-9990-00935c760311",
-    "data": [
-      {
-        "text": "I'm getting remarried and want my new husband to also have legal custody. What do I need to do?",
         "userDefined": false
       }
     ],
@@ -108,19 +82,6 @@
     "data": [
       {
         "text": "How do I change my visitation days?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "e5bfb441-c4b3-4756-a76f-441a82056d24",
-    "data": [
-      {
-        "text": "What if my ex moves away with my kids?",
         "userDefined": false
       }
     ],
