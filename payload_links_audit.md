@@ -15,12 +15,12 @@ URL Status Verified: 9/3/2025
 
 | Intent Name | Link Text | Link URL | Comments |
 |-------------|-----------|----------|----------|
-| Abuse - yes | Domestic Violence & Abuse Information | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | ✅ Verified - Redirects to correct page |
+| Abuse - yes | Domestic Violence & Abuse Information | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | change to https://selfhelp.vacourts.gov/node/73/domestic-violence |
 | Abuse - yes | Types of Protective Orders | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | ✅ Verified - Redirects to correct page |
 | Abuse - yes | Protective Order Information Checklist | https://selfhelp.vacourts.gov/node/63/family-abuse-protective-order-information-checklist.html | ✅ Verified - Redirects to correct page |
 | Abuse - yes | Find a Lawyer | https://selfhelp.vacourts.gov/node/5/find-lawyer.html | ✅ Verified - Redirects to correct page |
-| AccessLegalInformationThroughOLIR - yes | Online Legal Information Resources | https://selfhelp.vacourts.gov/node/67/online-legal-information-resources | TODO: Verify |
-| ChildSupport - yes | Custody, Visitation & Support | https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html | TODO: Verify |
+| AccessLegalInformationThroughOLIR - yes | Online Legal Information Resources | https://selfhelp.vacourts.gov/node/67/online-legal-information-resources | ok |
+| ChildSupport - yes | Custody, Visitation & Support | https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html | ok |
 | ChildSupport - yes | Find a Lawyer | https://selfhelp.vacourts.gov/node/5/find-lawyer.html | TODO: Verify |
 | ConservatorOfThePeace - yes | Find a Form | https://selfhelp.vacourts.gov/node/28/find-form.html | TODO: Verify |
 | ConservatorOfThePeace - yes | Conservator of the Peace Forms | https://selfhelp.vacourts.gov/node/45/conservator-peace-forms | TODO: Verify |
@@ -65,7 +65,7 @@ URL Status Verified: 9/3/2025
 | Health - yes | Information for Individuals with Disabilities | https://selfhelp.vacourts.gov/node/25/general-information-individuals-disabilities.html | TODO: Verify |
 | Health - yes | Mental Health (Adult) Forms | https://selfhelp.vacourts.gov/node/40/mental-health-adult-forms | TODO: Verify |
 | Health - yes | Mental Health (Juvenile) Forms | https://selfhelp.vacourts.gov/node/41/mental-health-juvenile-forms | TODO: Verify |
-| Health - yes | Disability Accommodations in Virginia Courts | https://selfhelp.vacourts.gov/node/26/disability-accommodations-virginia-courts.html | TODO: Verify |
+| Health - yes | Disability Accommodations in Virginia Courts | https://selfhelp.vacourts.gov/node/26/disability-accommodations-virginia-courts.html | should be https://selfhelp.vacourts.gov/node/25/general-information-individuals-disabilities |
 | Health - yes | Find a Lawyer | https://selfhelp.vacourts.gov/node/5/find-lawyer.html | TODO: Verify |
 | Housing - yes | Housing Information | https://selfhelp.vacourts.gov/node/10/landlord-tenant.html | TODO: Verify |
 | Housing - yes | Landlord-Tenant Forms | https://selfhelp.vacourts.gov/node/48/landlord-tenant-forms.html | TODO: Verify |
