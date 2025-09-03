@@ -154,11 +154,11 @@ async function runTests() {
     if (cols.length >= 2 && cols[promptIndex] && cols[promptIndex].trim() !== '') {
       const index = i;
       
-      // Skip tests that are already passing - DISABLED FOR FULL TEST RUN
-      // if (passedTests.passed && passedTests.passed.includes(index)) {
-      //   console.log(`Skipping test ${index} (already passed)`);
-      //   continue;
-      // }
+      // Skip tests that are already passing
+      if (passedTests.passed && passedTests.passed.includes(index)) {
+        console.log(`Skipping test ${index} (already passed)`);
+        continue;
+      }
       
       const expectedIntent = cols[intentIndex];
       const prompt = cols[promptIndex];
