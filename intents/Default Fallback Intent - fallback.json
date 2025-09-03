@@ -39,6 +39,9 @@
                       "text": "Abuse"
                     },
                     {
+                      "text": "Online Legal Information & Resources"
+                    },
+                    {
                       "text": "Child Support"
                     },
                     {
@@ -57,7 +60,7 @@
                       "text": "Divorce"
                     },
                     {
-                      "text": "Driver\u0027s License"
+                      "text": "Driver's License"
                     },
                     {
                       "text": "Expungement"
@@ -87,6 +90,9 @@
                       "text": "Gender Issues"
                     },
                     {
+                      "text": "Get Help"
+                    },
+                    {
                       "text": "Guardianship/Conservatorship"
                     },
                     {
@@ -99,13 +105,10 @@
                       "text": "Juveniles"
                     },
                     {
-                      "text": "Legal Self-Help (self representation)"
-                    },
-                    {
                       "text": "Legal Questions and Answers (miscellaneous)"
                     },
                     {
-                      "text": "Mediation Services"
+                      "text": "Legal Self-Help (self representation)"
                     },
                     {
                       "text": "Mental Health"
@@ -114,13 +117,10 @@
                       "text": "Name Change (how to)"
                     },
                     {
-                      "text": "OLIR"
+                      "text": "Other States"
                     },
                     {
-                      "text": "Adult Birth Certificate"
-                    },
-                    {
-                      "text": "Public Benefits"
+                      "text": "Self-Representation Court of Appeals"
                     },
                     {
                       "text": "Services for Seniors"
@@ -135,7 +135,10 @@
                       "text": "Veterans/Military"
                     },
                     {
-                      "text": "Probate Help"
+                      "text": "Virginia Adult Birth Certificate"
+                    },
+                    {
+                      "text": "Virginia Probate Help"
                     },
                     {
                       "text": "Voting Rights"
