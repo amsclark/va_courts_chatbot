@@ -1,6 +1,6 @@
 {
   "id": "46d3dd30-cb87-4aaa-ad6e-a90f7b4f20d0",
-  "name": "Jueveniles",
+  "name": "Juveniles",
   "auto": true,
   "contexts": [],
   "responses": [
@@ -9,7 +9,7 @@
       "action": "",
       "affectedContexts": [
         {
-          "name": "Jueveniles-followup",
+          "name": "Juveniles-followup",
           "lifespan": 2
         }
       ],
