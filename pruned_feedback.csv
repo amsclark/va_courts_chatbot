@@ -25,7 +25,7 @@ ChildSupport,Does my ex-wife owe money for her children?
 ChildSupport,Does my ex have to cover expenses for his kids?
 ChildSupport,Does an absent parent need to provide money for a son or daughter?
 ConservatorOfThePeace,What is a conservator?
-Guardianship_Conservatorship,What is a conservator of the peace?
+ConservatorOfThePeace,What is a conservator of the peace?
 ConservatorOfThePeace,What is a person called who is appointed by the court to help someone?
 Guardianship_Conservatorship,Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person?
 Guardianship_Conservatorship,Can the court appoint someone to help manage the affairs of a mentally handicapped person?
@@ -122,8 +122,8 @@ GetHelp,help
 GetHelp,How do I get assistance?
 Guardianship_Conservatorship,How do I change my guardian?
 Guardianship_Conservatorship,I want to file a complaint against my guardian
-Guardianship_Conservatorship,What does a conservator do?
-Guardianship_Conservatorship,Who needs a conservator?
+ConservatorOfThePeace,What does a conservator do?
+ConservatorOfThePeace,Who needs a conservator?
 Guardianship_Conservatorship,Who needs a guardian?
 Guardianship_Conservatorship,My mom was diagnosed with dementia. I think she will need a legal guardian. Who should I call?
 Guardianship_Conservatorship,I need to have power of attorney over my mother's affairs. Where do I go?
