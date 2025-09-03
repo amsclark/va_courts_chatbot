@@ -1,8 +1,8 @@
-Test 27: WRONG_INTENT
+Test 27: PASS
   Prompt: What is a conservator of the peace?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: ConservatorOfThePeace
-  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
+  Actual Intent: Guardianship_Conservatorship
+  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
 Test 28: WRONG_INTENT
   Prompt: What is a person called who is appointed by the court to help someone?
@@ -10,11 +10,11 @@ Test 28: WRONG_INTENT
   Actual Intent: Guardianship_Conservatorship
   Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 49: WRONG_INTENT
+Test 49: PASS
   Prompt: I lost my job. Do I have to pay child support?
   Expected Intent: Custody
-  Actual Intent: ChildSupport
-  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
+  Actual Intent: Custody
+  Response: It sounds like you are having issues relating to Custody. Is this correct?
 
 Test 54: WRONG_INTENT
   Prompt: Hmmm… I'm not sure I understand. Can you say it in a different way? I understand  best when people ask me short questions or tell me one thing at a time instead of the whole story.
@@ -28,11 +28,11 @@ Test 55: WRONG_INTENT
   Actual Intent: GetHelp
   Response: It sounds like you are having issues relating to GetHelp. Is this correct?
 
-Test 56: WRONG_INTENT
+Test 56: PASS
   Prompt: how do I separate from my spouse?
   Expected Intent: Divorce
-  Actual Intent: FamilyLaw
-  Response: It sounds like you are having issues relating to FamilyLaw. Is this correct?
+  Actual Intent: Divorce
+  Response: It sounds like you are having issues relating to Divorce. Is this correct?
 
 Test 63: WRONG_INTENT
   Prompt: I moved. How long do I have to update my license?
@@ -46,10 +46,6 @@ Test 80: WRONG_INTENT
   Actual Intent: Default Fallback Intent
   Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
 
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
-
 Test 142: WRONG_INTENT
   Prompt: What's JD&R court?
   Expected Intent: Juveniles
@@ -59,8 +55,8 @@ Test 142: WRONG_INTENT
 Test 143: WRONG_INTENT
   Prompt: What's the age of majority in Virginia
   Expected Intent: Juveniles
-  Actual Intent: VirginiaProbateHelp
-  Response: It sounds like you are having issues relating to VirginiaProbateHelp. Is this correct?
+  Actual Intent: Jueveniles
+  Response: It sounds like you are having issues relating to Jueveniles. Is this correct?
 
 Test 144: WRONG_INTENT
   Prompt: What does juvenile mean?
@@ -88,4 +84,8 @@ Test 198: NO_INTENT
   Prompt: ???
   Expected Intent: Not specified
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+
+For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
+
+I will try my best to help!
