@@ -11,12 +11,7 @@
     {
       "resetContexts": false,
       "action": "Abuse.Abuse-yes",
-      "affectedContexts": [
-        {
-          "name": "Abuse-yes-followup",
-          "lifespan": 2
-        }
-      ],
+      "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
@@ -25,18 +20,8 @@
           "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Ok, I think I can help!",
-            "Okay, I think I can help you!"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en",
-          "speech": [
-            "Would you say your issues pertain more to Abuse/Stalking, or Neglect?"
+            "It sounds like you may be in a dangerous situation. Call 911 if you are in immediate danger.",
+            "I can help you with information about protective orders and other resources for abuse situations."
           ],
           "condition": ""
         },
@@ -49,7 +34,7 @@
                 {
                   "type": "description",
                   "text": [
-                    "Here are resources for domestic violence and abuse situations in Virginia, including information about protective orders and getting help."
+                    "Here are comprehensive resources for domestic violence, abuse, stalking, and neglect situations in Virginia, including information about protective orders and getting help."
                   ],
                   "title": ""
                 },
@@ -62,7 +47,7 @@
                     "type": "info"
                   },
                   "link": "https://selfhelp.vacourts.gov/node/21/types-protective-orders.html",
-                  "text": "Domestic Violence Information",
+                  "text": "Domestic Violence & Abuse Information",
                   "type": "button"
                 },
                 {
