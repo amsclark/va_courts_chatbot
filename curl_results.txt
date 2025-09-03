@@ -148,17 +148,17 @@ Test 25: PASS
   Actual Intent: ChildSupport
   Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
-Test 26: WRONG_INTENT
+Test 26: PASS
   Prompt: What is a conservator?
   Expected Intent: ConservatorOfThePeace
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
-Test 27: PASS
+Test 27: WRONG_INTENT
   Prompt: What is a conservator of the peace?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
 Test 28: PASS
   Prompt: What is a person called who is appointed by the court to help someone?
@@ -268,11 +268,11 @@ Test 45: PASS
   Actual Intent: CourthouseDevicePolicy
   Response: It sounds like you are having issues relating to CourthouseDevicePolicy. Is this correct?
 
-Test 46: PASS
+Test 46: WRONG_INTENT
   Prompt: What if my ex moves away with my kids?
   Expected Intent: Custody
-  Actual Intent: Custody
-  Response: It sounds like you are having issues relating to Custody. Is this correct?
+  Actual Intent: ChildSupport
+  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
 
 Test 47: PASS
   Prompt: How do I change my visitation days?
@@ -476,7 +476,7 @@ Test 80: WRONG_INTENT
   Prompt: ???
   Expected Intent: FamMobileCrisis
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 81: PASS
   Prompt: filing fees
@@ -754,17 +754,17 @@ Test 126: PASS
   Actual Intent: Guardianship_Conservatorship
   Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
 
-Test 127: PASS
+Test 127: WRONG_INTENT
   Prompt: What does a conservator do?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
-Test 128: PASS
+Test 128: WRONG_INTENT
   Prompt: Who needs a conservator?
   Expected Intent: Guardianship_Conservatorship
-  Actual Intent: Guardianship_Conservatorship
-  Response: It sounds like you are having issues relating to Guardianship_Conservatorship. Is this correct?
+  Actual Intent: ConservatorOfThePeace
+  Response: It sounds like you are having issues relating to ConservatorOfThePeace. Is this correct?
 
 Test 129: PASS
   Prompt: Who needs a guardian?
@@ -1010,11 +1010,7 @@ Test 169: WRONG_INTENT
   Prompt: ???
   Expected Intent: OtherStates
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
-
-For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
-
-I will try my best to help!
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?
 
 Test 170: PASS
   Prompt: I am representing myself in the court of appeals. What do I need to know?
