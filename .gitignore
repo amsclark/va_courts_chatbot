@@ -4,6 +4,29 @@ examples/
 # Exclude zip files
 *.zip
 
+# Node.js / npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.node_repl_history
+*.tgz
+*.tar.gz
+.cache/
+
+# Test results
+test-results/
+coverage/
+.nyc_output/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
 # Python cache files
 __pycache__/
 *.py[cod]
