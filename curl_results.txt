@@ -1,0 +1,59 @@
+Test 1: PASS
+  Prompt: My boyfriend is beating me up. What can I do?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 2: PASS
+  Prompt: What legal help can I get to stop my wife from hitting our children?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 3: PASS
+  Prompt: My caretaker is not feeding me. What can I do?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 4: PASS
+  Prompt: How do I stop a stalker?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 5: PASS
+  Prompt: My friend was stabbed by her boyfriend. What can she do?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 6: PASS
+  Prompt: Where can I find information on how to stop my girlfriend from hitting me?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 7: PASS
+  Prompt: My partner chokes me sometimes. How do I make him stop?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 8: PASS
+  Prompt: My partner is violent. What can I do to protect myself?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 9: PASS
+  Prompt: Where can I find information on intimate partner violence?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
+
+Test 10: PASS
+  Prompt: How do I protect myself from a partner who is trying to hurt me?
+  Expected Intent: Abuse
+  Actual Intent: Abuse
+  Response: It sounds like you are having issues relating to abuse. Is this correct?
