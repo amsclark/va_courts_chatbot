@@ -40,24 +40,6 @@ Test 63: WRONG_INTENT
   Actual Intent: UpdateAddressForCourtCasesVirginia
   Response: It sounds like you are having issues relating to UpdateAddressForCourtCasesVirginia. Is this correct?
 
-Test 77: WRONG_INTENT
-  Prompt: I'm going to get a job that pays less so I don't have to pay as much support. Who do I tell I'm going to be making less for that?
-  Expected Intent: FamilyLaw
-  Actual Intent: ChildSupport
-  Response: It sounds like you are having issues relating to ChildSupport. Is this correct?
-
-Test 78: WRONG_INTENT
-  Prompt: My fiance is in the military and wants to be my child's stepparent. Do we have tio file papers for an adoption by my fiance?
-  Expected Intent: FamilyLaw
-  Actual Intent: Veterans
-  Response: It sounds like you are having issues relating to Veterans. Is this correct?
-
-Test 79: WRONG_INTENT
-  Prompt: Someone called social services on me. Now they're taking away my kids. What do I do to get them back?
-  Expected Intent: FamilyLaw
-  Actual Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
-
 Test 80: WRONG_INTENT
   Prompt: ???
   Expected Intent: FamMobileCrisis
@@ -68,59 +50,11 @@ For example, you can ask me "What are the hours?" and I will understand, but if 
 
 I will try my best to help!
 
-Test 92: PASS
-  Prompt: how do I check someone's criminal background
-  Expected Intent: FindACase
-  Actual Intent: FindACase
-  Response: It sounds like you are having issues relating to FindACase. Is this correct?
-
-Test 93: PASS
-  Prompt: I lost my traffic ticket. Where do I pay it off?
-  Expected Intent: FindACase
-  Actual Intent: FindACase
-  Response: It sounds like you are having issues relating to FindACase. Is this correct?
-
-Test 94: PASS
-  Prompt: I got a summons. Do I need a lawyer?
-  Expected Intent: FindALawyer
-  Actual Intent: FindALawyer
-  Response: It sounds like you are having issues relating to FindALawyer. Is this correct?
-
-Test 100: WRONG_INTENT
-  Prompt: I want to settle out of court. What do I do?
-  Expected Intent: FindAMediator
-  Actual Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
-
-Test 101: WRONG_INTENT
-  Prompt: Someone told me to try ADR instead of suing. What's that
-  Expected Intent: FindAMediator
-  Actual Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
-
-Test 102: WRONG_INTENT
-  Prompt: Is there a cheaper way to sue someone?
-  Expected Intent: FindAMediator
-  Actual Intent: GetHelp
-  Response: It sounds like you are having issues relating to GetHelp. Is this correct?
-
-Test 117: PASS
-  Prompt: I'm trans. Can I change my birth certificate?
-  Expected Intent: GenderIssues
-  Actual Intent: GenderIssues
-  Response: It sounds like you are having issues relating to GenderIssues. Is this correct?
-
-Test 118: PASS
-  Prompt: I'm trans. Can I change my license?
-  Expected Intent: GenderIssues
-  Actual Intent: GenderIssues
-  Response: It sounds like you are having issues relating to GenderIssues. Is this correct?
-
 Test 142: WRONG_INTENT
   Prompt: What's JD&R court?
   Expected Intent: Juveniles
-  Actual Intent: CourtGlossaryInfo
-  Response: It sounds like you are having issues relating to CourtGlossaryInfo. Is this correct?
+  Actual Intent: Jueveniles
+  Response: It sounds like you are having issues relating to Jueveniles. Is this correct?
 
 Test 143: WRONG_INTENT
   Prompt: What's the age of majority in Virginia
@@ -140,26 +74,18 @@ Test 145: WRONG_INTENT
   Actual Intent: Jueveniles
   Response: It sounds like you are having issues relating to Jueveniles. Is this correct?
 
-Test 148: PASS
-  Prompt: legal qa
-  Expected Intent: LegalQA
-  Actual Intent: LegalQA
-  Response: It sounds like you are having issues relating to LegalQA. Is this correct?
-
-Test 152: PASS
-  Prompt: legal qa
-  Expected Intent: LegalQA
-  Actual Intent: LegalQA
-  Response: It sounds like you are having issues relating to LegalQA. Is this correct?
-
 Test 169: WRONG_INTENT
   Prompt: ???
   Expected Intent: OtherStates
   Actual Intent: Default Fallback Intent
   Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
 
+For example, you can ask me "What are the hours?" and I will understand, but if you say "My landlord is trying to evict me. I am so glad your services are free. What hours are you open?" I may get confused and not know what to say.
+
+I will try my best to help!
+
 Test 198: NO_INTENT
   Prompt: ???
   Expected Intent: Not specified
   Actual Intent: Default Fallback Intent
-  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of "the whole story."
+  Response: Hmmm....I'm not sure I understand. I need a little help sometimes. Can you say it in a different way?

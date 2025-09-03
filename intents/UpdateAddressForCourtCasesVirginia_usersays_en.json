@@ -1,18 +1,5 @@
 [
   {
-    "id": "address-fix-1",
-    "data": [
-      {
-        "text": "I moved",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "address-fix-2", 
     "data": [
       {

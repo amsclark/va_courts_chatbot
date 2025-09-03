@@ -273,19 +273,6 @@
     "updated": 0
   },
   {
-    "id": "new-probate-age-1",
-    "data": [
-      {
-        "text": "What's the age of majority in Virginia",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "new-probate-age-2",
     "data": [
       {

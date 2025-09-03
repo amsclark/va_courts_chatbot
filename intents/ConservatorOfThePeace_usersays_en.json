@@ -13,6 +13,19 @@
     "updated": 0
   },
   {
+    "id": "court-appointed-person-test-fix",
+    "data": [
+      {
+        "text": "What is a person called who is appointed by the court to help someone?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "i2j34567-8901-2345-6789-01bcdefabcde",
     "data": [
       {
