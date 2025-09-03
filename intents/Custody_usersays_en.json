@@ -626,5 +626,57 @@
     "count": 0,
     "lang": "en",
     "updated": 0
+  },
+  {
+    "id": "custody-relocation-fix-1",
+    "data": [
+      {
+        "text": "What if my ex moves away with my kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "custody-relocation-fix-2", 
+    "data": [
+      {
+        "text": "ex moves away with children",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "custody-relocation-fix-3",
+    "data": [
+      {
+        "text": "ex-spouse relocating with kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "custody-relocation-fix-4",
+    "data": [
+      {
+        "text": "what if ex moves with kids",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
   }
 ]

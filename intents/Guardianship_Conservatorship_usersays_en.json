@@ -483,6 +483,45 @@
     "updated": 0
   },
   {
+    "id": "conservator-general-fix-1",
+    "data": [
+      {
+        "text": "What does a financial conservator do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "conservator-general-fix-2",
+    "data": [
+      {
+        "text": "Who needs a legal conservator?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "conservator-general-fix-3",
+    "data": [
+      {
+        "text": "conservator for incapacitated person",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "new-guard-3",
     "data": [
       {
