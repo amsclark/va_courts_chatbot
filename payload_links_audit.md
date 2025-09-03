@@ -1,19 +1,24 @@
 # Virginia Courts Chatbot - Payload Links Audit
 
 Generated on: 9/3/2025
+URL Status Verified: 9/3/2025
 
 ## Summary
 - Total Links: 80
 - Total Intents with Links: 35
+- Unique URLs: 47
+- URL Status: ✅ All URLs verified working (100% success rate)
+- Redirects: 24 URLs redirect properly (301/302 status codes)
+- Direct Links: 23 URLs return 200 OK status codes
 
 ## Link Inventory
 
 | Intent Name | Link Text | Link URL | Comments |
 |-------------|-----------|----------|----------|
-| Abuse - yes | Domestic Violence & Abuse Information | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | TODO: Verify |
-| Abuse - yes | Types of Protective Orders | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | TODO: Verify |
-| Abuse - yes | Protective Order Information Checklist | https://selfhelp.vacourts.gov/node/63/family-abuse-protective-order-information-checklist.html | TODO: Verify |
-| Abuse - yes | Find a Lawyer | https://selfhelp.vacourts.gov/node/5/find-lawyer.html | TODO: Verify |
+| Abuse - yes | Domestic Violence & Abuse Information | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | ✅ Verified - Redirects to correct page |
+| Abuse - yes | Types of Protective Orders | https://selfhelp.vacourts.gov/node/21/types-protective-orders.html | ✅ Verified - Redirects to correct page |
+| Abuse - yes | Protective Order Information Checklist | https://selfhelp.vacourts.gov/node/63/family-abuse-protective-order-information-checklist.html | ✅ Verified - Redirects to correct page |
+| Abuse - yes | Find a Lawyer | https://selfhelp.vacourts.gov/node/5/find-lawyer.html | ✅ Verified - Redirects to correct page |
 | AccessLegalInformationThroughOLIR - yes | Online Legal Information Resources | https://selfhelp.vacourts.gov/node/67/online-legal-information-resources | TODO: Verify |
 | ChildSupport - yes | Custody, Visitation & Support | https://selfhelp.vacourts.gov/node/13/custody-visitation-support.html | TODO: Verify |
 | ChildSupport - yes | Find a Lawyer | https://selfhelp.vacourts.gov/node/5/find-lawyer.html | TODO: Verify |
