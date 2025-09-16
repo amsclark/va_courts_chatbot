@@ -23,7 +23,7 @@ jobs:
         run: npm ci
 
       - name: Run script
-        run: node scripts/my-script.js
+        run: node curl_intents_test.js
 
       - name: Upload results
         uses: actions/upload-artifact@v4
