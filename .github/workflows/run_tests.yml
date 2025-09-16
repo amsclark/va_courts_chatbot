@@ -29,5 +29,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: api-results-${{ github.run_number }}
-          path: output.json
+          path: curl_results.txt
           retention-days: 90
