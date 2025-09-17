@@ -181,6 +181,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          base: main
           branch: ${{ steps.create_branch.outputs.branch_name }}
           title: "🤖 Dialogflow ES Export Update"
           body: |
