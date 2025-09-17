@@ -1,0 +1,62 @@
+{
+  "id": "51416903-b439-496d-abb7-4349ef795c7d",
+  "parentId": "7a93d37a-3bcf-4d6b-9431-f4d3b322f157",
+  "rootParentId": "7a93d37a-3bcf-4d6b-9431-f4d3b322f157",
+  "name": "Guardianship_Conservatorship - fallback",
+  "contexts": [
+    "Guardianship_Conservatorship-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Guardianship_Conservatorship.Guardianship_Conservatorship-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify your issues as related to Guardianships and/or Conservatorships? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

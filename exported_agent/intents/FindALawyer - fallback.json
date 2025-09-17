@@ -1,0 +1,38 @@
+{
+  "id": "2d8a5f1c-7e3b-4928-a5d2-1f7c4e8b9a6d",
+  "parentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
+  "rootParentId": "4a8f2d6b-3e9c-4f7a-8b2d-5e1c9a7f4b3e",
+  "name": "FindALawyer - fallback",
+  "contexts": [
+    "FindALawyer-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FindALawyer.fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m not sure I understand. Would you like me to provide information about finding a lawyer in Virginia, or do you have other questions I can help with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

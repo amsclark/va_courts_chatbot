@@ -1,0 +1,39 @@
+{
+  "id": "72508d65-5dfa-4e2e-bf26-e12d3f8f6460",
+  "parentId": "cc2f0399-badc-42a8-bf2c-558ae9b34ab9",
+  "rootParentId": "cc2f0399-badc-42a8-bf2c-558ae9b34ab9",
+  "name": "DriverLicense - no",
+  "auto": true,
+  "contexts": [
+    "DriverLicense-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DriverLicense.DriverLicense-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

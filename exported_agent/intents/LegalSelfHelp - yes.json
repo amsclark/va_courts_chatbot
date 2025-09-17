@@ -1,0 +1,112 @@
+{
+  "id": "44c415a1-2331-49f6-9d3f-57511c95db55",
+  "parentId": "a6aa343f-2963-49b7-9cdc-05072c424f89",
+  "rootParentId": "a6aa343f-2963-49b7-9cdc-05072c424f89",
+  "name": "LegalSelfHelp - yes",
+  "auto": true,
+  "contexts": [
+    "LegalSelfHelp-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LegalSelfHelp.LegalSelfHelp-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Okay, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are helpful resources for legalselfhelp matters in Virginia. Check the links below for more information!"
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "LegalSelfHelp Information",
+                  "link": "https://selfhelp.vacourts.gov/node/76/guide-self-representation-court-appeals-virginia.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "District Court Forms",
+                  "link": "https://selfhelp.vacourts.gov/node/52/district-court-forms",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Find a Form",
+                  "link": "https://selfhelp.vacourts.gov/node/28/find-form",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Small Claims",
+                  "link": "https://selfhelp.vacourts.gov/node/11/small-claims",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

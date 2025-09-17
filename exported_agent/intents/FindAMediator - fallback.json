@@ -1,0 +1,38 @@
+{
+  "id": "0b5e8a2f-6d9c-4841-5e0b-8a2f6d9c5e0b",
+  "parentId": "5e8d2a7f-9c4b-4307-8d5e-2a7f9c4b8d5e",
+  "rootParentId": "5e8d2a7f-9c4b-4307-8d5e-2a7f9c4b8d5e",
+  "name": "FindAMediator - fallback",
+  "contexts": [
+    "FindAMediator-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "FindAMediator.fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "I\u0027m not sure I understand. Would you like me to provide information about finding a mediator in Virginia, or do you have other questions I can help with?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

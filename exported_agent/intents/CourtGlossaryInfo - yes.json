@@ -1,0 +1,88 @@
+{
+  "id": "6c8f2e5a-0b4d-4583-8f6c-2e5a0b4d8f6c",
+  "parentId": "3e9a5f2c-7b4d-4217-9a3e-5f2c7b4d9a3e",
+  "rootParentId": "3e9a5f2c-7b4d-4217-9a3e-5f2c7b4d9a3e",
+  "name": "CourtGlossaryInfo - yes",
+  "auto": true,
+  "contexts": [
+    "CourtGlossaryInfo-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourtGlossaryInfo.CourtGlossaryInfo-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Here are resources for understanding legal terms and court procedures, including glossaries and frequently asked questions."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Legal Glossaries",
+                  "link": "https://selfhelp.vacourts.gov/node/17/glossaries.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Frequently Asked Questions",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

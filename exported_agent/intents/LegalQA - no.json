@@ -1,0 +1,39 @@
+{
+  "id": "63385b2e-95e4-44c9-b99b-3f790885109f",
+  "parentId": "e897d144-2ed0-48e0-9650-eb5cbc64fed7",
+  "rootParentId": "e897d144-2ed0-48e0-9650-eb5cbc64fed7",
+  "name": "LegalQA - no",
+  "auto": true,
+  "contexts": [
+    "LegalQA-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "LegalQA.LegalQA-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

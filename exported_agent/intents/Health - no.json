@@ -1,0 +1,39 @@
+{
+  "id": "f3d49bac-6591-4d4c-b7c2-35e6b78caf35",
+  "parentId": "54da178c-9dfb-4d4b-bbc9-03a820d6cae9",
+  "rootParentId": "54da178c-9dfb-4d4b-bbc9-03a820d6cae9",
+  "name": "Health - no",
+  "auto": true,
+  "contexts": [
+    "Health-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Health.Health-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

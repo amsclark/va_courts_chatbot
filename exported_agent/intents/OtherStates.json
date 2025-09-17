@@ -1,0 +1,50 @@
+{
+  "id": "5b30b3ae-6e6c-4a51-b5f4-32b218b71ab7",
+  "name": "OtherStates",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ff815a49-e58f-444e-964f-29c8e42203e5",
+          "name": "nonvirginiastate",
+          "required": false,
+          "dataType": "@NonVirginiaState",
+          "value": "$nonvirginiastate",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "It sounds like you are having issues relating to other states. Is this correct?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 1000000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

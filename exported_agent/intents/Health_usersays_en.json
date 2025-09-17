@@ -1,0 +1,236 @@
+[
+  {
+    "id": "314a6832-fb68-4e31-bbea-3aa591b511d2",
+    "data": [
+      {
+        "text": "Am I eligible for medicare?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8423074b-4854-4598-a36e-a2d5ee6611d5",
+    "data": [
+      {
+        "text": "Am I eligible for medicaid?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eafc80d6-95d8-42a0-9d11-cf31a66ed3c3",
+    "data": [
+      {
+        "text": "What resources do you have for health and healthcare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f91c7061-ee80-4d7d-97e1-0fdd844a4cbc",
+    "data": [
+      {
+        "text": "Can you help me get medicare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2454dcf0-5129-4a0a-9258-f013e1263a0a",
+    "data": [
+      {
+        "text": "I need help getting medicaid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "288d1130-3f7d-4a34-a6f9-98088be66d41",
+    "data": [
+      {
+        "text": "Can you help me find home care services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "82bdad86-d770-46ab-8c4b-00510106d28a",
+    "data": [
+      {
+        "text": "medicare-approved nursing homes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "e1145b81-a4d8-4d33-86a4-8201c136aec9",
+    "data": [
+      {
+        "text": "home health care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "212f72b6-6dbd-412b-8da9-b0e5833488a5",
+    "data": [
+      {
+        "text": "home hospice care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "eecdd78d-fdd3-4559-91d7-45e4659d6eba",
+    "data": [
+      {
+        "text": "health insurance",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9c8bc576-3491-4eac-9690-68a17a882b3e",
+    "data": [
+      {
+        "text": "healthcare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "27cf11f3-13a5-48ee-8f8a-5e7a9e36a6eb",
+    "data": [
+      {
+        "text": "long-term care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b8a2c3fe-a9ad-41b0-ad53-aeab21d58d98",
+    "data": [
+      {
+        "text": "long term care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "dd15c741-38ff-4956-abf0-621dba24d462",
+    "data": [
+      {
+        "text": "physical health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "23918fdc-70e5-43a6-acfd-70e105917d90",
+    "data": [
+      {
+        "text": "nursing home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "7f40c025-4d79-4e90-a33e-5f5eab58ce55",
+    "data": [
+      {
+        "text": "medicaid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "9ef0eb59-1c4d-4917-888e-8777a0f25d75",
+    "data": [
+      {
+        "text": "medicare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "26f0f308-1472-4ecd-93a8-b0b88b469ba7",
+    "data": [
+      {
+        "text": "health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

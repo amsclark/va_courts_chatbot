@@ -1,0 +1,76 @@
+{
+  "id": "5f9d2a6e-8c3b-4159-9d5f-2a6e8c3b9d5f",
+  "parentId": "1c7e4b9a-6f2d-4083-7e1c-4b9a6f2d7e1c",
+  "rootParentId": "1c7e4b9a-6f2d-4083-7e1c-4b9a6f2d7e1c",
+  "name": "CourthouseDevicePolicy - yes",
+  "auto": true,
+  "contexts": [
+    "CourthouseDevicePolicy-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CourthouseDevicePolicy.CourthouseDevicePolicy-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok, I think I can help!",
+            "Okay, I think this will help!",
+            "Great, I think I can help you.",
+            "See if this helps!",
+            "Take a look at this below. I think it may help.",
+            "Perfect, I think I can help!"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "description",
+                  "title": "",
+                  "text": [
+                    "Please refer to the link below for information about courthouse device policy matters in Virginia."
+                  ]
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "type": "button",
+                  "text": "Courthouse Cell Phone and Electronic Device Policy",
+                  "link": "https://selfhelp.vacourts.gov/node/30/cell-phone-electronic-device-policy",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  }
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

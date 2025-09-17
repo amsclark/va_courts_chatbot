@@ -1,0 +1,67 @@
+[
+  {
+    "id": "e3a7c0d6-8f2b-9e5a-3a7c-0d6f2b5a8e1c",
+    "data": [
+      {
+        "text": "no",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "f4b8d1e7-9a3c-0f6b-4b8d-1e7a3c6b9f2d",
+    "data": [
+      {
+        "text": "nope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "a5c9e2f8-0b4d-1a7c-5c9e-2f8b4d7c0a3e",
+    "data": [
+      {
+        "text": "no thanks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b6d0f3a9-1c5e-2b8d-6d0f-3a9c5e8d1b4f",
+    "data": [
+      {
+        "text": "not right now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c7e1a4b0-2d6f-3c9e-7e1a-4b0d6f9e2c5a",
+    "data": [
+      {
+        "text": "maybe later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

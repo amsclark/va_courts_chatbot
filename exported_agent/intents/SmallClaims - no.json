@@ -1,0 +1,39 @@
+{
+  "id": "e9893572-ed11-4332-868f-24b331d4f9a6",
+  "parentId": "a8384a8b-7b13-4af2-91bc-ae9f56f53c03",
+  "rootParentId": "a8384a8b-7b13-4af2-91bc-ae9f56f53c03",
+  "name": "SmallClaims - no",
+  "auto": true,
+  "contexts": [
+    "SmallClaims-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SmallClaims.SmallClaims-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

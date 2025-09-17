@@ -1,0 +1,39 @@
+{
+  "id": "0e6c9653-30b7-4c20-91e1-e6e032c5c1dc",
+  "parentId": "2b9b296d-aa2e-41c3-be9b-dd3c82362b00",
+  "rootParentId": "2b9b296d-aa2e-41c3-be9b-dd3c82362b00",
+  "name": "Custody - no",
+  "auto": true,
+  "contexts": [
+    "Custody-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Custody.Custody-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry about that. Can you try to describe your issue in a different way? I am best able to understand short sentences and phrases."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

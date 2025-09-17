@@ -1,0 +1,62 @@
+{
+  "id": "7f1e8c4b-3a9d-4627-1e7f-8c4b3a9d7f1e",
+  "parentId": "9f3c8e2a-7b4d-4651-3c9f-8e2a7b4d3c9f",
+  "rootParentId": "9f3c8e2a-7b4d-4651-3c9f-8e2a7b4d3c9f",
+  "name": "ObtainVirginiaAdultBirthCertificateGuide - fallback",
+  "contexts": [
+    "ObtainVirginiaAdultBirthCertificateGuide-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ObtainVirginiaAdultBirthCertificateGuide.ObtainVirginiaAdultBirthCertificateGuide-fallback",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Sorry, I don\u0027t understand. Did I correctly identify that you are looking for information relating to Obtain Virginia Adult Birth Certificate Guide? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

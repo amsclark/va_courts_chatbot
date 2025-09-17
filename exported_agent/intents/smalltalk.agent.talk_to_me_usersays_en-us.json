@@ -1,0 +1,269 @@
+[
+  {
+    "id": "c45bae5e-9711-4afb-83e3-c5ecbd7d01b1",
+    "data": [
+      {
+        "text": "talk to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "286ed919-e78b-45ff-87a9-4a8fe5f3a9fe",
+    "data": [
+      {
+        "text": "do you want to chat with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "07b62c4b-fa13-45e1-a1aa-78165f003d88",
+    "data": [
+      {
+        "text": "can you talk with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "31f44179-5186-40ba-9500-e541adac8344",
+    "data": [
+      {
+        "text": "will",
+        "userDefined": false
+      },
+      {
+        "text": " you talk to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "04a3d613-7de9-49e5-b2c4-a0db328fb2ac",
+    "data": [
+      {
+        "text": "can you chat with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "88628655-67a2-4b4a-a3c4-0052b65d134d",
+    "data": [
+      {
+        "text": "can you talk to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e3c49a24-981d-4c7f-b9ff-e86dc9cf14da",
+    "data": [
+      {
+        "text": "are",
+        "userDefined": false
+      },
+      {
+        "text": " you talking to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "69b0c99b-60ca-4fb8-a3cd-fb68f37e5f1a",
+    "data": [
+      {
+        "text": "are",
+        "userDefined": false
+      },
+      {
+        "text": " you going to talk to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "774ff7c9-ec10-431e-966f-d0bb0d04e33b",
+    "data": [
+      {
+        "text": "why ",
+        "userDefined": false
+      },
+      {
+        "text": "don\u0027t",
+        "userDefined": false
+      },
+      {
+        "text": " you talk to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "91f6e324-21a5-4ade-82b0-18e3a6bf0d34",
+    "data": [
+      {
+        "text": "just chat with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "d486c2c0-d761-469b-b553-0044d760b664",
+    "data": [
+      {
+        "text": "talk",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "4b7471e3-5335-4e79-ab33-4dd5fb3e12d0",
+    "data": [
+      {
+        "text": "talk with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "7e83b1ec-99fa-4ab2-81af-a499d0e6e209",
+    "data": [
+      {
+        "text": "speak to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "a2164bce-67aa-46d2-a27f-ad5e36f62de4",
+    "data": [
+      {
+        "text": "you can talk to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "e644e772-b642-41b5-a078-1e9c302749f3",
+    "data": [
+      {
+        "text": "speak with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "3827a54a-a56f-4e91-8c24-626ad1cff30b",
+    "data": [
+      {
+        "text": "why aren\u0027t you talking to me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "618fc7c7-2355-4b5f-b398-3eb478275be4",
+    "data": [
+      {
+        "text": "can you speak with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "bd33cffd-bf21-4101-be56-3c2d9f86cd4f",
+    "data": [
+      {
+        "text": "say",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "77ea7229-30a5-4291-9cfd-0d30ed3b9498",
+    "data": [
+      {
+        "text": "chat with me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-us",
+    "updated": 0
+  }
+]

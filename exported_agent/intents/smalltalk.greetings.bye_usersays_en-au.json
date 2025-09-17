@@ -1,0 +1,487 @@
+[
+  {
+    "id": "7a32e1cc-f05c-42cf-8f93-55741d377f27",
+    "data": [
+      {
+        "text": "hope",
+        "userDefined": true
+      },
+      {
+        "text": " to see you later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "894f23df-818f-4f0e-8ced-cb5504981453",
+    "data": [
+      {
+        "text": "that\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "it",
+        "userDefined": true
+      },
+      {
+        "text": " goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "9e1c8649-0f6e-4e4e-9888-df0741f4920f",
+    "data": [
+      {
+        "text": "now bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "5cda4589-8a81-4f53-a3f3-5432c92e627b",
+    "data": [
+      {
+        "text": "okay bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "5b73ccaf-b8d2-4d52-8ef2-5050a3f3d704",
+    "data": [
+      {
+        "text": "alright bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "5913f200-e1f0-4d33-bf8c-321a8e9aa342",
+    "data": [
+      {
+        "text": "bye bye see you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "d6c9e89d-0748-4a02-a719-c623ff55720d",
+    "data": [
+      {
+        "text": "see ya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "ee680aeb-887f-4c49-a58a-089cf11cc7d1",
+    "data": [
+      {
+        "text": "goodbye see you later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "e698b78a-c334-4bb4-9412-3e058b09c278",
+    "data": [
+      {
+        "text": "okay",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "thank you",
+        "userDefined": true
+      },
+      {
+        "text": " bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "e289d7df-5510-473e-b221-6cea9cca9b3d",
+    "data": [
+      {
+        "text": "get",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lost",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "0f551220-e9b4-4d49-8c3d-e77e275675ed",
+    "data": [
+      {
+        "text": "bye-bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "b970c05c-48e2-48d4-94b9-a5c544c603e9",
+    "data": [
+      {
+        "text": "bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "e95034cc-b591-4645-83ed-1c0c95056330",
+    "data": [
+      {
+        "text": "goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "be28e6b1-294f-47c4-ae14-7019da8e987e",
+    "data": [
+      {
+        "text": "bye bye see you soon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "51c305fa-4a57-4cdc-91c4-09c72700e338",
+    "data": [
+      {
+        "text": "okay see you later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "3f5b4cad-853a-4bcb-9c43-4d315578bbf7",
+    "data": [
+      {
+        "text": "go to bed",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "7cd3bcf4-e03b-473d-80c3-6fb6f323343c",
+    "data": [
+      {
+        "text": "see you tomorrow",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "4bcd6294-cda3-468b-af3b-1d8b93de7a93",
+    "data": [
+      {
+        "text": "bye for now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "6af4d644-afc7-4f0c-86a1-4ceba70fb4d2",
+    "data": [
+      {
+        "text": "see you soon",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "328626fc-35c7-4a23-a2a6-0eb8ac80f30b",
+    "data": [
+      {
+        "text": "bye bye take care",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "c626a32c-3f90-480a-81e6-0f2713327dd0",
+    "data": [
+      {
+        "text": "you can go now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "f48b75fd-f12a-48e3-a64d-f39286b39ca7",
+    "data": [
+      {
+        "text": "I ",
+        "userDefined": false
+      },
+      {
+        "text": "must",
+        "userDefined": true
+      },
+      {
+        "text": " go",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "8953678c-6249-48e3-b406-54f6a4571d1a",
+    "data": [
+      {
+        "text": "ok bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "04092536-a319-4870-b820-65786eb61f41",
+    "data": [
+      {
+        "text": "good",
+        "userDefined": true
+      },
+      {
+        "text": " bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "ee95900c-adc5-4560-9f3d-d33fcc1cd824",
+    "data": [
+      {
+        "text": "till next time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "26ac666a-972d-48bb-b247-56edc1f2a03c",
+    "data": [
+      {
+        "text": "I said bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "641b59af-39f8-40eb-bfff-e103747dd67c",
+    "data": [
+      {
+        "text": "see you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "71cab750-6e88-49c6-ac34-26fd5fc52eae",
+    "data": [
+      {
+        "text": "thanks bye bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "149c179b-61d0-4407-97a7-bd9ed3577386",
+    "data": [
+      {
+        "text": "talk to you later",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "9aa4a5e8-fe8d-4837-a5ac-2104c6d75fb3",
+    "data": [
+      {
+        "text": "never mind bye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "24b18ad2-31bf-4c72-b84f-75506583bd1d",
+    "data": [
+      {
+        "text": "goodbye for now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "b8af9e3b-928f-411a-b177-afa9d2f1b2be",
+    "data": [
+      {
+        "text": "leave",
+        "userDefined": true
+      },
+      {
+        "text": " me alone",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "76a1ba87-40ad-4d34-9dd3-8f9b1ec581bf",
+    "data": [
+      {
+        "text": "that\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "userDefined": true
+      },
+      {
+        "text": " goodbye",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  }
+]
