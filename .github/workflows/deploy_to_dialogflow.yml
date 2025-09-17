@@ -1,0 +1,158 @@
+name: Deploy to Dialogflow ES
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy_message:
+        description: 'Deployment message/notes'
+        required: false
+        default: 'Manual deployment from GitHub'
+        type: string
+      run_tests_after:
+        description: 'Run tests after deployment'
+        required: false
+        default: true
+        type: boolean
+
+env:
+  GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT }}
+  DIALOGFLOW_LANGUAGE_CODE: 'en'
+
+jobs:
+  deploy-to-dialogflow:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          npm install @google-cloud/dialogflow
+          npm install adm-zip
+
+      - name: Authenticate with Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY }}
+
+      - name: Create deployment package
+        id: package
+        run: |
+          # Create a zip package from the current repo state
+          npm install # Install any missing dependencies
+          
+          # Create the zip file
+          zip -r dialogflow_agent_deploy.zip intents/ entities/ agent.json package.json
+          
+          echo "Package created: dialogflow_agent_deploy.zip"
+          ls -la dialogflow_agent_deploy.zip
+
+      - name: Deploy to Dialogflow ES
+        id: deploy
+        run: |
+          cat > deploy_agent.js << 'EOF'
+          const dialogflow = require('@google-cloud/dialogflow');
+          const fs = require('fs');
+
+          async function deployAgent() {
+            const agentsClient = new dialogflow.AgentsClient();
+            const projectPath = agentsClient.projectPath(process.env.GOOGLE_CLOUD_PROJECT);
+            
+            console.log('Deploying agent to project:', process.env.GOOGLE_CLOUD_PROJECT);
+            
+            // Read the zip file
+            const agentContent = fs.readFileSync('dialogflow_agent_deploy.zip');
+            
+            console.log('Package size:', agentContent.length, 'bytes');
+            
+            // Import the agent
+            const [operation] = await agentsClient.importAgent({
+              parent: projectPath,
+              agentContent: agentContent,
+            });
+            
+            console.log('Import operation started...');
+            const [result] = await operation.promise();
+            
+            console.log('Agent deployed successfully!');
+            console.log('Operation result:', result);
+            
+            return result;
+          }
+
+          deployAgent()
+            .then(() => {
+              console.log('✅ Deployment completed successfully');
+              process.exit(0);
+            })
+            .catch((error) => {
+              console.error('❌ Deployment failed:', error);
+              process.exit(1);
+            });
+          EOF
+          
+          node deploy_agent.js
+
+      - name: Create deployment summary
+        if: always()
+        run: |
+          echo "## 🚀 Dialogflow ES Deployment Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Project:** ${{ env.GOOGLE_CLOUD_PROJECT }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Timestamp:** $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "**Triggered by:** ${{ github.actor }}" >> $GITHUB_STEP_SUMMARY
+          echo "**Message:** ${{ github.event.inputs.deploy_message }}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Files deployed:**" >> $GITHUB_STEP_SUMMARY
+          echo "- intents/ ($(find intents -name "*.json" | wc -l) files)" >> $GITHUB_STEP_SUMMARY
+          echo "- entities/ ($(find entities -name "*.json" | wc -l) files)" >> $GITHUB_STEP_SUMMARY
+          echo "- agent.json" >> $GITHUB_STEP_SUMMARY
+          echo "- package.json" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ "${{ steps.deploy.outcome }}" = "success" ]; then
+            echo "✅ **Status:** Deployment successful" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "❌ **Status:** Deployment failed" >> $GITHUB_STEP_SUMMARY
+          fi
+
+      - name: Run tests after deployment
+        if: github.event.inputs.run_tests_after == 'true' && steps.deploy.outcome == 'success'
+        run: |
+          echo "Waiting 30 seconds for Dialogflow to process the deployment..."
+          sleep 30
+          
+          echo "Running intent tests..."
+          node curl_intent_test.js || true
+
+      - name: Upload test results
+        if: github.event.inputs.run_tests_after == 'true' && steps.deploy.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-deployment-test-results-${{ github.run_number }}
+          path: curl_results.txt
+          retention-days: 30
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f dialogflow_agent_deploy.zip
+          rm -f deploy_agent.js
+
+      - name: Notify deployment status
+        if: always()
+        run: |
+          if [ "${{ steps.deploy.outcome }}" = "success" ]; then
+            echo "🎉 Deployment to Dialogflow ES completed successfully!"
+            echo "Your chatbot agent has been updated with the latest configuration."
+          else
+            echo "💥 Deployment to Dialogflow ES failed!"
+            echo "Please check the logs above for error details."
+            exit 1
+          fi

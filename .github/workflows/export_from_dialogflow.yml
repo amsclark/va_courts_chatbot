@@ -1,0 +1,219 @@
+name: Export from Dialogflow ES
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC to check for changes
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no changes detected'
+        required: false
+        default: false
+        type: boolean
+
+env:
+  GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT }}
+  DIALOGFLOW_LANGUAGE_CODE: 'en'
+
+jobs:
+  export-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          npm install @google-cloud/dialogflow
+          npm install adm-zip
+
+      - name: Authenticate with Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY }}
+
+      - name: Export Dialogflow Agent
+        id: export
+        run: |
+          cat > export_agent.js << 'EOF'
+          const dialogflow = require('@google-cloud/dialogflow');
+          const fs = require('fs');
+          const AdmZip = require('adm-zip');
+          const path = require('path');
+
+          async function exportAgent() {
+            const agentsClient = new dialogflow.AgentsClient();
+            const projectPath = agentsClient.projectPath(process.env.GOOGLE_CLOUD_PROJECT);
+            
+            console.log('Exporting agent from project:', process.env.GOOGLE_CLOUD_PROJECT);
+            
+            const [operation] = await agentsClient.exportAgent({
+              parent: projectPath,
+              agentUri: 'gs://temp-bucket/agent.zip' // This will be ignored for inline export
+            });
+            
+            const [response] = await operation.promise();
+            
+            // Save the exported zip content
+            fs.writeFileSync('exported_agent.zip', response.agentContent);
+            console.log('Agent exported successfully');
+            
+            // Extract the zip file
+            const zip = new AdmZip('exported_agent.zip');
+            zip.extractAllTo('./exported_agent/', true);
+            
+            console.log('Agent extracted successfully');
+            return true;
+          }
+
+          exportAgent().catch(console.error);
+          EOF
+          
+          node export_agent.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          # Compare exported content with current repo content
+          CHANGES_DETECTED=false
+          
+          # Check if directories exist and compare
+          if [ -d "./exported_agent/intents" ] && [ -d "./intents" ]; then
+            if ! diff -r ./exported_agent/intents ./intents > /dev/null 2>&1; then
+              CHANGES_DETECTED=true
+              echo "Changes detected in intents/"
+            fi
+          fi
+          
+          if [ -d "./exported_agent/entities" ] && [ -d "./entities" ]; then
+            if ! diff -r ./exported_agent/entities ./entities > /dev/null 2>&1; then
+              CHANGES_DETECTED=true
+              echo "Changes detected in entities/"
+            fi
+          fi
+          
+          if [ -f "./exported_agent/agent.json" ] && [ -f "./agent.json" ]; then
+            if ! diff ./exported_agent/agent.json ./agent.json > /dev/null 2>&1; then
+              CHANGES_DETECTED=true
+              echo "Changes detected in agent.json"
+            fi
+          fi
+          
+          if [ -f "./exported_agent/package.json" ] && [ -f "./package.json" ]; then
+            if ! diff ./exported_agent/package.json ./package.json > /dev/null 2>&1; then
+              CHANGES_DETECTED=true
+              echo "Changes detected in package.json"
+            fi
+          fi
+          
+          if [ "${{ github.event.inputs.force_update }}" = "true" ]; then
+            CHANGES_DETECTED=true
+            echo "Force update requested"
+          fi
+          
+          echo "changes_detected=$CHANGES_DETECTED" >> $GITHUB_OUTPUT
+          echo "Changes detected: $CHANGES_DETECTED"
+
+      - name: Create branch and update files
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        id: create_branch
+        run: |
+          # Create a new branch
+          BRANCH_NAME="dialogflow-export-$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH_NAME"
+          
+          # Copy exported files to repo
+          if [ -d "./exported_agent/intents" ]; then
+            rm -rf ./intents
+            cp -r ./exported_agent/intents ./intents
+          fi
+          
+          if [ -d "./exported_agent/entities" ]; then
+            rm -rf ./entities
+            cp -r ./exported_agent/entities ./entities
+          fi
+          
+          if [ -f "./exported_agent/agent.json" ]; then
+            cp ./exported_agent/agent.json ./agent.json
+          fi
+          
+          if [ -f "./exported_agent/package.json" ]; then
+            cp ./exported_agent/package.json ./package.json
+          fi
+          
+          # Configure git
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          
+          # Stage and commit changes
+          git add -A
+          git commit -m "Update agent from Dialogflow ES export
+
+          Automated export from Dialogflow ES on $(date)
+          
+          This update includes:
+          - Latest intent configurations
+          - Updated entities
+          - Agent settings
+          
+          Please review changes before merging."
+          
+          # Push the branch
+          git push origin "$BRANCH_NAME"
+          
+          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ steps.create_branch.outputs.branch_name }}
+          title: "🤖 Dialogflow ES Export Update"
+          body: |
+            ## Automated Dialogflow ES Export
+            
+            This PR contains updates exported from Dialogflow ES.
+            
+            ### Changes Include:
+            - 📝 Intent configurations
+            - 🏷️ Entity definitions  
+            - ⚙️ Agent settings
+            
+            ### ⚠️ Important Notes:
+            - This is an automated export from the live Dialogflow ES agent
+            - Please review all changes carefully before merging
+            - Merging will trigger the test suite automatically
+            - Any local changes not yet deployed to Dialogflow will be overwritten
+            
+            ### Next Steps:
+            1. Review the changes in this PR
+            2. Test locally if needed
+            3. Merge when ready to sync with Dialogflow ES
+            
+            *Generated by GitHub Actions*
+          labels: |
+            dialogflow-export
+            automated
+
+      - name: No changes detected
+        if: steps.check_changes.outputs.changes_detected == 'false'
+        run: |
+          echo "No changes detected between Dialogflow ES and repository."
+          echo "Repository is already up to date."
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf ./exported_agent/
+          rm -f exported_agent.zip
+          rm -f export_agent.js
