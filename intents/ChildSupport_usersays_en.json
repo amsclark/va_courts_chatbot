@@ -47,7 +47,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -225,19 +225,6 @@
     "data": [
       {
         "text": "domestic relations",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "83d306ac-1c91-4c97-9a7f-48c7b4654fee",
-    "data": [
-      {
-        "text": "I need help collecting child support",
         "userDefined": false
       }
     ],

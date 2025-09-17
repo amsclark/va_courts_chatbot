@@ -34,7 +34,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -936,19 +936,6 @@
     "updated": 0
   },
   {
-    "id": "98574cc0-fc4e-4f9c-b14e-a05308c8db93",
-    "data": [
-      {
-        "text": "help",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
     "id": "687a0260-cfe8-4296-ada5-d4089c8270a2",
     "data": [
       {
@@ -987,5 +974,4 @@
     "lang": "en",
     "updated": 0
   }
-  
 ]
