@@ -127,14 +127,9 @@ jobs:
           echo "changes_detected=$CHANGES_DETECTED" >> $GITHUB_OUTPUT
           echo "Changes detected: $CHANGES_DETECTED"
 
-      - name: Create branch and update files
+      - name: Update files
         if: steps.check_changes.outputs.changes_detected == 'true'
-        id: create_branch
         run: |
-          # Create a new branch
-          BRANCH_NAME="dialogflow-export-$(date +%Y%m%d-%H%M%S)"
-          git checkout -b "$BRANCH_NAME"
-          
           # Copy exported files to repo
           if [ -d "./exported_agent/intents" ]; then
             rm -rf ./intents
@@ -153,28 +148,6 @@ jobs:
           if [ -f "./exported_agent/package.json" ]; then
             cp ./exported_agent/package.json ./package.json
           fi
-          
-          # Configure git
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          
-          # Stage and commit changes
-          git add -A
-          git commit -m "Update agent from Dialogflow ES export
-
-          Automated export from Dialogflow ES on $(date)
-          
-          This update includes:
-          - Latest intent configurations
-          - Updated entities
-          - Agent settings
-          
-          Please review changes before merging."
-          
-          # Push the branch
-          git push origin "$BRANCH_NAME"
-          
-          echo "branch_name=$BRANCH_NAME" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes_detected == 'true'
@@ -182,8 +155,17 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           base: main
-          branch: ${{ steps.create_branch.outputs.branch_name }}
+          branch: dialogflow-export-updates
           title: "🤖 Dialogflow ES Export Update"
+          commit-message: |
+            Update agent from Dialogflow ES export
+
+            Automated export from Dialogflow ES on $(date)
+            
+            This update includes:
+            - Latest intent configurations
+            - Updated entities
+            - Agent settings
           body: |
             ## Automated Dialogflow ES Export
             
@@ -209,6 +191,7 @@ jobs:
           labels: |
             dialogflow-export
             automated
+          delete-branch: true
 
       - name: No changes detected
         if: steps.check_changes.outputs.changes_detected == 'false'
