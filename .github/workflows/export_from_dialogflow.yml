@@ -56,9 +56,9 @@ jobs:
             
             console.log('Exporting agent from project:', process.env.GOOGLE_CLOUD_PROJECT);
             
+            // Export agent without Cloud Storage URI (inline export)
             const [operation] = await agentsClient.exportAgent({
-              parent: projectPath,
-              agentUri: 'gs://temp-bucket/agent.zip' // This will be ignored for inline export
+              parent: projectPath
             });
             
             const [response] = await operation.promise();
