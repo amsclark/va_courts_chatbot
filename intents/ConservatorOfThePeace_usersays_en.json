@@ -242,7 +242,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -290,19 +290,6 @@
     "data": [
       {
         "text": "Who needs a peace conservator",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "new-cop-6",
-    "data": [
-      {
-        "text": "law enforcement conservator",
         "userDefined": false
       }
     ],

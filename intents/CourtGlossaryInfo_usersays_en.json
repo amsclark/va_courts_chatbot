@@ -27,7 +27,12 @@
   },
   {
     "id": "short-court-words-1",
-    "data": [ { "text": "legal words", "userDefined": false } ],
+    "data": [
+      {
+        "text": "legal words",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
@@ -35,7 +40,12 @@
   },
   {
     "id": "short-court-words-2",
-    "data": [ { "text": "court words", "userDefined": false } ],
+    "data": [
+      {
+        "text": "court words",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
@@ -344,7 +354,7 @@
     "id": "new-glossary-jdr-2",
     "data": [
       {
-        "text": "JD&R court",
+        "text": "JD\u0026R court",
         "userDefined": false
       }
     ],

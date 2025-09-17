@@ -27,7 +27,12 @@
   },
   {
     "id": "short-qa-1",
-    "data": [ { "text": "legal questions", "userDefined": false } ],
+    "data": [
+      {
+        "text": "legal questions",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
@@ -35,7 +40,12 @@
   },
   {
     "id": "short-qa-2",
-    "data": [ { "text": "questions", "userDefined": false } ],
+    "data": [
+      {
+        "text": "questions",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",

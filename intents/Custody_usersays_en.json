@@ -3,7 +3,7 @@
     "id": "custody-specific-1",
     "data": [
       {
-        "text": "I'm getting remarried and want my new husband to also have legal custody",
+        "text": "I\u0027m getting remarried and want my new husband to also have legal custody",
         "userDefined": false
       }
     ],
@@ -60,7 +60,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -112,7 +112,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -121,19 +121,6 @@
     "data": [
       {
         "text": "new husband custody",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "custody-fix-4",
-    "data": [
-      {
-        "text": "remarried custody",
         "userDefined": false
       }
     ],
@@ -225,19 +212,6 @@
     "data": [
       {
         "text": "fifty-fifty custody agreement",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "custody-fix-12",
-    "data": [
-      {
-        "text": "Can our previous agreement be changed so that I get the kids more",
         "userDefined": false
       }
     ],
@@ -641,7 +615,7 @@
     "updated": 0
   },
   {
-    "id": "custody-relocation-fix-2", 
+    "id": "custody-relocation-fix-2",
     "data": [
       {
         "text": "ex moves away with children",

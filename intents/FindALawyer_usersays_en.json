@@ -116,7 +116,6 @@
     "lang": "en",
     "updated": 0
   },
-
   {
     "id": "new-lawyer-2",
     "data": [
@@ -173,7 +172,7 @@
     "id": "new-lawyer-6",
     "data": [
       {
-        "text": "Legal Aid won't take my case. Are there any other places that will take my case? I want to sue the City of Richmond.",
+        "text": "Legal Aid won\u0027t take my case. Are there any other places that will take my case? I want to sue the City of Richmond.",
         "userDefined": false
       }
     ],

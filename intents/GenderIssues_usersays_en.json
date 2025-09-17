@@ -16,7 +16,7 @@
     "id": "trans-birth-certificate-1",
     "data": [
       {
-        "text": "I'm trans. Can I change my birth certificate?",
+        "text": "I\u0027m trans. Can I change my birth certificate?",
         "userDefined": false
       }
     ],
@@ -29,7 +29,7 @@
     "id": "trans-license-1",
     "data": [
       {
-        "text": "I'm trans. Can I change my license?",
+        "text": "I\u0027m trans. Can I change my license?",
         "userDefined": false
       }
     ],

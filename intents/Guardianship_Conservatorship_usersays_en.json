@@ -60,7 +60,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -333,7 +333,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -341,12 +341,12 @@
     "id": "new-guard-need-3",
     "data": [
       {
-        "text": "I need to have power of attorney over my mother's affairs. Where do I go?",
+        "text": "I need to have power of attorney over my mother\u0027s affairs. Where do I go?",
         "userDefined": false
       }
     ],
     "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
@@ -375,37 +375,7 @@
     "count": 0,
     "lang": "en",
     "updated": 0
-  }
-
-  ,
-  {
-    "id": "new-guard-4",
-    "data": [
-      {
-        "text": "My mom was diagnosed with dementia. I think she will need a legal guardian. Who should I call?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
   },
-  {
-    "id": "new-guard-5",
-    "data": [
-      {
-        "text": "I need to have power of attorney over my mother's affairs. Where do I go?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  }
-
-  ,
   {
     "id": "new-guard-6",
     "data": [
@@ -434,15 +404,12 @@
   },
   {
     "id": "short-guard-1",
-    "data": [ { "text": "guardian", "userDefined": false } ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "short-guard-2",
-    "data": [ { "text": "conservator", "userDefined": false } ],
+    "data": [
+      {
+        "text": "guardian",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
@@ -450,7 +417,12 @@
   },
   {
     "id": "short-guard-3",
-    "data": [ { "text": "POA", "userDefined": false } ],
+    "data": [
+      {
+        "text": "POA",
+        "userDefined": false
+      }
+    ],
     "isTemplate": false,
     "count": 0,
     "lang": "en",
