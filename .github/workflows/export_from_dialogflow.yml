@@ -192,6 +192,11 @@ jobs:
             dialogflow-export
             automated
           delete-branch: true
+          add-paths: |
+            intents/
+            entities/
+            agent.json
+            package.json
 
       - name: No changes detected
         if: steps.check_changes.outputs.changes_detected == 'false'
