@@ -8,6 +8,9 @@ const execAsync = promisify(exec);
 const csvContent = fs.readFileSync('pruned_feedback.csv', 'utf8');
 const rawLines = csvContent.split(/\r?\n/);
 
+const bot_url_id = process.argv[2] || process.env.TEST_URL || "https://fallback-url.com";
+
+
 function parseCSVLine(line) {
   const cols = [];
   let cur = '';
@@ -69,7 +72,7 @@ async function testPrompt(index, prompt, expectedIntent) {
     const tempFile = `/tmp/payload_${index}.json`;
     fs.writeFileSync(tempFile, JSON.stringify(payload));
     
-    const curlCommand = `curl -s 'https://dialogflow.cloud.google.com/v1/integrations/messenger/webhook/9a6751d7-5b0c-4bd3-8d17-5a3dd3222658/sessions/dfMessenger-${Date.now()}-${index}' -X POST -H 'Content-Type: application/json' -H 'Origin: https://clarkmanagementconsulting.com' --data @${tempFile}`;
+    const curlCommand = `curl -s 'https://dialogflow.cloud.google.com/v1/integrations/messenger/webhook/${bot_url_id}/sessions/dfMessenger-${Date.now()}-${index}' -X POST -H 'Content-Type: application/json' -H 'Origin: https://clarkmanagementconsulting.com' --data @${tempFile}`;
 
     const { stdout, stderr } = await execAsync(curlCommand);
     
