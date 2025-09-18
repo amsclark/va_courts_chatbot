@@ -24,6 +24,16 @@
             "It sounds like you are having issues relating to filing fees and waivers. Is this correct?"
           ],
           "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "It sounds like you are having issues relating to filing fees and waivers. Is this correct?"
+          ],
+          "condition": ""
         }
       ],
       "speech": []

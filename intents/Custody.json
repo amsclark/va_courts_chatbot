@@ -48,6 +48,40 @@
           "textToSpeech": "",
           "lang": "en",
           "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "It sounds like you are having issues relating to custody. Is this correct?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ],
+                  "type": "chips"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
         }
       ],
       "speech": []

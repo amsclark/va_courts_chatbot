@@ -1,0 +1,197 @@
+[
+  {
+    "id": "abuse-1",
+    "data": [
+      {
+        "text": "abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-2",
+    "data": [
+      {
+        "text": "domestic violence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-3",
+    "data": [
+      {
+        "text": "stalking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-4",
+    "data": [
+      {
+        "text": "neglect",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-5",
+    "data": [
+      {
+        "text": "My boyfriend is beating me up",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-6",
+    "data": [
+      {
+        "text": "domestic abuse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-7",
+    "data": [
+      {
+        "text": "partner is violent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-8",
+    "data": [
+      {
+        "text": "protective order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-9",
+    "data": [
+      {
+        "text": "restraining order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-10",
+    "data": [
+      {
+        "text": "stop my girlfriend from hitting me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-11",
+    "data": [
+      {
+        "text": "partner chokes me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-12",
+    "data": [
+      {
+        "text": "intimate partner violence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-13",
+    "data": [
+      {
+        "text": "caretaker is not feeding me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-14",
+    "data": [
+      {
+        "text": "stop a stalker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  },
+  {
+    "id": "abuse-15",
+    "data": [
+      {
+        "text": "stabbed by her boyfriend",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-us",
+    "updated": 0
+  }
+]
