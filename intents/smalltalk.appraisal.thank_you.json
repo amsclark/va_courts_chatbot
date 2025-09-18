@@ -14,17 +14,6 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-gb",
-          "speech": [
-            "Anytime. That\u0027s what I\u0027m here for.",
-            "It\u0027s my pleasure to help."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "Anytime. That\u0027s what I\u0027m here for.",
@@ -36,40 +25,7 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-au",
-          "speech": [
-            "Anytime. That\u0027s what I\u0027m here for.",
-            "It\u0027s my pleasure to help."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-in",
-          "speech": [
-            "Anytime. That\u0027s what I\u0027m here for.",
-            "It\u0027s my pleasure to help."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en-us",
-          "speech": [
-            "Anytime. That\u0027s what I\u0027m here for.",
-            "It\u0027s my pleasure to help."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-ca",
           "speech": [
             "Anytime. That\u0027s what I\u0027m here for.",
             "It\u0027s my pleasure to help."

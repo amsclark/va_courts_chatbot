@@ -14,18 +14,6 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-gb",
-          "speech": [
-            "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "Sorry if I understood you incorrectly.",
@@ -38,43 +26,7 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-au",
-          "speech": [
-            "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-in",
-          "speech": [
-            "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en-us",
-          "speech": [
-            "Sorry if I understood you incorrectly.",
-            "I\u0027m still learning. I may misinterpret things from time to time.",
-            "Sorry about that. I\u0027m still learning."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-ca",
           "speech": [
             "Sorry if I understood you incorrectly.",
             "I\u0027m still learning. I may misinterpret things from time to time.",
