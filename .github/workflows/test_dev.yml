@@ -14,7 +14,8 @@ on:
 
 env:
   GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT_DEV }}
-
+  TEST_URL: "9a6751d7-5b0c-4bd3-8d17-5a3dd3222658" 
+  
 jobs:
   test-dev:
     runs-on: ubuntu-latest
