@@ -79,11 +79,19 @@ This repository now has a complete DevOps pipeline that manages development and 
 
 **Purpose**:
 - Deploys the merged changes to production environment
+- Automatically transforms agent configuration for PROD
 
 **What it does**:
 1. Creates deployment package from repo
-2. Uploads agent to `x-prod-james-eoau`
-3. Confirms successful deployment
+2. **Transforms agent name** from `_DEV_JAMES` to `_PROD_JAMES`
+3. Uploads agent to `x-prod-james-eoau`
+4. Confirms successful deployment with correct agent name
+
+**Agent Name Transformation**:
+- The repo contains DEV agent configurations (with `_DEV_JAMES` name)
+- During deployment, `agent.json` is automatically modified
+- `displayName` is changed from `_DEV_JAMES` to `_PROD_JAMES`
+- This ensures production has the correct agent name
 
 ### 4. `test_prod.yml` - PROD Verification
 **Triggers**:
@@ -117,10 +125,20 @@ You need to add these secrets to your repository:
 1. **Make changes** in the DEV Dialogflow console (`l-dev-james-hegk`)
 2. **Wait for export** (daily at 2 AM) or trigger manually
 3. **Review the PR** that gets created automatically
+   - ⚠️ **Note**: Agent name will show as `_DEV_JAMES` in the PR - this is expected
+   - The name will be automatically changed to `_PROD_JAMES` during deployment
 4. **Check test results** on the PR (tests run against DEV)
 5. **Merge the PR** when satisfied
-6. **Automatic deployment** to PROD happens
+6. **Automatic deployment** to PROD happens (with agent name transformation)
 7. **Monitor** for any production test failures
+
+### Agent Name Handling
+- **In Repository**: Files contain `_DEV_JAMES` (reflects DEV environment)
+- **In PRs**: Will show `_DEV_JAMES` → this is normal and expected
+- **During Deployment**: Automatically transformed to `_PROD_JAMES`
+- **In Production**: Agent will have correct `_PROD_JAMES` name
+
+This approach keeps the repository synchronized with DEV while ensuring PROD has the correct configuration.
 
 ### Manual Operations
 - **Force export from DEV**: Run "Export from Dialogflow ES (DEV)" workflow manually
