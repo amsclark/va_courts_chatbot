@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'intents/**'
+      - 'entities/**'
+      - 'agent.json'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 
 jobs:
