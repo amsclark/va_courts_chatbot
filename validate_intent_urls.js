@@ -280,8 +280,12 @@ async function main() {
     if (failed.length > 0) {
         console.log(`${colors.red}❌ URL validation failed - ${failed.length} URLs are not accessible${colors.reset}`);
         process.exit(1);
+    } else if (redirects.length > 0) {
+        console.log(`${colors.yellow}⚠️  URL validation completed with warnings - ${redirects.length} URLs redirect${colors.reset}`);
+        console.log(`${colors.yellow}Consider updating redirected URLs to their final destinations${colors.reset}`);
+        process.exit(1); // Fail on redirects to enforce perfect URLs
     } else {
-        console.log(`${colors.green}✅ All URLs are accessible!${colors.reset}`);
+        console.log(`${colors.green}✅ All URLs are accessible and return 200 OK!${colors.reset}`);
         process.exit(0);
     }
 }

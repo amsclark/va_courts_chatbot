@@ -254,7 +254,23 @@ async function runTests() {
     console.log(`Newly passed tests: ${newlyPassed.join(', ')}`);
   }
   
-  console.log(`\nIntent matching accuracy: ${((passCount / testResults.length) * 100).toFixed(2)}%`);
+  const accuracy = ((passCount / testResults.length) * 100).toFixed(2);
+  console.log(`\nIntent matching accuracy: ${accuracy}%`);
+  
+  // Fail pipeline if not 100% perfect intent matches
+  const nonPerfectCount = wrongIntentCount + noIntentCount + failCount + passNoExpectedCount;
+  if (nonPerfectCount > 0) {
+    console.log(`\n❌ INTENT TEST FAILED: Found ${nonPerfectCount} non-perfect matches`);
+    console.log(`Only exact intent matches (PASS) are acceptable for production quality.`);
+    console.log(`- Wrong Intent: ${wrongIntentCount}`);
+    console.log(`- No Intent Matched: ${noIntentCount}`);
+    console.log(`- Other Failures: ${failCount}`);
+    console.log(`- No Expected Intent: ${passNoExpectedCount}`);
+    process.exit(1);
+  } else {
+    console.log(`\n✅ INTENT TEST PASSED: All ${passCount} tests matched expected intents perfectly!`);
+    process.exit(0);
+  }
 }
 
 runTests().catch(console.error);
