@@ -1,0 +1,67 @@
+[
+  {
+    "id": "748268a2-86a0-4df7-9add-6f32d8b77cbe",
+    "data": [
+      {
+        "text": "yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "f3fa3b28-772f-4bd1-bde1-05bf23c48ac3",
+    "data": [
+      {
+        "text": "correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "f3e79796-970a-4700-a577-d515df378201",
+    "data": [
+      {
+        "text": "that\u0027s right",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "68acf992-3365-4754-89bf-0e618cced2b0",
+    "data": [
+      {
+        "text": "exactly",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "ff32631c-08c3-46c4-b951-67c6a3d7d8f3",
+    "data": [
+      {
+        "text": "that\u0027s correct",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-ca",
+    "updated": 0
+  }
+]

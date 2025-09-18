@@ -31,41 +31,11 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-gb",
+          "lang": "en-ca",
           "speech": [
-            "I didn\u0027t get that. Can you say it again?",
-            "I missed what you said. Say it again?",
-            "Sorry, could you say that again?",
-            "Sorry, can you say that again?",
-            "Can you say that again?",
-            "Sorry, I didn\u0027t get that.",
-            "Sorry, what was that?",
-            "One more time?",
-            "What was that?",
-            "Say that again?",
-            "I didn\u0027t get that.",
-            "I missed that."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-au",
-          "speech": [
-            "I didn\u0027t get that. Can you say it again?",
-            "I missed what you said. Say it again?",
-            "Sorry, could you say that again?",
-            "Sorry, can you say that again?",
-            "Can you say that again?",
-            "Sorry, I didn\u0027t get that.",
-            "Sorry, what was that?",
-            "One more time?",
-            "What was that?",
-            "Say that again?",
-            "I didn\u0027t get that.",
-            "I missed that."
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"\n\nFor example, you can ask me \"What are the hours?\" and I will understand, but if you say \"My landlord is trying to evict me. I am so glad your services are free. What hours are you open?\" I may get confused and not know what to say.\n\nI will try my best to help!",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
           ],
           "condition": ""
         },
@@ -75,18 +45,9 @@
           "textToSpeech": "",
           "lang": "en-us",
           "speech": [
-            "I didn\u0027t get that. Can you say it again?",
-            "I missed what you said. Say it again?",
-            "Sorry, could you say that again?",
-            "Sorry, can you say that again?",
-            "Can you say that again?",
-            "Sorry, I didn\u0027t get that.",
-            "Sorry, what was that?",
-            "One more time?",
-            "What was that?",
-            "Say that again?",
-            "I didn\u0027t get that.",
-            "I missed that."
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"\n\nFor example, you can ask me \"What are the hours?\" and I will understand, but if you say \"My landlord is trying to evict me. I am so glad your services are free. What hours are you open?\" I may get confused and not know what to say.\n\nI will try my best to help!",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
           ],
           "condition": ""
         },
@@ -94,20 +55,35 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-ca",
+          "lang": "en-in",
           "speech": [
-            "I didn\u0027t get that. Can you say it again?",
-            "I missed what you said. Say it again?",
-            "Sorry, could you say that again?",
-            "Sorry, can you say that again?",
-            "Can you say that again?",
-            "Sorry, I didn\u0027t get that.",
-            "Sorry, what was that?",
-            "One more time?",
-            "What was that?",
-            "Say that again?",
-            "I didn\u0027t get that.",
-            "I missed that."
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"\n\nFor example, you can ask me \"What are the hours?\" and I will understand, but if you say \"My landlord is trying to evict me. I am so glad your services are free. What hours are you open?\" I may get confused and not know what to say.\n\nI will try my best to help!",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-au",
+          "speech": [
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"\n\nFor example, you can ask me \"What are the hours?\" and I will understand, but if you say \"My landlord is trying to evict me. I am so glad your services are free. What hours are you open?\" I may get confused and not know what to say.\n\nI will try my best to help!",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-gb",
+          "speech": [
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"\n\nFor example, you can ask me \"What are the hours?\" and I will understand, but if you say \"My landlord is trying to evict me. I am so glad your services are free. What hours are you open?\" I may get confused and not know what to say.\n\nI will try my best to help!",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"",
+            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
           ],
           "condition": ""
         }

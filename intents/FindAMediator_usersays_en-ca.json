@@ -1,0 +1,197 @@
+[
+  {
+    "id": "b8d2e5f1-3a7c-4e9b-8f2d-5a1c7e9b3f6d",
+    "data": [
+      {
+        "text": "find a mediator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "c9e3f6a2-4b8d-5f0c-9a3e-6b2d8f0c4a7e",
+    "data": [
+      {
+        "text": "I need to find a mediator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "data": [
+      {
+        "text": "I want to settle out of court. What do I do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "b2c3d4e5-f6a7-8901-bcde-f23456789012",
+    "data": [
+      {
+        "text": "settle out of court",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "c3d4e5f6-a7b8-9012-cdef-345678901234",
+    "data": [
+      {
+        "text": "Someone told me to try ADR instead of suing. What\u0027s that",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "d4e5f6a7-b8c9-0123-defa-456789012345",
+    "data": [
+      {
+        "text": "What is ADR",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "e5f6a7b8-c9d0-1234-efab-567890123456",
+    "data": [
+      {
+        "text": "alternative dispute resolution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "f6a7b8c9-d0e1-2345-fabc-678901234567",
+    "data": [
+      {
+        "text": "Is there a cheaper way to sue someone?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "a7b8c9d0-e1f2-3456-abcd-789012345678",
+    "data": [
+      {
+        "text": "cheaper alternative to lawsuit",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "b8c9d0e1-f2a3-4567-bcde-890123456789",
+    "data": [
+      {
+        "text": "cost effective dispute resolution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "d0f4a7b3-5c9e-6a1d-0b4f-7c3e9a1d5b8f",
+    "data": [
+      {
+        "text": "mediation services",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "e1a5b8c4-6d0f-7b2e-1c5a-8d4f0b2e6c9a",
+    "data": [
+      {
+        "text": "dispute resolution",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "a3c7d0e6-8f2b-9d4a-3e7c-0f6b2d4a8e1c",
+    "data": [
+      {
+        "text": "I need help with mediation",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "b4d8e1f7-9a3c-0e5b-4f8d-1a7c3e5b9f2d",
+    "data": [
+      {
+        "text": "where can I find a mediator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  },
+  {
+    "id": "c5e9f2a8-0b4d-1f6c-5a9e-2b8d4f6c0a3e",
+    "data": [
+      {
+        "text": "mediator directory",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-ca",
+    "updated": 0
+  }
+]

@@ -29,6 +29,106 @@
           "textToSpeech": "",
           "lang": "en",
           "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m a chatbot (not a human) and I’m here to help you get to the information you need!  While I don’t offer legal advice, I will do my best to direct you to further help based on what concerns you have.  What best describes the issues you need to find resources for?  I can understand best if you use short phrases."
+                  ],
+                  "type": "description",
+                  "title": "Hi! My name is James!"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en-ca",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m a chatbot (not a human) and I’m here to help you get to the information you need!  While I don’t offer legal advice, I will do my best to direct you to further help based on what concerns you have.  What best describes the issues you need to find resources for?  I can understand best if you use short phrases."
+                  ],
+                  "type": "description",
+                  "title": "Hi! My name is James!"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en-us",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m a chatbot (not a human) and I’m here to help you get to the information you need!  While I don’t offer legal advice, I will do my best to direct you to further help based on what concerns you have.  What best describes the issues you need to find resources for?  I can understand best if you use short phrases."
+                  ],
+                  "type": "description",
+                  "title": "Hi! My name is James!"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en-in",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m a chatbot (not a human) and I’m here to help you get to the information you need!  While I don’t offer legal advice, I will do my best to direct you to further help based on what concerns you have.  What best describes the issues you need to find resources for?  I can understand best if you use short phrases."
+                  ],
+                  "type": "description",
+                  "title": "Hi! My name is James!"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en-au",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "text": [
+                    "I\u0027m a chatbot (not a human) and I’m here to help you get to the information you need!  While I don’t offer legal advice, I will do my best to direct you to further help based on what concerns you have.  What best describes the issues you need to find resources for?  I can understand best if you use short phrases."
+                  ],
+                  "type": "description",
+                  "title": "Hi! My name is James!"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en-gb",
+          "condition": ""
         }
       ],
       "speech": []

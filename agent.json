@@ -4,7 +4,7 @@
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
-  "displayName": "_PROD_JAMES",
+  "displayName": "_DEV_JAMES",
   "disableInteractionLogs": false,
   "disableStackdriverLogs": false,
   "googleAssistant": {
@@ -46,11 +46,12 @@
     "en-au",
     "en-ca",
     "en-gb",
+    "en-in",
     "en-us"
   ],
   "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2beta1",
-  "secondaryKey": "60ed9faa94e644159a1289988ecb5dfc",
+  "secondaryKey": "d11d0d22834f4c4f9cb05a2c52026093",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
   "knowledgeServiceConfidenceAdjustment": 0.0,

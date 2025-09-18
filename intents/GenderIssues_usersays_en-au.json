@@ -1,0 +1,288 @@
+[
+  {
+    "id": "8f4ab407-b946-4c5c-b3cc-1b51e6c3e1b9",
+    "data": [
+      {
+        "text": "gender marker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "31ee899c-636f-4854-a68c-796991ae77bf",
+    "data": [
+      {
+        "text": "gender",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "bbc17b6b-3c61-4fc2-a26b-3fe1735ddcbe",
+    "data": [
+      {
+        "text": "gender change",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "12aa8bc5-8091-4ff4-be58-3f88dcbbc91b",
+    "data": [
+      {
+        "text": "change gender marker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "c2398243-8830-4f5a-94b7-b6f7cd80c960",
+    "data": [
+      {
+        "text": "sex marker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "d5e4ac60-7a7c-4d15-a628-d8116218d776",
+    "data": [
+      {
+        "text": "change my gender marker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "b7986b79-9d4b-49c5-9ee3-0ef3c7c11059",
+    "data": [
+      {
+        "text": "I would like to change my gender marker on official documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "351c7516-0da1-4999-b1ba-1fb2e967311f",
+    "data": [
+      {
+        "text": "How do I change my gender on my ID?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "b7bec03e-4dbc-4009-b4a7-32aa9c955883",
+    "data": [
+      {
+        "text": "What is the process for changing my gender officially?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "03928f64-0249-48f2-91fe-2974320e2389",
+    "data": [
+      {
+        "text": "Can you help me get information on changing my gender marker?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "21e2705b-f733-43ed-b4af-4d123b030fd8",
+    "data": [
+      {
+        "text": "What steps do I need to take to change my gender on my license?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "6e00da4a-1ced-407c-85b9-1c8f8019ab62",
+    "data": [
+      {
+        "text": "Can I update my gender on my documents?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "6c38ca02-6d75-4a59-a9c4-ad312258a33a",
+    "data": [
+      {
+        "text": "I want my sex updated on all of my official documents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "54116c67-787d-4f99-8e2a-e73fe2816f2e",
+    "data": [
+      {
+        "text": "What legal protections do I have relating to changing my gender marker?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "bc234de8-28ed-46a4-a7fc-4ddd29df83f8",
+    "data": [
+      {
+        "text": "I am having trouble changing my gender marker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "f0895c1b-ac6d-4833-9507-9a30a9a23ac6",
+    "data": [
+      {
+        "text": "Do I need medical documentation to change my gender marker?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "8918bad3-b32c-49f7-b858-435e41ddbd7d",
+    "data": [
+      {
+        "text": "What evidence is required to change my gender marker?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "bc1d628c-66fb-4d79-9aab-9ece5b1203a3",
+    "data": [
+      {
+        "text": "trans change license",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "e20f1192-701f-4577-80ba-17739afa9e6e",
+    "data": [
+      {
+        "text": "trans change birth certificate",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "2f10ec36-5f8a-475b-9e49-4070d452b261",
+    "data": [
+      {
+        "text": "I\u0027m trans. Can I change my license?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "00bc30cc-6fbf-4c0e-8af4-5b28404f9178",
+    "data": [
+      {
+        "text": "I\u0027m trans. Can I change my birth certificate?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en-au",
+    "updated": 0
+  },
+  {
+    "id": "b39fe450-67df-44cc-b839-605cbb0456fc",
+    "data": [
+      {
+        "text": "Can you give me information on changing my gender marker?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "lang": "en-au",
+    "updated": 0
+  }
+]

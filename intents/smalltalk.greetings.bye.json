@@ -24,46 +24,7 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-gb",
-          "speech": [
-            "See you soon!",
-            "Bye-bye!",
-            "Till next time!",
-            "Bye."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-au",
-          "speech": [
-            "See you soon!",
-            "Bye-bye!",
-            "Till next time!",
-            "Bye."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en-in",
-          "speech": [
-            "See you soon!",
-            "Bye-bye!",
-            "Till next time!",
-            "Bye."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
           "speech": [
             "See you soon!",
             "Bye-bye!",
@@ -78,10 +39,47 @@
           "textToSpeech": "",
           "lang": "en-ca",
           "speech": [
-            "See you soon!",
-            "Bye-bye!",
-            "Till next time!",
-            "Bye."
+            "Goodbye."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-us",
+          "speech": [
+            "Goodbye."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-in",
+          "speech": [
+            "Goodbye."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-au",
+          "speech": [
+            "Goodbye."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en-gb",
+          "speech": [
+            "Goodbye."
           ],
           "condition": ""
         }
