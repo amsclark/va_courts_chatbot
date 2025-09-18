@@ -1,6 +1,6 @@
 [
   {
-    "id": "housing-fix-1",
+    "id": "65196bfe-d127-448a-a43c-5e433e28cb76",
     "data": [
       {
         "text": "complaint against guardian",
@@ -13,7 +13,7 @@
     "updated": 0
   },
   {
-    "id": "housing-fix-2",
+    "id": "535a2bcc-da6e-4a01-bcdc-bf60767f465a",
     "data": [
       {
         "text": "unlawful detainer",
@@ -26,7 +26,7 @@
     "updated": 0
   },
   {
-    "id": "housing-fix-3",
+    "id": "2a20df00-b8a8-4f7f-8267-90715ea2758d",
     "data": [
       {
         "text": "charge for rent",
@@ -39,7 +39,7 @@
     "updated": 0
   },
   {
-    "id": "housing-fix-4",
+    "id": "7efcde51-f252-4180-a45d-3bf933c00b22",
     "data": [
       {
         "text": "housing assistance",
@@ -52,7 +52,7 @@
     "updated": 0
   },
   {
-    "id": "housing-fix-5",
+    "id": "505088e0-16b3-4390-b8e4-c00e6e73cef1",
     "data": [
       {
         "text": "qualify for housing",
@@ -65,7 +65,7 @@
     "updated": 0
   },
   {
-    "id": "housing-fix-6",
+    "id": "0fc888b8-f93e-4694-a7da-c96503afe22a",
     "data": [
       {
         "text": "property maintenance",
@@ -81,7 +81,7 @@
     "id": "709ff7b5-1694-4f86-b4d4-024042c415e9",
     "data": [
       {
-        "text": "i\u0027m having trouble finding housing",
+        "text": "i'm having trouble finding housing",
         "userDefined": false
       }
     ],
@@ -107,7 +107,7 @@
     "id": "5af366db-0abf-48a5-a4f4-497f3a4f9712",
     "data": [
       {
-        "text": "renter\u0027s rights",
+        "text": "renter's rights",
         "userDefined": false
       }
     ],
@@ -432,7 +432,7 @@
     "id": "13fe47d4-d2d1-408a-94a0-5f51cc3e6390",
     "data": [
       {
-        "text": "tenant\u0027s rights",
+        "text": "tenant's rights",
         "userDefined": false
       }
     ],

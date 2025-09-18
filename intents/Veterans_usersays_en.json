@@ -1,6 +1,6 @@
 [
   {
-    "id": "veterans-fix-1",
+    "id": "4864e11d-8b62-45b4-9552-3f4088ab612d",
     "data": [
       {
         "text": "help for veterans",
@@ -189,7 +189,7 @@
     "id": "205ce29f-d5c8-4ad9-b374-0c52a4185c1d",
     "data": [
       {
-        "text": "veterans\u0027 aid",
+        "text": "veterans' aid",
         "userDefined": false
       }
     ],
@@ -241,7 +241,7 @@
     "id": "27089725-5356-480a-b9f6-4e537cb91b40",
     "data": [
       {
-        "text": "veterans\u0027 benefits and services",
+        "text": "veterans' benefits and services",
         "userDefined": false
       }
     ],
@@ -254,7 +254,7 @@
     "id": "afe14feb-1dc3-4872-8945-defa28dc539b",
     "data": [
       {
-        "text": "veteran\u0027s benefits and services",
+        "text": "veteran's benefits and services",
         "userDefined": false
       }
     ],
@@ -368,7 +368,7 @@
     "updated": 0
   },
   {
-    "id": "new-vet-1",
+    "id": "242f7e12-2217-42c5-8f74-6fa183e2393a",
     "data": [
       {
         "text": "army service",
@@ -381,7 +381,7 @@
     "updated": 0
   },
   {
-    "id": "new-vet-2",
+    "id": "632476d7-6c32-4c1e-b91e-0a587326cc7a",
     "data": [
       {
         "text": "asbestos Navy ship",
@@ -394,7 +394,7 @@
     "updated": 0
   },
   {
-    "id": "new-vet-3",
+    "id": "c567f9d7-72ae-4361-8296-35427e831e09",
     "data": [
       {
         "text": "Marines discharge papers",
@@ -407,7 +407,7 @@
     "updated": 0
   },
   {
-    "id": "new-vet-4",
+    "id": "29567a39-1f1a-4233-b930-3363732de6e3",
     "data": [
       {
         "text": "concealed carry veterans",
@@ -420,7 +420,7 @@
     "updated": 0
   },
   {
-    "id": "new-vet-5",
+    "id": "a60c839c-1ca5-4ad2-9138-7ff575a307cd",
     "data": [
       {
         "text": "GI bill",

@@ -3,7 +3,7 @@
     "id": "0325915e-66fb-4c3d-a70b-94f29bd14e6e",
     "data": [
       {
-        "text": "Q\u0026A",
+        "text": "Q&A",
         "userDefined": false
       }
     ],
@@ -13,7 +13,7 @@
     "updated": 0
   },
   {
-    "id": "legal-qa-direct-1",
+    "id": "19b9f3ff-fcce-4b4b-ae87-1ef4728f1bd3",
     "data": [
       {
         "text": "legal qa",
@@ -26,7 +26,7 @@
     "updated": 0
   },
   {
-    "id": "short-qa-1",
+    "id": "e992ecd8-f746-45d4-a3ee-53edfdf74f69",
     "data": [
       {
         "text": "legal questions",
@@ -39,7 +39,7 @@
     "updated": 0
   },
   {
-    "id": "short-qa-2",
+    "id": "5d2e58b6-aae5-427d-a6c2-be0d660103ad",
     "data": [
       {
         "text": "questions",
@@ -130,7 +130,7 @@
     "updated": 0
   },
   {
-    "id": "new-qa-questions-1",
+    "id": "b5865fb1-93fb-4c68-8048-9ccdf1e866ee",
     "data": [
       {
         "text": "where can I go to ask a legal question?",
@@ -143,7 +143,7 @@
     "updated": 0
   },
   {
-    "id": "new-qa-questions-2",
+    "id": "90fab62f-4c3a-4b25-9fd4-737a12eed0e2",
     "data": [
       {
         "text": "where can I find legal answers",
@@ -156,7 +156,7 @@
     "updated": 0
   },
   {
-    "id": "new-qa-questions-3",
+    "id": "694388d7-c5af-44cb-8353-1ccdf09ecd25",
     "data": [
       {
         "text": "where can I find answers to questions?",

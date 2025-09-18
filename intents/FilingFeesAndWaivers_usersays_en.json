@@ -1,6 +1,6 @@
 [
   {
-    "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+    "id": "2d0471e5-ec2e-4e3a-b7e1-b6194785dc30",
     "data": [
       {
         "text": "filing fees",
@@ -13,7 +13,7 @@
     "updated": 0
   },
   {
-    "id": "2b3c4d5e-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+    "id": "51891d08-d07e-4e29-8b23-2c53d446b58c",
     "data": [
       {
         "text": "waive a filing fee",
@@ -26,7 +26,7 @@
     "updated": 0
   },
   {
-    "id": "3c4d5e6f-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+    "id": "46a4512b-562d-4ec6-a614-b2b88b5b6a7f",
     "data": [
       {
         "text": "pay to file",
@@ -39,7 +39,7 @@
     "updated": 0
   },
   {
-    "id": "4d5e6f7g-8h9i-0j1k-2l3m-4n5o6p7q8r9s",
+    "id": "ab6f0eb7-1473-4115-8922-509a9f33f2cc",
     "data": [
       {
         "text": "cost to file",
@@ -52,7 +52,7 @@
     "updated": 0
   },
   {
-    "id": "5e6f7g8h-9i0j-1k2l-3m4n-5o6p7q8r9s0t",
+    "id": "1de11b00-cb85-4a64-b23d-b1267f69d01a",
     "data": [
       {
         "text": "cost to bring a case",
@@ -65,7 +65,7 @@
     "updated": 0
   },
   {
-    "id": "6f7g8h9i-0j1k-2l3m-4n5o-6p7q8r9s0t1u",
+    "id": "f2fd96fc-cbf8-43ad-b79c-9fde0021f326",
     "data": [
       {
         "text": "how much money to bring my case",
@@ -78,7 +78,7 @@
     "updated": 0
   },
   {
-    "id": "7g8h9i0j-1k2l-3m4n-5o6p-7q8r9s0t1u2v",
+    "id": "8b0a1e45-df47-40c6-8486-8a0e524ff81b",
     "data": [
       {
         "text": "Are there exceptions to fees",
@@ -91,7 +91,7 @@
     "updated": 0
   },
   {
-    "id": "8h9i0j1k-2l3m-4n5o-6p7q-8r9s0t1u2v3w",
+    "id": "7e327433-fb86-4276-99b3-bef9fc9c10ee",
     "data": [
       {
         "text": "cost to sue",
@@ -104,7 +104,7 @@
     "updated": 0
   },
   {
-    "id": "9i0j1k2l-3m4n-5o6p-7q8r-9s0t1u2v3w4x",
+    "id": "25b21f5e-7e27-4cae-ad23-f9f96bd5385f",
     "data": [
       {
         "text": "court filing fees",
@@ -117,7 +117,7 @@
     "updated": 0
   },
   {
-    "id": "0j1k2l3m-4n5o-6p7q-8r9s-0t1u2v3w4x5y",
+    "id": "cc3f3116-6b4c-4d8d-a72b-85dca57fbfd2",
     "data": [
       {
         "text": "fee waiver",
@@ -130,7 +130,7 @@
     "updated": 0
   },
   {
-    "id": "1k2l3m4n-5o6p-7q8r-9s0t-1u2v3w4x5y6z",
+    "id": "2d69ad45-c342-4f45-bc26-49ea5cf2bb60",
     "data": [
       {
         "text": "filing fees and waivers",
@@ -143,10 +143,10 @@
     "updated": 0
   },
   {
-    "id": "2l3m4n5o-6p7q-8r9s-0t1u-2v3w4x5y6z7a",
+    "id": "221de0b8-b79c-4ee3-9260-d12aa2ca9899",
     "data": [
       {
-        "text": "can\u0027t afford court fees",
+        "text": "can't afford court fees",
         "userDefined": false
       }
     ],
@@ -156,7 +156,7 @@
     "updated": 0
   },
   {
-    "id": "3m4n5o6p-7q8r-9s0t-1u2v-3w4x5y6z7a8b",
+    "id": "30fbabd9-f022-4edb-82a6-d76093be8f09",
     "data": [
       {
         "text": "waive filing fees",
@@ -169,7 +169,7 @@
     "updated": 0
   },
   {
-    "id": "4n5o6p7q-8r9s-0t1u-2v3w-4x5y6z7a8b9c",
+    "id": "71affb59-331a-4f3c-b44e-868b266836e8",
     "data": [
       {
         "text": "low income fee waiver",
