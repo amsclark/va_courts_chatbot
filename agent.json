@@ -43,6 +43,9 @@
   "isPrivate": true,
   "mlMinConfidence": 0.3,
   "supportedLanguages": [
+    "en-au",
+    "en-ca",
+    "en-gb",
     "en-us"
   ],
   "enableOnePlatformApi": true,

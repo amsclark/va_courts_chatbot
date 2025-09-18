@@ -20,17 +20,6 @@
             "I\u0027m doing very well. Thanks!"
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!"
-          ],
-          "condition": ""
         }
       ],
       "speech": []

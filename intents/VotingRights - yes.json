@@ -63,56 +63,6 @@
           "textToSpeech": "",
           "lang": "en",
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Ok, I think I can help!",
-            "Okay, I think this will help!",
-            "Great, I think I can help you.",
-            "See if this helps!",
-            "Take a look at this below. I think it may help.",
-            "Perfect, I think I can help!"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "type": "description",
-                  "title": "",
-                  "text": [
-                    "Here are resources for voting rights matters in Virginia, including forms and general information."
-                  ]
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "text": "Voting Rights Forms",
-                  "link": "https://selfhelp.vacourts.gov/node/43/voting-rights-forms.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
-                },
-                {
-                  "type": "divider"
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en-us",
-          "condition": ""
         }
       ],
       "speech": []

@@ -20,17 +20,6 @@
             "Nice meeting you, as well."
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "It\u0027s nice meeting you, too.",
-            "Nice meeting you, as well."
-          ],
-          "condition": ""
         }
       ],
       "speech": []

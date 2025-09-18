@@ -24,16 +24,6 @@
             "It sounds like you are having issues relating to freedom of information requests. Is this correct?"
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "It sounds like you are having issues relating to freedom of information requests. Is this correct?"
-          ],
-          "condition": ""
         }
       ],
       "speech": []

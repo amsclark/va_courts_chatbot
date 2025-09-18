@@ -20,17 +20,6 @@
             "I\u0027m ready to assist you. What legal topics would you like to discuss?"
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "I\u0027m here to help you with legal information. What questions do you have?",
-            "I\u0027m ready to assist you. What legal topics would you like to discuss?"
-          ],
-          "condition": ""
         }
       ],
       "speech": []
