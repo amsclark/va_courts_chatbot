@@ -120,7 +120,7 @@
     "id": "9b0c2560-3f8b-4fd5-85c6-ca63e535e72b",
     "data": [
       {
-        "text": "i'm not sure if I need a lawyer",
+        "text": "i\u0027m not sure if I need a lawyer",
         "userDefined": false
       }
     ],
@@ -497,7 +497,7 @@
     "id": "0dac64f1-4fea-4a44-980d-941d5bddd1f4",
     "data": [
       {
-        "text": "I don't know where to start",
+        "text": "I don\u0027t know where to start",
         "userDefined": false
       }
     ],
@@ -510,7 +510,7 @@
     "id": "fc26e9be-d0b6-4179-a0c7-6e0bbd6b7b96",
     "data": [
       {
-        "text": "I don't know what I'm looking for",
+        "text": "I don\u0027t know what I\u0027m looking for",
         "userDefined": false
       }
     ],
