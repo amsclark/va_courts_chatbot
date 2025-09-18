@@ -1,0 +1,157 @@
+name: Validate Intent URLs
+
+on:
+  # Run on pushes to main that affect agent files
+  push:
+    branches: [ main ]
+    paths:
+      - 'intents/**/*.json'
+      - 'entities/**/*.json'
+      - 'agent.json'
+      - 'package.json'
+      - 'validate_intent_urls.js'
+      - '.github/workflows/validate_intent_urls.yml'
+  
+  # Run on pull requests that affect agent files
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'intents/**/*.json'
+      - 'entities/**/*.json'
+      - 'agent.json'
+      - 'package.json'
+      - 'validate_intent_urls.js'
+      - '.github/workflows/validate_intent_urls.yml'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      timeout:
+        description: 'Request timeout in milliseconds'
+        required: false
+        default: '10000'
+        type: string
+
+jobs:
+  validate-urls:
+    name: Validate URLs in Intent Files
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm ci --only=production
+          else
+            echo "No package.json found, continuing without npm install"
+          fi
+          
+      - name: Make validation script executable
+        run: chmod +x validate_intent_urls.js
+        
+      - name: Run URL validation
+        run: |
+          echo "🔍 Starting URL validation for Dialogflow intents..."
+          echo "Scanning intents/ directory for JSON files (excluding usersays files)"
+          echo "Timeout setting: ${{ github.event.inputs.timeout || '10000' }}ms"
+          echo ""
+          
+          # Set timeout if provided via workflow dispatch
+          if [ -n "${{ github.event.inputs.timeout }}" ]; then
+            export URL_TIMEOUT_MS="${{ github.event.inputs.timeout }}"
+          fi
+          
+          node validate_intent_urls.js
+        env:
+          # Set environment variables for the script
+          NODE_ENV: production
+          
+      - name: Upload validation results
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: url-validation-results
+          path: |
+            validate_intent_urls.js
+            intents/
+          retention-days: 30
+          
+      - name: Comment on PR (if validation fails)
+        if: failure() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            
+            const comment = `## 🔗 URL Validation Failed ❌
+            
+            The URL validation check found broken or inaccessible links in your Dialogflow intent files.
+            
+            **What happened:**
+            - Some URLs in your intent JSON files are returning error status codes (404, 500, etc.)
+            - These broken links could lead to poor user experience in the chatbot
+            
+            **Next steps:**
+            1. Check the workflow logs for detailed information about which URLs failed
+            2. Update or remove the broken URLs in the affected intent files
+            3. Test the URLs manually to ensure they work correctly
+            4. Re-run this workflow or push new changes to validate the fixes
+            
+            **Files checked:** All \`.json\` files in \`intents/\` directory (excluding usersays files)
+            
+            _This check helps ensure all links in your Dialogflow agent are working properly for users._`;
+            
+            github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number,
+              body: comment
+            });
+            
+      - name: Set job summary
+        if: always()
+        run: |
+          if [ ${{ job.status }} == 'success' ]; then
+            echo "## ✅ URL Validation Passed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "All URLs found in intent files are accessible and returning successful HTTP status codes." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**What was checked:**" >> $GITHUB_STEP_SUMMARY
+            echo "- All \`.json\` files in \`intents/\` directory" >> $GITHUB_STEP_SUMMARY
+            echo "- Excluded files containing 'usersays' in the filename" >> $GITHUB_STEP_SUMMARY
+            echo "- Extracted and validated HTTP/HTTPS URLs" >> $GITHUB_STEP_SUMMARY
+            echo "- Checked for 200 OK, 404 Not Found, redirects, timeouts, etc." >> $GITHUB_STEP_SUMMARY
+          else
+            echo "## ❌ URL Validation Failed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Some URLs in your intent files are not accessible. Check the logs above for details." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Common issues:**" >> $GITHUB_STEP_SUMMARY
+            echo "- 404 Not Found: The URL no longer exists" >> $GITHUB_STEP_SUMMARY
+            echo "- 500 Server Error: The target server is experiencing issues" >> $GITHUB_STEP_SUMMARY
+            echo "- Timeout: The URL takes too long to respond" >> $GITHUB_STEP_SUMMARY
+            echo "- SSL/Certificate errors: HTTPS certificate issues" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+  notify-on-failure:
+    name: Notify on Validation Failure
+    runs-on: ubuntu-latest
+    needs: validate-urls
+    if: failure() && github.ref == 'refs/heads/main'
+    
+    steps:
+      - name: Notify about broken URLs
+        run: |
+          echo "🚨 URL validation failed on main branch"
+          echo "This means users may encounter broken links in the Dialogflow agent"
+          echo "Please review and fix the broken URLs as soon as possible"
