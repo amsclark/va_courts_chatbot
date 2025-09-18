@@ -39,7 +39,7 @@ jobs:
           credentials_json: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY_DEV }}
 
       - name: Run tests against DEV environment
-        run: node curl_intent_test.js
+        run: node curl_intent_test.js "${{ env.TEST_URL }}"
         env:
           TEST_ENVIRONMENT: "DEV"
 
