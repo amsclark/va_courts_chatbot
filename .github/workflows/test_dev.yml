@@ -14,7 +14,8 @@ on:
 
 env:
   GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT_DEV }}
-
+  TEST_URL: "c0f50550-3236-445a-bb5d-957c0e5e310d" 
+  
 jobs:
   test-dev:
     runs-on: ubuntu-latest
@@ -38,7 +39,7 @@ jobs:
           credentials_json: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY_DEV }}
 
       - name: Run tests against DEV environment
-        run: node curl_intent_test.js
+        run: node curl_intent_test.js "${{ env.TEST_URL }}"
         env:
           TEST_ENVIRONMENT: "DEV"
 
