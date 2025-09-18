@@ -93,6 +93,12 @@ This repository now has a complete DevOps pipeline that manages development and 
 - `displayName` is changed from `_DEV_JAMES` to `_PROD_JAMES`
 - This ensures production has the correct agent name
 
+**Secondary Key Preservation**:
+- Each environment has its own unique `secondaryKey` for security
+- During deployment, PROD's existing `secondaryKey` is preserved
+- DEV's `secondaryKey` is replaced with PROD's current key
+- This prevents overwriting PROD's environment-specific security keys
+
 ### 4. `test_prod.yml` - PROD Verification
 **Triggers**:
 - After successful PROD deployment
@@ -138,7 +144,13 @@ You need to add these secrets to your repository:
 - **During Deployment**: Automatically transformed to `_PROD_JAMES`
 - **In Production**: Agent will have correct `_PROD_JAMES` name
 
-This approach keeps the repository synchronized with DEV while ensuring PROD has the correct configuration.
+### Secondary Key Handling
+- **In Repository**: Contains DEV's `secondaryKey` value
+- **In PRs**: Will show DEV's key → this is normal and expected
+- **During Deployment**: PROD's existing key is preserved
+- **In Production**: Keeps its own environment-specific security key
+
+This approach keeps the repository synchronized with DEV while ensuring PROD has the correct configuration and security keys.
 
 ### Manual Operations
 - **Force export from DEV**: Run "Export from Dialogflow ES (DEV)" workflow manually
