@@ -1,0 +1,78 @@
+name: Test DEV Environment
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'intents/**'
+      - 'entities/**'
+      - 'agent.json'
+      - 'package.json'
+      - 'package-lock.json'
+  workflow_dispatch:
+
+env:
+  GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT_DEV }}
+
+jobs:
+  test-dev:
+    runs-on: ubuntu-latest
+    environment: development
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Authenticate with Google Cloud DEV
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY_DEV }}
+
+      - name: Run tests against DEV environment
+        run: node curl_intent_test.js
+        env:
+          TEST_ENVIRONMENT: "DEV"
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        with:
+          name: dev-test-results-${{ github.run_number }}
+          path: curl_results.txt
+          retention-days: 30
+
+      - name: Comment PR with test results
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let results = 'Test results not found';
+            try {
+              results = fs.readFileSync('curl_results.txt', 'utf8');
+            } catch (error) {
+              console.log('Could not read test results:', error.message);
+            }
+            
+            const comment = `## 🧪 DEV Environment Test Results
+            
+            \`\`\`
+            ${results}
+            \`\`\`
+            
+            *Tests run against DEV environment (\`${{ secrets.GOOGLE_CLOUD_PROJECT_DEV }}\`)*`;
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });

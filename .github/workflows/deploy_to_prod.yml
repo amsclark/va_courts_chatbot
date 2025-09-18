@@ -1,0 +1,122 @@
+name: Deploy to PROD
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'intents/**'
+      - 'entities/**'
+      - 'agent.json'
+      - 'package.json'
+      - 'package-lock.json'
+  workflow_dispatch:
+
+env:
+  GOOGLE_CLOUD_PROJECT: ${{ secrets.GOOGLE_CLOUD_PROJECT_PROD }}
+  DIALOGFLOW_LANGUAGE_CODE: 'en'
+
+jobs:
+  deploy-to-prod:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: |
+          npm install @google-cloud/dialogflow
+          npm install adm-zip
+
+      - name: Authenticate with Google Cloud PROD
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GOOGLE_CLOUD_SERVICE_ACCOUNT_KEY_PROD }}
+
+      - name: Create deployment package
+        run: |
+          # Create a clean directory structure for deployment
+          mkdir -p ./deployment_package
+          
+          # Copy only the agent files
+          if [ -d "./intents" ]; then
+            cp -r ./intents ./deployment_package/
+          fi
+          
+          if [ -d "./entities" ]; then
+            cp -r ./entities ./deployment_package/
+          fi
+          
+          if [ -f "./agent.json" ]; then
+            cp ./agent.json ./deployment_package/
+          fi
+          
+          if [ -f "./package.json" ]; then
+            cp ./package.json ./deployment_package/
+          fi
+
+      - name: Deploy to Dialogflow PROD
+        run: |
+          cat > deploy_agent.js << 'EOF'
+          const dialogflow = require('@google-cloud/dialogflow');
+          const AdmZip = require('adm-zip');
+          const fs = require('fs');
+          const path = require('path');
+
+          async function deployAgent() {
+            const agentsClient = new dialogflow.AgentsClient();
+            const projectPath = agentsClient.projectPath(process.env.GOOGLE_CLOUD_PROJECT);
+            
+            console.log('Deploying agent to PROD project:', process.env.GOOGLE_CLOUD_PROJECT);
+            
+            // Create zip file from deployment package
+            const zip = new AdmZip();
+            
+            // Add all files from deployment_package
+            const addFilesToZip = (dir, zipPath = '') => {
+              const files = fs.readdirSync(dir);
+              files.forEach(file => {
+                const filePath = path.join(dir, file);
+                const stat = fs.statSync(filePath);
+                const zipFilePath = zipPath ? path.join(zipPath, file) : file;
+                
+                if (stat.isDirectory()) {
+                  addFilesToZip(filePath, zipFilePath);
+                } else {
+                  zip.addLocalFile(filePath, zipPath, file);
+                }
+              });
+            };
+            
+            addFilesToZip('./deployment_package');
+            
+            const zipBuffer = zip.toBuffer();
+            console.log('Created deployment zip, size:', zipBuffer.length, 'bytes');
+            
+            // Import agent
+            const [operation] = await agentsClient.importAgent({
+              parent: projectPath,
+              agentContent: zipBuffer
+            });
+            
+            const [response] = await operation.promise();
+            console.log('Agent deployed successfully to PROD');
+            return true;
+          }
+
+          deployAgent().catch(console.error);
+          EOF
+          
+          node deploy_agent.js
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -rf ./deployment_package
+          rm -f deploy_agent.js
