@@ -55,6 +55,17 @@ jobs:
           
           if [ -f "./agent.json" ]; then
             cp ./agent.json ./deployment_package/
+            
+            # Transform agent.json for PROD environment
+            # Change displayName from _DEV_JAMES to _PROD_JAMES
+            sed -i 's/"displayName": "_DEV_JAMES"/"displayName": "_PROD_JAMES"/g' ./deployment_package/agent.json
+            
+            # Also handle any description references
+            sed -i 's/_DEV_JAMES/_PROD_JAMES/g' ./deployment_package/agent.json
+            
+            echo "Transformed agent.json for PROD deployment:"
+            echo "- Changed displayName from _DEV_JAMES to _PROD_JAMES"
+            grep -n "displayName\|_PROD_JAMES" ./deployment_package/agent.json || true
           fi
           
           if [ -f "./package.json" ]; then
@@ -98,6 +109,17 @@ jobs:
             
             const zipBuffer = zip.toBuffer();
             console.log('Created deployment zip, size:', zipBuffer.length, 'bytes');
+            
+            // Verify agent transformation
+            if (fs.existsSync('./deployment_package/agent.json')) {
+              const agentConfig = JSON.parse(fs.readFileSync('./deployment_package/agent.json', 'utf8'));
+              console.log('Agent displayName in deployment package:', agentConfig.displayName);
+              if (agentConfig.displayName !== '_PROD_JAMES') {
+                console.warn('WARNING: Agent displayName is not _PROD_JAMES:', agentConfig.displayName);
+              } else {
+                console.log('✅ Agent name correctly set for PROD deployment');
+              }
+            }
             
             // Import agent
             const [operation] = await agentsClient.importAgent({
