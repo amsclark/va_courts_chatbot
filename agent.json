@@ -1,10 +1,10 @@
 {
-  "description": "Chatbot for Virginia Courts Self-Help Center providing legal information and resource guidance for Virginia residents",
+  "description": "",
   "language": "en",
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
-  "displayName": "_PROD_JAMES",
+  "displayName": "_DEV_JAMES",
   "disableInteractionLogs": false,
   "disableStackdriverLogs": false,
   "googleAssistant": {
@@ -30,7 +30,7 @@
     "autoPreviewEnabled": false,
     "isDeviceAgent": false
   },
-  "defaultTimezone": "America/New_York",
+  "defaultTimezone": "America/Barbados",
   "webhook": {
     "url": "",
     "username": "",
@@ -42,19 +42,14 @@
   },
   "isPrivate": true,
   "mlMinConfidence": 0.3,
-  "supportedLanguages": [
-    "en-au",
-    "en-ca",
-    "en-gb",
-    "en-us"
-  ],
+  "supportedLanguages": [],
   "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2beta1",
-  "secondaryKey": "60ed9faa94e644159a1289988ecb5dfc",
+  "secondaryKey": "d11d0d22834f4c4f9cb05a2c52026093",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
   "knowledgeServiceConfidenceAdjustment": 0.0,
   "dialogBuilderMode": false,
   "baseActionPackagesUrl": "",
-  "enableSpellCorrection": true
+  "enableSpellCorrection": false
 }

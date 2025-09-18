@@ -25,59 +25,7 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-gb",
-          "speech": [
-            "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
-            "I\u0027m doing well, thank you.",
-            "I\u0027m well, thank you for asking."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-au",
-          "speech": [
-            "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
-            "I\u0027m doing well, thank you.",
-            "I\u0027m well, thank you for asking."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en-in",
-          "speech": [
-            "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
-            "I\u0027m doing well, thank you.",
-            "I\u0027m well, thank you for asking."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Doing great, thanks.",
-            "I\u0027m doing very well. Thanks!",
-            "I\u0027m doing well, thank you.",
-            "I\u0027m well, thank you for asking."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-ca",
           "speech": [
             "Doing great, thanks.",
             "I\u0027m doing very well. Thanks!",
