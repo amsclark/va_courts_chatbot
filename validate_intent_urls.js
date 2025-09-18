@@ -8,9 +8,10 @@ const { URL } = require('url');
 
 // Configuration
 const INTENTS_DIR = './intents';
-const TIMEOUT_MS = 10000;
-const MAX_CONCURRENT = 2; // Reduced to be more respectful to servers
-const BATCH_DELAY_MS = 2000; // Increased delay between batches
+const TIMEOUT_MS = 15000; // Increased timeout
+const MAX_CONCURRENT = 1; // Only 1 request at a time to avoid rate limiting
+const BATCH_DELAY_MS = 5000; // 5 second delay between each request
+const REQUEST_DELAY_MS = 3000; // Additional 3 second delay after each individual request
 const USER_AGENT = 'Mozilla/5.0 (compatible; URL-Validator/1.0; +https://github.com/amsclark/va_courts_chatbot)';
 
 // Colors for console output
@@ -132,21 +133,40 @@ function checkUrl(url) {
 }
 
 /**
- * Process URLs in batches to avoid overwhelming servers
+ * Process URLs sequentially with significant delays to avoid rate limiting
  */
 async function checkUrlsBatch(urls) {
     const results = [];
     const urlArray = Array.from(urls);
     
-    for (let i = 0; i < urlArray.length; i += MAX_CONCURRENT) {
-        const batch = urlArray.slice(i, i + MAX_CONCURRENT);
-        const batchPromises = batch.map(url => checkUrl(url));
-        const batchResults = await Promise.all(batchPromises);
-        results.push(...batchResults);
+    console.log(`${colors.yellow}⏱️  Processing ${urlArray.length} URLs sequentially with 5-8 second delays to avoid rate limiting...${colors.reset}`);
+    
+    for (let i = 0; i < urlArray.length; i++) {
+        const url = urlArray[i];
+        const progress = `${i + 1}/${urlArray.length}`;
         
-        // Add delay between batches to be respectful
-        if (i + MAX_CONCURRENT < urlArray.length) {
-            await new Promise(resolve => setTimeout(resolve, BATCH_DELAY_MS));
+        console.log(`${colors.cyan}🔗 [${progress}] Checking: ${url.substring(0, 60)}${url.length > 60 ? '...' : ''}${colors.reset}`);
+        
+        // Check the URL
+        const result = await checkUrl(url);
+        results.push(result);
+        
+        // Show immediate result
+        if (result.success) {
+            if (result.redirect) {
+                console.log(`   ${colors.yellow}🔄 REDIRECT (${result.status})${colors.reset}`);
+            } else {
+                console.log(`   ${colors.green}✅ OK (${result.status})${colors.reset}`);
+            }
+        } else {
+            console.log(`   ${colors.red}❌ FAILED (${result.status || 'ERROR'})${colors.reset}`);
+        }
+        
+        // Add significant delay between each request (except for the last one)
+        if (i < urlArray.length - 1) {
+            const delay = BATCH_DELAY_MS + Math.random() * REQUEST_DELAY_MS; // 5-8 second random delay
+            console.log(`   ${colors.blue}⏳ Waiting ${Math.round(delay/1000)}s before next request...${colors.reset}`);
+            await new Promise(resolve => setTimeout(resolve, delay));
         }
     }
     
@@ -210,6 +230,10 @@ async function main() {
     
     console.log();
     console.log(`${colors.cyan}🌐 Found ${allUrls.size} unique URLs to validate${colors.reset}`);
+    
+    // Calculate estimated time
+    const estimatedTimeMinutes = Math.ceil((allUrls.size * (BATCH_DELAY_MS + REQUEST_DELAY_MS/2)) / 60000);
+    console.log(`${colors.yellow}⏱️  Estimated completion time: ~${estimatedTimeMinutes} minutes (slow processing to avoid rate limiting)${colors.reset}`);
     console.log();
     
     // Check all URLs
