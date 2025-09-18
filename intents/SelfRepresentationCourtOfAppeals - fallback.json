@@ -22,16 +22,6 @@
             "I\u0027m not sure I understand. Would you like me to provide information about self-representation in the Virginia Court of Appeals, or do you have other questions I can help with?"
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "I\u0027m not sure I understand. Would you like me to provide information about self-representation in the Virginia Court of Appeals, or do you have other questions I can help with?"
-          ],
-          "condition": ""
         }
       ],
       "speech": []

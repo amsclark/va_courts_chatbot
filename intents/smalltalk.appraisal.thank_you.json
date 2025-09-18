@@ -20,17 +20,6 @@
             "It\u0027s my pleasure to help."
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Anytime. That\u0027s what I\u0027m here for.",
-            "It\u0027s my pleasure to help."
-          ],
-          "condition": ""
         }
       ],
       "speech": []

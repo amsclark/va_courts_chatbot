@@ -46,40 +46,6 @@
           "textToSpeech": "",
           "lang": "en",
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Sorry, I don\u0027t understand.  Family law generally deals with things like Adoption, Child Custody, Child Support, Divorce, Abuse and Neglect, Visitation, Spousal Support, Paternity, and other related subject matter.  Did I correctly identify your issues as related to Family Law? Please click either \u0027yes\u0027 or \u0027no\u0027 below."
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "type": "chips",
-                  "options": [
-                    {
-                      "text": "Yes"
-                    },
-                    {
-                      "text": "No"
-                    }
-                  ]
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en-us",
-          "condition": ""
         }
       ],
       "speech": []

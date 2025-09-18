@@ -26,18 +26,6 @@
             "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"\n\nFor example, you can ask me \"What are the hours?\" and I will understand, but if you say \"My landlord is trying to evict me. I am so glad your services are free. What hours are you open?\" I may get confused and not know what to say.\n\nI will try my best to help!",
-            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way? I understand the best when people ask me short questions or tell me one thing at a time instead of \"the whole story.\"",
-            "Hmmm....I\u0027m not sure I understand. I need a little help sometimes. Can you say it in a different way?"
-          ],
-          "condition": ""
         }
       ],
       "speech": []

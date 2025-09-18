@@ -23,16 +23,6 @@
             "No problem! If you have any other questions about legal matters, feel free to ask."
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "No problem! If you have any other questions about legal matters, feel free to ask."
-          ],
-          "condition": ""
         }
       ],
       "speech": []

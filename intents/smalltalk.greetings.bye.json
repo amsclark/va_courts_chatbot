@@ -19,16 +19,6 @@
             "Goodbye."
           ],
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Goodbye."
-          ],
-          "condition": ""
         }
       ],
       "speech": []

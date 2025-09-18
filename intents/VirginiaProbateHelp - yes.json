@@ -72,65 +72,6 @@
           "textToSpeech": "",
           "lang": "en",
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Ok, I think I can help!",
-            "Okay, I think this will help!",
-            "Great, I think I can help you.",
-            "See if this helps!",
-            "Take a look at this below. I think it may help.",
-            "Perfect, I think I can help!"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "type": "description",
-                  "title": "",
-                  "text": [
-                    "Here are specific resources for probate matters in Virginia, including step-by-step information and forms."
-                  ]
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "text": "Probate in Virginia",
-                  "link": "https://selfhelp.vacourts.gov/node/20/probate-virginia.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "text": "Probate Forms",
-                  "link": "https://selfhelp.vacourts.gov/node/37/probate-forms.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en-us",
-          "condition": ""
         }
       ],
       "speech": []

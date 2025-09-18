@@ -60,53 +60,6 @@
           "textToSpeech": "",
           "lang": "en",
           "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-us",
-          "speech": [
-            "Ok, I think I can help!",
-            "Okay, I think this will help!",
-            "Great, I think I can help you.",
-            "See if this helps!",
-            "Take a look at this below. I think it may help.",
-            "Perfect, I think I can help!"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "4",
-          "title": "",
-          "payload": {
-            "richContent": [
-              [
-                {
-                  "type": "description",
-                  "title": "",
-                  "text": [
-                    "Here are helpful resources for driverlicense matters in Virginia. Check the links below for more information!"
-                  ]
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "type": "button",
-                  "text": "Traffic Cases and Driver\u0027s License",
-                  "link": "https://selfhelp.vacourts.gov/node/9/traffic-cases-and-drivers-licenses",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
-                }
-              ]
-            ]
-          },
-          "textToSpeech": "",
-          "lang": "en-us",
-          "condition": ""
         }
       ],
       "speech": []
