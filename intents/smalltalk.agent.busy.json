@@ -14,19 +14,6 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-gb",
-          "speech": [
-            "I\u0027m available to help you with legal information. How can I assist you?",
-            "I\u0027m here to help. What legal information can I provide for you?",
-            "I\u0027m ready to assist you. What legal questions do you have?",
-            "I\u0027m available to provide legal information. How may I help you today?"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "I\u0027m available to help you with legal information. How can I assist you?",
@@ -40,46 +27,7 @@
           "type": "0",
           "title": "",
           "textToSpeech": "",
-          "lang": "en-au",
-          "speech": [
-            "I\u0027m available to help you with legal information. How can I assist you?",
-            "I\u0027m here to help. What legal information can I provide for you?",
-            "I\u0027m ready to assist you. What legal questions do you have?",
-            "I\u0027m available to provide legal information. How may I help you today?"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-in",
-          "speech": [
-            "I\u0027m available to help you with legal information. How can I assist you?",
-            "I\u0027m here to help. What legal information can I provide for you?",
-            "I\u0027m ready to assist you. What legal questions do you have?",
-            "I\u0027m available to provide legal information. How may I help you today?"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
           "lang": "en-us",
-          "speech": [
-            "I\u0027m available to help you with legal information. How can I assist you?",
-            "I\u0027m here to help. What legal information can I provide for you?",
-            "I\u0027m ready to assist you. What legal questions do you have?",
-            "I\u0027m available to provide legal information. How may I help you today?"
-          ],
-          "condition": ""
-        },
-        {
-          "type": "0",
-          "title": "",
-          "textToSpeech": "",
-          "lang": "en-ca",
           "speech": [
             "I\u0027m available to help you with legal information. How can I assist you?",
             "I\u0027m here to help. What legal information can I provide for you?",
