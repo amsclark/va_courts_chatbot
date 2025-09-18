@@ -72,6 +72,70 @@ jobs:
             cp ./package.json ./deployment_package/
           fi
 
+      - name: Get current PROD agent configuration
+        run: |
+          cat > get_prod_agent.js << 'EOF'
+          const dialogflow = require('@google-cloud/dialogflow');
+          const fs = require('fs');
+
+          async function getCurrentProdAgent() {
+            const agentsClient = new dialogflow.AgentsClient();
+            const projectPath = agentsClient.projectPath(process.env.GOOGLE_CLOUD_PROJECT);
+            
+            console.log('Getting current PROD agent configuration...');
+            
+            try {
+              const [agent] = await agentsClient.getAgent({ parent: projectPath });
+              
+              // Extract the current secondaryKey from PROD
+              const currentSecondaryKey = agent.secondaryKey;
+              console.log('Current PROD secondaryKey:', currentSecondaryKey ? 'exists' : 'none');
+              
+              // Save it to a file so we can use it in the next step
+              if (currentSecondaryKey) {
+                fs.writeFileSync('prod_secondary_key.txt', currentSecondaryKey);
+                console.log('Saved current PROD secondaryKey for preservation');
+              }
+              
+              return true;
+            } catch (error) {
+              console.log('Could not get current PROD agent (this is OK for new environments):', error.message);
+              return false;
+            }
+          }
+
+          getCurrentProdAgent().catch(console.error);
+          EOF
+          
+          node get_prod_agent.js
+
+      - name: Preserve PROD secondary key
+        run: |
+          if [ -f "prod_secondary_key.txt" ] && [ -f "./deployment_package/agent.json" ]; then
+            PROD_SECONDARY_KEY=$(cat prod_secondary_key.txt)
+            echo "Preserving PROD secondaryKey: ${PROD_SECONDARY_KEY:0:8}..."
+            
+            # Replace the DEV secondaryKey with PROD's existing one
+            # Use a more robust approach with Node.js
+            cat > preserve_key.js << 'EOF'
+            const fs = require('fs');
+            
+            const agentConfig = JSON.parse(fs.readFileSync('./deployment_package/agent.json', 'utf8'));
+            const prodSecondaryKey = fs.readFileSync('prod_secondary_key.txt', 'utf8').trim();
+            
+            console.log('Original secondaryKey:', agentConfig.secondaryKey ? agentConfig.secondaryKey.substring(0, 8) + '...' : 'none');
+            agentConfig.secondaryKey = prodSecondaryKey;
+            console.log('Preserved secondaryKey:', agentConfig.secondaryKey.substring(0, 8) + '...');
+            
+            fs.writeFileSync('./deployment_package/agent.json', JSON.stringify(agentConfig, null, 2));
+            console.log('✅ PROD secondaryKey preserved in deployment package');
+            EOF
+            
+            node preserve_key.js
+          else
+            echo "No existing PROD secondaryKey found - will use new key from DEV"
+          fi
+
       - name: Deploy to Dialogflow PROD
         run: |
           cat > deploy_agent.js << 'EOF'
@@ -114,10 +178,18 @@ jobs:
             if (fs.existsSync('./deployment_package/agent.json')) {
               const agentConfig = JSON.parse(fs.readFileSync('./deployment_package/agent.json', 'utf8'));
               console.log('Agent displayName in deployment package:', agentConfig.displayName);
+              console.log('Agent secondaryKey in deployment package:', agentConfig.secondaryKey ? agentConfig.secondaryKey.substring(0, 8) + '...' : 'none');
+              
               if (agentConfig.displayName !== '_PROD_JAMES') {
                 console.warn('WARNING: Agent displayName is not _PROD_JAMES:', agentConfig.displayName);
               } else {
                 console.log('✅ Agent name correctly set for PROD deployment');
+              }
+              
+              if (agentConfig.secondaryKey) {
+                console.log('✅ SecondaryKey present in deployment package');
+              } else {
+                console.warn('WARNING: No secondaryKey in deployment package');
               }
             }
             
@@ -142,3 +214,6 @@ jobs:
         run: |
           rm -rf ./deployment_package
           rm -f deploy_agent.js
+          rm -f get_prod_agent.js
+          rm -f preserve_key.js
+          rm -f prod_secondary_key.txt

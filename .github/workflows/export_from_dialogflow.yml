@@ -185,6 +185,7 @@ jobs:
             
             ### Environment Transformation:
             - `displayName`: `_DEV_JAMES` → `_PROD_JAMES` (automatic during deployment)
+            - `secondaryKey`: DEV key → PROD key preserved (PROD key will not be overwritten)
             - All other configurations remain the same
             
             ### Next Steps:
