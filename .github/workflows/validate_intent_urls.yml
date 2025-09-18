@@ -1,29 +1,7 @@
 name: Validate Intent URLs
 
 on:
-  # Run on pushes to main that affect agent files
-  push:
-    branches: [ main ]
-    paths:
-      - 'intents/**/*.json'
-      - 'entities/**/*.json'
-      - 'agent.json'
-      - 'package.json'
-      - 'validate_intent_urls.js'
-      - '.github/workflows/validate_intent_urls.yml'
-  
-  # Run on pull requests that affect agent files
-  pull_request:
-    branches: [ main ]
-    paths:
-      - 'intents/**/*.json'
-      - 'entities/**/*.json'
-      - 'agent.json'
-      - 'package.json'
-      - 'validate_intent_urls.js'
-      - '.github/workflows/validate_intent_urls.yml'
-  
-  # Allow manual triggering
+  # Allow manual triggering only
   workflow_dispatch:
     inputs:
       timeout:
