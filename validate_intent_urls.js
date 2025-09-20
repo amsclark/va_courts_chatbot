@@ -10,8 +10,8 @@ const { URL } = require('url');
 const INTENTS_DIR = './intents';
 const TIMEOUT_MS = 15000; // Increased timeout
 const MAX_CONCURRENT = 1; // Only 1 request at a time to avoid rate limiting
-const BATCH_DELAY_MS = 5000; // 5 second delay between each request
-const REQUEST_DELAY_MS = 3000; // Additional 3 second delay after each individual request
+const BATCH_DELAY_MS = 60000; // 5 second delay between each request
+const REQUEST_DELAY_MS = 15000; // Additional 3 second delay after each individual request
 const USER_AGENT = 'Mozilla/5.0 (compatible; URL-Validator/1.0; +https://github.com/amsclark/va_courts_chatbot)';
 
 // Colors for console output
