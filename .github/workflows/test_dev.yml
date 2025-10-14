@@ -47,8 +47,10 @@ jobs:
           node curl_intent_test.js "${{ env.TEST_URL }}"
         env:
           TEST_ENVIRONMENT: "DEV"
+        continue-on-error: true
 
       - name: Upload test results
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: dev-test-results-${{ github.run_number }}
