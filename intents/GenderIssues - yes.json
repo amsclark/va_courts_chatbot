@@ -36,28 +36,28 @@
             "richContent": [
               [
                 {
-                  "type": "description",
                   "title": "",
                   "text": [
-                    "Here are helpful resources for genderissues matters in Virginia. Check the links below for more information!"
-                  ]
+                    "Here are helpful resources for gender issues matters in Virginia. Check the links below for more information!"
+                  ],
+                  "type": "description"
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
-                  "text": "Change of Sex Forms",
-                  "link": "https://selfhelp.vacourts.gov/node/44/change-sex-forms",
                   "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
+                  "link": "https://selfhelp.vacourts.gov/node/44/change-sex-forms",
+                  "text": "Change of Sex Forms"
                 },
                 {
+                  "link": "https://selfhelp.vacourts.gov/node/42/change-name-forms",
                   "type": "button",
                   "text": "Change of Name Forms",
-                  "link": "https://selfhelp.vacourts.gov/node/42/change-name-forms",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
