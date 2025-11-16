@@ -36,18 +36,18 @@
             "richContent": [
               [
                 {
-                  "type": "description",
-                  "title": "",
                   "text": [
                     "Here are resources for small claims court procedures in Virginia, including finding the right court and necessary forms."
-                  ]
+                  ],
+                  "title": "",
+                  "type": "description"
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "button",
                   "text": "Find Your Court",
+                  "type": "button",
                   "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
                   "icon": {
                     "type": "info",
@@ -58,21 +58,33 @@
                   "type": "divider"
                 },
                 {
+                  "link": "https://selfhelp.vacourts.gov/node/52/district-court-forms.html",
                   "type": "button",
                   "text": "District Court Forms",
-                  "link": "https://selfhelp.vacourts.gov/node/52/district-court-forms.html",
                   "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
+                    "color": "#00CC8D",
+                    "type": "info"
                   }
                 },
                 {
                   "type": "divider"
                 },
                 {
+                  "text": "Small Claims Topic",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "link": "https://selfhelp.vacourts.gov/node/11/small-claims",
+                  "type": "button"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
                   "type": "button",
                   "text": "Frequently Asked Questions",
-                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"

@@ -24,12 +24,36 @@
             "It sounds like you are having issues relating to filing fees and waivers. Is this correct?"
           ],
           "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "type": "chips",
+                  "options": [
+                    {
+                      "text": "Yes"
+                    },
+                    {
+                      "text": "No"
+                    }
+                  ]
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
         }
       ],
       "speech": []
     }
   ],
-  "priority": 999999,
+  "priority": 1000000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

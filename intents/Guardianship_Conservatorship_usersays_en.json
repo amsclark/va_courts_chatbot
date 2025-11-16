@@ -1,5 +1,18 @@
 [
   {
+    "id": "647b44e3-2bb0-4aca-9706-0b267ae84cbf",
+    "data": [
+      {
+        "text": "conservator",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "2e5bafc7-acf8-4180-979b-9f40bf277738",
     "data": [
       {
@@ -43,19 +56,6 @@
     "data": [
       {
         "text": "Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person?",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "647b44e3-2bb0-4aca-9706-0b267ae84cbf",
-    "data": [
-      {
-        "text": "conservator",
         "userDefined": false
       }
     ],

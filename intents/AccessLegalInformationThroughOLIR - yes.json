@@ -36,23 +36,23 @@
             "richContent": [
               [
                 {
+                  "type": "description",
                   "text": [
-                    "Here are helpful resources related to accessing the Online Legal Information Resources system Virginia. Click the link below for more information!"
+                    "Here are helpful resources related to accessing the Virginia Legal Information Resources Online system . Click the link below for more information!"
                   ],
-                  "title": "",
-                  "type": "description"
+                  "title": ""
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "button",
+                  "text": "Legal Information Resources Online",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
                   },
                   "link": "https://selfhelp.vacourts.gov/node/67/online-legal-information-resources",
-                  "text": "Online Legal Information Resources"
+                  "type": "button"
                 }
               ]
             ]
