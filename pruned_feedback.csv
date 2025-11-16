@@ -1,206 +1,431 @@
 Intent,Test Prompt
-Abuse,My boyfriend is beating me up. What can I do?
-Abuse,What legal help can I get to stop my wife from hitting our children?
-Abuse,My caretaker is not feeding me. What can I do?
+Abuse,Boyfriend hit me
+Abuse,Domestic violence
+Abuse,Girlfriend hit me
+Abuse,How can I protect my myself from a violent girlfriend who is out to get me?
+Abuse,How can stop my wife from hitting our kids?
+Abuse,How do I protect myself from a partner who is trying to hurt me?
 Abuse,How do I stop a stalker?
+Abuse,How do I stop my ex from stalking me?
+Abuse,Husband hit me
+Abuse,My boyfriend chokes me sometimes. How do I make her stop?
+Abuse,My boyfriend is beating me up. What can I do?
+Abuse,My caretaker is not feeding me. What can I do?
+Abuse,"My ex-boyfriend gives our teenage son cigarettes. I've asked him to stop, but he won't"
 Abuse,My friend was stabbed by her boyfriend. What can she do?
-Abuse,Where can I find information on how to stop my girlfriend from hitting me?
+Abuse,My friend was stabbed by her boyfriend. What can she do?
+Abuse,My girlfriend is beating me up. What Can I do?
+Abuse,My girlfriend stabbed me. What can I do?
 Abuse,My partner chokes me sometimes. How do I make him stop?
 Abuse,My partner is violent. What can I do to protect myself?
+Abuse,My partner is violent. What can I do to protect myself?
+Abuse,My son is not feeding me?
+Abuse,Spouse hits me
+Abuse,What can I do to get my husband from hitting our kids?
+Abuse,What can I do to get my husband to stop hitting our kids?
+Abuse,What can I do to stop my husband from hitting our kids?
+Abuse,What legal help can I get to stop my wife from hitting our children?
+Abuse,What legal help can I get to to stop my wife from hitting our kids?
+Abuse,Where can I find information domestic violence?
+Abuse,Where can I find information on how to stop my girlfriend from hitting me?
+Abuse,Where can I find information on how to stop my husband from hitting me?
 Abuse,Where can I find information on intimate partner violence?
-Abuse,How do I protect myself from a partner who is trying to hurt me?
+Abuse,Wife hit me
+AccessLegalInformationThroughOLIR,Legal research?
+AccessLegalInformationThroughOLIR,Researching the law?
+AccessLegalInformationThroughOLIR,Where can I get legal information?
+AccessLegalInformationThroughOLIR,Where can I go to get legal information?
 AccessLegalInformationThroughOLIR,Where can I go to get legal information?
 AccessLegalInformationThroughOLIR,Where can I go to research legal issues?
+AccessLegalInformationThroughOLIR,Where can I go to research legal issues?
 AccessLegalInformationThroughOLIR,Where can I go to research the law?
+AccessLegalInformationThroughOLIR,Where Can I learn about Virginia Law?
 AccessLegalInformationThroughOLIR,Where can I read Virginia law?
 AccessLegalInformationThroughOLIR,Where can I research the law?
-ChildSupport,How do I make my kids' father pay for them?
-ChildSupport,How do I make my ex-husband pay child support?
-ChildSupport,I want my ex to pay for his kids. What can I do?
-ChildSupport,How do I get money for my kids from their mom?
-ChildSupport,How do I get support for my kids?
-ChildSupport,How do I get support for my children?
-ChildSupport,How do I get money from my baby daddy for his kids?
-ChildSupport,Does my ex-wife owe money for her children?
-ChildSupport,Does my ex have to cover expenses for his kids?
+AccessLegalInformationThroughOLIR,Where can I research the law?
+ChildSupport,A friend got me pregnant. Will they have to pay for the kids baby clothes?
+ChildSupport,Baby daddy 
+ChildSupport,Baby daddy not paying up
+ChildSupport,Baby momma not paying me
 ChildSupport,Does an absent parent need to provide money for a son or daughter?
-ConservatorOfThePeace,What is a conservator?
+ChildSupport,Does an absent parent need to provide money for a son or daughter?
+ChildSupport,Does my ex have to cover expenses for his kids?
+ChildSupport,Does my ex need to cover expenses for our kids?
+ChildSupport,Does my ex-wife owe money for her children?
+ChildSupport,Does my ex-wife owe money for her children?
+ChildSupport,Ex-boyfriend won't pay for my son's clothes
+ChildSupport,How do I get money for my kids from their mom?
+ChildSupport,How do I get money for my kids?
+ChildSupport,How do I get money from my baby daddy for his kids?
+ChildSupport,How do I get support for my children?
+ChildSupport,How do I get support for my kids?
+ChildSupport,How do I make my ex-husband pay child support?
+ChildSupport,How do I make my ex-husband pay child support?
+ChildSupport,How do I make my kids' father pay for them?
+ChildSupport,How do I make my kids' father pay for them?
+ChildSupport,"I had a one night stand with a friend, and now I'm pregnant. Does he have to pay anything?"
+ChildSupport,I want my ex to pay for her kids. How can I do that?
+ChildSupport,I want my ex to pay for his kids. What can I do?
+ChildSupport,I'm pregnant. Will the father have to pay me?
+ChildSupport,My ex is pregnant. Will I have to pay her?
+ChildSupport,Will I have to pay my ex if he has full custody?
+ConservatorOfThePeace,What does a conservator do?
+ConservatorOfThePeace,What is a conservator
 ConservatorOfThePeace,What is a conservator of the peace?
+ConservatorOfThePeace,What is a conservator?
 ConservatorOfThePeace,What is a person called who is appointed by the court to help someone?
-Guardianship_Conservatorship,Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person?
-Guardianship_Conservatorship,Can the court appoint someone to help manage the affairs of a mentally handicapped person?
-Guardianship_Conservatorship,Who can manage the affairs of an incapacitated person?
-CourtGlossaryInfo,Where can I find a glossary of words used in court?
-CourtGlossaryInfo,How do I research what legal words mean?
-CourtGlossaryInfo,How do I look up what legal words mean?
-CourtGlossaryInfo,How do I search terms used in court?
-CourtGlossaryInfo,How do I lookup words used in court?
-CourtGlossaryInfo,Is there a way to search the meaning of law words?
+ConservatorOfThePeace,What is a person called who is appointed by the court to help someone?
+ConservatorOfThePeace,Who needs a conservator?
+CourtGlossaryInfo,A judge asked me to file a bill of particulars. What does that mean?
+CourtGlossaryInfo,A judge asked me to file a bill of particulars. What is that?
+CourtGlossaryInfo,A judge said something about a bill of particular. Where can I find what that means?
+CourtGlossaryInfo,A judge used the term unlawful detainer in court. What does that mean?
 CourtGlossaryInfo,glossary
+CourtGlossaryInfo,How do I figure out the meaning of a word used by a judge?
+CourtGlossaryInfo,How do I look up what legal words mean?
+CourtGlossaryInfo,How do I lookup words used in court?
+CourtGlossaryInfo,How do I research what legal words mean?
+CourtGlossaryInfo,How do I search terms used in court?
+CourtGlossaryInfo,Is there a way to search the meaning of law words?
+CourtGlossaryInfo,List of words
+CourtGlossaryInfo,Where can I find a glossary of words used in court?
+CourtGlossaryInfo,Where can I find a list of words used in court?
+CourtGlossaryInfo,Where can I find the meaning of a legal word?
+CourtGlossaryInfo,Where can I look the meaning of a word I found in a statute?
+CourtGlossaryInfo,Where do I lookup something a judge told me?
+CourtGlossaryInfo,Where do I lookup the meaning of something a judge told me?
+CourthouseDevicePolicy,Are phones allowed in court?
 CourthouseDevicePolicy,Can I bring my cell phone into court?
+CourthouseDevicePolicy,Can I bring my cellphone to court?
+CourthouseDevicePolicy,Can I bring my laptop to trial?
 CourthouseDevicePolicy,Can I bring my smart watch into court?
+CourthouseDevicePolicy,Can I have my kindle in court?
+CourthouseDevicePolicy,Can I have my laptop in the courtroom?
+CourthouseDevicePolicy,Can I show a judge text messages from my phone?
+CourthouseDevicePolicy,Can I wear smart glasses in court?
 CourthouseDevicePolicy,What devices can I have in court?
 CourthouseDevicePolicy,What electronics can I bring to my trial?
-CourthouseDevicePolicy,Are phones allowed in court?
-CourthouseDevicePolicy,Can I bring my laptop to trial?
-CourthouseDevicePolicy,Can I have my kindle in court?
-Custody,What if my ex moves away with my kids?
-FamilyLaw,How do I change my visitation days?
-FamilyLaw,My ex is telling lies about me to our children. What can I do?
+CourthouseDevicePolicy,Will the court hold onto my cell phone for me? 
+Custody,Ex won't give me my kid back
+Custody,How do I change my visitation schedule with my ex?
+Custody,"I have a fifty-fifty custody split with my ex, who is moving out of Virginia. I want my kids to stay here so they don't have to change schools."
 Custody,I lost my job. Do I have to pay child support?
-Custody,My son-in-law is mean to his kids. Can I as a grandparent get custody?
 Custody,I'm getting remarried and want my new husband to also have legal custody. What do I need to do?
+Custody,Im getting married and I want my new husband to custody of my kids. What can I do?
 Custody,"My ex and I have a fifty-fifty custody agreement. She wants to move to Nashville for a new job. If she moves, I want the kids to have more time with me and in their regular school. Can our previous agreement be changed so that I get the kids more?"
+Custody,My ex is telling our kids lies about me. What can I do stop that?
 Custody,"My ex-husband smokes pot while around our teenage son. I've asked him to not do that, but according to my son, he still smokes. What should I do?"
-Divorce,how do I separate from my spouse?
+Custody,"My ex-husband smokes pot while around our teenage son. I've asked him to not do that, but according to my son, he still smokes. What should I do?"
+Custody,My ex-wife hits our son. How can I get full custody?
+Custody,My son-in-law is mean to his kids. Can I as a grandparent get custody?
+Custody,My son-in-law is mean to his kids. Can I as a grandparent get custody?
+Custody,What do I do if my wife took the kids and left?
+Custody,What if my ex moves away with my kids?
+Default Fallback Intent,N/A
+DefaultWelcomeIntent,N/A
 Divorce,Can I just get an annulment instead of a divorce?
-Divorce,I live in Virginia but my husband is stationed in Guam. Where can I file for divorce?
+Divorce,Can I just get an annulment instead of a divorce?
 Divorce,Do you have to get a divorce in the same state you got married?
 Divorce,Do you have to have a separation agreement before you get a divorce?
+Divorce,How can I stop being married to my spouse?
+Divorce,How do I leave my husband?
+Divorce,How do I leave my wife?
+Divorce,how do I separate from my spouse?
+Divorce,How do I separate from my spouse?
+Divorce,I live in Virginia but my husband is stationed in Guam. Where can I file for divorce?
+Divorce,"I live in Virginia, but my husband is stationed oversees. How do I file for divorce?"
 Divorce,I'm trying to file for divorce  but don't know where my wife is. Can I still get a divorce?
-DriverLicense,What happens if I drive with a suspended license?
-DriverLicense,I moved. How long do I have to update my license?
-DriverLicense,What is reckless driving?
-DriverLicense,How do I get a learner's permit?
-DriverLicense,I got speeding tickets a long time ago and the cops said my license is suspended. Where can I go to pay my tickets so I can get my license back?
+Divorce,My wife hits me? How can I leave him?
+DriverLicense,"After moving, how long do I have to update my license?"
+DriverLicense,Do I have to get RealID?
 DriverLicense,Do I have to have a Virginia license to buy a car and get its title?
+DriverLicense,Do I have to have a Virginia license to buy a car and get its title?
+DriverLicense,Do I have to update my license to Real ID?
+DriverLicense,Do I have to update to Real ID?
+DriverLicense,How do I get a learner's permit?
+DriverLicense,How do I get my learners permit?
+DriverLicense,I got a speeding ticket.
+DriverLicense,I got speeding tickets a long time ago and the cops said my license is suspended. Where can I go to pay my tickets so I can get my license back?
+DriverLicense,I moved. How long do I have to update my license?
+DriverLicense,My license got suspended because of unpaid tickets. Where can I go and pay my tickets off?
+DriverLicense,What happens if I drive with a suspended license?
+DriverLicense,What happens if I drive with a suspended license?
+DriverLicense,What is reckless driving?
 DriverLicense,Why do I have to get a Real ID instead of my regular license?
-Expungement,What is an expungement?
-Expungement,How do I get my criminal record cleared?
-Expungement,Does it cost money to clear my criminal record?
-Expungement,Who can clear my criminal record?
-Expungement,Where do I get forms to get my record expunged?
+Expungement,Can I clear my criminal history?
 Expungement,Do I need to get misdemeanors expunged to get a job?
+Expungement,Do I need to get misdemeanors off my record to get a job?
+Expungement,Does it cost money to clear my criminal record?
+Expungement,Does it cost money to clear my record?
+Expungement,How do I get my criminal record cleared?
+Expungement,How to clear record?
 Expungement,"If I get my record expunged, can I carry a gun?"
+Expungement,What is an expungement?
+Expungement,What is Expungment?
+Expungement,Where do I get forms to clear my record?
+Expungement,Where do I get forms to get my record expunged?
+Expungement,Who can clear my criminal record?
+Family Law,How do I get free from my parents?
+Family Law,I'm going to get a job that pays less so I don't have to pay as much support. Who do I tell I'm going to be making less for that?
+Family Law,My fiancé wants to become the stepparent to my my son. Do we have to file anything?
+FamilyLaw,How do I change my visitation days?
 FamilyLaw,How do I get released from my parents?
 FamilyLaw,I'm going to get a job that pays less so I don't have to pay as much support. Who do I tell I'm going to be making less for that?
+FamilyLaw,My ex is telling lies about me to our children. What can I do?
 FamilyLaw,My fiance is in the military and wants to be my child's stepparent. Do we have tio file papers for an adoption by my fiance?
 FamilyLaw,Someone called social services on me. Now they're taking away my kids. What do I do to get them back?
-FilingFeesAndWaivers,filing fees
-FilingFeesAndWaivers,waive a filing fee
-FilingFeesAndWaivers,pay to file
-FilingFeesAndWaivers,cost to file
-FilingFeesAndWaivers,cost to bring a case
-FilingFeesAndWaivers,how much money to bring my case?
+FamMobileCrisis,Crisis
+FamMobileCrisis,FamMobileCrisis
 FilingFeesAndWaivers,Are there exceptions to fees?
+FilingFeesAndWaivers,cost to bring a case
+FilingFeesAndWaivers,cost to file
 FilingFeesAndWaivers,cost to sue
+FilingFeesAndWaivers,Costs?
+FilingFeesAndWaivers,Do I have to pay to file a lawsuit?
+FilingFeesAndWaivers,Do I have to pay to start a lawsuit?
+FilingFeesAndWaivers,Does it cost anything to bring a case against my landlord?
+FilingFeesAndWaivers,filing fees
+FilingFeesAndWaivers,Filing fees?
+FilingFeesAndWaivers,how much money to bring my case?
+FilingFeesAndWaivers,how much money to bring my case?
+FilingFeesAndWaivers,pay to file
+FilingFeesAndWaivers,waive a filing fee
 FindACase,find a case
-FindACase,how do i find my court date
-FindACase,where can I find information about my case
+FindACase,Finding my case
 FindACase,how do I check someone's criminal background
+FindACase,how do i find my court date
+FindACase,I can't find my traffic ticket
 FindACase,I lost my traffic ticket. Where do I pay it off?
-FindALawyer,I got a summons. Do I need a lawyer?
-FindALawyer,How do I know if a lawyer is good?
-FindALawyer,Is there a lawyer referral in Virginia?
-FindALawyer,Where do I find a lawyer in Virginia?
+FindACase,When do I need to go to Court?
+FindACase,where can I find information about my case
+FindALawyer,Are there any free lawyers?
 FindALawyer,How can I find a pro bono attorney?
+FindALawyer,How can I get myself a good lawyer?
+FindALawyer,How can I hire a lawyer
+FindALawyer,How do I know if a lawyer is good?
+FindALawyer,I got a summons. Do I need a lawyer?
+FindALawyer,Is there a lawyer referral in Virginia?
+FindALawyer,Is there a list of lawyers?
+FindALawyer,Legal aid won't help me. Where can I find lawyers that will?
 FindALawyer,Legal Aid won't take my case. Are there any other places that will take my case? I want to sue the City of Richmond. 
-FindAMediator,I want to settle out of court. What do I do?
-FindAMediator,Someone told me to try ADR instead of suing. What's that
-FindAMediator,Is there a cheaper way to sue someone?
-FindAMediator,How does mediation work?
+FindALawyer,Where do I find a lawyer in Virginia?
+FindAMediator,Can I come to an agreement with defendant before trial?
+FindAMediator,Do I have any alternatives to filing a lawsuit?
 FindAMediator,How does a mediator qualify?
-Forms,form
-Forms,courtforms
-Forms,court forms
-Forms,legal form
-Forms,form
-Forms,What documents do I need to submit to court?
-Forms,What documents do I need for my case?
+FindAMediator,How does mediation work?
+FindAMediator,I want to settle my case
+FindAMediator,I want to settle out of court. What do I do?
+FindAMediator,I'm suing my landlord. Can we come to an agreement before trial?
+FindAMediator,Is there a cheaper way to sue someone?
+FindAMediator,Someone told me to try ADR instead of suing. What's that
+FindAMediator,What is a mediator?
+FindAMediator,What is ADR?
+FindAMediator,What is mediation?
 Forms,court documents
+Forms,court forms
+Forms,courtforms
 Forms,documents
-FreedomOfInformationAct,What does FOIA allow?
-FreedomOfInformationAct,What is FOIA?
+Forms,Documents for court?
+Forms,form
+Forms,form
+Forms,legal form
+Forms,Paperwork
+Forms,What do I need to file with the court?
+Forms,What documents do I need for my case?
+Forms,What documents do I need to submit to court?
+Forms,What filings does the court need?
+Forms,what forms do I need for court?
+Forms,What papers do I need?
+Forms,What paperwork do I need for court
+FreedomOfInformationAct,Does the government have to turn over paperwork related to my case?
 FreedomOfInformationAct,Freedom of information act
+FreedomOfInformationAct,How can I force the county to give me access to paperwork
+FreedomOfInformationAct,How can I force the county to give me information?
+FreedomOfInformationAct,What does FOIA allow?
+FreedomOfInformationAct,What is FIOA?
+FreedomOfInformationAct,What is FOIA?
+GenderIssues,Do I have to use the bathroom of my assigned gender at birth?
+GenderIssues,How can I change my birth certificate?
+GenderIssues,I want a sex change. Is there help for that?
+GenderIssues,I'm non-binary
+GenderIssues,I'm trans
+GenderIssues,I'm trans-masculine
 GenderIssues,I'm trans. Can I change my birth certificate?
 GenderIssues,I'm trans. Can I change my license?
-GenderIssues,I want a sex change. Is there help for that?
-GetHelp,How do I get legal help?
+GenderIssues,I'm transitioning. What do I need to do?
+GenderIssues,I'm transitioning. What forms do i need?
+GenderIssues,I'm undergoing gender affirming care
+GetHelp,A former friend owes me 2000 dollars
+GetHelp,"A former friend owes me 2000 dollars, how can I get that money back"
 GetHelp,help
-LegalSelfHelp,legal assistance
 GetHelp,help
+GetHelp,Help
 GetHelp,How do I get assistance?
+GetHelp,How do I get legal help?
+GetHelp,How do I get legal help?
+GetHelp,How do I get my money back from a friend that owes me
+GetHelp,Legal Assistance
+GetHelp,legal self help
+Guardianship_Conservatorship,Can the court appoint someone to help manage the affairs of a mentally handicapped person?
 Guardianship_Conservatorship,How do I change my guardian?
-Guardianship_Conservatorship,I want to file a complaint against my guardian
-ConservatorOfThePeace,What does a conservator do?
-ConservatorOfThePeace,Who needs a conservator?
-Guardianship_Conservatorship,Who needs a guardian?
-Guardianship_Conservatorship,My mom was diagnosed with dementia. I think she will need a legal guardian. Who should I call?
+Guardianship_Conservatorship,How do I change my Guardian?
+Guardianship_Conservatorship,"I don't like my guardian, how can I change them?"
+Guardianship_Conservatorship,I need my dad needs a guardian. Can you help?
 Guardianship_Conservatorship,I need to have power of attorney over my mother's affairs. Where do I go?
+Guardianship_Conservatorship,I think my dad needs a conservator. Can you help?
+Guardianship_Conservatorship,I want to file a complaint against my guardian
+Guardianship_Conservatorship,My mom was diagnosed with dementia. I think she will need a legal guardian. Who should I call?
+Guardianship_Conservatorship,What does a conservator do?
+Guardianship_Conservatorship,Who can manage the affairs of an incapacitated person?
+Guardianship_Conservatorship,Who is appointed by the court to be responsible for managing the estate and financial affairs of an incapacitated person?
+Guardianship_Conservatorship,Who needs a guardian?
+Health,How can I get mental health support for my adult child?
 Health,How do you get Medicaid?
 Health,How do you get Medicare?
-Housing,What's unlawful detainer?
+Health,"I'm in a wheelchair, will the courts accommodate that?"
+Health,Will the court accommodate my disability?
 Housing,How can I get out of my lease?
-Housing,How much should I charge for rent?
-Housing,I need a property maintenance company
 Housing,How do I qualify for housing assistance?
-Housing,The refrigerator in my apartment wasn't working good. I asked the landlord to get it fixed or replace it. He didn't. So I stopped paying rent. Now he says he's going to evict me. Is that legal?
-Housing,My landlord told me I can't have my friends over. Is that legal?
+Housing,How much can I charge my tenant for rent?
+Housing,How much should I charge for rent?
+Housing,I got an eviction notice. What do I do?
+Housing,I need a property maintenance company
+Housing,I want to end my lease early
 Housing,"I've been transferred from Oceana to Guam, effective at the end of the month. The landlord won't let me out of my lease. I think he has to. Which is correct?"
-Juveniles,What's JD&R court?
-Juveniles,What's the age of majority in Virginia
-Juveniles,What does juvenile mean?
-Juveniles,Is my juvenile record sealed?
+Housing,My landlord told me I can't have my friends over. Is that legal?
+Housing,My landlord won't fix a leaky pipe and now there's mold
+Housing,The refrigerator in my apartment wasn't working good. I asked the landlord to get it fixed or replace it. He didn't. So I stopped paying rent. Now he says he's going to evict me. Is that legal?
+Housing,What is an unlawful detainer
+Housing,What's a tenant's assertion?
+Housing,What's unlawful detainer?
+Jueveniles,Is my juvenile record sealed?
+Jueveniles,What does juvenile mean?
+Jueveniles,What's JD&R court?
+Jueveniles,What's the age of majority in Virginia
+Juveniles,"If I commit a crime while I am under 18, does that stay on my record?"
+Juveniles,JDR
+Juveniles,My 15 year old son got arrested
+Juveniles,What happens if I commit a crime while under 18?
+Juveniles,What is JD&R?
+Juveniles,What is the age of majority?
+LegalQA,legal qa
+LegalQA,legal qa
+LegalQA,Q&A
+LegalQA,Q&A
+LegalQA,Q&A
+LegalQA,What are common legal questions
+LegalQA,where can I find answers to questions?
+LegalQA,where can I find answers to questions?
+LegalQA,where can I find legal answers
+LegalQA,where can I find legal answers
 LegalQA,where can I go to ask a legal question?
-LegalQA,where can I find legal answers
-LegalQA,legal qa
-LegalQA,Q&A
-LegalQA,where can I find answers to questions?
-LegalQA,where can I find legal answers
-LegalQA,legal qa
-LegalQA,Q&A
-LegalQA,where can I find answers to questions?
-GetHelp,legal self help
-MentalHealth,My friend is schizo and off meds. Can he be committed?
-MentalHealth,mental health
-MentalHealth,I'm thinking about suicide. I need someone to talk to
+LegalSelfHelp,I don't like the judge's decision
+LegalSelfHelp,"I don't like the judge's decision, what can I do."
+LegalSelfHelp,legal assistance
+LegalSelfHelp,My 15 year old son got arrested - what do I need to know?
 MentalHealth,Can my ex husband be ordered to receive mental health treatment?
-NameChange,I got married. How do I change my last name?
+MentalHealth,I think my ex boyfriend may kill himself
+MentalHealth,I'm thinking about suicide
+MentalHealth,I'm thinking about suicide. I need someone to talk to
+MentalHealth,I'm tired of living
+MentalHealth,I'm worried my ex boyfriend may hurt himself
+MentalHealth,I'm worried my ex girlfriend may kill herself
+MentalHealth,Im worried my husband may kill himself
+MentalHealth,mental health
+MentalHealth,My brother is off her meds 
+MentalHealth,My brother is off her meds - how can I help?
+MentalHealth,My friend is schizo and off meds. Can he be committed?
+MentalHealth,"My sister is suicidal, what can I do"
+NameChange,Can I change my name on my birth certificate?
 NameChange,Can I legally choose any name I want?
+NameChange,Do a court have to approve my name change?
+NameChange,How can I change my name
+NameChange,How much does it cost to change my name?
 NameChange,How much does it cost to change your name?
-NameChange,Is there a form to change my name?
+NameChange,I got married. How do I change my last name?
+NameChange,I just got married - do I have to change my name?
+NameChange,I just got married - how do I change my name?
 NameChange,I want to change the name on my birth certificate. How do I do that?
-ObtainVirginiaAdultBirthCertificateGuide,My birth certificate burned in a fire. How do I replace it?
-ObtainVirginiaAdultBirthCertificateGuide,I need a passport but can't find my birth certificate. What do I do?
+NameChange,Is there a form to change my name?
+NameChange,What paperwork do I need for a name change?
+NameChange,"When changing my name, can I pick any name I want?"
 ObtainVirginiaAdultBirthCertificateGuide,Do I need a Virginia birth certificate if I'm over 40?
+ObtainVirginiaAdultBirthCertificateGuide,How do I replace my certificate of birth
+ObtainVirginiaAdultBirthCertificateGuide,"I lost my birth certificate, how do I get a replacement?"
+ObtainVirginiaAdultBirthCertificateGuide,I need a passport but can't find my birth certificate. What do I do?
+ObtainVirginiaAdultBirthCertificateGuide,"I'm getting a passport, but can't find my birth certificate "
+ObtainVirginiaAdultBirthCertificateGuide,My birth certificate burned in a fire. How do I replace it?
 ObtainVirginiaAdultBirthCertificateGuide,Where do I get a copy of my birth certificate?
+SelfRepresentationCourtOfAppeals,Do I have to hire a lawyer for my appeal?
+SelfRepresentationCourtOfAppeals,Do I have to hire an attorney for the Court of Appeals?
+SelfRepresentationCourtOfAppeals,do i need to have a lawyer for an appeal?
+SelfRepresentationCourtOfAppeals,how do I appeal
+SelfRepresentationCourtOfAppeals,I am a pro se litigant in the court of appeals.
+SelfRepresentationCourtOfAppeals,I am pro se on appeal. What can I do?
 SelfRepresentationCourtOfAppeals,I am representing myself in the court of appeals. What do I need to know?
 SelfRepresentationCourtOfAppeals,I don't have an attorney for my case in the court of appeals. What can I do?
-SelfRepresentationCourtOfAppeals,I am a pro se litigant in the court of appeals.
-SelfRepresentationCourtOfAppeals,I want to act as my own lawyer in the court of appeals.
-SelfRepresentationCourtOfAppeals,Do I have to hire an attorney for the Court of Appeals?
-SelfRepresentationCourtOfAppeals,Do I have to hire a lawyer for my appeal?
-SelfRepresentationCourtOfAppeals,I want to represent myself on appeal.
-SelfRepresentationCourtOfAppeals,What resources are available to litigants representing themselves on appeal?
 SelfRepresentationCourtOfAppeals,I have no lawyer for my appeal. What can I do?
-SelfRepresentationCourtOfAppeals,I am pro se on appeal. What can I do?
-Seniors,I am an elderly person and my caretaker is not bathing me. What can I do?
-Seniors,How do I get on Medicaid?
-Seniors,My Social Security check was stolen. What do I do?
+SelfRepresentationCourtOfAppeals,I want to act as my own lawyer in the court of appeals.
+SelfRepresentationCourtOfAppeals,I want to appeal the judge's decision
+SelfRepresentationCourtOfAppeals,I want to represent myself on appeal.
+SelfRepresentationCourtOfAppeals,My lawyer won't appeal my case
+SelfRepresentationCourtOfAppeals,What resources are available to litigants representing themselves on appeal?
+Seniors,Can you help me with my medicaid?
+Seniors,How do I file for social security
 Seniors,How do I file for Social Security?
+Seniors,How do I get on Medicaid?
+Seniors,I am an elderly person and my caretaker is not bathing me. What can I do?
 Seniors,I've heard I need to sign up for Medicare. Where do I do that?
-SmallClaims,What's the dollar limit in small claims court?
-SmallClaims,Which court handles small claims?
+Seniors,My caretaker isn't bathing me
+Seniors,My grandson is stealing my social security check
+Seniors,My nurse isn't bathing me
+Seniors,My nursing home is treating me poorly
+Seniors,My Social Security check was stolen. What do I do?
+Seniors,My Social Security check was stolen. What do I do?
 SmallClaims,Can I bring an attorney with me to small claims court?
+SmallClaims,Does small claims have a limit?
 SmallClaims,How do I recover $3000 someone owes me?
-SmallClaims,Is there a form to sue my neighbor for a new fence?
-SmallClaims,I've taken my car to a mechanic to get it fixed. He had it three times and it still isn't fixed. I've paid him over $500. What can I do?
+SmallClaims,How do I sue a neighbor for a new fence
+SmallClaims,How do I take my neighbor to small claims court
 SmallClaims,"I hired a painter to re-finish my cainets. The first time, I wasn't happy with the result. He came back, and made them look worse. He won't refund my money. What do I do?"
-UpdateAddressForCourtCasesVirginia,How do I update my address for a court case?
-UpdateAddressForCourtCasesVirginia,I moved. Do I need to update my information for my case?
-UpdateAddressForCourtCasesVirginia,I have relocated. Do I need to update my information for court?
+SmallClaims,I've taken my car to a mechanic to get it fixed. He had it three times and it still isn't fixed. I've paid him over $500. What can I do?
+SmallClaims,Is there a form to sue my neighbor for a new fence?
+SmallClaims,What's the dollar limit in small claims court?
+SmallClaims,Where do I file a small claim?
+SmallClaims,Which court handles small claims?
 UpdateAddressForCourtCasesVirginia,change of address
-UpdateAddressForCourtCasesVirginia,relocation
+UpdateAddressForCourtCasesVirginia,How do I update my address for a court case?
+UpdateAddressForCourtCasesVirginia,I have a pending case and I've moved
+UpdateAddressForCourtCasesVirginia,I have relocated. Do I need to update my information for court?
+UpdateAddressForCourtCasesVirginia,I moved. Do I need to update my information for my case?
 UpdateAddressForCourtCasesVirginia,moved
-Veterans,Can I get credit for my army service?
-Veterans,I think asbestos was on my Navy ship. How do I check?
+UpdateAddressForCourtCasesVirginia,Moved
+UpdateAddressForCourtCasesVirginia,My address changed. Do I need to update the court?
+UpdateAddressForCourtCasesVirginia,New address
+UpdateAddressForCourtCasesVirginia,relocation
 Veterans,Can I get a concealed carry with my Marines discharge papers?
+Veterans,Can I get credit for my army service?
+Veterans,Can I get credit for my army service?
+Veterans,How do I appeal a denial by the department of veterans affairs
+Veterans,How do I appeal my VA denial?
+Veterans,I need help with GI Bill
+Veterans,I think asbestos was on my Navy ship. How do I check?
+Veterans,Im a veteran and I need help
 Veterans,Is there help for veterans in Virginia?
 Veterans,What happened to the GI bill?
-VirginiaProbateHelp,What's probate?
-VirginiaProbateHelp,How long does probate take?
 VirginiaProbateHelp,How do I get my parent's estate out of probate?
-VirginiaProbateHelp,My parent had a will. What happens next?
 VirginiaProbateHelp,How does probate work in Virginia?
-VotingRights,Where do I register to vote
+VirginiaProbateHelp,How long does probate take?
+VirginiaProbateHelp,My husband died without a will
+VirginiaProbateHelp,My parent had a will. What happens next?
+VirginiaProbateHelp,My parents didn't have a will
+VirginiaProbateHelp,My parents died with a will
+VirginiaProbateHelp,My parents died without a will
+VirginiaProbateHelp,My parents had a will
+VirginiaProbateHelp,what's probate
+VirginiaProbateHelp,What's probate?
 VotingRights,How do I have my right to vote restored?
+VotingRights,"I'm a convicted felon, can I vote?"
+VotingRights,"Im a convicted felon, how do I get my right to vote back?"
+VotingRights,Where do I register to vote
+VotingRights,Where do I vote?
