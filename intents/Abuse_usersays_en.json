@@ -1,5 +1,31 @@
 [
   {
+    "id": "52a7e117-18ca-4024-9d70-fa0c7f48438d",
+    "data": [
+      {
+        "text": "What can I do to get my husband from hitting our kids?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "480cefc0-ed10-4356-b49b-87dbc65c8557",
+    "data": [
+      {
+        "text": "How can I protect my myself from a violent girlfriend who is out to get me?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "e6187e3a-098e-41a3-be46-c3155507f47f",
     "data": [
       {
@@ -121,6 +147,58 @@
     "data": [
       {
         "text": "restraining order",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "4f50ac30-6fbd-437d-9dea-f2407ba62183",
+    "data": [
+      {
+        "text": "hits",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "302fe3ef-847b-4e58-ab4a-72d3660bce07",
+    "data": [
+      {
+        "text": "violent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2cc3fabd-90a7-496c-8c70-5b083649c99f",
+    "data": [
+      {
+        "text": "hitting",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "531d246e-b23c-424a-8e82-3b0d2027ee29",
+    "data": [
+      {
+        "text": "hit",
         "userDefined": false
       }
     ],

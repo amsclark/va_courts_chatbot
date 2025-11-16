@@ -1,5 +1,18 @@
 [
   {
+    "id": "23918fdc-70e5-43a6-acfd-70e105917d90",
+    "data": [
+      {
+        "text": "nursing home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "314a6832-fb68-4e31-bbea-3aa591b511d2",
     "data": [
       {
@@ -177,20 +190,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "23918fdc-70e5-43a6-acfd-70e105917d90",
-    "data": [
-      {
-        "text": "nursing home",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
