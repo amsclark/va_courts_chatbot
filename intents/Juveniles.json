@@ -13,7 +13,22 @@
           "lifespan": 2
         }
       ],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "ba836d73-bacc-4321-8191-3b5c4d5f5bad",
+          "name": "age",
+          "required": false,
+          "dataType": "@sys.age",
+          "value": "$age",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
       "messages": [
         {
           "type": "0",
@@ -32,6 +47,7 @@
             "richContent": [
               [
                 {
+                  "type": "chips",
                   "options": [
                     {
                       "text": "Yes"
@@ -39,8 +55,7 @@
                     {
                       "text": "No"
                     }
-                  ],
-                  "type": "chips"
+                  ]
                 }
               ]
             ]
@@ -53,7 +68,7 @@
       "speech": []
     }
   ],
-  "priority": 250000,
+  "priority": 1000000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,

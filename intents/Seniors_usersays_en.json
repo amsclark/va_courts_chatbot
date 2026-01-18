@@ -1,5 +1,31 @@
 [
   {
+    "id": "fcb6bff5-8536-4bfe-a38d-3472a9f955af",
+    "data": [
+      {
+        "text": "nurse",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "324801ee-ae11-447a-98cb-02c60ecc8b55",
+    "data": [
+      {
+        "text": "nursing home",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "497cc43c-f227-4281-b966-f2630484609a",
     "data": [
       {

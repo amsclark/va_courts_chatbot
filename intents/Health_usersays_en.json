@@ -1,5 +1,31 @@
 [
   {
+    "id": "1ac4197b-7420-4a1a-8d81-88294ee6140f",
+    "data": [
+      {
+        "text": "medicaid",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "cc488b72-b611-48ed-bdf4-8a8204999af4",
+    "data": [
+      {
+        "text": "medicare",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "9b19dede-5834-42b7-8443-698c2b898794",
     "data": [
       {
@@ -21,20 +47,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "23918fdc-70e5-43a6-acfd-70e105917d90",
-    "data": [
-      {
-        "text": "nursing home",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },
