@@ -8,7 +8,22 @@
       "resetContexts": false,
       "action": "",
       "affectedContexts": [],
-      "parameters": [],
+      "parameters": [
+        {
+          "id": "74c30ca6-df41-450d-9d11-af5e0f541321",
+          "name": "unit-currency",
+          "required": false,
+          "dataType": "@sys.unit-currency",
+          "value": "$unit-currency",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
       "messages": [
         {
           "type": "0",
@@ -27,11 +42,11 @@
             "richContent": [
               [
                 {
-                  "title": "",
                   "type": "description",
                   "text": [
                     "Below this are a few links related to how Virginia\u0027s self-help resources can help you, and how you can qualify. Our phone number and hours are listed on the \u0027Get Help - Main Page\u0027. For specific office locations, there is a link below for that too.\n\nIf you would like to try and briefly describe what legal issues you need help with, I can also help direct you to specific resources on our website.\n\nAdditionally, I will provide you a link below to a short video about how to get legal assistance from Virginia\u0027s self-help resources and other available legal resources."
-                  ]
+                  ],
+                  "title": ""
                 },
                 {
                   "type": "divider"
@@ -43,25 +58,25 @@
                   "type": "divider"
                 },
                 {
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  },
+                  "type": "button",
                   "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
-                  "text": "Find a Lawyer",
-                  "type": "button"
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
+                  "text": "Find a Lawyer"
                 },
                 {
                   "type": "divider"
                 },
                 {
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "color": "#00CC8D",
+                    "type": "info"
+                  },
                   "text": "I\u0027m not sure where to start / I don\u0027t know what I\u0027m looking for (FAQ)",
-                  "type": "button",
-                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  }
+                  "type": "button"
                 },
                 {
                   "type": "divider"
@@ -71,8 +86,20 @@
                     "type": "info",
                     "color": "#00CC8D"
                   },
-                  "link": "https://selfhelp.vacourts.gov/node/74/common-legal-topics",
+                  "type": "button",
                   "text": "Common Legal Topics that We Help With",
+                  "link": "https://selfhelp.vacourts.gov/node/74/common-legal-topics"
+                },
+                {
+                  "type": "divider"
+                },
+                {
+                  "text": "Frequently Asked Questions \n(like, \"What if I get sued?\")",
+                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
                   "type": "button"
                 },
                 {
@@ -80,24 +107,12 @@
                 },
                 {
                   "type": "button",
+                  "text": "Find your Court",
                   "icon": {
                     "type": "info",
                     "color": "#00CC8D"
                   },
-                  "link": "https://selfhelp.vacourts.gov/node/18/faqs.html",
-                  "text": "Frequently Asked Questions \n(like, \"What if I get sued?\")"
-                },
-                {
-                  "type": "divider"
-                },
-                {
-                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html",
-                  "icon": {
-                    "color": "#00CC8D",
-                    "type": "info"
-                  },
-                  "type": "button",
-                  "text": "Find your Court"
+                  "link": "https://selfhelp.vacourts.gov/node/4/find-your-court.html"
                 },
                 {
                   "type": "divider"

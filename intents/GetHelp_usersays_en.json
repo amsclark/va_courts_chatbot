@@ -1,5 +1,33 @@
 [
   {
+    "id": "6654ff76-1ef8-4d66-92a6-a811f3c2b031",
+    "data": [
+      {
+        "text": "$1000",
+        "meta": "@sys.unit-currency",
+        "alias": "unit-currency",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "3dd84fdd-1755-4e94-af58-de928ddaf764",
+    "data": [
+      {
+        "text": "dollars",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "85d64210-71bd-4cbe-8e28-2538321a4732",
     "data": [
       {
