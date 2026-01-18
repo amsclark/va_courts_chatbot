@@ -1,5 +1,18 @@
 [
   {
+    "id": "ac1cec64-19f9-4fca-889d-058f13d02af6",
+    "data": [
+      {
+        "text": "mental health",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
     "id": "7168bca8-3829-4fe5-9060-b2c875a5f8aa",
     "data": [
       {
@@ -86,20 +99,7 @@
       }
     ],
     "isTemplate": false,
-    "count": 0,
-    "lang": "en",
-    "updated": 0
-  },
-  {
-    "id": "ac1cec64-19f9-4fca-889d-058f13d02af6",
-    "data": [
-      {
-        "text": "mental health",
-        "userDefined": false
-      }
-    ],
-    "isTemplate": false,
-    "count": 0,
+    "count": 1,
     "lang": "en",
     "updated": 0
   },

@@ -53,7 +53,7 @@
       "speech": []
     }
   ],
-  "priority": 500000,
+  "priority": 250000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
