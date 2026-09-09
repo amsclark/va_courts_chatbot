@@ -150,8 +150,14 @@ jobs:
             # Change displayName from _DEV_JAMES to _PROD_JAMES
             sed -i 's/"displayName": "_DEV_JAMES"/"displayName": "_PROD_JAMES"/g' ./agent.json
             
-            # Transform secondaryKey from DEV to PROD value (what repo should contain)
-            sed -i 's/"secondaryKey": "d11d0d22834f4c4f9cb05a2c52026093"/"secondaryKey": "60ed9faa94e644159a1289988ecb5dfc"/g' ./agent.json
+            # Strip secondaryKey. It is a credential and must never be committed.
+            node -e "
+            const fs = require('fs');
+            const agent = JSON.parse(fs.readFileSync('./agent.json', 'utf8'));
+            agent.secondaryKey = '';
+            fs.writeFileSync('./agent.json', JSON.stringify(agent, null, 2));
+            console.log('Stripped secondaryKey from agent.json');
+            "
             
             # Ensure supportedLanguages are included (if missing from DEV)
             node -e "
@@ -166,7 +172,7 @@ jobs:
             
             echo "✅ Transformed agent.json from DEV to PROD format:"
             echo "- Changed displayName: _DEV_JAMES → _PROD_JAMES"
-            echo "- Changed secondaryKey: DEV → PROD"
+            echo "- Stripped secondaryKey"
             echo "- Ensured supportedLanguages are present"
           fi
           
