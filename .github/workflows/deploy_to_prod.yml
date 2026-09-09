@@ -104,7 +104,7 @@ jobs:
             if (fs.existsSync('./deployment_package/agent.json')) {
               const agentConfig = JSON.parse(fs.readFileSync('./deployment_package/agent.json', 'utf8'));
               console.log('Agent displayName in deployment:', agentConfig.displayName);
-              console.log('Agent secondaryKey in deployment:', agentConfig.secondaryKey ? agentConfig.secondaryKey.substring(0, 8) + '...' : 'none');
+              console.log('Agent secondaryKey in deployment:', agentConfig.secondaryKey ? 'set' : 'none');
               
               if (agentConfig.displayName === '_PROD_JAMES') {
                 console.log('✅ Agent name correct for PROD deployment');

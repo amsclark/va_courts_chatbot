@@ -43,11 +43,21 @@ if [ -f "./temp_agent_export/agent.json" ]; then
     # Change displayName from _PROD_JAMES to _DEV_JAMES
     sed -i 's/"displayName": "_PROD_JAMES"/"displayName": "_DEV_JAMES"/g' ./temp_agent_export/agent.json
     
-    # Change secondaryKey from PROD to DEV value
-    sed -i 's/"secondaryKey": "60ed9faa94e644159a1289988ecb5dfc"/"secondaryKey": "d11d0d22834f4c4f9cb05a2c52026093"/g' ./temp_agent_export/agent.json
+    # Set the DEV secondaryKey. Supply it in the environment; never commit it.
+    # export DF_DEV_SECONDARY_KEY=... before running this script.
+    if [ -n "$DF_DEV_SECONDARY_KEY" ]; then
+        python3 - "$DF_DEV_SECONDARY_KEY" <<'EOF'
+import json, sys
+p = "./temp_agent_export/agent.json"
+d = json.load(open(p))
+d["secondaryKey"] = sys.argv[1]
+json.dump(d, open(p, "w"), indent=2)
+EOF
+    else
+        echo "  ℹ️  DF_DEV_SECONDARY_KEY not set; leaving secondaryKey empty"
+    fi
     
     echo "  ✅ Transformed displayName: _PROD_JAMES → _DEV_JAMES"
-    echo "  ✅ Transformed secondaryKey: PROD → DEV"
 fi
 
 # Create the zip file

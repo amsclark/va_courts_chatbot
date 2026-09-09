@@ -50,7 +50,7 @@
   ],
   "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2beta1",
-  "secondaryKey": "60ed9faa94e644159a1289988ecb5dfc",
+  "secondaryKey": "",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [],
   "knowledgeServiceConfidenceAdjustment": 0,
