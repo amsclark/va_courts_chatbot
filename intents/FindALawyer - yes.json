@@ -31,46 +31,34 @@
             "richContent": [
               [
                 {
-                  "type": "description",
-                  "title": "",
                   "text": [
                     "Here are resources to help you find legal assistance in Virginia, including information about free and low-cost legal services."
-                  ]
+                  ],
+                  "title": "",
+                  "type": "description"
                 },
                 {
                   "type": "divider"
                 },
                 {
                   "type": "button",
-                  "text": "Find a Lawyer",
+                  "icon": {
+                    "type": "info",
+                    "color": "#00CC8D"
+                  },
                   "link": "https://selfhelp.vacourts.gov/node/5/find-lawyer.html",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
+                  "text": "Find a Lawyer"
                 },
                 {
                   "type": "divider"
                 },
                 {
-                  "type": "button",
-                  "text": "Legal Aid Information (External Link - Virginia State Bar)",
                   "link": "https://www.vsb.org/Site/Site/legal-help/legal-help.aspx",
-                  "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
-                  }
-                },
-                {
-                  "type": "divider"
-                },
-                {
+                  "text": "Legal Aid Information (External Link - Virginia State Bar)",
                   "type": "button",
-                  "text": "What to Do When You Can\u0027t Afford an Attorney",
-                  "link": "https://selfhelp.vacourts.gov/node/31/what-do-when-you-cant-afford-attorney.html",
                   "icon": {
-                    "type": "info",
-                    "color": "#00CC8D"
+                    "color": "#00CC8D",
+                    "type": "info"
                   }
                 }
               ]

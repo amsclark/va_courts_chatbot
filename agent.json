@@ -56,5 +56,6 @@
   "knowledgeServiceConfidenceAdjustment": 0,
   "dialogBuilderMode": false,
   "baseActionPackagesUrl": "",
-  "enableSpellCorrection": true
+  "enableSpellCorrection": true,
+  "avatarUri": "https://clarkmanagementconsulting.com/cardinal%20512c512.jpeg"
 }
